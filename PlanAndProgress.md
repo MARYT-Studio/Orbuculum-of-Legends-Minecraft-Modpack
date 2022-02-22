@@ -1,4 +1,4 @@
-# 英文标题还没定
+# Orbuculum of Legends
 > 魔球奇谭
 
 这是 MARYT 11th 整合包的发布标题。
