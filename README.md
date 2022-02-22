@@ -1,5 +1,5 @@
-# temporarily-unnamed-modpack
-Repo for ________, a Minecraft Modpack
+# Orbuculum of Legends Minecraft Modpack
+Repo for Orbuculum of Legends, a Minecraft Modpack.
 
 This project is an open-source project under the MIT License.
 
