@@ -1,0 +1,20 @@
+$ cat .gitignore
+#Whitelist
+/*
+/config/worldedit/schematics
+/scripts/.zsrc
+
+#Folders
+!/config/
+!/patchouli_books
+!/resources
+!/scripts
+!/structures
+
+#Files
+!/.gitignore
+!/README.md
+!/PlanAndProgress.md
+scripts/.VSCodeCounter/
+resources/crafttweaker/lang/.VSCodeCounter/
+scripts/MARYT_SERVER/
