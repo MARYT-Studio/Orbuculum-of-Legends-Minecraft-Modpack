@@ -1,0 +1,12 @@
+
+#These settings can be tweaked to suit your preferences.
+#All values are turned off by default.
+[general]
+	#Set to true if lattes should be brewable directly from a cup, without brewing the tea first.
+	quickLattes = false
+	#Set to true if in-world water should be drained when collected by a kettle.
+	#Water inside fluid containers such as tanks will always be consumed.
+	limitedWater = false
+	#Set to true if the Zen effect should skip to dawn instead of dusk when drunk, as before v0.4.0.
+	skipToDawnZen = false
+

@@ -1,0 +1,38 @@
+#The Lure Level of the wooden trap
+#Range: 0 ~ 10
+woodenTrapLureLevel = 1
+#The Lure Level of the wooden trap
+#Range: 0 ~ 10
+woodenTrapLuckLevel = 1
+#The Lure Level of the wooden trap
+#Range: 20 ~ 2000000000
+woodenTrapBaseTime = 900
+#The Lure Level of the Iron trap
+#Range: 0 ~ 10
+ironTrapLureLevel = 2
+#The Lure Level of the Iron trap
+#Range: 0 ~ 10
+ironTrapLuckLevel = 2
+#The Lure Level of the Iron trap
+#Range: 20 ~ 2000000000
+ironTrapBaseTime = 600
+#The Lure Level of the diamond trap
+#Range: 0 ~ 10
+diamondTrapLureLevel = 3
+#The Lure Level of the diamond trap
+#Range: 0 ~ 10
+diamondTrapLuckLevel = 3
+#The Lure Level of the diamond trap
+#Range: 20 ~ 2000000000
+diamondTrapBaseTime = 400
+#The Multiplier penalty of traps without fishbait
+#Range: 1 ~ 1000
+trapPenaltyMultiplier = 40
+#The durability of fish bait (NOT implemented yet
+#Range: 1 ~ 2000000000
+fishBaitDurability = 400
+#Should fish traps be penalized if they dont have bait in them
+shouldTrapHavePenalty = true
+#Use the vanilla fishing loot table (Other Mods may have altered this). If false - you can add custom datapack loottable in /fishtraps/loot_tables/traps/{material}_fish_trap.json
+useDefaultFishingLoottable = true
+
