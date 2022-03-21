@@ -112,3 +112,6 @@ Dannys Expansion 的敌对生物
 - [x] 禁止 Dannys Expansion 的生物在第一阶段的世界生成。
 - [ ] 增加琥珀与岩化根的实际用途。
 - [ ] 考察 Dannys Expansion 的工作台。
+
+## 整合包相关的技术问题
+1. 本整合包与 JustEnoughCharacters（通用拼音搜索）不兼容，原因不明。

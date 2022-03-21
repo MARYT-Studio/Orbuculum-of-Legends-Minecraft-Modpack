@@ -18,3 +18,4 @@ $ cat .gitignore
 scripts/.VSCodeCounter/
 resources/crafttweaker/lang/.VSCodeCounter/
 scripts/MARYT_SERVER/
+config/notes-client.toml
