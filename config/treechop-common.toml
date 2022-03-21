@@ -3,6 +3,15 @@
 	#Whether this mod is enabled or not
 	enabled = true
 
+	[permissions.sneakBehavior]
+		canBeNone = true
+		canBeInvertChopping = true
+		canBeInvertFelling = true
+
+	[permissions.chopInCreativeMode]
+		canBeFalse = true
+		canBeTrue = true
+
 	[permissions.choppingEnabled]
 		canBeFalse = true
 		canBeTrue = true
@@ -11,62 +20,53 @@
 		canBeFalse = true
 		canBeTrue = true
 
-	[permissions.sneakBehavior]
-		canBeInvertChopping = true
-		canBeNone = true
-		canBeInvertFelling = true
-
 	[permissions.treeMustHaveLeaves]
 		canBeFalse = true
 		canBeTrue = true
 
-	[permissions.chopInCreativeMode]
-		canBeFalse = true
-		canBeTrue = true
-
 [treeDetection]
-	#Maximum number of log blocks that can be detected to belong to one tree
-	#Range: 1 ~ 8096
-	maxTreeBlocks = 320
-	#Maximum number of leaves blocks that can destroyed when a tree is felled
-	#Range: 1 ~ 8096
-	maxLeavesBlocks = 1024
 	#Whether to destroy leaves when a tree is felled
 	breakLeaves = true
 	#Whether non-decayable leaves are ignored when detecting leaves
 	ignorePersistentLeaves = true
+	#The tag that blocks must have to be considered leaves (default: treechop:leaves_like)
+	blockTagForDetectingLeaves = "treechop:leaves_like"
+	#Maximum number of leaves blocks that can destroyed when a tree is felled
+	#Range: 1 ~ 8096
+	maxLeavesBlocks = 1024
 	#Maximum distance from log blocks to destroy non-standard leaves blocks (e.g. mushroom caps) when felling
 	#Range: 0 ~ 16
 	maxBreakLeavesDistance = 7
+	#Maximum number of log blocks that can be detected to belong to one tree
+	#Range: 1 ~ 8096
+	maxTreeBlocks = 320
 	#The tag that blocks must have to be considered choppable (default: treechop:choppables)
 	blockTagForDetectingLogs = "treechop:choppables"
-	#The tag that blocks must have to be considered leaves (default: treechop:leaves_like)
-	blockTagForDetectingLeaves = "treechop:leaves_like"
 
 [chopCounting]
-	#Method to use for computing the number of chops needed to fell a tree
-	#Allowed Values: LINEAR, LOGARITHMIC
-	algorithm = "LOGARITHMIC"
+	#Whether felling a tree can require more chops than the number of blocks in the tree
+	canRequireMoreChopsThanBlocks = false
 	#How to round the number of chops needed to fell a tree; this is more meaningful for smaller trees
 	#Allowed Values: DOWN, NEAREST, UP
 	rounding = "NEAREST"
-	#Whether felling a tree can require more chops than the number of blocks in the tree
-	canRequireMoreChopsThanBlocks = false
+	#Method to use for computing the number of chops needed to fell a tree
+	#Allowed Values: LINEAR, LOGARITHMIC
+	algorithm = "LOGARITHMIC"
+
+	#See https://github.com/hammertater/treechop/#linear
+	[chopCounting.linear]
+		#The base number of chops required to fell a tree regardless of its size
+		#Range: -10000.0 ~ 10000.0
+		baseNumChops = 0.0
+		#The number of chops per block required to fell a tree; if chopsPerBlock = 0.5, it will take 50 chops to fell a 100 block tree
+		#Range: 0.0 ~ 7.0
+		chopsPerBlock = 1.0
 
 	#See https://github.com/hammertater/treechop/#logarithmic
 	[chopCounting.logarithmic]
 		#Determines the number of chops required to fell a tree; higher values require more chops for bigger trees
 		#Range: 0.0 ~ 10000.0
 		a = 10.0
-
-	#See https://github.com/hammertater/treechop/#linear
-	[chopCounting.linear]
-		#The number of chops per block required to fell a tree; if chopsPerBlock = 0.5, it will take 50 chops to fell a 100 block tree
-		#Range: 0.0 ~ 7.0
-		chopsPerBlock = 1.0
-		#The base number of chops required to fell a tree regardless of its size
-		#Range: -10000.0 ~ 10000.0
-		baseNumChops = 0.0
 
 [compatibility]
 
@@ -75,6 +75,14 @@
 		preventChoppingOnRightClick = false
 		#Whether to prevent infinite loops when chopping; fixes crashes when using modded items that break multiple blocks
 		preventChopRecursion = true
+
+		#The chop settings used by non-player entities, such as robots
+		[compatibility.general.fakePlayerChopSettings]
+			treesMustHaveLeaves = true
+			#Use with caution! May cause conflicts with some mods, e.g. https://github.com/hammertater/treechop/issues/71
+			choppingEnabled = false
+			#Felling only matters if chopping is enabled; probably best to leave this on
+			fellingEnabled = true
 
 		[compatibility.general.blacklist]
 			#Whether the listed items should be blacklisted or whitelisted
@@ -93,21 +101,13 @@
 			#- This might not work as expected for some items; see https://github.com/hammertater/treechop/blob/main/docs/compatibility.md#caveats
 			items = ["#tconstruct:modifiable/harvest", "silentgear:saw?chops=3,override=always"]
 
-		#The chop settings used by non-player entities, such as robots
-		[compatibility.general.fakePlayerChopSettings]
-			#Use with caution! May cause conflicts with some mods, e.g. https://github.com/hammertater/treechop/issues/71
-			choppingEnabled = false
-			#Felling only matters if chopping is enabled; probably best to leave this on
-			fellingEnabled = true
-			treesMustHaveLeaves = true
-
 	[compatibility.specific]
-		#Whether to enable compatibility with ProjectMMO; for example, award XP for chopping
-		#See https://www.curseforge.com/minecraft/mc-mods/project-mmo
-		projectMMO = true
 		#Whether to prevent conflicts with Carry On when it is configured to allow picking up logs
 		#See https://www.curseforge.com/minecraft/mc-mods/carry-on
 		carryOn = true
+		#Whether to enable compatibility with ProjectMMO; for example, award XP for chopping
+		#See https://www.curseforge.com/minecraft/mc-mods/project-mmo
+		projectMMO = true
 		#Whether to prevent conflicts with DynamicTrees
 		#See https://www.curseforge.com/minecraft/mc-mods/dynamictrees
 		dynamicTrees = true
