@@ -3,6 +3,7 @@ $ cat .gitignore
 /*
 /config/worldedit/schematics
 /scripts/.zsrc
+/ct_dumps
 
 #Folders
 !/config/
@@ -19,3 +20,4 @@ scripts/.VSCodeCounter/
 resources/crafttweaker/lang/.VSCodeCounter/
 scripts/MARYT_SERVER/
 config/notes-client.toml
+scripts/.vscode/
