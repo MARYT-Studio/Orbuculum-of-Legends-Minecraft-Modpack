@@ -12,7 +12,7 @@ if(enable) {
         }
     }
     for i in 0 .. allHarvestLevel.length {
-        output.add("Harvest Level " + (i - 1) + " Block List\n" + "| Block BEP | Harvest Level |\n| ----------- | ----------- |\n");
+        output.add("# Harvest Level " + (i - 1) + " Block List\n" + "| Block BEP | Harvest Level |\n| ----------- | ----------- |\n");
     }
     for blockstate in game.blockStates {
         var blockString = blockstate.block.commandString;
@@ -25,6 +25,7 @@ if(enable) {
     var fullOutput as string = "";
     for i in 0 .. allHarvestLevel.length {
         fullOutput += output[i];
+        fullOutput += "\n";
     }
     println(fullOutput);
 }
