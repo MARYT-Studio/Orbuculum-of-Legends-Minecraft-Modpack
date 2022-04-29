@@ -31,7 +31,7 @@ version = 2
 	#Set to true to allow player to instantly consume VFP morsels on right-click. Morsels are defined as any consumable item with less than 4pts of food value. Disabled by default.
 	insta_eat_morsels = false
 	#Set to false to disable generation of custom VFP ores like rock salt and natron in new worlds and new chunks. Enabled by default; requires restart if changed.
-	ore_generate_enabled = true
+	ore_generate_enabled = false
 	#Set to false to disable all mod-specific additions to structure and activity loot tables. Changing this affects things like fishing and dungeon loot but NOT upsize drops (see individual options). Enabled by default; requires restart if changed.
 	enrich_loot_tables = true
 	#Set to false to disable installation of VFP's potions like Wolf's Spirit potion. Does NOT affect adhoc mixing of existing potions into moonshine potions or the temperature effects of chilled and heated foods. Enabled by default. Requires restart if changed.

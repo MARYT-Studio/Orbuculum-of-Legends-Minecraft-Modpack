@@ -1,0 +1,4 @@
+#The default spawn dimension. Requires a valid dimension ID(WILL CRASH IF INVALID)
+#ex: minecraft:the_nether, twilightforest:twilightforest (default: minecraft:overworld)
+SpawnDim = "orbuculum_of_legends:fake_overworld"
+

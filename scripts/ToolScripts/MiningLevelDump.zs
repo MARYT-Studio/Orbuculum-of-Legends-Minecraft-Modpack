@@ -1,5 +1,5 @@
 import stdlib.List;
-val enable as bool = true;
+val enable as bool = false;
 
 if(enable) {
     var previousString = "";
