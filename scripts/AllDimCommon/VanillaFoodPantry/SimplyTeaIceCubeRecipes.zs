@@ -1,0 +1,1 @@
+craftingTable.addShapeless("break_ice_cubes", <item:vanillafoodpantry:small_ice_cubes> * 4, [<item:simplytea:ice_cube>], null);
