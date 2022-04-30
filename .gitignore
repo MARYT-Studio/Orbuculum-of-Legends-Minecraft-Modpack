@@ -7,9 +7,11 @@ $ cat .gitignore
 
 #Folders
 !/config/
+!/defaultconfigs/
 !/patchouli_books
 !/resources
 !/scripts
+!/kubejs
 !/structures
 
 #Files
@@ -17,8 +19,10 @@ $ cat .gitignore
 !/README.md
 !/PlanAndProgress.md
 scripts/.VSCodeCounter/
+scripts/.vscode/
 resources/crafttweaker/lang/.VSCodeCounter/
 scripts/MARYT_SERVER/
 config/notes-client.toml
 scripts/.vscode/
 config/topography/examples/
+/kubejs/README.txt

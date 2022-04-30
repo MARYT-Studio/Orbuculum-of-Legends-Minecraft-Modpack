@@ -8,7 +8,7 @@ val unused_items as IItemStack[] = [
     <item:dannys_expansion:workbench>
 ];
 
-val druidcraft_wip_items as IItemStack[] = [
+val wip_items as IItemStack[] = [
     // From DruidCraft
     <item:druidcraft:crushed_fiery_glass>,
     <item:druidcraft:tempered_fiery_glass>,
@@ -43,7 +43,7 @@ for item in unused_items {
     mods.jei.JEI.hideItem(item);
 }
 
-for item in druidcraft_wip_items {
+for item in wip_items {
     craftingTable.removeRecipe(item);
     mods.jei.JEI.hideItem(item);
 }

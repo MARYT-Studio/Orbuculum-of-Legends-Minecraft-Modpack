@@ -1,5 +1,6 @@
 import crafttweaker.api.events.CTEventManager;
 import crafttweaker.api.event.entity.player.interact.MCRightClickItemEvent;
+import crafttweaker.api.util.MCHand;
 
 CTEventManager.register<MCRightClickItemEvent>(event => {
     var item = event.itemStack;
@@ -7,11 +8,9 @@ CTEventManager.register<MCRightClickItemEvent>(event => {
     var player = event.player;
     var world = event.player.world;
     var hand = event.hand;
-    if(
-        !world.remote &&
-        itemDefaultInstance.matches(<item:minecraft:compass>)
-        ) {
-            var offhandItem = player.getHeldItem(hand.OFF_HAND);
+    if(!world.remote && itemDefaultInstance.matches(<item:minecraft:compass>)) {
+            if(!(hand == MCHand.OFF_HAND)) {return;}
+            var offhandItem = player.getHeldItem(hand);
             if(<tag:items:minecraft:saplings>.contains(offhandItem)) {
                 offhandItem.mutable().shrink();
                 item.mutable().shrink();
