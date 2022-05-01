@@ -38,6 +38,15 @@ val wip_items as IItemStack[] = [
     <item:dannys_expansion:plant_matter>
 ];
 
+val finders as IItemStack[] = [
+    // Nature Compass is also a "finder"
+    <item:naturescompass:naturescompass>,
+
+    <item:adfinders:gem_finder>,
+    <item:adfinders:mineral_finder>,
+    <item:adfinders:metal_finder>
+];
+
 for item in unused_items {
     craftingTable.removeRecipe(item);
     mods.jei.JEI.hideItem(item);
@@ -46,4 +55,8 @@ for item in unused_items {
 for item in wip_items {
     craftingTable.removeRecipe(item);
     mods.jei.JEI.hideItem(item);
+}
+
+for item in finders {
+    craftingTable.removeRecipe(item);
 }
