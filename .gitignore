@@ -12,6 +12,7 @@ $ cat .gitignore
 !/resources
 !/scripts
 !/kubejs
+!/openloader
 !/structures
 
 #Files
