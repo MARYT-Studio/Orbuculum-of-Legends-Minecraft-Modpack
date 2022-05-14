@@ -1,0 +1,91 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.client.gui.screen.MainMenuScreen
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  path = openloader/resources/orbuculum_of_legends/assets/orbuculum_of_legends/sounds/Etude_Op_25_no_5_Eminor_Wrong_Note.wav
+  loop = true
+  action = addaudio
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  identifier = %id=604382%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=400382%
+  orientation = mid-centered
+  x = -76
+  action = movebutton
+  y = 52
+}
+
+customization {
+  identifier = %id=400382%
+  width = 74
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=502382%
+  orientation = mid-centered
+  x = 2
+  action = movebutton
+  y = 52
+}
+
+customization {
+  identifier = %id=376382%
+  orientation = mid-centered
+  x = -100
+  action = movebutton
+  y = 52
+}
+
+customization {
+  identifier = %id=400346%
+  orientation = mid-centered
+  x = -100
+  action = movebutton
+  y = 28
+}
+
+customization {
+  identifier = %id=400346%
+  width = 200
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=502346%
+  action = hidebutton
+}
+
+customization {
+  showname = true
+  orientation = top-left
+  crouching = false
+  x = 97
+  slim = false
+  actionid = 2fc96136-7ca0-49dd-8d55-0d207e6d6e7d1652535666443
+  action = addentity
+  y = 196
+  scale = 30
+  playername = %playername%
+  parrot = false
+}
+

@@ -45,3 +45,18 @@ for finder in finders {
 }
 
 // Fabric part
+<item:contenttweaker:hemp_fabric>.addTooltip("a lightweight, experimental clothes-making materials for Minecraft.");
+// Original text for first param: 原句出处自寻。
+// Original text for second param: §8按SHIFT查看更多
+<item:contenttweaker:hemp_fabric>.addShiftTooltip(
+    "\u539f\u53e5\u51fa\u5904\u81ea\u5bfb\u3002",
+    "\u00a77\u6309 [SHIFT] \u67e5\u770b\u66f4\u591a"
+);
+
+// Moss clump part
+// Original text: 可以敷在伤口上疗伤，但效果不稳定。
+<item:contenttweaker:moss_clump>.addTooltip("\u53ef\u4ee5\u6577\u5728\u4f24\u53e3\u4e0a\u7597\u4f24\uff0c\u4f46\u6548\u679c\u4e0d\u7a33\u5b9a\u3002");
+
+// Crude Plaster part
+// Original text: 比直接用苔藓要好。
+<item:contenttweaker:crude_plaster>.addTooltip("\u6bd4\u76f4\u63a5\u7528\u82d4\u85d3\u8981\u597d\u3002");

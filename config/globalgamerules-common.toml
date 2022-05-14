@@ -6,7 +6,7 @@
 	#Whether phantoms can spawn in the nighttime
 	do_insomnia = true
 	#Whether command blocks should notify admins when they perform commands	
-	command_block_output = true
+	command_block_output = false
 	#Players respawn immediately without showing the death screen
 	do_immediate_respawn = false
 	#Makes angered neutral mobs stop being angry when the targeted player dies nearby.
@@ -15,7 +15,7 @@
 	#Range: > 0
 	max_entity_cramming = 24
 	#Whether the player can regenerate health naturally if their hunger is full enough (doesn't affect external healing, such as golden apples, the Regeneration effect, etc.)
-	natural_regeneration = true
+	natural_regeneration = false
 	#Determines the number at which the chain command block acts as a "chain"
 	#Range: > 0
 	max_command_chain_length = 65536
@@ -64,9 +64,9 @@
 	#Whether the player should take fire damage
 	fire_damage = true
 	#Whether the server should skip checking player speed when the player is wearing elytra. Often helps with jittering due to lag in multiplayer, but may also be used to travel unfairly long distances in survival mode (cheating).
-	disable_elytra_movement_check = false
+	disable_elytra_movement_check = true
 	#Whether the player should keep items in their inventory after death
-	keep_inventory = false
+	keep_inventory = true
 	#Whether creepers, zombies, endermen, ghasts, withers, ender dragons, rabbits, sheep, villagers, and snow golems should be able to change blocks and whether mobs can pick up items. This also affects the capability of zombie-like creatures like zombie pigmen and drowned to pathfind to turtle eggs. This will also prevent villagers from breeding.
 	mob_griefing = true
 	#Whether the debug screen shows all or reduced information; and whether the effects of F3+B (entity hitboxes) and F3+G (chunk boundaries) are shown.

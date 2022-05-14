@@ -1,0 +1,191 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.client.gui.screen.MainMenuScreen
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  path = openloader/resources/orbuculum_of_legends/assets/orbuculum_of_legends/sounds/Etude_Op_25_no_5_Eminor_Wrong_Note.wav
+  loop = false
+  action = addaudio
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  identifier = %id=400322%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=400322%
+  orientation = top-left
+  x = -1
+  action = movebutton
+  y = 44
+}
+
+customization {
+  identifier = %id=604382%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=400382%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=400382%
+  orientation = top-left
+  x = 40
+  action = movebutton
+  y = 55
+}
+
+customization {
+  identifier = %id=502382%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=502382%
+  orientation = top-left
+  x = 7
+  action = movebutton
+  y = 117
+}
+
+customization {
+  identifier = %id=376382%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=400298%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=400298%
+  orientation = mid-centered
+  x = -100
+  action = movebutton
+  y = -10
+}
+
+customization {
+  identifier = %id=400346%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=400346%
+  orientation = top-left
+  x = -1
+  action = movebutton
+  y = 66
+}
+
+customization {
+  identifier = %id=502346%
+  action = hidebutton
+}
+
+customization {
+  orientation = top-left
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  buttonaction = mimicbutton
+  x = 140
+  width = 200
+  actionid = ff0c2ed1-b355-467a-a307-1b1b9f1efae91652536236093
+  action = addbutton
+  y = 149
+  label = %local:button.orbuculum_of_legends.smp%
+  value = net.minecraft.client.gui.screen.MainMenuScreen:400322
+  height = 20
+}
+
+customization {
+  orientation = top-left
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  buttonaction = mimicbutton
+  x = 140
+  width = 20
+  actionid = b13c45e8-7e5d-47d2-b3d6-048b25037ed11652536245373
+  action = addbutton
+  y = 172
+  label = 
+  value = net.minecraft.client.gui.screen.MainMenuScreen:376382
+  height = 20
+}
+
+customization {
+  orientation = top-left
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  buttonaction = mimicbutton
+  x = 140
+  width = 200
+  actionid = c59fa532-a870-4a02-9e2b-467abb4708da1652536193818
+  action = addbutton
+  y = 126
+  label = %local:button.orbuculum_of_legends.ssp%
+  value = net.minecraft.client.gui.screen.MainMenuScreen:400298
+  height = 20
+}
+
+customization {
+  orientation = top-left
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  buttonaction = mimicbutton
+  x = 163
+  width = 57
+  actionid = 8fb4f9ce-1f60-4498-bd0d-a408d7b08ea81652536313289
+  action = addbutton
+  y = 172
+  label = %local:button.orbuculum_of_legends.mods%
+  value = net.minecraft.client.gui.screen.MainMenuScreen:400346
+  height = 20
+}
+
+customization {
+  orientation = top-left
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  buttonaction = mimicbutton
+  x = 223
+  width = 60
+  actionid = 4c3fc2ac-22ba-4223-a72e-a4fb203354441652536341234
+  action = addbutton
+  y = 172
+  label = %local:button.orbuculum_of_legends.options%
+  value = net.minecraft.client.gui.screen.MainMenuScreen:400382
+  height = 20
+}
+
+customization {
+  orientation = top-left
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  buttonaction = mimicbutton
+  x = 286
+  width = 54
+  actionid = f162ec72-9af9-4e60-a3ff-5ebaa2e1e7411652536363890
+  action = addbutton
+  y = 172
+  label = %local:button.orbuculum_of_legends.exit%
+  value = net.minecraft.client.gui.screen.MainMenuScreen:502382
+  height = 20
+}
+
