@@ -1,0 +1,21 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.client.gui.screen.WorldSelectionScreen
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  path = openloader/resources/orbuculum_of_legends/assets/orbuculum_of_legends/sounds/Etude_Op_25_no_5_Eminor_Wrong_Note.wav
+  loop = true
+  action = addaudio
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
