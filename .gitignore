@@ -26,3 +26,8 @@ scripts/MARYT_SERVER/
 config/notes-client.toml
 config/topography/examples/
 /kubejs/README.txt
+
+#ModWatcher
+MinecraftModWatcher*
+ModWatcher/config.json
+ModWatcher/export.zip
