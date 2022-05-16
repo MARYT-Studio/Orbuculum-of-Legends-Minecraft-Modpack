@@ -1,0 +1,55 @@
+{
+  "apiKey": "$2a$10$2SxnNXDM8kAemf4aNr/6R.hn/X1/qBkZ7m440NIi3otYGiLqoh3a6",
+  "watchFolder": "./mods",
+  "stageFolder": "./ModWatcher/stage",
+  "manifest": {
+    "minecraft": {
+      "version": "1.16.5",
+      "modLoaders": [
+        {
+          "id": "forge-1.16.5-36.2.31",
+          "primary": true
+        }
+      ]
+    },
+    "manifestType": "minecraftModpack",
+    "manifestVersion": 1,
+    "name": "G",
+    "version": "1.0",
+    "author": "NULL",
+    "files": [],
+    "overrides": "overrides"
+  },
+  "minecraftFolder": "./",
+  "ignoreDirectories": [
+    ".git",
+    "ct_dumps",
+    "notes",
+    "shaderpacks",
+    "fancymenu_setups",
+    "screenshots",
+    "saves",
+    "local",
+    "logs",
+    "fonts",
+    "crash-reports",
+    "caches",
+    "cache",
+    ".mixin.out",
+    "mods",
+    "ModWatcher"
+  ],
+  "ignoreFiles": [
+    ".gitignore",
+    "HarvestLevelDump.md",
+    "MinecraftModWatcher.exe",
+    "options.txt",
+    "optionsof.txt",
+    "optionsshaders.txt",
+    "patchouli_data.json",
+    "PlanAndProgress.md",
+    "README.md",
+    "usercache.json",
+    "usernamecache.json"
+  ]
+}

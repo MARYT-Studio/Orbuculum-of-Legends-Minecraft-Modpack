@@ -28,6 +28,7 @@ config/topography/examples/
 /kubejs/README.txt
 
 #ModWatcher
-MinecraftModWatcher.exe
-ModWatcher/config.json
-ModWatcher/export.zip
+!/ModWatcher
+/MinecraftModWatcher.exe
+/ModWatcher/export.zip
+ModWatcher/stage/
