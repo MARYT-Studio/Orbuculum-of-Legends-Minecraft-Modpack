@@ -6,5 +6,7 @@
     "biome.orbuculum_of_legends.fake_plains": "“平原”",
     "biome.orbuculum_of_legends.fake_savanna": "“金合欢草原”",
     "biome.orbuculum_of_legends.fake_swamp": "“沼泽”",
-    "biome.orbuculum_of_legends.fake_taiga": "“云杉林”"
+    "biome.orbuculum_of_legends.fake_taiga": "“云杉林”",
+
+    "itemGroup.ool_medics" : "医疗用品"
 }

@@ -8,9 +8,8 @@ CTEventManager.register<MCRightClickItemEvent>(event => {
     var player = event.player;
     var world = event.player.world;
     var hand = event.hand;
-    if(!world.remote && itemDefaultInstance.matches(<item:minecraft:compass>)) {
-            if(!(hand == MCHand.OFF_HAND)) {return;}
-            var offhandItem = player.getHeldItem(hand);
+    if(!world.remote && <item:minecraft:compass>.matches(itemDefaultInstance)) {
+            var offhandItem = player.getHeldItem(MCHand.OFF_HAND);
             if(<tag:items:minecraft:saplings>.contains(offhandItem)) {
                 offhandItem.mutable().shrink();
                 item.mutable().shrink();

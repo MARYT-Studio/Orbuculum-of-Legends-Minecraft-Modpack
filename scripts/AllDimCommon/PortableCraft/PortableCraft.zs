@@ -27,7 +27,7 @@ for item in portables {
     }
 }
 
-craftingTable.addShaped("portable_crafting_table", <item:portablecraft:craft1>,
+craftingTable.addShapedMirrored("portable_crafting_table", <item:portablecraft:craft1>,
 [
     [<item:minecraft:air>, <item:minecraft:crafting_table>],
     [<tag:items:forge:rods/wooden>,<item:minecraft:air>]
