@@ -1,0 +1,89 @@
+{
+	id: "598466A789192614"
+	group: ""
+	order_index: 0
+	filename: "598466A789192614"
+	title: "一层世界：阿波罗"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: -7.0d
+			y: -0.5d
+			description: ["你好。很抱歉我们不得不以这种方式和你相遇。或许印和阗只是和我们开个玩笑... 但是无论怎样，一时半会我们是出不去了。不要想那么多，不如先陪我聊会天？"]
+			id: "2AEACE4C2396D3F0"
+			tasks: [{
+				id: "7331E81BB2193CBF"
+				type: "checkmark"
+				title: "这是怎么回事？"
+			}]
+		}
+		{
+			x: -5.5d
+			y: -0.5d
+			description: [
+				"很简单，活下去就好。你所处的这个世界是我方才创造的，我之后会一点一点告诉你它的秘密。"
+				"印和阗派遣了七个凶兽把守前往下一层世界的大门，直到你战胜第七个凶兽，你才能离开水晶球回到现实世界。或许你听了会有些害怕，但是我相信你一定可以的。"
+			]
+			dependencies: ["2AEACE4C2396D3F0"]
+			id: "3C6BFAA60246D1AA"
+			tasks: [{
+				id: "2361097D83DADFA7"
+				type: "checkmark"
+				title: "我该做些什么？"
+			}]
+		}
+		{
+			x: -4.0d
+			y: -3.0d
+			description: [
+				"它和你平时所在的世界不一样。主要的不同点："
+				"这里只有森林平原和沼泽，没有沙漠和海洋，我不喜欢它们。"
+				"由于这个世界是刚刚创造，在这里没有任何古代文明的遗迹，也不会有原住民。"
+				"此外就是你作为一个工匠最关心的矿物了..."
+			]
+			dependencies: ["3C6BFAA60246D1AA"]
+			id: "1962B8D5535953D2"
+			tasks: [{
+				id: "5B94D9A199657CE5"
+				type: "checkmark"
+				title: "请简单介绍一下这个世界吧。"
+			}]
+		}
+		{
+			x: -4.0d
+			y: 2.0d
+			description: [
+				"当然可以。你最需要关注的两件事，是你的伤口和饥饿。"
+				"和原先的世界一样，吃饭还是一件很重要的事。但是食物不能再治疗你的身体了。"
+				"你需要一些药物来治疗自己。那么我们从最简单的草药偏方开始吧。"
+			]
+			dependencies: ["3C6BFAA60246D1AA"]
+			id: "71809B4EFFE2FC33"
+			tasks: [{
+				id: "560871C4155B9C5C"
+				type: "checkmark"
+				title: "你能给我一些生存方面的建议吗？"
+			}]
+		}
+		{
+			x: -2.5d
+			y: 0.5d
+			id: "780A6CF2B4182F12"
+			tasks: [
+				{
+					id: "42EDB0AC61B93528"
+					type: "item"
+					item: "minecraft:wheat_seeds"
+					consume_items: false
+				}
+				{
+					id: "6305D6645539990C"
+					type: "item"
+					item: "crockpot:unknown_seeds"
+					consume_items: false
+				}
+			]
+		}
+	]
+}

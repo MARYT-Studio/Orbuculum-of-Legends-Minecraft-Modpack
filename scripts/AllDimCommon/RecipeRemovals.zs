@@ -47,6 +47,13 @@ val finders as IItemStack[] = [
     <item:adfinders:metal_finder>
 ];
 
+// Disallow crops to make dryers
+furnace.removeRecipe(<item:vanillafoodpantry:drying_agent>);
+val unused_dryers as IItemStack[] = [
+    <item:vanillafoodpantry:drying_agent_unprocessed>,
+    <item:vanillafoodpantry:drying_agent_unprocessed_ball>
+];
+
 for item in unused_items {
     craftingTable.removeRecipe(item);
     mods.jei.JEI.hideItem(item);
@@ -59,4 +66,9 @@ for item in wip_items {
 
 for item in finders {
     craftingTable.removeRecipe(item);
+}
+
+for item in unused_dryers {
+    craftingTable.removeRecipe(item);
+    mods.jei.JEI.hideItem(item);
 }
