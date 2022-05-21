@@ -4,6 +4,7 @@
 	order_index: 0
 	filename: "598466A789192614"
 	title: "一层世界：阿波罗"
+	icon: "minecraft:carrot"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [
@@ -67,8 +68,14 @@
 			}]
 		}
 		{
+			title: "有什么方便的食物来源吗？"
 			x: -2.5d
 			y: 0.5d
+			description: [
+				"有的，你可以在草丛中发现一些种子。"
+				"看起来你并不精通于辨认种子的种类... 只好把它们先种下去，看看长出来的是什么植物了。"
+			]
+			dependencies: ["71809B4EFFE2FC33"]
 			id: "780A6CF2B4182F12"
 			tasks: [
 				{
@@ -84,6 +91,530 @@
 					consume_items: false
 				}
 			]
+		}
+		{
+			title: "那么药物呢？"
+			x: -2.5d
+			y: 3.5d
+			description: [
+				"嗯，不要着急。"
+				"我们的祖先已经发现，洁净的苔藓敷在伤口上，对痊愈有帮助。苔藓唾手可得，你可以拔起地上的草，它们附近常有苔藓；下雨天苔藓猛长，你可以获得更多的苔藓。但是这种偏方的疗效并不稳定，你很快就会知道了。"
+			]
+			dependencies: ["71809B4EFFE2FC33"]
+			id: "6275CB843C360E0C"
+			tasks: [{
+				id: "185339F4F38D5997"
+				type: "item"
+				item: "contenttweaker:moss_clump"
+				count: 8L
+				consume_items: true
+			}]
+		}
+		{
+			title: "那这个线麻种子又有什么用？"
+			icon: "druidcraft:hemp"
+			x: 0.0d
+			y: 3.5d
+			description: ["哈哈，先别着急。它也是用于种植的，你种一些，收获它的叶子给我，我给你示范一下怎么使用这种植物。"]
+			dependencies: ["6275CB843C360E0C"]
+			id: "4C439451E0631D6F"
+			tasks: [
+				{
+					id: "48AC705755306DDC"
+					type: "item"
+					item: "druidcraft:hemp_seeds"
+					consume_items: false
+				}
+				{
+					id: "21F049B683EEA2E0"
+					type: "item"
+					item: "druidcraft:hemp"
+					count: 64L
+					consume_items: true
+				}
+			]
+			rewards: [
+				{
+					id: "671E91FD5DFCD75D"
+					type: "item"
+					item: "druidcraft:rope"
+					count: 16
+				}
+				{
+					id: "41810EBADA890422"
+					type: "item"
+					item: "minecraft:string"
+					count: 6
+				}
+				{
+					id: "246F20B985057ED6"
+					type: "item"
+					item: "contenttweaker:hemp_fabric"
+					count: 4
+				}
+			]
+		}
+		{
+			title: "我受够苔藓了！这东西根本不管用嘛！"
+			x: 2.5d
+			y: 4.5d
+			description: ["嗯... 的确是这样的。它实在是一种简陋得不能再简陋的医疗手段。所以我建议你把它涂装在布片上，制成创可贴使用，虽然这样做会使其有效成分略有流失，但是稳定性方面能得到较大改善。"]
+			dependencies: ["4C439451E0631D6F"]
+			id: "402C2201C9DD8AFA"
+			tasks: [{
+				id: "1B6F70D854571F45"
+				type: "item"
+				item: "contenttweaker:crude_plaster"
+				count: 32L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "32988C193A4F9CEC"
+				type: "item"
+				item: "minecraft:totem_of_undying"
+				count: 3
+			}]
+		}
+		{
+			title: "那你能教我辨认这些蔬菜吗？"
+			x: 0.0d
+			y: 0.5d
+			description: ["可以呀，你去野地里找找，我指给你看。"]
+			dependencies: ["780A6CF2B4182F12"]
+			id: "66EC0B82AC09F973"
+			tasks: [
+				{
+					id: "5460B2BF96FD6EEA"
+					type: "observation"
+					title: "盯着野生卷心菜看20秒"
+					icon: "farmersdelight:wild_cabbages"
+					timer: 60L
+					observe: "block:farmersdelight:wild_cabbages"
+				}
+				{
+					id: "4A28E29794B15CD3"
+					type: "observation"
+					title: "盯着野生洋葱看20秒"
+					icon: "farmersdelight:wild_onions"
+					timer: 20L
+					observe: "block:farmersdelight:wild_onions"
+				}
+				{
+					id: "752459E0BEA55F11"
+					type: "observation"
+					title: "盯着野生胡萝卜看20秒"
+					icon: "farmersdelight:wild_carrots"
+					timer: 20L
+					observe: "block:farmersdelight:wild_carrots"
+				}
+				{
+					id: "6958E8EE34842F93"
+					type: "observation"
+					title: "盯着野生马铃薯看20秒"
+					icon: "farmersdelight:wild_potatoes"
+					timer: 20L
+					observe: "block:farmersdelight:wild_potatoes"
+				}
+			]
+			rewards: [{
+				id: "0EF49EBE42AEC9F2"
+				type: "item"
+				item: {
+					id: "druidcraft:stone_sickle"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			title: "有减少受伤的方法吗？"
+			x: 2.5d
+			y: 2.5d
+			description: ["一定是有的。比如做一套盔甲保护自己。"]
+			dependencies: ["4C439451E0631D6F"]
+			id: "78A256DFF7D55A50"
+			tasks: [
+				{
+					id: "6B675D2F63F37B04"
+					type: "item"
+					item: {
+						id: "minecraft:leather_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+					only_from_crafting: true
+				}
+				{
+					id: "5BA92174A4AAF98B"
+					type: "item"
+					item: {
+						id: "minecraft:leather_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+					only_from_crafting: true
+				}
+				{
+					id: "1FB7040E82421450"
+					type: "item"
+					item: {
+						id: "minecraft:leather_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+					only_from_crafting: true
+				}
+				{
+					id: "252D9E4E3AC12D86"
+					type: "item"
+					item: {
+						id: "minecraft:leather_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+					only_from_crafting: true
+				}
+			]
+			rewards: [{
+				id: "487EC996DBFA35A4"
+				type: "item"
+				item: {
+					id: "minecraft:iron_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			title: "我吃腻了面包了！有没有什么别的主食推荐？"
+			icon: "farmersdelight:rice_panicle"
+			x: 2.5d
+			y: 0.5d
+			description: [
+				"啊呀... 你麻烦事儿可真多啊。"
+				"这个是水稻，可以收获它得到稻米。我觉得这个你大概会喜欢的。"
+			]
+			dependencies: ["66EC0B82AC09F973"]
+			id: "09EDB4BB9F3527D4"
+			tasks: [
+				{
+					id: "402B5E02CF32235B"
+					type: "observation"
+					title: "盯着野生水稻看20秒"
+					icon: "farmersdelight:wild_rice"
+					timer: 20L
+					observe: "block:farmersdelight:wild_rice"
+				}
+				{
+					id: "4299591DF1B2D497"
+					type: "item"
+					icon: "farmersdelight:rice_panicle"
+					item: "farmersdelight:rice_panicle"
+					count: 32L
+					consume_items: true
+				}
+				{
+					id: "7B88388C8B1860B7"
+					type: "item"
+					item: "farmersdelight:rice"
+					count: 64L
+					consume_items: true
+				}
+			]
+			rewards: [{
+				id: "6392529FE3550856"
+				type: "item"
+				item: "farmersdelight:fried_rice"
+				count: 4
+			}]
+		}
+		{
+			title: "我需要一些煤炭来照明和取暖。"
+			x: -2.5d
+			y: -1.5d
+			description: [
+				"我教你去哪里可以找到煤矿。"
+				"如果你在地面上见到裸露的煤矿脉，那么在矿脉圆心的正下方，必然有大型的煤矿脉。此外，铁矿脉中也混杂少量的煤矿石。"
+			]
+			dependencies: ["1962B8D5535953D2"]
+			id: "2D44514644A396E1"
+			tasks: [{
+				id: "34F678E67449A6E0"
+				type: "item"
+				item: "minecraft:coal"
+				count: 32L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "0FFF245DAB89B0B3"
+					type: "item"
+					item: "minecraft:torch"
+					count: 64
+				}
+				{
+					id: "08361E62360148CD"
+					type: "item"
+					item: {
+						id: "minecraft:stone_pickaxe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "我需要一些铁来制作工具。"
+			x: -2.5d
+			y: -4.5d
+			description: [
+				"我教你去哪里可以找到铁矿。"
+				"如果你在地面上见到裸露的铁矿脉，那么在矿脉圆心的正下方，必然有大型的铁矿脉。此外，煤矿脉中也混杂少量的铁矿石。"
+			]
+			dependencies: ["1962B8D5535953D2"]
+			id: "45E81AFD85F9C154"
+			tasks: [{
+				id: "330C410FE6BF7CCA"
+				type: "item"
+				item: "minecraft:iron_ingot"
+			}]
+		}
+		{
+			title: "岩化根有什么用？"
+			x: 0.0d
+			y: -0.5d
+			description: ["当你发现这个东西的时候，你已经见到化石矿脉了。岩化根和琥珀都属于化石。它们当中蕴含着的生命的力量，是我的法力的一部分。你很少向我们几个咨询魔法相关的知识，但是从现在起，你得尝试着使用这些魔法材料：它们也是帮助你在这个世界生存的关键道具。"]
+			dependencies: ["2D44514644A396E1"]
+			id: "6779CB65F18BA4D2"
+			tasks: [{
+				id: "4B996EC18390A5B4"
+				type: "item"
+				item: "druidcraft:rockroot"
+			}]
+		}
+		{
+			title: "琥珀有什么用？"
+			x: 0.0d
+			y: -2.5d
+			description: ["当你发现这个东西的时候，你已经见到化石矿脉了。岩化根和琥珀都属于化石。它们当中蕴含着的生命的力量，是我的法力的一部分。你很少向我们几个咨询魔法相关的知识，但是从现在起，你得尝试着使用这些魔法材料：它们也是帮助你在这个世界生存的关键道具。"]
+			dependencies: ["2D44514644A396E1"]
+			id: "5CC514516DFCE228"
+			tasks: [{
+				id: "63A8203DB095FDE8"
+				type: "item"
+				item: "druidcraft:amber"
+			}]
+		}
+		{
+			title: "这个矿石摸起来好烫，它是什么？"
+			x: 0.0d
+			y: -3.5d
+			description: ["灼烈玻璃。它是祝融外溢的法力流散到其他世界，凝结形成的。是的，和你猜测的一样，现在我们都在这个水晶球里边... 假如你需要一些比煤炭更好的燃料或者照明道具，可以收集这种矿石，它会对你有所帮助的。此外，它也有一些额外的用途。"]
+			dependencies: ["45E81AFD85F9C154"]
+			id: "7055C97B03AC41AE"
+			tasks: [{
+				id: "41400667AEFAA55D"
+				type: "item"
+				item: "druidcraft:fiery_glass"
+				count: 32L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "0950D8D270B166B3"
+					type: "item"
+					item: "druidcraft:fiery_torch"
+					count: 32
+				}
+				{
+					id: "16D17A10CE260997"
+					type: "item"
+					item: {
+						id: "minecraft:iron_pickaxe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "我挖到铁了！你觉得用它们做些什么好呢？"
+			x: 0.0d
+			y: -5.5d
+			description: [
+				"做个铁锅吧。用它做些好吃的慰劳自己，坚持了这么久你一定也累了。"
+				"唉，可惜我现在被封印在这里，没有办法陪你坐下来好好吃顿饭叙叙旧..."
+				"啊，你也不用太过悲伤，不要哭！我相信你一定能带我们从这里离开。我们一起加油吧！"
+			]
+			dependencies: ["45E81AFD85F9C154"]
+			id: "68B1B3C9922E0447"
+			tasks: [{
+				id: "1BF06D4E7FE8D132"
+				type: "item"
+				item: "farmersdelight:cooking_pot"
+				only_from_crafting: true
+			}]
+			rewards: [{
+				id: "01744D83F8C940FD"
+				type: "item"
+				item: "farmersdelight:fried_rice"
+				count: 4
+			}]
+		}
+		{
+			title: "这口锅用起来不太顺手..."
+			x: 2.5d
+			y: -5.5d
+			description: ["美食果然是治愈一切坏情绪的良药啊，看到你很快走出来了我很高兴。我这里有一张从“永恒领域”捡来的图纸，你照着这个做个新锅子看看呢？"]
+			dependencies: ["68B1B3C9922E0447"]
+			id: "566812E6D89A0077"
+			tasks: [{
+				id: "16EABAA7F3035B45"
+				type: "item"
+				item: "crockpot:crock_pot_basic"
+				only_from_crafting: true
+			}]
+			rewards: [{
+				id: "3B5E0000830AAB8B"
+				type: "item"
+				item: "crockpot:bone_stew"
+				count: 2
+			}]
+		}
+		{
+			title: "那它可以用来做什么呢？"
+			x: 2.5d
+			y: -2.5d
+			description: ["岩化根具有与大地共鸣的生命力，大地能将方向的讯息通过它告诉你。"]
+			dependencies: [
+				"5CC514516DFCE228"
+				"6779CB65F18BA4D2"
+			]
+			id: "1BC18BC0E31CEDB3"
+			tasks: [{
+				id: "439309A4AFE89F6F"
+				type: "item"
+				item: "minecraft:compass"
+			}]
+		}
+		{
+			title: "除了火把以外，它还有什么别的用途吗？"
+			x: 2.5d
+			y: -3.5d
+			description: ["有的。它不仅能产生光和热，还具有一种“驱动”的能力。祝融正是使用这种法力，驱动整个世界运转起来。你可以借助蕴含在灼烈玻璃中的这一小部分法力，来驱动牲畜和庄稼的成长成熟。"]
+			dependencies: ["7055C97B03AC41AE"]
+			id: "56B5EBB3802A3774"
+			tasks: [{
+				id: "23F6B9CEFDBAA526"
+				type: "item"
+				item: "druidcraft:growth_lamp"
+				only_from_crafting: true
+			}]
+			rewards: [{
+				id: "2CD57C9B0B6E1FE4"
+				type: "item"
+				item: "vanillafoodpantry:flesh_meal"
+				count: 16
+			}]
+		}
+		{
+			title: "那它可以用来做什么呢？"
+			x: 2.5d
+			y: -0.5d
+			description: ["琥珀具有与天空共鸣的生命力，天空能将时间的讯息通过它告诉你。"]
+			dependencies: [
+				"5CC514516DFCE228"
+				"6779CB65F18BA4D2"
+			]
+			id: "7FF965C5FAD4133C"
+			tasks: [{
+				id: "0D4EDF81032BAE21"
+				type: "item"
+				item: "minecraft:clock"
+			}]
+		}
+		{
+			title: "方向的讯息... 它能给我指路吗？"
+			x: 5.0d
+			y: -2.5d
+			description: [
+				"是的。为了让它开口说话，还需要借助一些自然的精灵所赠予的力量。"
+				"用树苗作为信物召唤精灵，它们会将自然的力量注入指南针。得到精灵祝福的指南针可以为你指示任何一个你想去的生物群系的位置。"
+			]
+			dependencies: ["1BC18BC0E31CEDB3"]
+			id: "7FE35C4EE1F3EC16"
+			tasks: [{
+				id: "0B720B6EA4D46D23"
+				type: "item"
+				item: {
+					id: "naturescompass:naturescompass"
+					Count: 1b
+					tag: { }
+				}
+				consume_items: false
+			}]
+		}
+		{
+			title: "除了看时间，它还有什么其他的作用吗？"
+			x: 5.0d
+			y: -1.5d
+			description: [
+				"是的。为了达到这个目的，我们还需要借助一些自然的精灵所赠予的力量。"
+				"用岩化根作为信物召唤精灵，它们会将自然的力量注入时钟。它将变为矿物探测器，为你指示非金属的矿物所在的位置。"
+			]
+			dependencies: ["7FF965C5FAD4133C"]
+			id: "75F7A3A437FEF089"
+			tasks: [{
+				id: "2F0FF0BF750C3B08"
+				type: "item"
+				item: {
+					id: "adfinders:mineral_finder"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+				consume_items: false
+			}]
+		}
+		{
+			title: "除了看时间，它还有什么其他的作用吗？"
+			x: 5.0d
+			y: -0.5d
+			description: [
+				"是的。为了达到这个目的，我们还需要借助一些自然的精灵所赠予的力量。"
+				"用琥珀作为信物召唤精灵，它们会将自然的力量注入时钟。它将变为金属探测器，为你指示金属矿物所在的位置。"
+			]
+			dependencies: ["7FF965C5FAD4133C"]
+			id: "3AA78ECB2E0A6303"
+			tasks: [{
+				id: "22070DB6B275D35F"
+				type: "item"
+				item: {
+					id: "adfinders:metal_finder"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+				consume_items: false
+			}]
 		}
 	]
 }
