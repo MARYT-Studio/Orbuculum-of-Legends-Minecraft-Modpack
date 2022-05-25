@@ -422,7 +422,7 @@
 		{
 			title: "这个矿石摸起来好烫，它是什么？"
 			x: 0.0d
-			y: -3.5d
+			y: -5.5d
 			description: ["灼烈玻璃。它是祝融外溢的法力流散到其他世界，凝结形成的。是的，和你猜测的一样，现在我们都在这个水晶球里边... 假如你需要一些比煤炭更好的燃料或者照明道具，可以收集这种矿石，它会对你有所帮助的。此外，它也有一些额外的用途。"]
 			dependencies: ["45E81AFD85F9C154"]
 			id: "7055C97B03AC41AE"
@@ -456,7 +456,7 @@
 		{
 			title: "我挖到铁了！你觉得用它们做些什么好呢？"
 			x: 0.0d
-			y: -5.5d
+			y: -3.5d
 			description: [
 				"做个铁锅吧。用它做些好吃的慰劳自己，坚持了这么久你一定也累了。"
 				"唉，可惜我现在被封印在这里，没有办法陪你坐下来好好吃顿饭叙叙旧..."
@@ -480,8 +480,8 @@
 		{
 			title: "这口锅用起来不太顺手..."
 			x: 2.5d
-			y: -5.5d
-			description: ["美食果然是治愈一切坏情绪的良药啊，看到你很快走出来了我很高兴。我这里有一张从“永恒领域”捡来的图纸，你照着这个做个新锅子看看呢？"]
+			y: -3.5d
+			description: ["美食果然是治愈一切坏情绪的良药啊，看到你很快走出来了我很高兴。我这里有一张从“永恒领域”捡来的图纸，你照着这个做个新锅子试试呢？"]
 			dependencies: ["68B1B3C9922E0447"]
 			id: "566812E6D89A0077"
 			tasks: [{
@@ -516,7 +516,7 @@
 		{
 			title: "除了火把以外，它还有什么别的用途吗？"
 			x: 2.5d
-			y: -3.5d
+			y: -5.5d
 			description: ["有的。它不仅能产生光和热，还具有一种“驱动”的能力。祝融正是使用这种法力，驱动整个世界运转起来。你可以借助蕴含在灼烈玻璃中的这一小部分法力，来驱动牲畜和庄稼的成长成熟。"]
 			dependencies: ["7055C97B03AC41AE"]
 			id: "56B5EBB3802A3774"
@@ -614,6 +614,279 @@
 					}
 				}
 				consume_items: false
+			}]
+		}
+		{
+			title: "这谷穗也不能吃啊？"
+			icon: "farmersdelight:rice"
+			x: 5.0d
+			y: 0.5d
+			description: ["当然不是直接吃的。要把米从里面取出来，需要借助砧板来完成。"]
+			dependencies: ["09EDB4BB9F3527D4"]
+			id: "50F845BCA039895D"
+			tasks: [
+				{
+					id: "72EB9A255A431712"
+					type: "item"
+					item: "farmersdelight:rice"
+					count: 32L
+					consume_items: true
+				}
+				{
+					id: "1254A834BB23D475"
+					type: "item"
+					item: "farmersdelight:cutting_board"
+					only_from_crafting: true
+				}
+				{
+					id: "0F08DAC15B05429C"
+					type: "item"
+					item: {
+						id: "farmersdelight:iron_knife"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+					only_from_crafting: true
+				}
+			]
+			rewards: [{
+				id: "06A23F1EA76ECC07"
+				type: "item"
+				item: "farmersdelight:fried_rice"
+				count: 4
+			}]
+		}
+		{
+			title: "这些草秆怎么处理呢？"
+			x: 5.0d
+			y: 1.5d
+			description: [
+				"它们可以用来做一些简单的生活用品。可以织成粗布，或者搓成绳子。再不济还可以当柴烧。"
+				""
+				"但是最重要的是，它可以作为肥料。我教你一下怎么做。"
+			]
+			dependencies: ["09EDB4BB9F3527D4"]
+			id: "67DB5BF6126B0136"
+			tasks: [{
+				id: "31F06ED9B8A7CC6F"
+				type: "item"
+				item: "farmersdelight:straw"
+				count: 32L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "7343D2553DFF4B0B"
+					type: "item"
+					item: "minecraft:bone_meal"
+					count: 4
+				}
+				{
+					id: "632EC74F142D9D33"
+					type: "item"
+					item: "minecraft:rotten_flesh"
+					count: 4
+				}
+				{
+					id: "0136E3A6669D0489"
+					type: "item"
+					item: {
+						id: "minecraft:stone_hoe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "有意思，说来听听。"
+			x: 7.5d
+			y: 1.5d
+			description: ["把草秆和骨粉、腐肉、树皮之类的东西混合成团，埋在地里。经过风吹日晒，它就能被沤成肥沃的土壤。只要在上面耕种，就不需要给作物另外浇水，此外它们长得也会快一些。"]
+			dependencies: ["67DB5BF6126B0136"]
+			id: "03BFC1FB4CEE90B4"
+			tasks: [{
+				id: "3B087273573A8DFF"
+				type: "item"
+				item: "farmersdelight:organic_compost"
+				count: 8L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "446B70CDF99C65A3"
+					type: "item"
+					item: "minecraft:beetroot_seeds"
+					count: 16
+				}
+				{
+					id: "01515ADEBE30ABC6"
+					type: "item"
+					item: "minecraft:melon_seeds"
+					count: 4
+				}
+				{
+					id: "33E1DD25814CFFE6"
+					type: "item"
+					item: "minecraft:pumpkin_seeds"
+					count: 4
+				}
+			]
+		}
+		{
+			title: "我决定做一道简单的菜试试看..."
+			x: 5.0d
+			y: -3.5d
+			description: ["那这个菜谱应该比较简单。加油，就像你以前做好吃的食物那样。"]
+			dependencies: ["566812E6D89A0077"]
+			id: "67F32B475817C301"
+			tasks: [{
+				id: "25F4D911CEB72465"
+				type: "item"
+				item: "farmersdelight:tomato_sauce"
+			}]
+			rewards: [{
+				id: "3892125B2454C5F7"
+				type: "item"
+				item: "farmersdelight:fried_rice"
+				count: 4
+			}]
+		}
+		{
+			title: "其实也没有我想的那么难嘛！我决定做一道硬菜！"
+			x: 7.5d
+			y: -1.5d
+			description: [
+				"真有你的！加油！"
+				"这次你只能自己享用了。我得告诉你一些事，你边吃边听。这关系到我们之后能不能顺利地从这里逃出去。"
+				"就是关于印和阗与守关凶兽的事情。"
+			]
+			dependencies: [
+				"50F845BCA039895D"
+				"67F32B475817C301"
+			]
+			id: "26944C9398B44DE1"
+			tasks: [{
+				id: "6A8A5D2F9F0FAE8E"
+				type: "item"
+				item: "farmersdelight:stuffed_pumpkin_block"
+				count: 8L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "5E34EC77D5F9704F"
+				type: "item"
+				item: "minecraft:totem_of_undying"
+				count: 2
+			}]
+		}
+		{
+			title: "守关凶兽？"
+			icon: "minecraft:golden_carrot"
+			x: 10.0d
+			y: -1.5d
+			description: [
+				"是的。我们六位被封在我们各自创造的世界中，比如我就在我所创造的世界，也就是你现在所处的位置。为了阻止我们逃脱，印和阗在每一层世界设置了守关凶兽，而守卫这一层世界的是被称为“魅”的幻影之兽。"
+				"在与它作战时，我会将法力注入你所吃的食物，使它们具有不同的效果，来帮助你战斗。"
+				"此外，“魅”惧怕象征光明的金胡萝卜。"
+			]
+			dependencies: ["26944C9398B44DE1"]
+			id: "5A884D70E50D0A3D"
+			tasks: [
+				{
+					id: "62313FC9041E8E1E"
+					type: "item"
+					item: "minecraft:golden_carrot"
+					only_from_crafting: true
+				}
+				{
+					id: "70A8DDE57A3EE729"
+					type: "checkmark"
+					title: "仔细阅读阿波罗的话"
+				}
+			]
+			rewards: [{
+				id: "2716F6C870DEB90D"
+				type: "item"
+				item: "minecraft:spectral_arrow"
+				count: 32
+			}]
+		}
+		{
+			title: "只要打败“魅”，我们就可以逃脱了吗？"
+			icon: "minecraft:ender_chest"
+			x: 12.5d
+			y: -1.5d
+			description: [
+				"你需要用仪式召唤“魅”，并将其击败；但是击败它并不会解除水晶球上所有印和阗的魔咒，只会把你带往下一层世界，那是属于“椰术师”鳕鱼的雨林世界。你还需要继续帮助我们，战胜每一层的守关凶兽，我们最终才能逃脱。"
+				"请务必注意，一旦你击败“魅”，就会被带往下一层世界，不会再回来了。所以，你必须在战胜“魅”之前，收拾好行李，把该带走的东西装进背包和这个神奇的箱子。"
+			]
+			dependencies: ["5A884D70E50D0A3D"]
+			id: "3AAAD5E1E212198A"
+			tasks: [
+				{
+					id: "4CFE76EEA2D737F0"
+					type: "item"
+					item: "minecraft:ender_chest"
+					only_from_crafting: true
+				}
+				{
+					id: "559854EF918700CD"
+					type: "checkmark"
+					title: "仔细阅读阿波罗的话"
+				}
+			]
+		}
+		{
+			title: "我准备好了，如何进行仪式？"
+			x: 15.75d
+			y: -1.5d
+			shape: "rsquare"
+			description: [
+				"好的。仪式所需的物品我已经列出清单展示给你，你把它们准备好，就可以进行仪式了。启动仪式需要将三件祭品丢在你附近三步之内的地上，然后手拿作为信物的黑色染料，点击右键，喊出我告诉你的咒语。"
+				"“魅”是支配天空、驱逐光明而带来黑暗的凶兽，你必须触摸到天空才能面见它。因此，召唤仪式会在一瞬间把你带往高空。不要害怕，我会保护你不被摔伤。我相信你，加油。"
+			]
+			dependencies: ["3AAAD5E1E212198A"]
+			size: 1.5d
+			id: "36A5A15B7D3DFEBB"
+			tasks: [
+				{
+					id: "1BB54CA9C567586C"
+					type: "checkmark"
+					title: "仔细阅读阿波罗的话"
+				}
+				{
+					id: "4B4512AF53976D3F"
+					type: "item"
+					item: "crockpot:taffy"
+					consume_items: false
+				}
+				{
+					id: "6D8F914D4BD53144"
+					type: "item"
+					item: "crockpot:pow_cake"
+					consume_items: false
+				}
+				{
+					id: "31F7247426932BE3"
+					type: "item"
+					item: "farmersdelight:sweet_berry_cheesecake"
+					consume_items: false
+				}
+				{
+					id: "63824CB9DF2F9709"
+					type: "item"
+					item: "minecraft:black_dye"
+				}
+			]
+			rewards: [{
+				id: "5FA1E47999755867"
+				type: "item"
+				item: "minecraft:totem_of_undying"
 			}]
 		}
 	]

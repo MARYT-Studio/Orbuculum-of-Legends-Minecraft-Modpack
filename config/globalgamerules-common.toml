@@ -22,7 +22,6 @@
 	#Whether to log admin commands to server log
 	log_admin_commands = true
 	#How often a random block tick occurs (such as plant growth, leaf decay, etc.) per chunk section per game tick. 0 disables random ticks, higher numbers increase random ticks. Setting to a high integer results in high speeds of decay and growth
-	# Default: 3
 	#Range: > 0
 	random_tick_speed = 3
 	#Whether mobs should drop items
