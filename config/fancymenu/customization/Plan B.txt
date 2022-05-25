@@ -116,15 +116,17 @@ customization {
 
 customization {
   orientation = top-left
-  loopbackgroundanimations = true
   restartbackgroundanimations = true
   buttonaction = mimicbutton
+  backgroundhovered = openloader\resources\orbuculum_of_legends\assets\orbuculum_of_legends\textures\language_button_activated.png
+  label = 
+  loopbackgroundanimations = true
   x = 140
   width = 20
   actionid = b13c45e8-7e5d-47d2-b3d6-048b25037ed11652536245373
   action = addbutton
   y = 172
-  label = 
+  backgroundnormal = openloader\resources\orbuculum_of_legends\assets\orbuculum_of_legends\textures\language_button.png
   value = net.minecraft.client.gui.screen.MainMenuScreen:376382
   height = 20
 }

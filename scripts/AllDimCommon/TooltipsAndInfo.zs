@@ -60,3 +60,45 @@ for finder in finders {
 // Crude Plaster part
 // Original text: 比直接用苔藓要好。
 <item:contenttweaker:crude_plaster>.addTooltip("\u6bd4\u76f4\u63a5\u7528\u82d4\u85d3\u8981\u597d\u3002");
+
+val scythes as IItemStack[][] = [
+    // Tier 1 scythes
+    [
+        <item:druidcraft:bone_sickle>,
+        <item:druidcraft:wooden_sickle>,
+        <item:druidcraft:stone_sickle>,
+        <item:druidcraft:iron_sickle>,
+        <item:druidcraft:gold_sickle>
+    ],
+    // Tier 2 scythes
+    [
+        <item:druidcraft:moonstone_sickle>,
+        <item:druidcraft:diamond_sickle>
+    ]
+];
+
+for index1 in 0 .. 2 {
+    var radius as int = ((index1 == 0) ? 3 : 7);
+    for scythe in scythes[index1] {
+        // Original text: 握持在主手时，自动拾取半径 radius 格内所有的农作物和野生植物掉落物。
+        scythe.addTooltip("\u63e1\u6301\u5728\u4e3b\u624b\u65f6\uff0c\u81ea\u52a8\u62fe\u53d6\u534a\u5f84" + radius + "\u683c\u5185\u6240\u6709\u7684\u519c\u4f5c\u7269\u548c\u91ce\u751f\u690d\u7269\u6389\u843d\u7269\u3002");
+        scythe.addTooltip("\u6309\u4f4f[SHIFT]\u53ef\u4ee5\u6682\u65f6\u5173\u95ed\u81ea\u52a8\u62fe\u53d6\u529f\u80fd\u3002");
+        JEI.addInfo(scythe, 
+        // Original text:
+        // 具有灵性的农具。
+        // 当你的主手握着它时，
+        // 它能自动拾取附近的农作物与野生植物的掉落物，
+        // 放入你的背包。
+        // 普通的镰刀拾取的范围稍小些，
+        // 若是钻石或月长石打造的镰刀，
+        // 则可以拾取相当大范围内的物品。
+        [
+            "\u5177\u6709\u7075\u6027\u7684\u519c\u5177\u3002",
+            "\u5f53\u4f60\u7684\u4e3b\u624b\u63e1\u7740\u5b83\u65f6\uff0c",
+            "\u5b83\u80fd\u81ea\u52a8\u62fe\u53d6\u9644\u8fd1\u7684\u519c\u4f5c\u7269\u4e0e\u91ce\u751f\u690d\u7269\u7684\u6389\u843d\u7269\uff0c\u653e\u5165\u4f60\u7684\u80cc\u5305\u3002",
+            "\u666e\u901a\u7684\u9570\u5200\u62fe\u53d6\u7684\u8303\u56f4\u7a0d\u5c0f\u4e9b\uff0c",
+            "\u82e5\u662f\u94bb\u77f3\u6216\u6708\u957f\u77f3\u6253\u9020\u7684\u9570\u5200\uff0c",
+            "\u5219\u53ef\u4ee5\u62fe\u53d6\u76f8\u5f53\u5927\u8303\u56f4\u5185\u7684\u7269\u54c1\u3002"
+        ]);
+    }
+}
