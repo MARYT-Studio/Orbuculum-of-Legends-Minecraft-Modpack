@@ -516,7 +516,7 @@
 		{
 			title: "除了火把以外，它还有什么别的用途吗？"
 			x: 2.5d
-			y: -5.5d
+			y: -4.5d
 			description: ["有的。它不仅能产生光和热，还具有一种“驱动”的能力。祝融正是使用这种法力，驱动整个世界运转起来。你可以借助蕴含在灼烈玻璃中的这一小部分法力，来驱动牲畜和庄稼的成长成熟。"]
 			dependencies: ["7055C97B03AC41AE"]
 			id: "56B5EBB3802A3774"
@@ -887,6 +887,36 @@
 				id: "5FA1E47999755867"
 				type: "item"
 				item: "minecraft:totem_of_undying"
+			}]
+		}
+		{
+			title: "唔！它好烫！"
+			x: 2.5d
+			y: -6.5d
+			description: [
+				"是的。它的光和热既可以作为照明的工具，也可以作为防身的武器，比如把它绑在一根长棍的末梢，作为长矛来使用。"
+				"说起来，这种矿石里头藏着的是祝融颇为自得的一种东西。"
+				"我记得好像他好像把它叫做“三昧真火”吧。"
+			]
+			dependencies: ["7055C97B03AC41AE"]
+			id: "6A5FD949A89EFB0D"
+			tasks: [{
+				id: "73F4F84AECA54580"
+				type: "item"
+				item: {
+					id: "contenttweaker:fire_spear"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+				only_from_crafting: true
+			}]
+			rewards: [{
+				id: "132B93A25B8DF533"
+				type: "item"
+				item: "druidcraft:fiery_torch"
+				count: 16
 			}]
 		}
 	]

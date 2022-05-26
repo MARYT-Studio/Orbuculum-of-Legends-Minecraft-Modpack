@@ -102,3 +102,11 @@ for index1 in 0 .. 2 {
         ]);
     }
 }
+
+// Fire Spear
+// Original text:
+// 朴实却神秘的火器，
+// 有时能点燃敌人。
+
+<item:contenttweaker:fire_spear>.anyDamage().addTooltip("\u6734\u5b9e\u5374\u795e\u79d8\u7684\u706b\u5668\uff0c");
+<item:contenttweaker:fire_spear>.anyDamage().addTooltip("\u6709\u65f6\u80fd\u70b9\u71c3\u654c\u4eba\u3002");
