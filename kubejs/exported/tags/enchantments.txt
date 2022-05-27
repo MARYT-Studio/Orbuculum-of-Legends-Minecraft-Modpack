@@ -1,0 +1,23 @@
+To refresh this file, delete it and run /reload command again! Last updated: May 27, 2022 11:53:10 AM
+
+#forge:mending
+- minecraft:mending
+
+#forge:unbreaking
+- minecraft:unbreaking
+
+#forge:silk_touch
+- minecraft:silk_touch
+
+#carrots:random_enchants_denylist
+
+#minecraft:mending
+- minecraft:mending
+- minecraft:mending
+
+#minecraft:unbreaking
+- minecraft:unbreaking
+- minecraft:unbreaking
+
+#forge:looting
+- minecraft:looting

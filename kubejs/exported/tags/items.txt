@@ -1,0 +1,7411 @@
+To refresh this file, delete it and run /reload command again! Last updated: May 27, 2022 11:53:10 AM
+
+#forge:gems/eudialyte
+- tropicraft:eudialyte_gem
+
+#forge:weapons/slingshots
+
+#forge:powders/sunflower_seeds
+- vanillafoodpantry:foodpowder_sunbutter_mix
+- vanillafoodpantry:foodpowder_sunflower_seeds
+
+#forge:dyes/gray
+- minecraft:gray_dye
+
+#upgrade_aquatic:dead_branch_fans_corals
+- upgrade_aquatic:dead_branch_coral
+- upgrade_aquatic:dead_branch_coral_fan
+
+#carrots:nutrition/notes/protein
+- #carrots:nutrition/notes/ovo
+- #carrots:nutrition/notes/meat
+- #carrots:nutrition/notes/seafood
+- carrots:cowmilk_bucket
+- carrots:oatmilk_bucket
+- minecraft:egg
+- minecraft:milk_bucket
+- vanillafoodpantry:acorn_nuts
+- vanillafoodpantry:honey_roasted_acorn_nuts
+- vanillafoodpantry:nomads_meal_bar
+- vanillafoodpantry:nomads_snack_bar
+- vanillafoodpantry:roasted_seeds_litemix
+
+#forge:ingredients/ink
+- minecraft:ink_sac
+- vanillafoodpantry:foodpowder_ink
+
+#forge:foods/fruits
+- minecraft:apple
+- minecraft:chorus_fruit
+- minecraft:melon_slice
+- #carrots:portions_melonfruit
+- #forge:foods/apples
+- #forge:foods/bananas
+- #forge:foods/grapes
+- #forge:foods/kiwis
+- #forge:foods/small_berries
+- #forge:foods/citrus_fruits
+- fruittrees:pomelo?
+- terraqueous:lifefruit?
+
+#minecraft:barter_tokens/base
+- minecraft:book
+- minecraft:book
+
+#forge:storage_blocks/netherite
+- minecraft:netherite_block
+
+#forge:ingots/drying_agent
+- vanillafoodpantry:drying_agent_ball
+
+#forge:glass_panes/white
+- minecraft:white_stained_glass_pane
+
+#forge:slime_balls
+- #forge:slimeballs
+
+#forge:powders/muscle
+- vanillafoodpantry:foodpowder_muscle_mix
+- veggie_way:superfood_powder?
+
+#forge:buckets/oatmilk
+- carrots:oatmilk_bucket
+
+#carrots:shulker_boxes
+- minecraft:shulker_box
+- minecraft:white_shulker_box
+- minecraft:black_shulker_box
+- minecraft:orange_shulker_box
+- minecraft:magenta_shulker_box
+- minecraft:light_blue_shulker_box
+- minecraft:yellow_shulker_box
+- minecraft:lime_shulker_box
+- minecraft:pink_shulker_box
+- minecraft:gray_shulker_box
+- minecraft:light_gray_shulker_box
+- minecraft:cyan_shulker_box
+- minecraft:purple_shulker_box
+- minecraft:blue_shulker_box
+- minecraft:brown_shulker_box
+- minecraft:green_shulker_box
+- minecraft:red_shulker_box
+
+#forge:glass_panes/light_gray
+- minecraft:light_gray_stained_glass_pane
+
+#forge:beacon_payment
+- druidcraft:moonstone
+- druidcraft:amber
+
+#forge:charcoals
+- minecraft:charcoal
+
+#forge:buckets/animal_milk
+- #forge:buckets/cow_milk
+
+#carrots:portions_sponge
+- minecraft:sponge
+- minecraft:sponge
+
+#carrots:portions_flour
+- #forge:foods/flours/wheat
+
+#forge:ingredients/egg
+- minecraft:egg
+- minecraft:turtle_egg
+- vanillafoodpantry:foodpowder_egg
+- #vanillafoodpantry:drops/optional_raw_eggs
+- burgermod:scrambled_egg?
+
+#aquaculture:tooltip
+- aquaculture:neptunium_fishing_rod
+- aquaculture:neptunium_helmet
+- aquaculture:neptunium_chestplate
+- aquaculture:neptunium_leggings
+- aquaculture:neptunium_boots
+- aquaculture:neptunium_pickaxe
+- aquaculture:neptunium_axe
+- aquaculture:neptunium_hoe
+- aquaculture:neptunium_shovel
+- aquaculture:neptunium_sword
+- aquaculture:neptunium_bow
+- aquaculture:neptunium_fillet_knife
+- aquaculture:iron_hook
+- aquaculture:gold_hook
+- aquaculture:diamond_hook
+- aquaculture:light_hook
+- aquaculture:heavy_hook
+- aquaculture:double_hook
+- aquaculture:redstone_hook
+- aquaculture:note_hook
+- aquaculture:nether_star_hook
+
+#forge:gems/azurite
+- tropicraft:azurite_gem
+
+#forge:glass/pink
+- minecraft:pink_stained_glass
+
+#forge:foods/wild_potatoes
+
+#forge:chests
+- #forge:chests/ender
+- #forge:chests/trapped
+- #forge:chests/wooden
+- aquaculture:neptunes_bounty
+
+#forge:storage_blocks/emerald
+- minecraft:emerald_block
+
+#forge:ores/redstone
+- minecraft:redstone_ore
+
+#forge:salad_ingredients
+- #forge:salad_ingredients/cabbage
+
+#carrots:powders/soup_flavor
+- vanillafoodpantry:foodpowder_beet
+- vanillafoodpantry:foodpowder_cactus
+- vanillafoodpantry:foodpowder_carrot
+- vanillafoodpantry:foodpowder_kelp
+- vanillafoodpantry:foodpowder_leek
+- vanillafoodpantry:foodpowder_mushroom
+- vanillafoodpantry:foodpowder_potato
+- vanillafoodpantry:foodpowder_pumpkin
+- vanillafoodpantry:foodpowder_tomato
+
+#carrots:fertilizers/safe
+- minecraft:bone_meal
+- vanillafoodpantry:bat_poop
+- vanillafoodpantry:flesh_meal
+- charcoal_pit:fertilizer?
+
+#forge:fillet_knife
+- aquaculture:wooden_fillet_knife
+- aquaculture:stone_fillet_knife
+- aquaculture:iron_fillet_knife
+- aquaculture:gold_fillet_knife
+- aquaculture:diamond_fillet_knife
+- aquaculture:neptunium_fillet_knife
+
+#forge:foods/grapefruits
+- croptopia:grapefruit?
+- fruittrees:grapefruit?
+- pamhc2trees:grapefruititem?
+
+#tropicraft:doors
+- #tropicraft:wooden_doors
+- tropicraft:bamboo_door
+- tropicraft:thatch_door
+
+#forge:crops/pepper
+- crockpot:pepper
+
+#forge:fence_gates
+- #forge:fence_gates/wooden
+- #forge:fence_gates/wooden
+
+#forge:ingots
+- #forge:ingots/manganese
+- #forge:ingots/shaka
+- #forge:ingots/iron
+- #forge:ingots/gold
+- #forge:ingots/brick
+- #forge:ingots/nether_brick
+- #forge:ingots/netherite
+- aquaculture:neptunium_ingot
+
+#vanillafoodpantry:bat_cooked_edibles
+- vanillafoodpantry:bat_cooked
+- vanillafoodpantry:bat_burger
+- vanillafoodpantry:bat_cheeseburger
+
+#vanillafoodpantry:portions_carrot
+- #forge:foods/carrots
+- mysticalworld:cooked_carrot?
+- veggie_way:cooked_carrot?
+
+#forge:crops/nether_wart
+- minecraft:nether_wart
+
+#forge:foods/spam
+- vanillafoodpantry:sanitized_flesh_roasted
+- vanillafoodpantry:sanitized_flesh_steamed
+
+#forge:milk/milk
+- minecraft:milk_bucket
+
+#minecraft:coals
+- minecraft:coal
+- minecraft:charcoal
+
+#forge:bread/wheat
+- minecraft:bread
+
+#carrots:whisks
+- vanillafoodpantry:whisk
+
+#forge:foods/wild_greens
+- minecraft:fern
+- minecraft:grass
+
+#forge:buckets/ink
+- carrots:squidink_bucket
+
+#vanillafoodpantry:seedoil_seeds
+- minecraft:wheat_seeds
+- minecraft:pumpkin_seeds
+- vanillafoodpantry:roasted_seeds_pumpkin
+- croptopia:barley_seed?
+- croptopia:blackbean_seed?
+- croptopia:cantaloupe_seed?
+- croptopia:corn_seed?
+- croptopia:honeydew_seed?
+- croptopia:hops_seed?
+- croptopia:oat_seed?
+- croptopia:peanut_seed?
+- simplefarming:barley_seeds?
+- simplefarming:cantaloupe_seeds?
+- simplefarming:corn_seeds?
+- simplefarming:honeydew_seeds?
+- simplefarming:oat_seeds?
+- simplefarming:peanut_seeds?
+- simplefarming:sunflower_seeds?
+- veggie_way:corn_seeds?
+- xlfoodmod:corn_seeds?
+
+#forge:storage_blocks/hay
+- minecraft:hay_block
+
+#forge:cooked_fishes/lionfish
+- upgrade_aquatic:cooked_lionfish
+
+#vanillafoodpantry:drops/ravager_other
+- vanillafoodpantry:ravager_bone
+- vanillafoodpantry:ravager_hide
+- vanillafoodpantry:ravager_left_horn
+- vanillafoodpantry:ravager_right_horn
+
+#forge:vegetables/asparagus
+- crockpot:asparagus
+
+#carrots:additives/flower_power
+- vanillafoodpantry:foodpowder_pinkflowers
+
+#forge:ingots/nether_brick
+- minecraft:nether_brick
+
+#carrots:heads/mobs
+- minecraft:skeleton_skull
+- minecraft:wither_skeleton_skull
+- minecraft:creeper_head
+- minecraft:zombie_head
+
+#forge:storage_blocks/snow_balls
+- minecraft:snow_block
+
+#forge:foods/cheeses
+- vanillafoodpantry:cheese_ball
+- betteranimalsplus:goatcheese?
+- burgermod:cheese?
+- charcoal_pit:cheese?
+- croptopia:cheese?
+- pamhc2foodcore:cheeseitem?
+- simplefarming:cheese_slice?
+- xlfoodmod:cheese?
+
+#anthillinside:fertilizers
+- minecraft:bonemeal
+
+#carrots:portions_small_honey
+- vanillafoodpantry:portion_honey
+
+#carrots:nutrition/notes/caffeine
+- minecraft:cocoa_beans
+- vanillafoodpantry:fizzing_agent
+- vanillafoodpantry:raw_caffeine
+- vanillafoodpantry:seedmush_cocoa
+
+#upgrade_aquatic:river_logs
+- upgrade_aquatic:river_log
+- upgrade_aquatic:river_wood
+- upgrade_aquatic:stripped_river_log
+- upgrade_aquatic:stripped_river_wood
+
+#forge:storage_blocks/lapis
+- minecraft:lapis_block
+
+#carrots:nutrition/notes/fats
+- minecraft:salmon
+- carrots:seedoil_bucket
+- vanillafoodpantry:bucket_seedoil
+- vanillafoodpantry:seedmush
+- vanillafoodpantry:seedoil_jar
+
+#minecraft:levers
+- minecraft:lever
+- minecraft:lever
+
+#forge:ingredients/egg_eggwhites
+- minecraft:egg
+- minecraft:turtle_egg
+- vanillafoodpantry:egg_white
+- #vanillafoodpantry:drops/optional_raw_eggs
+
+#forge:dyes/orange
+- minecraft:orange_dye
+- vanillafoodpantry:foodpowder_carrot
+
+#carrots:nutrition/notes/wheat
+- minecraft:bread
+- minecraft:cake
+- minecraft:cookie
+- minecraft:wheat
+- minecraft:wheat_seeds
+
+#carrots:additives/drying
+- vanillafoodpantry:drying_agent
+- veggie_way:drying_agent?
+
+#carrots:portions_water
+- vanillafoodpantry:bowl_water
+- vanillafoodpantry:bottle_water
+- survive:purified_water_bottle?
+- survive:purified_water_bowl?
+
+#forge:tools/shears
+- minecraft:shears
+- #forge:shears
+
+#forge:vines
+- #forge:green_vines
+- minecraft:weeping_vines
+- minecraft:twisting_vines
+
+#forge:ingredients/blackpepper
+- vanillafoodpantry:foodpowder_peppercorn
+- pamhc2foodextended:blackpepperitem?
+
+#forge:golden_apples
+- #forge:foods/golden_apples
+
+#forge:pasta/raw_pasta
+- farmersdelight:raw_pasta
+
+#carrots:barter_tokens
+- #carrots:barter_tokens/verypoor
+- #carrots:barter_tokens/poor
+- #carrots:barter_tokens/base
+- #carrots:barter_tokens/good
+- #carrots:barter_tokens/verygood
+- #carrots:barter_tokens/excellent
+- #carrots:barter_tokens/great
+- #carrots:barter_tokens/epic
+- #carrots:barter_tokens/legendary
+
+#forge:ingredients/nuts
+- vanillafoodpantry:acorn_nuts
+- vanillafoodpantry:honey_roasted_acorn_nuts
+- croptopia:almond?
+- croptopia:cashew?
+- croptopia:pecan?
+- croptopia:walnut?
+- pamhc2trees:almonditem?
+- pamhc2trees:cashewitem?
+- pamhc2trees:hazelnutitem?
+- pamhc2trees:pecanitem?
+- pamhc2trees:pinenutitem?
+- pamhc2trees:pistachioitem?
+- pamhc2trees:walnutitem?
+- pamhc2trees:roastedalmonditem?
+- pamhc2trees:roastedcashewitem?
+- pamhc2trees:roastedchestnutitem?
+- pamhc2trees:roastedhazelnutitem?
+- pamhc2trees:roastedpecanitem?
+- pamhc2trees:roastedpinenutitem?
+- pamhc2trees:roastedpistachioitem?
+- pamhc2trees:roastedwalnutitem?
+
+#forge:glass/white
+- minecraft:white_stained_glass
+
+#forge:glass_panes/red
+- minecraft:red_stained_glass_pane
+
+#druidcraft:rockroot_blocks
+- druidcraft:rockroot_block
+
+#minecraft:fishes
+- minecraft:cod
+- minecraft:cooked_cod
+- minecraft:salmon
+- minecraft:cooked_salmon
+- minecraft:pufferfish
+- minecraft:tropical_fish
+- tropicraft:raw_fish
+- tropicraft:cooked_fish
+- upgrade_aquatic:pike
+- upgrade_aquatic:cooked_pike
+- upgrade_aquatic:lionfish
+- upgrade_aquatic:cooked_lionfish
+- upgrade_aquatic:perch
+- upgrade_aquatic:cooked_perch
+- aquaculture:atlantic_cod
+- aquaculture:blackfish
+- aquaculture:pacific_halibut
+- aquaculture:atlantic_halibut
+- aquaculture:atlantic_herring
+- aquaculture:pink_salmon
+- aquaculture:pollock
+- aquaculture:rainbow_trout
+- aquaculture:bayad
+- aquaculture:boulti
+- aquaculture:capitaine
+- aquaculture:synodontis
+- aquaculture:smallmouth_bass
+- aquaculture:bluegill
+- aquaculture:brown_trout
+- aquaculture:carp
+- aquaculture:catfish
+- aquaculture:gar
+- aquaculture:minnow
+- aquaculture:muskellunge
+- aquaculture:perch
+- aquaculture:arapaima
+- aquaculture:piranha
+- aquaculture:tambaqui
+- aquaculture:brown_shrooma
+- aquaculture:red_shrooma
+- aquaculture:red_grouper
+- aquaculture:tuna
+
+#minecraft:wool/yellow
+- minecraft:yellow_wool
+- minecraft:yellow_wool
+
+#vanillafoodpantry:decker_proteins
+- #forge:foods/cooked_proteins
+- #forge:foods/cheeses
+- #forge:foods/cooked_meats
+- #forge:foods/sushi
+- vanillafoodpantry:cactus_pad_roasted
+- vanillafoodpantry:roasted_vegetables
+- vanillafoodpantry:molasses_glazed_carrots
+- vanillafoodpantry:roasted_eggplant
+
+#carrots:concrete
+- minecraft:white_concrete
+- minecraft:black_concrete
+- minecraft:orange_concrete
+- minecraft:magenta_concrete
+- minecraft:light_blue_concrete
+- minecraft:yellow_concrete
+- minecraft:lime_concrete
+- minecraft:pink_concrete
+- minecraft:gray_concrete
+- minecraft:light_gray_concrete
+- minecraft:cyan_concrete
+- minecraft:purple_concrete
+- minecraft:blue_concrete
+- minecraft:brown_concrete
+- minecraft:green_concrete
+- minecraft:red_concrete
+
+#carrots:null
+
+#forge:fruits
+- #forge:fruits/blueberries
+- #forge:fruits/elderberries
+- #forge:fruits/apple
+- #forge:fruits/mulberry
+
+#forge:ingredients/veggie_nuggets
+- vanillafoodpantry:cactus_pad_raw
+- vanillafoodpantry:cactus_pad_roasted
+- croptopia:broccoli?
+- croptopia:cauliflower?
+- croptopia:eggplant?
+- croptopia:squash?
+- croptopia:zucchini?
+- pamhc2crops:broccoliitem?
+- pamhc2crops:caulifloweritem?
+- pamhc2crops:eggplantitem?
+- pamhc2crops:zucchiniitem?
+- simplefarming:eggplant?
+- simplefarming:broccoli?
+- simplefarming:zucchini?
+
+#endergetic:poise_stems
+- endergetic:poise_stem
+- endergetic:stripped_poise_stem
+- endergetic:poise_wood
+- endergetic:stripped_poise_wood
+- endergetic:glowing_poise_stem
+- endergetic:glowing_poise_wood
+
+#forge:sand/colorless
+- minecraft:sand
+
+#forge:foods/muffins
+- vanillafoodpantry:apple_muffin
+- vanillafoodpantry:carrot_muffin
+- vanillafoodpantry:cocoa_muffin
+- vanillafoodpantry:honey_muffin
+- vanillafoodpantry:pumpkin_muffin
+- vanillafoodpantry:uglifruit_muffin
+- pamhc2foodcore:caramelmuffinitem?
+- pamhc2foodcore:carrotmuffinitem?
+- pamhc2foodcore:chocolatemuffinitem?
+- pamhc2foodcore:pumpkinmuffinitem?
+
+#forge:ingots/clay
+- minecraft:clay_ball
+
+#forge:foods/cooked_veggie_kebabs
+- vanillafoodpantry:kebab_veggie
+
+#forge:ingredients/bouillon
+- vanillafoodpantry:foodpowder_bouillon
+
+#forge:foods/tofus
+- #forge:foods/cooked_tofus
+- croptopia:tofu?
+- pamhc2foodextended:firmtofuitem?
+- pamhc2foodextended:silkentofuitem?
+- pamhc2foodextended:rawtofabbititem?
+- pamhc2foodextended:rawtofaconitem?
+- pamhc2foodextended:rawtofeakitem?
+- pamhc2foodextended:rawtofickenitem?
+- pamhc2foodextended:rawtofishitem?
+- pamhc2foodextended:rawtofuttonitem?
+- simplefarming:tofu?
+- veggie_way:fresh_tofu?
+
+#forge:foods/cooked_bear
+- vanillafoodpantry:bear_cooked
+
+#quark:wooden_vertical_slabs
+- upgrade_aquatic:driftwood_vertical_slab
+- upgrade_aquatic:river_vertical_slab
+
+#aquaculture:tackle_box_green
+- minecraft:green_dye
+- minecraft:kelp
+- aquaculture:algae
+
+#forge:ingredients/syrup/mocha
+- vanillafoodpantry:drink_syrup_mocha
+
+#forge:storage_blocks/moonstone
+- druidcraft:moonstone_block
+
+#tropicraft:wooden_slabs
+- tropicraft:palm_slab
+- tropicraft:mahogany_slab
+- tropicraft:mangrove_slab
+
+#forge:gems/diamond
+- minecraft:diamond
+
+#forge:armor/shields
+- minecraft:shield
+
+#minecraft:walls
+- minecraft:cobblestone_wall
+- minecraft:mossy_cobblestone_wall
+- minecraft:brick_wall
+- minecraft:prismarine_wall
+- minecraft:red_sandstone_wall
+- minecraft:mossy_stone_brick_wall
+- minecraft:granite_wall
+- minecraft:stone_brick_wall
+- minecraft:nether_brick_wall
+- minecraft:andesite_wall
+- minecraft:red_nether_brick_wall
+- minecraft:sandstone_wall
+- minecraft:end_stone_brick_wall
+- minecraft:diorite_wall
+- minecraft:blackstone_wall
+- minecraft:polished_blackstone_brick_wall
+- minecraft:polished_blackstone_wall
+- druidcraft:dry_mud_brick_wall
+- upgrade_aquatic:kelpy_cobblestone_wall
+- upgrade_aquatic:polar_kelpy_cobblestone_wall
+- upgrade_aquatic:thorny_kelpy_cobblestone_wall
+- upgrade_aquatic:ochre_kelpy_cobblestone_wall
+- upgrade_aquatic:tongue_kelpy_cobblestone_wall
+- upgrade_aquatic:kelpy_stone_brick_wall
+- upgrade_aquatic:polar_kelpy_stone_brick_wall
+- upgrade_aquatic:thorny_kelpy_stone_brick_wall
+- upgrade_aquatic:ochre_kelpy_stone_brick_wall
+- upgrade_aquatic:tongue_kelpy_stone_brick_wall
+- upgrade_aquatic:tooth_wall
+- upgrade_aquatic:tooth_brick_wall
+- upgrade_aquatic:scute_shingle_wall
+- upgrade_aquatic:scute_pavement_wall
+- upgrade_aquatic:coralstone_wall
+- upgrade_aquatic:bubble_coralstone_wall
+- upgrade_aquatic:brain_coralstone_wall
+- upgrade_aquatic:tube_coralstone_wall
+- upgrade_aquatic:horn_coralstone_wall
+- upgrade_aquatic:fire_coralstone_wall
+- upgrade_aquatic:acan_coralstone_wall
+- upgrade_aquatic:finger_coralstone_wall
+- upgrade_aquatic:star_coralstone_wall
+- upgrade_aquatic:moss_coralstone_wall
+- upgrade_aquatic:petal_coralstone_wall
+- upgrade_aquatic:branch_coralstone_wall
+- upgrade_aquatic:rock_coralstone_wall
+- upgrade_aquatic:pillow_coralstone_wall
+- upgrade_aquatic:silk_coralstone_wall
+- upgrade_aquatic:chrome_coralstone_wall
+- upgrade_aquatic:elder_prismarine_coralstone_wall
+- upgrade_aquatic:prismarine_coralstone_wall
+- upgrade_aquatic:dead_coralstone_wall
+- endergetic:mystical_obsidian_wall
+
+#carrots:portions_sugar
+- minecraft:sugar
+- vanillafoodpantry:foodpowder_honey
+- vanillafoodpantry:foodpowder_xylitol
+
+#carrots:barter_tokens/great
+- carrots:barter_token_great
+
+#forge:water_bottles
+- vanillafoodpantry:bottle_water
+- survive:purified_water_bottle?
+
+#carrots:small_fish
+- minecraft:cod
+- fins:blu_wee?
+- fins:flatback_sucker?
+- fins:high_finned_blue?
+- fins:pea_wee?
+- fins:swamp_mucker?
+- fins:vibra_wee?
+
+#forge:powders/gelatin
+- vanillafoodpantry:foodpowder_gelatin
+
+#carrots:torches
+- minecraft:soul_torch
+- minecraft:torch
+
+#forge:foods/meat_pies
+- #forge:foods/egg_pies
+- vanillafoodpantry:fish_pie_salmon
+
+#forge:ingredients/kebabs/fruit
+- minecraft:apple
+- minecraft:chorus_fruit
+- #carrots:portions_melonfruit
+- minecraft:sweet_berries
+- croptopia:kiwi?
+- croptopia:apricot?
+- croptopia:banana?
+- croptopia:cherry?
+- croptopia:nectarine?
+- croptopia:peach?
+- croptopia:pear?
+- croptopia:persimmon?
+- croptopia:plum?
+- croptopia:mango?
+- croptopia:starfruit?
+- pamhc2crops:kiwiitem?
+- pamhc2trees:apricotitem?
+- pamhc2trees:bananaitem?
+- pamhc2trees:cherryitem?
+- pamhc2trees:pearitem?
+- pamhc2trees:plumitem?
+- pamhc2trees:mangoitem?
+- simplefarming:apricot?
+- simplefarming:banana?
+- simplefarming:cherries?
+- simplefarming:pear?
+- simplefarming:plum?
+- simplefarming:mango?
+
+#minecraft:music_discs
+- #minecraft:creeper_drop_music_discs
+- minecraft:music_disc_pigstep
+- #tropicraft:music_discs
+- endergetic:music_disc_kilobyte
+
+#caverns_and_chasms:affliction_items
+- abnormals_delight:silver_knife
+
+#forge:empty_bottles
+- minecraft:glass_bottle
+- minecraft:glass_bottle
+- vanillafoodpantry:empty_bottle
+
+#forge:ingredients/tomato
+- vanillafoodpantry:foodpowder_tomato
+
+#forge:gems
+- #forge:gems/azurite
+- #forge:gems/eudialyte
+- #forge:gems/zircon
+- #forge:gems/zirconium
+- druidcraft:amber
+- druidcraft:moonstone
+- druidcraft:fiery_glass
+- #forge:gems/diamond
+- #forge:gems/emerald
+- #forge:gems/lapis
+- #forge:gems/prismarine
+- #forge:gems/quartz
+
+#forge:bonemeals
+- minecraft:bone_meal
+- minecraft:bone_meal
+- vanillafoodpantry:bat_poop
+- vanillafoodpantry:flesh_meal
+
+#forge:foods/raw_kelp
+- minecraft:kelp
+- vanillafoodpantry:ink_kelp
+- vanillafoodpantry:washed_kelp_niblet
+- undergarden:glowing_kelp?
+- upgrade_aquatic:ochre_kelp?
+- upgrade_aquatic:polar_kelp?
+- upgrade_aquatic:thorny_kelp?
+- upgrade_aquatic:tongue_kelp?
+
+#minecraft:sand
+- minecraft:sand
+- minecraft:red_sand
+
+#druidcraft:darkwood_logs
+- druidcraft:darkwood_log
+- druidcraft:darkwood_wood
+- druidcraft:stripped_darkwood_log
+- druidcraft:stripped_darkwood_wood
+
+#forge:foods/grapes
+- croptopia:grape?
+- pamhc2crops:grapeitem?
+- pamhc2crops:greengrapeitem?
+- simplefarming:grapes?
+- terraqueous:grapes?
+
+#upgrade_aquatic:fire_fans_corals
+- minecraft:fire_coral
+- minecraft:fire_coral_fan
+
+#forge:raw_chicken
+- minecraft:chicken
+- farmersdelight:chicken_cuts
+
+#forge:foods/peanuts
+- croptopia:peanut?
+- pamhc2crops:peanutitem?
+- simplefarming:peanut?
+
+#forge:buckets/cow_milk
+- carrots:cowmilk_bucket
+
+#forge:dyes/light_gray
+- minecraft:light_gray_dye
+
+#forge:dusts/rocksalt
+- vanillafoodpantry:salt
+
+#forge:milk
+- #forge:milk/milk
+- #forge:milk/milk_bottle
+- vanillafoodpantry:milkdrink_plain
+- vanillafoodpantry:bowl_milk
+
+#forge:seeds/eggplant
+- crockpot:eggplant_seeds
+
+#forge:glass/blue
+- minecraft:blue_stained_glass
+
+#forge:supports_beacon
+- druidcraft:moonstone_block
+- druidcraft:amber_block
+
+#minecraft:wooden_trapdoors
+- minecraft:acacia_trapdoor
+- minecraft:birch_trapdoor
+- minecraft:dark_oak_trapdoor
+- minecraft:jungle_trapdoor
+- minecraft:oak_trapdoor
+- minecraft:spruce_trapdoor
+- minecraft:crimson_trapdoor
+- minecraft:warped_trapdoor
+- druidcraft:darkwood_trapdoor
+- druidcraft:elder_trapdoor
+- upgrade_aquatic:driftwood_trapdoor
+- upgrade_aquatic:river_trapdoor
+- endergetic:poise_trapdoor
+
+#forge:cooked_pork
+- minecraft:cooked_porkchop
+- farmersdelight:cooked_bacon
+
+#forge:storage_blocks/coal
+- minecraft:coal_block
+
+#forge:glass/light_blue
+- minecraft:light_blue_stained_glass
+
+#forge:dusts/sugar
+- minecraft:sugar
+- minecraft:sugar
+- vanillafoodpantry:foodpowder_xylitol
+
+#forge:foods/fried_eggs
+- vanillafoodpantry:fried_egg
+- vanillafoodpantry:fried_eggwhite
+- betteranimalsplus:fried_egg?
+- charcoal_pit:cooked_egg?
+- crockpot:cooked_egg?
+- farmersdelight:fried_egg?
+- foodexpansion:fried_egg?
+- pamhc2foodcore:friedeggitem?
+- simplefarming:cooked_egg?
+- veggie_way:fried_egg?
+- xlfoodmod:fried_egg?
+
+#forge:cooked_bacon
+- farmersdelight:cooked_bacon
+
+#vanillafoodpantry:leaf_wrap
+- #minecraft:leaves
+- #forge:foods/raw_kelp
+- vanillafoodpantry:washed_kelp_niblet
+
+#upgrade_aquatic:dead_fire_fans_corals
+- minecraft:dead_fire_coral
+- minecraft:dead_fire_coral_fan
+
+#minecraft:arrows
+- minecraft:arrow
+- minecraft:tipped_arrow
+- minecraft:spectral_arrow
+- dannys_expansion:ice_arrow
+
+#tropicraft:stairs
+- #tropicraft:wooden_stairs
+- tropicraft:bamboo_stairs
+- tropicraft:chunk_stairs
+- tropicraft:thatch_stairs
+
+#forge:foods/pies
+- vanillafoodpantry:apple_pie
+- vanillafoodpantry:enriched_pumpkin_pie
+- vanillafoodpantry:golden_fruit_pie
+- vanillafoodpantry:mixed_berry_pie
+
+#vanillafoodpantry:birdy_feed
+- vanillafoodpantry:bird_food
+- vanillafoodpantry:roasted_seeds_sunflower
+- vanillafoodpantry:roasted_seeds_pumpkin
+- vanillafoodpantry:roasted_seeds_melon
+- vanillafoodpantry:acorn_nuts
+- vanillafoodpantry:dried_mixed_berries
+
+#carrots:empty_jars
+- #carrots:large_empty_jars
+- #carrots:small_empty_jars
+
+#forge:foods/any_proteins
+- #forge:foods/cooked_proteins
+- #forge:eggs
+- #forge:foods/any_raw_meats
+- #forge:foods/raw_seafood
+- #forge:foods/cheeses
+- #forge:foods/lentils
+- #forge:foods/tofus
+- vanillafoodpantry:guardian_meat_raw
+- minecraft:pufferfish
+- minecraft:rotten_flesh
+- minecraft:tropical_fish
+
+#minecraft:wooden_doors
+- minecraft:oak_door
+- minecraft:spruce_door
+- minecraft:birch_door
+- minecraft:jungle_door
+- minecraft:acacia_door
+- minecraft:dark_oak_door
+- minecraft:crimson_door
+- minecraft:warped_door
+- druidcraft:darkwood_door
+- druidcraft:elder_door
+- upgrade_aquatic:driftwood_door
+- upgrade_aquatic:river_door
+- endergetic:poise_door
+
+#forge:armor/chestplates
+- minecraft:golden_chestplate
+- minecraft:leather_chestplate
+- minecraft:chainmail_chestplate
+- minecraft:iron_chestplate
+- minecraft:diamond_chestplate
+- minecraft:netherite_chestplate
+
+#forge:foods/soybeans
+- croptopia:soybean?
+- pamhc2crops:soybeanitem?
+- simplefarming:soybean?
+
+#vanillafoodpantry:ny_nuggets_fish
+- vanillafoodpantry:nuggets_fish_jerky
+- vanillafoodpantry:nuggets_fish_fried
+
+#forge:glass/purple
+- minecraft:purple_stained_glass
+
+#carrots:heads/players
+- minecraft:player_head
+
+#forge:dyes/magenta
+- minecraft:magenta_dye
+- vanillafoodpantry:foodpowder_berry_mix
+
+#minecraft:crimson_stems
+- minecraft:crimson_stem
+- minecraft:stripped_crimson_stem
+- minecraft:crimson_hyphae
+- minecraft:stripped_crimson_hyphae
+
+#upgrade_aquatic:brain_fans_corals
+- minecraft:brain_coral
+- minecraft:brain_coral_fan
+
+#tropicraft:wooden_stairs
+- tropicraft:palm_stairs
+- tropicraft:mahogany_stairs
+- tropicraft:mangrove_stairs
+
+#upgrade_aquatic:dead_rock_fans_corals
+- upgrade_aquatic:dead_rock_coral
+- upgrade_aquatic:dead_rock_coral_fan
+
+#forge:foods/rolls
+- vanillafoodpantry:cheese_minibread
+- vanillafoodpantry:cooked_dough
+- vanillafoodpantry:cooked_sweet_dough
+- vanillafoodpantry:egg_minibread
+- vanillafoodpantry:meat_minibread
+
+#forge:raw_fishes/perch
+- upgrade_aquatic:perch
+- abnormals_delight:perch_slice
+
+#minecraft:stone_tool_materials
+- minecraft:cobblestone
+- minecraft:blackstone
+
+#forge:dyes/cyan
+- minecraft:cyan_dye
+
+#vanillafoodpantry:chillable_drinks
+- #forge:foods/juices
+- #forge:foods/teas
+- vanillafoodpantry:bottle_birch_sap
+- vanillafoodpantry:bottle_fizzy_water
+- vanillafoodpantry:bottle_rose_water
+- vanillafoodpantry:bottle_tulip_tonic
+- vanillafoodpantry:bottle_water
+- vanillafoodpantry:italian_soda
+
+#forge:foods/small_berries
+- minecraft:sweet_berries
+- #forge:foods/blueberries
+- #forge:foods/strawberries
+- charcoal_pit:cherry?
+- croptopia:blackberry?
+- croptopia:cherry?
+- croptopia:elderberry?
+- croptopia:raspberry?
+- druidcraft:elderberries?
+- fluffy_farmer:juicy_berries?
+- fruittrees:cherry?
+- pamhc2crops:blackberryitem?
+- pamhc2crops:elderberryitem?
+- pamhc2crops:huckleberryitem?
+- pamhc2crops:raspberryitem?
+- simplefarming:blackberries?
+- simplefarming:cherries?
+- simplefarming:raspberries?
+- terraqueous:cherry?
+- terraqueous:mulberry?
+- undergarden:blisterberry?
+- upgrade_aquatic:mulberry?
+
+#carrots:dead_coral
+- #carrots:dead_coral_blocks
+- #carrots:dead_coral_plants
+
+#carrots:villager_souls
+- vanillafoodpantry:tainted_villager_soul
+
+#minecraft:barter_tokens/verypoor
+- #minecraft:logs
+- #minecraft:logs
+
+#minecraft:barter_tokens/poor
+- #minecraft:stone_bricks
+- #minecraft:stone_bricks
+
+#forge:foods/cooked_fruit_kebabs
+- vanillafoodpantry:kebab_fruit
+- vanillafoodpantry:kebab_fruit_raw
+
+#forge:foods/sodas
+- #carrots:fizzy_drinks
+
+#forge:foods/whole_eggplants
+- crockpot:eggplant?
+- croptopia:eggplant?
+- mysticalworld:aubergine?
+- pamhc2crops:eggplantitem?
+- simplefarming:eggplant?
+
+#forge:crops/rice
+- farmersdelight:rice
+
+#carrots:nutrition/notes/hi_fiber
+- minecraft:pumpkin
+- minecraft:pumpkin_pie
+- vanillafoodpantry:portion_roasted_pumpkin
+
+#forge:dyes/purple
+- minecraft:purple_dye
+- vanillafoodpantry:foodpowder_chorusfruit
+
+#forge:buckets/experience
+- carrots:experience_bucket
+
+#diet:proteins
+- carrots:cowmilk_bucket
+- carrots:oatmilk_bucket
+- vanillafoodpantry:all_eyes_trailmix
+- vanillafoodpantry:bowl_milk
+- vanillafoodpantry:bowl_honeymilk
+- vanillafoodpantry:creamsoup_leek
+- vanillafoodpantry:creamsoup_tomato
+- vanillafoodpantry:decker_generic
+- vanillafoodpantry:decker_kinged
+- vanillafoodpantry:desert_salad
+- vanillafoodpantry:kelp_shake
+- vanillafoodpantry:milkdrink_mocha_mix
+- vanillafoodpantry:milkdrink_peanuts
+- vanillafoodpantry:roasted_seeds_litemix
+- vanillafoodpantry:salty_eyes_chew
+- vanillafoodpantry:sweet_eyes_chew
+- vanillafoodpantry:undead_wotsit
+
+#carrots:barter_tokens/legendary
+- carrots:barter_token_legendary
+
+#forge:tools/weapon_like
+- #forge:tools/axes
+- #forge:tools/hammers
+- #forge:tools/paxels
+
+#forge:rods/prismarine
+- upgrade_aquatic:prismarine_rod
+
+#vanillafoodpantry:cactus_pads
+- vanillafoodpantry:cactus_pad_raw
+- vanillafoodpantry:cactus_pad_roasted
+
+#tea_kettle:boiling_kettles
+- tea_kettle:boiling_kettle
+- simplytea:teapot_hot?
+
+#forge:ingredients/bottle_milk
+- vanillafoodpantry:bowl_milk
+- vanillafoodpantry:foodpowder_milk
+- vanillafoodpantry:milkdrink_plain
+- eanimod:milk_bottle?
+- farmersdelight:milk_bottle?
+- neapolitan:milk_bottle?
+
+#forge:foods/nugget
+- vanillafoodpantry:nugget_beef_jerky
+- vanillafoodpantry:nugget_fish_jerky
+- vanillafoodpantry:portion_jerky
+
+#carrots:nutrition/notes/fruits
+- minecraft:apple
+- minecraft:chorus_fruit
+- minecraft:enchanted_golden_apple
+- minecraft:glistering_melon_slice
+- minecraft:golden_apple
+- minecraft:melon
+- minecraft:melon_slice
+- minecraft:sweet_berries
+- vanillafoodpantry:appleslices_sunbutter_snack
+- vanillafoodpantry:berries_and_cream
+- vanillafoodpantry:dried_apple_slices
+- vanillafoodpantry:dried_mixed_berries
+- vanillafoodpantry:fruit_salad
+- vanillafoodpantry:golden_mixed_berries
+- vanillafoodpantry:honey_glazed_melon_bites
+- vanillafoodpantry:juice_apple
+- vanillafoodpantry:juice_berries
+- vanillafoodpantry:juice_grape
+- vanillafoodpantry:juice_kiwi
+- vanillafoodpantry:juice_mango
+- vanillafoodpantry:juice_melon
+- vanillafoodpantry:juice_raftugli
+- vanillafoodpantry:kebab_fruit
+- vanillafoodpantry:kebab_fruit_raw
+- vanillafoodpantry:raftugli_fruit
+- vanillafoodpantry:mixed_berries
+- vanillafoodpantry:mysterious_fruit_salad
+- vanillafoodpantry:nomads_meal_bar
+- vanillafoodpantry:nomads_snack_bar
+
+#vanillafoodpantry:golden_pie_fruits
+- #forge:foods/golden_apples
+- vanillafoodpantry:golden_mixed_berries
+- atum:golden_date?
+- atum:golden_date_enchanted?
+
+#aquaculture:turtle_edible
+- #minecraft:small_flowers
+- minecraft:vine
+
+#upgrade_aquatic:moss_fans_corals
+- upgrade_aquatic:moss_coral
+- upgrade_aquatic:moss_coral_fan
+
+#carrots:glass_panes
+- minecraft:glass_pane
+- minecraft:white_stained_glass_pane
+- minecraft:black_stained_glass_pane
+- minecraft:orange_stained_glass_pane
+- minecraft:magenta_stained_glass_pane
+- minecraft:light_blue_stained_glass_pane
+- minecraft:yellow_stained_glass_pane
+- minecraft:lime_stained_glass_pane
+- minecraft:pink_stained_glass_pane
+- minecraft:gray_stained_glass_pane
+- minecraft:light_gray_stained_glass_pane
+- minecraft:cyan_stained_glass_pane
+- minecraft:purple_stained_glass_pane
+- minecraft:blue_stained_glass_pane
+- minecraft:brown_stained_glass_pane
+- minecraft:green_stained_glass_pane
+- minecraft:red_stained_glass_pane
+
+#upgrade_aquatic:dead_pillow_fans_corals
+- upgrade_aquatic:dead_pillow_coral
+- upgrade_aquatic:dead_pillow_coral_fan
+
+#forge:ingredients/fish_chowder_main
+- minecraft:cooked_salmon
+- vanillafoodpantry:guardian_meat
+- fins:cooked_bugmeat?
+- fins:golden_river_ray_wing_fillet?
+- simplefarming:fish_fillet?
+- upgrade_aquatic:cooked_pike?
+
+#forge:gems/prismarine
+- minecraft:prismarine_crystals
+
+#farmersdelight:cabbage_roll_ingredients
+- #forge:raw_pork
+- #forge:raw_fishes
+- #forge:raw_chicken
+- #forge:raw_beef
+- #forge:raw_mutton
+- #forge:eggs
+- #forge:mushrooms
+- minecraft:carrot
+- minecraft:potato
+- minecraft:beetroot
+- #forge:raw_duck
+- #forge:raw_rabbit
+- #forge:raw_venison
+- nethers_delight:hoglin_loin
+
+#forge:ingredients/kebabs/fish
+- minecraft:cod
+- minecraft:salmon
+- vanillafoodpantry:pufferfish_raw
+- upgrade_aquatic:pike?
+- undergarden:raw_gwibling?
+
+#forge:ores/gold
+- #minecraft:gold_ores
+
+#carrots:portions_oil
+- vanillafoodpantry:seedoil_jar
+- croptopia:olive_oil?
+- pamhc2foodcore:cookingoilitem?
+- simplefarming:olive_oil?
+
+#forge:ores/salt
+- vanillafoodpantry:rock_salt_ore
+- vanillafoodpantry:rock_salt_ore_nether
+
+#forge:armor/helmets
+- minecraft:golden_helmet
+- minecraft:leather_helmet
+- minecraft:chainmail_helmet
+- minecraft:iron_helmet
+- minecraft:turtle_helmet
+- minecraft:diamond_helmet
+- minecraft:netherite_helmet
+
+#vanillafoodpantry:sliceable_cakes
+- minecraft:cake
+- foodexpansion:chocolate_cake?
+- neapolitan:banana_cake?
+- neapolitan:strawberry_cake?
+- neapolitan:vanilla_cake?
+- simplefarming:birthday_cake?
+- simplefarming:chocolate_cake?
+- xlfoodmod:chocolate_cake?
+- xlfoodmod:chocolate_cookie_cake?
+- xlfoodmod:strawberry_cake?
+- xlfoodmod:pumpkin_cake?
+
+#forge:foods/any_raw_meats
+- #forge:foods/raw_meats
+- vanillafoodpantry:bat_raw
+- vanillafoodpantry:bear_raw
+- vanillafoodpantry:bear_raw_charred
+- vanillafoodpantry:pigtail_raw
+- vanillafoodpantry:pigtail_salted
+- vanillafoodpantry:ravager_meat_raw
+- vanillafoodpantry:ravager_meat_charred
+- vanillafoodpantry:salt_pork
+- vanillafoodpantry:wolf_raw
+- aquaculture:frog_legs_raw?
+- betterdefaultbiomes:frog_leg?
+- crockpot:frog_legs?
+- exoticbirds:raw_birdmeat?
+
+#forge:foods/bananas
+- alexsmobs:banana?
+- croptopia:banana?
+- neapolitan:banana?
+- pamhc2trees:bananaitem?
+- simplefarming:banana?
+- terraqueous:banana?
+
+#forge:foods/bread
+- #forge:foods/breads
+
+#forge:ores/eudialyte
+- tropicraft:eudialyte_ore
+
+#forge:cooked_eggs
+- farmersdelight:fried_egg
+
+#carrots:portions_large_chill
+- minecraft:ice
+
+#vanillafoodpantry:decker_vegfruits
+- #forge:foods/cooked_veggie_kebabs
+- #forge:foods/cooked_fruit_kebabs
+- #forge:ingredients/salad
+- vanillafoodpantry:carrot_sunbutter_snack
+- vanillafoodpantry:appleslices_sunbutter_snack
+- vanillafoodpantry:fruit_salad
+- vanillafoodpantry:honey_glazed_melon_bites
+- vanillafoodpantry:pile_carrots
+- vanillafoodpantry:pile_beetroots
+- vanillafoodpantry:pile_mushrooms
+- vanillafoodpantry:washed_kelp_niblet
+- vanillafoodpantry:kelp_prepped
+- vanillafoodpantry:mixed_berries
+- vanillafoodpantry:kebab_fruit_raw
+- vanillafoodpantry:kebab_veggie_raw
+- vanillafoodpantry:raw_vegetables
+- vanillafoodpantry:roast_corn
+- vanillafoodpantry:roasted_eggplant
+- minecraft:apple
+- minecraft:beetroot
+- minecraft:carrot
+- minecraft:dried_kelp
+- minecraft:melon_slice
+- minecraft:sweet_berries
+- simplefarming:salad?
+
+#upgrade_aquatic:dead_star_fans_corals
+- upgrade_aquatic:dead_star_coral
+- upgrade_aquatic:dead_star_coral_fan
+
+#forge:weapons/magic
+- #forge:weapons/staffs
+
+#forge:grain/wheat
+- minecraft:wheat
+
+#forge:storage_blocks/flour
+- vanillafoodpantry:flour_pantry_block
+
+#carrots:knapped_flint
+- vanillafoodpantry:knapped_red_flint
+
+#forge:foods/raw_meats
+- minecraft:beef
+- minecraft:chicken
+- minecraft:mutton
+- minecraft:porkchop
+- minecraft:rabbit
+- vanillafoodpantry:bear_raw_prepped
+- vanillafoodpantry:horse_raw
+- vanillafoodpantry:llama_raw
+- vanillafoodpantry:phantom_meat_raw
+- vanillafoodpantry:ravager_meat_prepped
+- vanillafoodpantry:sanitized_flesh
+- alexsmobs:kangaroo_meat?
+- alexsmobs:moose_ribs?
+- aquaculture:arrau_turtle?
+- aquaculture:box_turtle?
+- aquaculture:frog?
+- aquaculture:starshell_turtle?
+- atum:camel?
+- betteranimalsplus:turkey_leg_raw?
+- betteranimalsplus:venison_raw?
+- iceandfire:fire_dragon_flesh?
+- iceandfire:ice_dragon_flesh?
+- iceandfire:lightning_dragon_flesh?
+- mysticalworld:venison?
+- simplefarming:raw_horse_meat?
+- undergarden:raw_dweller_meat?
+- #forge:raw_venison?
+
+#forge:glass/lime
+- minecraft:lime_stained_glass
+
+#forge:chests/wooden
+- minecraft:chest
+- minecraft:trapped_chest
+- upgrade_aquatic:driftwood_chest
+- upgrade_aquatic:driftwood_trapped_chest
+- upgrade_aquatic:river_chest
+- upgrade_aquatic:river_trapped_chest
+- endergetic:poise_chest
+- endergetic:poise_trapped_chest
+
+#minecraft:milk_bucket
+- minecraft:milk_bucket
+- minecraft:milk_bucket
+
+#vanillafoodpantry:birch_bark_logs
+- minecraft:birch_log
+- minecraft:birch_wood
+
+#upgrade_aquatic:dead_petal_fans_corals
+- upgrade_aquatic:dead_petal_coral
+- upgrade_aquatic:dead_petal_coral_fan
+
+#forge:gems/emerald
+- minecraft:emerald
+
+#forge:ingredients/kebabs/main
+- minecraft:potato
+- minecraft:apple
+- vanillafoodpantry:cactus_pad_raw
+- vanillafoodpantry:pile_carrots
+- croptopia:broccoli?
+- croptopia:cauliflower?
+- croptopia:eggplant?
+- croptopia:squash?
+- croptopia:sweetpotato?
+- croptopia:yam?
+- croptopia:zucchini?
+- pamhc2crops:broccoliitem?
+- pamhc2crops:caulifloweritem?
+- pamhc2crops:cassavaitem?
+- pamhc2crops:eggplantitem?
+- pamhc2crops:taroitem?
+- pamhc2crops:sweetpotatoitem?
+- pamhc2crops:wintersquashitem?
+- pamhc2crops:zucchiniitem?
+- pamhc2trees:breadfruititem?
+- simplefarming:broccoli?
+- simplefarming:cassava?
+- simplefarming:eggplant?
+- simplefarming:squash?
+- simplefarming:sweet_potato?
+- simplefarming:yam?
+- simplefarming:zucchini?
+
+#forge:barter_tokens/excellent
+- #forge:gems/diamond
+
+#forge:foods/cooked_game_meats
+- minecraft:cooked_beef
+- minecraft:cooked_mutton
+- minecraft:cooked_rabbit
+- vanillafoodpantry:bear_cooked
+- vanillafoodpantry:llama_cooked
+- vanillafoodpantry:phantom_meat
+- vanillafoodpantry:ravager_meat
+- alexsmobs:cooked_kangaroo_meat?
+- alexsmobs:cooked_moose_ribs?
+- atum:camel_cooked?
+- foodexpansion:cooked_llama_meat?
+- foodexpansion:cooked_polar_bear_meat?
+- #forge:cooked_venison?
+
+#forge:dusts/fire_proofing
+- vanillafoodpantry:fire_proofing_powder
+
+#minecraft:carpets
+- minecraft:white_carpet
+- minecraft:orange_carpet
+- minecraft:magenta_carpet
+- minecraft:light_blue_carpet
+- minecraft:yellow_carpet
+- minecraft:lime_carpet
+- minecraft:pink_carpet
+- minecraft:gray_carpet
+- minecraft:light_gray_carpet
+- minecraft:cyan_carpet
+- minecraft:purple_carpet
+- minecraft:blue_carpet
+- minecraft:brown_carpet
+- minecraft:green_carpet
+- minecraft:red_carpet
+- minecraft:black_carpet
+- farmersdelight:full_tatami_mat
+- farmersdelight:half_tatami_mat
+
+#forge:tools
+- #forge:tools/axes
+- #forge:tools/knives
+- #forge:tools/pickaxes
+- #forge:tools/shovels
+- #forge:tools/axes
+- #forge:tools/hammers
+- #forge:tools/hoes
+- #forge:tools/paxels
+- #forge:tools/pickaxes
+- #forge:tools/shears
+- #forge:tools/shovels
+- #forge:tools/snips
+
+#drinkbeer:beer
+- drinkbeer:beer_mug
+- drinkbeer:beer_mug_blaze_stout
+- drinkbeer:beer_mug_blaze_milk_stout
+- drinkbeer:beer_mug_apple_lambic
+- drinkbeer:beer_mug_sweet_berry_kriek
+- drinkbeer:beer_mug_haars_icey_pale_lager
+- drinkbeer:beer_mug_pumpkin_kvass
+- drinkbeer:beer_mug_night_howl_kvass
+
+#tea_kettle:frothing_kettles
+- tea_kettle:frothing_kettle
+- simplytea:teapot_frothed?
+
+#minecraft:stone_bricks
+- minecraft:stone_bricks
+- minecraft:mossy_stone_bricks
+- minecraft:cracked_stone_bricks
+- minecraft:chiseled_stone_bricks
+
+#carrots:adhesive_blocks
+- minecraft:slime_block
+
+#forge:glass/orange
+- minecraft:orange_stained_glass
+
+#forge:rods/bamboo
+- minecraft:bamboo
+
+#forge:foods/cooked_shellfish
+- vanillafoodpantry:squidd_cooked
+- vanillafoodpantry:squidd_on_a_stick
+- alexsmobs:cooked_lobster_tail?
+- betteranimalsplus:calamari_cooked?
+- betteranimalsplus:crab_meat_cooked?
+- charcoal_pit:cooked_calamari?
+- fins:cooked_bull_crab_claw?
+- fins:cooked_banded_redback_shrimp?
+- fins:cooked_luminous_calamari?
+- foodexpansion:cooked_squid?
+- mysticalworld:cooked_squid?
+- quark:cooked_crab_leg?
+- simplefarming:fried_calamari?
+- wellfedmod:grilled_squid_limb?
+
+#carrots:colorless_glass
+- minecraft:glass
+
+#vanillafoodpantry:bird_food_seeds
+- #forge:seeds/dryable
+- vanillafoodpantry:roasted_seeds_sunflower
+- vanillafoodpantry:roasted_seeds_pumpkin
+- vanillafoodpantry:roasted_seeds_melon
+- vanillafoodpantry:dried_seeds
+
+#tea_kettle:simplytea_cup_tea_floral
+- simplytea:cup_tea_floral?
+
+#forge:foods/snocones
+- #carrots:snocones
+
+#forge:raw_mutton
+- minecraft:mutton
+- farmersdelight:mutton_chops
+
+#forge:paper
+- minecraft:paper
+- minecraft:paper
+
+#minecraft:slabs
+- #minecraft:wooden_slabs
+- minecraft:stone_slab
+- minecraft:smooth_stone_slab
+- minecraft:stone_brick_slab
+- minecraft:sandstone_slab
+- minecraft:purpur_slab
+- minecraft:quartz_slab
+- minecraft:red_sandstone_slab
+- minecraft:brick_slab
+- minecraft:cobblestone_slab
+- minecraft:nether_brick_slab
+- minecraft:petrified_oak_slab
+- minecraft:prismarine_slab
+- minecraft:prismarine_brick_slab
+- minecraft:dark_prismarine_slab
+- minecraft:polished_granite_slab
+- minecraft:smooth_red_sandstone_slab
+- minecraft:mossy_stone_brick_slab
+- minecraft:polished_diorite_slab
+- minecraft:mossy_cobblestone_slab
+- minecraft:end_stone_brick_slab
+- minecraft:smooth_sandstone_slab
+- minecraft:smooth_quartz_slab
+- minecraft:granite_slab
+- minecraft:andesite_slab
+- minecraft:red_nether_brick_slab
+- minecraft:polished_andesite_slab
+- minecraft:diorite_slab
+- minecraft:cut_sandstone_slab
+- minecraft:cut_red_sandstone_slab
+- minecraft:blackstone_slab
+- minecraft:polished_blackstone_brick_slab
+- minecraft:polished_blackstone_slab
+- druidcraft:darkwood_slab
+- druidcraft:elder_slab
+- upgrade_aquatic:kelpy_cobblestone_slab
+- upgrade_aquatic:polar_kelpy_cobblestone_slab
+- upgrade_aquatic:thorny_kelpy_cobblestone_slab
+- upgrade_aquatic:ochre_kelpy_cobblestone_slab
+- upgrade_aquatic:tongue_kelpy_cobblestone_slab
+- upgrade_aquatic:kelpy_stone_brick_slab
+- upgrade_aquatic:polar_kelpy_stone_brick_slab
+- upgrade_aquatic:thorny_kelpy_stone_brick_slab
+- upgrade_aquatic:ochre_kelpy_stone_brick_slab
+- upgrade_aquatic:tongue_kelpy_stone_brick_slab
+- upgrade_aquatic:tooth_slab
+- upgrade_aquatic:tooth_brick_slab
+- upgrade_aquatic:scute_shingle_slab
+- upgrade_aquatic:scute_pavement_slab
+- upgrade_aquatic:coralstone_slab
+- upgrade_aquatic:bubble_coralstone_slab
+- upgrade_aquatic:brain_coralstone_slab
+- upgrade_aquatic:tube_coralstone_slab
+- upgrade_aquatic:horn_coralstone_slab
+- upgrade_aquatic:fire_coralstone_slab
+- upgrade_aquatic:acan_coralstone_slab
+- upgrade_aquatic:finger_coralstone_slab
+- upgrade_aquatic:star_coralstone_slab
+- upgrade_aquatic:moss_coralstone_slab
+- upgrade_aquatic:petal_coralstone_slab
+- upgrade_aquatic:branch_coralstone_slab
+- upgrade_aquatic:rock_coralstone_slab
+- upgrade_aquatic:pillow_coralstone_slab
+- upgrade_aquatic:silk_coralstone_slab
+- upgrade_aquatic:chrome_coralstone_slab
+- upgrade_aquatic:elder_prismarine_coralstone_slab
+- upgrade_aquatic:prismarine_coralstone_slab
+- upgrade_aquatic:dead_coralstone_slab
+- upgrade_aquatic:beachgrass_thatch_slab
+- endergetic:eumus_brick_slab
+
+#forge:raw_duck
+- abnormals_delight:duck_fillet
+
+#forge:foods/whole_pineapples
+- croptopia:pineapple?
+- pamhc2crops:pineappleitem?
+- terraqueous:pineapple?
+- xlfoodmod:pineapple?
+
+#caverns_and_chasms:necromium_gear
+- abnormals_delight:necromium_knife
+
+#forge:powders/cream
+- vanillafoodpantry:foodpowder_cream
+
+#forge:foods/cooked_eggplants
+- #forge:foods/grilled_eggplants
+- crockpot:cooked_eggplant?
+- mysticalworld:stuffed_aubergine?
+
+#forge:crops/asparagus
+- crockpot:asparagus
+
+#minecraft:buttons
+- #minecraft:wooden_buttons
+- minecraft:stone_button
+- minecraft:polished_blackstone_button
+- druidcraft:darkwood_button
+- druidcraft:elder_button
+
+#druidcraft:soulfire
+- druidcraft:white_soulfire
+- druidcraft:orange_soulfire
+- druidcraft:magenta_soulfire
+- druidcraft:light_blue_soulfire
+- druidcraft:yellow_soulfire
+- druidcraft:lime_soulfire
+- druidcraft:pink_soulfire
+- druidcraft:gray_soulfire
+- druidcraft:light_gray_soulfire
+- druidcraft:cyan_soulfire
+- druidcraft:purple_soulfire
+- druidcraft:blue_soulfire
+- druidcraft:brown_soulfire
+- druidcraft:green_soulfire
+- druidcraft:red_soulfire
+- druidcraft:black_soulfire
+
+#farmersdelight:comfort_foods
+- minecraft:mushroom_stew
+- minecraft:beetroot_soup
+- minecraft:rabbit_stew
+- #forge:foods/soups
+- #forge:foods/stews
+- neapolitan:adzuki_stew?
+- nethers_delight:strider_moss_stew
+
+#forge:buckets/lava
+- minecraft:lava_bucket
+
+#forge:raw_pork
+- minecraft:porkchop
+- farmersdelight:bacon
+
+#minecraft:rails
+- minecraft:rail
+- minecraft:powered_rail
+- minecraft:detector_rail
+- minecraft:activator_rail
+
+#forge:foods/milkdrinks
+- vanillafoodpantry:milkdrink_apple
+- vanillafoodpantry:milkdrink_berry_mix
+- vanillafoodpantry:milkdrink_blueberry
+- vanillafoodpantry:milkdrink_cocoa
+- vanillafoodpantry:milkdrink_heavy
+- vanillafoodpantry:milkdrink_klingon
+- vanillafoodpantry:milkdrink_mocha_mix
+- vanillafoodpantry:milkdrink_muscle_mix
+- vanillafoodpantry:milkdrink_peanuts
+- vanillafoodpantry:milkdrink_plain
+- vanillafoodpantry:milkdrink_pumpkin
+- vanillafoodpantry:milkdrink_strawberry
+- vanillafoodpantry:milkdrink_sweet
+
+#forge:cooked_duck
+- abnormals_delight:cooked_duck_fillet
+
+#forge:ingredients/syrup/melon
+- vanillafoodpantry:drink_syrup_melon
+
+#forge:ingots/manganese
+- tropicraft:manganese_ingot
+
+#minecraft:wooden_pressure_plates
+- minecraft:oak_pressure_plate
+- minecraft:spruce_pressure_plate
+- minecraft:birch_pressure_plate
+- minecraft:jungle_pressure_plate
+- minecraft:acacia_pressure_plate
+- minecraft:dark_oak_pressure_plate
+- minecraft:crimson_pressure_plate
+- minecraft:warped_pressure_plate
+- druidcraft:darkwood_pressure_plate
+- druidcraft:elder_pressure_plate
+- upgrade_aquatic:driftwood_pressure_plate
+- upgrade_aquatic:river_pressure_plate
+- endergetic:poise_pressure_plate
+
+#forge:ingredients/allium
+- vanillafoodpantry:chopped_alliums
+
+#carrots:portions_chill
+- minecraft:snow_block
+- survive:ice_cube?
+
+#forge:foods/jellos
+- #carrots:gelos
+
+#forge:foods/flours/wheat
+- vanillafoodpantry:portion_flour
+
+#forge:dusts/blaze
+- minecraft:blaze_powder
+
+#forge:ingredients/sweeteners
+- #carrots:portions_sugar
+
+#forge:tools/hammers
+
+#tropicraft:logs
+- tropicraft:palm_log
+- tropicraft:mahogany_log
+- tropicraft:light_mangrove_log
+- tropicraft:red_mangrove_log
+- tropicraft:black_mangrove_log
+- tropicraft:stripped_mangrove_log
+
+#minecraft:gold_ores
+- minecraft:gold_ore
+- minecraft:nether_gold_ore
+
+#forge:foods/cooked_kebabs
+- vanillafoodpantry:kebab_adventure
+- vanillafoodpantry:kebab_bear
+- vanillafoodpantry:kebab_fish
+- vanillafoodpantry:kebab_fruit
+- vanillafoodpantry:kebab_fruit_raw
+- vanillafoodpantry:kebab_meat
+- vanillafoodpantry:kebab_poultry
+- vanillafoodpantry:kebab_veggie
+- vanillafoodpantry:kebab_veggie_raw
+- vanillafoodpantry:squidd_on_a_stick
+- charcoal_pit:kebabs?
+- farmersdelight:barbecue_stick?
+- wellfedmod:stick_of_meat?
+
+#vanillafoodpantry:sheep_wool
+- minecraft:white_wool
+- minecraft:orange_wool
+- minecraft:magenta_wool
+- minecraft:light_blue_wool
+- minecraft:yellow_wool
+- minecraft:lime_wool
+- minecraft:pink_wool
+- minecraft:gray_wool
+- minecraft:light_gray_wool
+- minecraft:cyan_wool
+- minecraft:purple_wool
+- minecraft:blue_wool
+- minecraft:brown_wool
+- minecraft:green_wool
+- minecraft:red_wool
+- minecraft:black_wool
+
+#farmersdelight:offhand_equipment
+- minecraft:shield
+- create:extendo_grip?
+
+#vanillafoodpantry:sanitized_cooked_edibles
+- vanillafoodpantry:sanitized_flesh
+- vanillafoodpantry:sanitized_flesh_roasted
+- vanillafoodpantry:sanitized_flesh_steamed
+
+#minecraft:barter_tokens/verygood
+- minecraft:gold_ingot
+- minecraft:gold_ingot
+
+#tropicraft:fences
+- #tropicraft:wooden_fences
+- tropicraft:bamboo_fence
+- tropicraft:chunk_fence
+- tropicraft:thatch_fence
+
+#vanillafoodpantry:drops/wolf_spirit_essence
+- vanillafoodpantry:wolf_spirit_x
+- vanillafoodpantry:wolf_spirit_y
+- vanillafoodpantry:wolf_spirit_z
+
+#carrots:packaging_boxes
+- vanillafoodpantry:empty_carton
+
+#forge:snow_balls
+- minecraft:snowball
+
+#diet:grains
+- vanillafoodpantry:bread_pocket_egg_spinach
+- vanillafoodpantry:decker_generic
+- vanillafoodpantry:decker_kinged
+
+#forge:crops/eggplant
+- crockpot:eggplant
+
+#carrots:small_empty_jars
+- vanillafoodpantry:small_empty_jar
+- vanillafoodpantry:dark_empty_jar
+
+#forge:foods/cooked_beefsteaks
+- minecraft:cooked_beef
+
+#forge:gravel
+- minecraft:gravel
+
+#forge:clay_balls
+- minecraft:clay_ball
+
+#forge:foods/whole_corn
+- charcoal_pit:corn?
+- crockpot:corn?
+- croptopia:corn?
+- fluffy_farmer:corn?
+- pamhc2crops:cornitem?
+- simplecorn:corncob?
+- simplefarming:corn?
+- veggie_way:corn?
+- xlfoodmod:raw_corn?
+
+#forge:dyes/black
+- minecraft:black_dye
+- vanillafoodpantry:foodpowder_ink
+
+#forge:sugar_cane
+- minecraft:sugar_cane
+
+#upgrade_aquatic:dead_horn_fans_corals
+- minecraft:dead_horn_coral
+- minecraft:dead_horn_coral_fan
+
+#forge:weapons/bows
+- minecraft:bow
+
+#forge:storage_blocks/ice_blocks
+- minecraft:packed_ice
+
+#carrots:happy_foods
+- vanillafoodpantry:cake_slice
+- #forge:foods/muffins
+
+#forge:cooked_fishes/cod
+- minecraft:cooked_cod
+- farmersdelight:cooked_cod_slice
+
+#forge:glass_panes/light_blue
+- minecraft:light_blue_stained_glass_pane
+
+#forge:powders/milk
+- vanillafoodpantry:foodpowder_milk
+
+#carrots:nutrition/notes/carbs
+- minecraft:baked_potato
+- minecraft:bread
+- minecraft:enchanted_golden_apple
+- minecraft:golden_apple
+- minecraft:honey_bottle
+- minecraft:poisonous_potato
+- minecraft:potato
+- minecraft:wheat
+- minecraft:wheat_seeds
+- vanillafoodpantry:acorn_nuts
+- vanillafoodpantry:fried_egg_and_tatoes
+- vanillafoodpantry:honey_roasted_acorn_nuts
+- vanillafoodpantry:juice_cane
+- vanillafoodpantry:juice_potato
+- vanillafoodpantry:nomads_meal_bar
+- vanillafoodpantry:nomads_snack_bar
+- vanillafoodpantry:portion_acornmeal
+- vanillafoodpantry:portion_roasted_pumpkin
+- vanillafoodpantry:roast_corn
+- vanillafoodpantry:roasted_seeds_litemix
+- #forge:foods/breads
+- #forge:foods/french_fries
+- #forge:foods/mashed_potatoes
+- #forge:foods/meat_pies
+- #forge:foods/muffins
+- #forge:foods/pies
+- #forge:foods/rolls
+- #forge:foods/sandwiches
+- #forge:foods/stuffed_potatoes
+
+#forge:ores/netherite_scrap
+- minecraft:ancient_debris
+
+#forge:crops/carrot
+- minecraft:carrot
+
+#forge:foods/oranges
+- croptopia:orange?
+- fruittrees:orange?
+- pamhc2trees:orangeitem?
+- terraqueous:orange?
+
+#forge:seeds/asparagus
+- crockpot:asparagus_seeds
+
+#carrots:portions_melonfruit
+- minecraft:melon_slice
+- croptopia:cantaloupe?
+- croptopia:honeydew?
+- pamhc2crops:cantaloupeitem?
+- simplefarming:cantaloupe?
+- simplefarming:honeydew?
+
+#minecraft:warped_stems
+- minecraft:warped_stem
+- minecraft:stripped_warped_stem
+- minecraft:warped_hyphae
+- minecraft:stripped_warped_hyphae
+
+#vanillafoodpantry:ny_nuggets_veggies
+- vanillafoodpantry:nuggets_carrots_fried
+- vanillafoodpantry:nuggets_veggies_fried
+
+#carrots:barter_tokens/verygood
+- carrots:barter_token_verygood
+
+#forge:dyes/blue
+- minecraft:blue_dye
+
+#forge:storage_blocks/iron
+- minecraft:iron_block
+
+#vanillafoodpantry:animal_other_drops
+- vanillafoodpantry:bane_of_ocelots
+- #vanillafoodpantry:drops/bat_other
+- vanillafoodpantry:calf_stomach
+- vanillafoodpantry:feline_life
+- #vanillafoodpantry:drops/guardian_other
+- #vanillafoodpantry:drops/horse_other
+- vanillafoodpantry:ink_pearl_shard
+- vanillafoodpantry:polar_raw_crystal
+- #vanillafoodpantry:drops/ravager_other
+- vanillafoodpantry:small_bone
+- vanillafoodpantry:tainted_villager_soul
+- #vanillafoodpantry:drops/wolf_spirit_essence
+
+#forge:tools/pickaxes
+- minecraft:wooden_pickaxe
+- minecraft:stone_pickaxe
+- minecraft:iron_pickaxe
+- minecraft:diamond_pickaxe
+- minecraft:golden_pickaxe
+- minecraft:netherite_pickaxe
+- minecraft:wooden_pickaxe
+- minecraft:stone_pickaxe
+- minecraft:golden_pickaxe
+- minecraft:iron_pickaxe
+- minecraft:diamond_pickaxe
+- minecraft:netherite_pickaxe
+
+#forge:foods/french_fries
+- vanillafoodpantry:chips_plantain
+- vanillafoodpantry:fries_carrots
+- vanillafoodpantry:fries_cassava
+- vanillafoodpantry:fries_klingon
+- vanillafoodpantry:fries_potatoes
+- vanillafoodpantry:fries_sweetpotato
+- burgermod:fries?
+- croptopia:french_fries?
+- croptopia:sweet_potato_fries?
+- pamhc2foodcore:friesitem?
+- pneumaticcraft:chips?
+
+#forge:glass_panes/brown
+- minecraft:brown_stained_glass_pane
+
+#caverns_and_chasms:experience_boost_items
+- farmersdelight:golden_knife
+
+#forge:heads
+- minecraft:creeper_head
+- minecraft:dragon_head
+- minecraft:player_head
+- minecraft:skeleton_skull
+- minecraft:wither_skeleton_skull
+- minecraft:zombie_head
+
+#carrots:small_mortar_pestle
+- botania:pestle_and_mortar?
+- croptopia:mortar_and_pestle?
+- fluffy_farmer:mortar?
+- pamhc2foodcore:grinderitem?
+- veggie_way:mill?
+- wellfedmod:mortar_and_pestle_item?
+
+#vanillafoodpantry:stuffable_uncooked_redmeat
+- vanillafoodpantry:portion_beef
+- vanillafoodpantry:portion_horse
+- vanillafoodpantry:portion_llama
+- vanillafoodpantry:portion_mutton
+- farmersdelight:minced_beef?
+
+#vanillafoodpantry:fish_salad_main
+- minecraft:cooked_cod
+- minecraft:cooked_salmon
+- vanillafoodpantry:pufferfish_cooked
+- vanillafoodpantry:fish_sausage
+- vanillafoodpantry:fish_sausage_grilled
+- vanillafoodpantry:nuggets_fish_fried
+- farmersdelight:grilled_salmon?
+- fins:cooked_bugmeat?
+- fins:golden_river_ray_wing_fillet?
+- simplefarming:fish_fillet?
+- upgrade_aquatic:cooked_lionfish?
+- upgrade_aquatic:cooked_pike?
+
+#forge:tools/axes
+- minecraft:wooden_axe
+- minecraft:stone_axe
+- minecraft:iron_axe
+- minecraft:diamond_axe
+- minecraft:golden_axe
+- minecraft:netherite_axe
+- minecraft:wooden_axe
+- minecraft:stone_axe
+- minecraft:golden_axe
+- minecraft:iron_axe
+- minecraft:diamond_axe
+- minecraft:netherite_axe
+
+#tropicraft:fruits
+- minecraft:apple
+- tropicraft:grapefruit
+- tropicraft:lemon
+- tropicraft:lime
+- tropicraft:orange
+
+#carrots:gelos
+- vanillafoodpantry:gelo_apple
+- vanillafoodpantry:gelo_berry_mix
+- vanillafoodpantry:gelo_blueberry
+- vanillafoodpantry:gelo_chorusfruit
+- vanillafoodpantry:gelo_citrus_mix
+- vanillafoodpantry:gelo_cocoa
+- vanillafoodpantry:gelo_dandy
+- vanillafoodpantry:gelo_honey
+- vanillafoodpantry:gelo_klingon
+- vanillafoodpantry:gelo_mango
+- vanillafoodpantry:gelo_melon
+- vanillafoodpantry:gelo_midnight
+- vanillafoodpantry:gelo_orange
+- vanillafoodpantry:gelo_pineapple
+- vanillafoodpantry:gelo_poppy
+- vanillafoodpantry:gelo_strawberry
+- vanillafoodpantry:gelo_sugarbomb
+- vanillafoodpantry:gelo_ugli
+
+#minecraft:dark_oak_logs
+- minecraft:dark_oak_log
+- minecraft:dark_oak_wood
+- minecraft:stripped_dark_oak_log
+- minecraft:stripped_dark_oak_wood
+
+#tropicraft:wooden_fences
+- tropicraft:palm_fence
+- tropicraft:mahogany_fence
+- tropicraft:mangrove_fence
+
+#forge:foods/cooked_meat_kebabs
+- vanillafoodpantry:kebab_adventure
+- vanillafoodpantry:kebab_bear
+- vanillafoodpantry:kebab_fish
+- vanillafoodpantry:kebab_meat
+- vanillafoodpantry:kebab_poultry
+- vanillafoodpantry:squidd_on_a_stick
+- charcoal_pit:kebabs?
+- crockpot:kabobs?
+- farmersdelight:barbecue_stick?
+- wellfedmod:stick_of_meat?
+
+#forge:ingredients/syrup/plain
+- vanillafoodpantry:bottle_syrup_base
+- vanillafoodpantry:drink_syrup_syrup
+
+#vanillafoodpantry:nature_bar_fillers
+- #forge:foods/roasted_seeds
+- vanillafoodpantry:spruce_tips
+- croptopia:almond?
+- croptopia:candied_nuts?
+- croptopia:cashew?
+- croptopia:currant?
+- croptopia:date?
+- croptopia:pecan?
+- croptopia:raisins?
+- croptopia:roasted_nuts?
+- croptopia:walnut?
+- foodexpansion:roasted_seed?
+- mysticalworld:cooked_seeds?
+- neapolitan:dried_banana?
+- neapolitan:roasted_adzuki_beans?
+- pamhc2crops:roastedpeanutitem?
+- pamhc2foodextended:candiedpecansitem?
+- pamhc2foodextended:candiedwalnutsitem?
+- pamhc2foodextended:pralinesitem?
+- pamhc2trees:roastedalmonditem?
+- pamhc2trees:roastedcashewitem?
+- pamhc2trees:roastedchestnutitem?
+- pamhc2trees:roastedhazelnutitem?
+- pamhc2trees:roastedpecanitem?
+- pamhc2trees:roastedpinenutitem?
+- pamhc2trees:roastedpistachioitem?
+- pamhc2trees:roastedwalnutitem?
+- pamhc2trees:dateitem?
+- #forge:foods/lentils?
+
+#forge:ores/manganese
+- tropicraft:manganese_ore
+
+#forge:raw_bacon
+- farmersdelight:bacon
+
+#carrots:nutrition/notes/ovo
+- minecraft:egg
+- vanillafoodpantry:egg_white
+- vanillafoodpantry:foodpowder_egg
+- vanillafoodpantry:uncooked_egg_pie
+- vanillafoodpantry:uncooked_egg_pie_allium
+- vanillafoodpantry:uncooked_egg_pie_chicken
+- vanillafoodpantry:uncooked_egg_pie_ham
+- vanillafoodpantry:uncooked_egg_pie_mushroom
+- #forge:foods/cooked_eggs
+- #forge:foods/egg_pies
+- #carrots:portions_mayo
+- vanillafoodpantry:bread_pocket_egg_mushroom
+- vanillafoodpantry:bread_pocket_egg_spinach
+- vanillafoodpantry:double_fried_egg_sandwich
+- vanillafoodpantry:egg_minibread
+- vanillafoodpantry:fried_egg_sandwich
+- vanillafoodpantry:friedegg_sop
+- vanillafoodpantry:friedegg_sop_combo
+- vanillafoodpantry:ham_egg_sandwich
+- vanillafoodpantry:spam_egg_sandwich
+
+#tea_kettle:black_tea_leaves
+- tea_kettle:black_tea_leaf
+- simplytea:teabag_black?
+
+#forge:vegetables/pepper
+- crockpot:pepper
+
+#forge:storage_blocks/bonemeals
+- minecraft:bone_block
+
+#carrots:portions_large_seedoil
+- carrots:seedoil_bucket
+- vanillafoodpantry:bucket_seedoil
+
+#forge:mushrooms
+- minecraft:brown_mushroom
+- minecraft:red_mushroom
+- minecraft:brown_mushroom
+
+#carrots:additives/life_essence
+- vanillafoodpantry:feline_life
+
+#carrots:additives/putrefier
+- vanillafoodpantry:jungle_juice_jar
+
+#forge:stock
+- #carrots:portions_stock
+
+#tea_kettle:simplytea_cup_tea_chorus
+- simplytea:cup_tea_chorus?
+
+#forge:foods/cooked_fish
+- minecraft:cooked_cod
+- minecraft:cooked_salmon
+- vanillafoodpantry:pufferfish_cooked
+- aquaculture:fish_fillet_cooked?
+- fins:cooked_bugmeat?
+- fins:golden_river_ray_wing_fillet?
+- simplefarming:fish_fillet?
+- undergarden:cooked_gwibling?
+- upgrade_aquatic:cooked_lionfish?
+- upgrade_aquatic:cooked_pike?
+- wellfedmod:firecracker_salmon?
+
+#forge:ingredients/syrup
+- vanillafoodpantry:drink_syrup_apple
+- vanillafoodpantry:drink_syrup_berry
+- vanillafoodpantry:drink_syrup_chocolate
+- vanillafoodpantry:drink_syrup_chorusfruit
+- vanillafoodpantry:drink_syrup_citrus
+- vanillafoodpantry:drink_syrup_coconut
+- vanillafoodpantry:drink_syrup_mango
+- vanillafoodpantry:drink_syrup_melon
+- vanillafoodpantry:drink_syrup_mocha
+- vanillafoodpantry:drink_syrup_pineapple
+- vanillafoodpantry:drink_syrup_syrup
+
+#tropicraft:shells
+- tropicraft:solonox_shell
+- tropicraft:frox_conch
+- tropicraft:pab_shell
+- tropicraft:rube_nautilus
+- tropicraft:starfish
+- tropicraft:turtle_shell
+
+#forge:foods/raw_calamari
+- vanillafoodpantry:squidd_raw
+- betteranimalsplus:calamari_raw?
+- charcoal_pit:calamari?
+- fins:luminous_calamari?
+- fins:night_light_squid?
+- foodexpansion:squid?
+- mysticalworld:raw_squid?
+- simplefarming:raw_calamari?
+- wellfedmod:squid_limb?
+
+#minecraft:fences
+- #minecraft:wooden_fences
+- minecraft:nether_brick_fence
+- druidcraft:darkwood_fence
+- druidcraft:elder_fence
+
+#minecraft:saplings
+- minecraft:oak_sapling
+- minecraft:spruce_sapling
+- minecraft:birch_sapling
+- minecraft:jungle_sapling
+- minecraft:acacia_sapling
+- minecraft:dark_oak_sapling
+- druidcraft:darkwood_sapling
+- druidcraft:elder_sapling
+- upgrade_aquatic:river_sapling
+- simplytea:tea_sapling
+
+#carrots:drying_paper
+- vanillafoodpantry:seed_drying_paper
+
+#minecraft:banners
+- minecraft:white_banner
+- minecraft:orange_banner
+- minecraft:magenta_banner
+- minecraft:light_blue_banner
+- minecraft:yellow_banner
+- minecraft:lime_banner
+- minecraft:pink_banner
+- minecraft:gray_banner
+- minecraft:light_gray_banner
+- minecraft:cyan_banner
+- minecraft:purple_banner
+- minecraft:blue_banner
+- minecraft:brown_banner
+- minecraft:green_banner
+- minecraft:red_banner
+- minecraft:black_banner
+
+#forge:foods/any_meats
+- #forge:foods/any_cooked_meats
+- #forge:foods/any_raw_meats
+
+#minecraft:wooden_fences
+- minecraft:oak_fence
+- minecraft:acacia_fence
+- minecraft:dark_oak_fence
+- minecraft:spruce_fence
+- minecraft:birch_fence
+- minecraft:jungle_fence
+- minecraft:crimson_fence
+- minecraft:warped_fence
+- druidcraft:darkwood_fence
+- druidcraft:elder_fence
+- upgrade_aquatic:driftwood_fence
+- upgrade_aquatic:river_fence
+- endergetic:poise_fence
+- simplytea:tea_fence
+
+#diet:vegetables
+- vanillafoodpantry:bamboo_shoots
+- vanillafoodpantry:bread_pocket_egg_spinach
+- vanillafoodpantry:creamsoup_leek
+- vanillafoodpantry:creamsoup_tomato
+- vanillafoodpantry:decker_generic
+- vanillafoodpantry:decker_fish
+- vanillafoodpantry:decker_kinged
+- vanillafoodpantry:golden_carrots
+- vanillafoodpantry:kelp_shake
+- vanillafoodpantry:juice_tomato
+- vanillafoodpantry:juice_veggies
+- vanillafoodpantry:roasted_seeds_melon
+
+#forge:obsidian
+- minecraft:obsidian
+
+#tropicraft:saplings
+- tropicraft:palm_sapling
+- tropicraft:mahogany_sapling
+- tropicraft:grapefruit_sapling
+- tropicraft:lemon_sapling
+- tropicraft:lime_sapling
+- tropicraft:orange_sapling
+- tropicraft:papaya_sapling
+- tropicraft:red_mangrove_propagule
+- tropicraft:tall_mangrove_propagule
+- tropicraft:tea_mangrove_propagule
+- tropicraft:black_mangrove_propagule
+
+#forge:tinydusts/salt
+- vanillafoodpantry:portion_salt
+
+#aquaculture:fishing_line
+- aquaculture:fishing_line
+
+#forge:barter_tokens/base
+- #forge:bookshelves
+
+#forge:buckets/honey
+- carrots:honey_bucket
+- productivebees:honey_bucket?
+- resourcefulbees:catnip_honey_fluid_bucket?
+- resourcefulbees:honey_fluid_bucket?
+
+#forge:powders/boost
+- vanillafoodpantry:foodpowder_kelp
+- vanillafoodpantry:foodpowder_ink_kelp
+- vanillafoodpantry:foodpowder_muscle_mix
+- veggie_way:superfood_powder?
+
+#forge:crops/blueberries
+- druidcraft:blueberries
+
+#forge:glass/magenta
+- minecraft:magenta_stained_glass
+
+#carrots:additives/enzyme_extractor
+- vanillafoodpantry:enzyme_extractor_agent
+
+#forge:ingredients/sunflower_seeds
+- vanillafoodpantry:roasted_seeds_sunflower
+
+#forge:ores/coal
+- minecraft:coal_ore
+
+#carrots:portions_large_honey
+- carrots:honey_bucket
+- #forge:buckets/honey
+
+#forge:buckets/plant_milk
+- #forge:buckets/oatmilk
+
+#upgrade_aquatic:rock_fans_corals
+- upgrade_aquatic:rock_coral
+- upgrade_aquatic:rock_coral_fan
+
+#forge:pasta
+- #forge:pasta/raw_pasta
+
+#forge:vegetables/eggplant
+- crockpot:eggplant
+
+#forge:ingots/salt
+- vanillafoodpantry:rock_salt_crystals
+
+#forge:ingredients/syrup/chorusfruit
+- vanillafoodpantry:drink_syrup_chorusfruit
+
+#forge:armor/animals
+- minecraft:leather_horse_armor
+- minecraft:diamond_horse_armor
+- minecraft:iron_horse_armor
+- minecraft:golden_horse_armor
+
+#druidcraft:elder_logs
+- druidcraft:elder_log
+- druidcraft:elder_wood
+- druidcraft:stripped_elder_log
+- druidcraft:stripped_elder_wood
+
+#forge:barter_tokens/legendary
+- minecraft:netherite_block
+
+#minecraft:trapdoors
+- #minecraft:wooden_trapdoors
+- minecraft:iron_trapdoor
+- druidcraft:darkwood_trapdoor
+- druidcraft:elder_trapdoor
+- upgrade_aquatic:tooth_trapdoor
+- upgrade_aquatic:glass_trapdoor
+
+#forge:ingots/gold
+- minecraft:gold_ingot
+
+#forge:glass/cyan
+- minecraft:cyan_stained_glass
+
+#carrots:ties/normal
+- #carrots:ties/strong
+- vanillafoodpantry:animal_hide_tie
+
+#forge:leather
+- #tropicraft:leather
+- minecraft:leather
+- minecraft:leather
+- minecraft:leather
+
+#forge:dusts/salt
+- vanillafoodpantry:salt
+- pamhc2foodcore:saltitem?
+- xlfoodmod:salt?
+
+#forge:glass
+- #forge:glass/colorless
+- #forge:stained_glass
+
+#minecraft:boats
+- minecraft:oak_boat
+- minecraft:spruce_boat
+- minecraft:birch_boat
+- minecraft:jungle_boat
+- minecraft:acacia_boat
+- minecraft:dark_oak_boat
+- upgrade_aquatic:driftwood_boat
+- upgrade_aquatic:river_boat
+- endergetic:poise_boat
+
+#forge:nuggets/iron
+- minecraft:iron_nugget
+
+#carrots:nutrition/notes/fungus
+- minecraft:brown_mushroom
+- minecraft:crimson_fungus
+- minecraft:mushroom_stew
+- minecraft:red_mushroom
+- minecraft:suspicious_stew
+- minecraft:warped_fungus
+
+#forge:vegetables/corn
+- crockpot:corn
+
+#forge:foods/juices
+- vanillafoodpantry:juice_apple
+- vanillafoodpantry:juice_berries
+- vanillafoodpantry:juice_cactus
+- vanillafoodpantry:juice_cane
+- vanillafoodpantry:juice_carrot
+- vanillafoodpantry:juice_chorusfruit
+- vanillafoodpantry:juice_grape
+- vanillafoodpantry:juice_kelp
+- vanillafoodpantry:juice_kiwi
+- vanillafoodpantry:juice_mango
+- vanillafoodpantry:juice_melon
+- vanillafoodpantry:juice_potato
+- vanillafoodpantry:juice_raftugli
+- vanillafoodpantry:juice_tomato
+- vanillafoodpantry:juice_veggies
+
+#forge:ingredients/lemon_flavor
+- vanillafoodpantry:foodpowder_ugli
+- #forge:foods/lemons
+- pamhc2foodextended:lemonjuiceitem?
+
+#forge:bowls/wooden
+- minecraft:bowl
+- minecraft:bowl
+
+#upgrade_aquatic:star_fans_corals
+- upgrade_aquatic:star_coral
+- upgrade_aquatic:star_coral_fan
+
+#forge:crops/potato
+- minecraft:potato
+
+#forge:ingots/gelatin
+- vanillafoodpantry:gelatin_ball
+
+#forge:armor/leather
+- minecraft:leather_boots
+- minecraft:leather_chestplate
+- minecraft:leather_helmet
+- minecraft:leather_leggings
+
+#forge:buckets/empty/wooden
+- superblocks:wooden_bucket_empty?
+
+#forge:foods/flours
+- #forge:foods/flours/acorn
+- #forge:foods/flours/corn
+- #forge:foods/flours/wheat
+- atum:emmer_flour?
+- croptopia:flour?
+- pamhc2foodcore:flouritem?
+- veggie_way:flour?
+
+#carrots:carpets
+- minecraft:white_carpet
+- minecraft:black_carpet
+- minecraft:orange_carpet
+- minecraft:magenta_carpet
+- minecraft:light_blue_carpet
+- minecraft:yellow_carpet
+- minecraft:lime_carpet
+- minecraft:pink_carpet
+- minecraft:gray_carpet
+- minecraft:light_gray_carpet
+- minecraft:cyan_carpet
+- minecraft:purple_carpet
+- minecraft:blue_carpet
+- minecraft:brown_carpet
+- minecraft:green_carpet
+- minecraft:red_carpet
+
+#forge:stained_glass_panes
+- minecraft:white_stained_glass_pane
+- minecraft:orange_stained_glass_pane
+- minecraft:magenta_stained_glass_pane
+- minecraft:light_blue_stained_glass_pane
+- minecraft:yellow_stained_glass_pane
+- minecraft:lime_stained_glass_pane
+- minecraft:pink_stained_glass_pane
+- minecraft:gray_stained_glass_pane
+- minecraft:light_gray_stained_glass_pane
+- minecraft:cyan_stained_glass_pane
+- minecraft:purple_stained_glass_pane
+- minecraft:blue_stained_glass_pane
+- minecraft:brown_stained_glass_pane
+- minecraft:green_stained_glass_pane
+- minecraft:red_stained_glass_pane
+- minecraft:black_stained_glass_pane
+
+#tropicraft:ashen_masks
+- tropicraft:ashen_mask_square_zord
+- tropicraft:ashen_mask_horn_monkey
+- tropicraft:ashen_mask_oblongatron
+- tropicraft:ashen_mask_headinator
+- tropicraft:ashen_mask_square_horn
+- tropicraft:ashen_mask_screw_attack
+- tropicraft:ashen_mask_the_brain
+- tropicraft:ashen_mask_bat_boy
+- tropicraft:ashen_mask_invader
+- tropicraft:ashen_mask_mojo
+- tropicraft:ashen_mask_warthog
+- tropicraft:ashen_mask_the_heart
+- tropicraft:ashen_mask_enigma
+
+#forge:ingredients/syrup/pineapple
+- vanillafoodpantry:drink_syrup_pineapple
+
+#tea_kettle:strong_sweeteners
+- minecraft:honey_bottle
+- tea_kettle:half_honey_bottle
+
+#forge:foods/grilled_eggplants
+- vanillafoodpantry:roasted_eggplant
+
+#carrots:nutrition/notes/citrus
+- vanillafoodpantry:drink_syrup_citrus
+- vanillafoodpantry:foodpowder_citrus_mix
+- vanillafoodpantry:foodpowder_ugli
+- vanillafoodpantry:gelo_citrus_mix
+- vanillafoodpantry:gelo_ugli
+- vanillafoodpantry:juice_raftugli
+- vanillafoodpantry:raftugli_fruit
+- #forge:foods/citrus_fruits
+
+#tropicraft:trapdoors
+- #tropicraft:wooden_trapdoors
+- tropicraft:bamboo_trapdoor
+- tropicraft:thatch_trapdoor
+
+#forge:foods/raw_fish
+- minecraft:cod
+- minecraft:salmon
+- vanillafoodpantry:pufferfish_raw
+- fins:bugmeat?
+- fins:raw_golden_river_ray_wing?
+- upgrade_aquatic:pike?
+- undergarden:raw_gwibling?
+
+#forge:foods/egg_pies
+- vanillafoodpantry:egg_pie
+- vanillafoodpantry:egg_pie_allium
+- vanillafoodpantry:egg_pie_chicken
+- vanillafoodpantry:egg_pie_ham
+- vanillafoodpantry:egg_pie_mushroom
+
+#druidcraft:panels
+- druidcraft:oak_panels
+- druidcraft:spruce_panels
+- druidcraft:birch_panels
+- druidcraft:jungle_panels
+- druidcraft:acacia_panels
+- druidcraft:dark_oak_panels
+- druidcraft:darkwood_panels
+- druidcraft:elder_panels
+
+#forge:powders/cheese
+- vanillafoodpantry:foodpowder_cheese
+
+#forge:ingredients/fish_chowder_filler
+- minecraft:cooked_cod
+- vanillafoodpantry:pufferfish_cooked
+- vanillafoodpantry:squidd_cooked
+- #forge:foods/cooked_shellfish
+- upgrade_aquatic:cooked_lionfish?
+
+#carrots:portions_small_milk
+- vanillafoodpantry:portion_milk
+
+#upgrade_aquatic:acan_fans_corals
+- upgrade_aquatic:acan_coral
+- upgrade_aquatic:acan_coral_fan
+
+#upgrade_aquatic:chrome_fans_corals
+- upgrade_aquatic:chrome_coral
+- upgrade_aquatic:chrome_coral_fan
+
+#forge:glass/gray
+- minecraft:gray_stained_glass
+
+#endergetic:ender_fire_base_blocks
+- minecraft:end_stone
+- endergetic:eumus
+- endergetic:eumus_poismoss
+- endergetic:poismoss
+- quark:basalt?
+
+#minecraft:barter_tokens/excellent
+- minecraft:diamond
+- minecraft:diamond
+
+#forge:dyes/light_blue
+- minecraft:light_blue_dye
+
+#forge:tools/paxels
+
+#forge:milk/milk_bottle
+- farmersdelight:milk_bottle
+- minecraft:milk_bucket
+
+#forge:foods/cooked_meats
+- minecraft:cooked_beef
+- #forge:foods/cooked_chickens
+- minecraft:cooked_mutton
+- minecraft:cooked_porkchop
+- minecraft:cooked_rabbit
+- vanillafoodpantry:bat_cooked
+- vanillafoodpantry:bear_cooked
+- vanillafoodpantry:cooked_salt_pork
+- vanillafoodpantry:guardian_meat
+- vanillafoodpantry:hocks_smoked
+- vanillafoodpantry:horse_cooked
+- vanillafoodpantry:llama_cooked
+- vanillafoodpantry:phantom_meat
+- vanillafoodpantry:ravager_meat
+- vanillafoodpantry:sanitized_flesh_roasted
+- vanillafoodpantry:sanitized_flesh_steamed
+- vanillafoodpantry:wolf_cooked
+- alexsmobs:cooked_kangaroo_meat?
+- alexsmobs:cooked_moose_ribs?
+- aquaculture:frog_legs_cooked?
+- atum:camel_cooked?
+- betteranimalsplus:turkey_leg_cooked?
+- crockpot:cooked_frog_legs?
+- crockpot:meat_balls?
+- croptopia:pepperoni?
+- exoticbirds:cooked_birdmeat?
+- farmersdelight:beef_patty?
+- foodexpansion:bacon_and_egg?
+- foodexpansion:cooked_bacon?
+- foodexpansion:cooked_bat_wing?
+- foodexpansion:cooked_horse_meat?
+- foodexpansion:cooked_llama_meat?
+- foodexpansion:cooked_ocelot_meat?
+- foodexpansion:cooked_parrot_meat?
+- foodexpansion:cooked_polar_bear_meat?
+- foodexpansion:cooked_wolf_meat?
+- mysticalworld:cooked_venison?
+- neapolitan:cooked_mint_chops?
+- pamhc2foodextended:maplecandiedbaconitem?
+- pamhc2foodextended:pepperoniitem?
+- pamhc2foodextended:sausageitem?
+- quark:cooked_frog_leg?
+- simplefarming:cooked_bacon?
+- simplefarming:cooked_chicken_wings?
+- simplefarming:cooked_horse_meat?
+- simplefarming:cooked_sausage?
+- undergarden:dweller_steak?
+- xlfoodmod:bacon?
+- xlfoodmod:cooked_chicken_wing?
+- xlfoodmod:spicy_chicken_wing?
+- xlfoodmod:ham?
+- xlfoodmod:sausage?
+- #forge:cooked_venison?
+
+#forge:foods/nuts
+- vanillafoodpantry:acorn_nuts
+- croptopia:almond?
+- croptopia:cashew?
+- croptopia:pecan?
+- croptopia:walnut?
+- pamhc2trees:almonditem?
+- pamhc2trees:cashewitem?
+- pamhc2trees:hazelnutitem?
+- pamhc2trees:pecanitem?
+- pamhc2trees:pinenutitem?
+- pamhc2trees:pistachioitem?
+- pamhc2trees:walnutitem?
+
+#forge:buckets/empty/iron
+- minecraft:bucket
+
+#forge:ingots/natron
+- vanillafoodpantry:natron_crystals
+
+#carrots:nutrition/notes/meat
+- minecraft:bone
+- minecraft:cooked_beef
+- minecraft:cooked_chicken
+- minecraft:cooked_mutton
+- minecraft:cooked_porkchop
+- minecraft:cooked_rabbit
+- minecraft:beef
+- minecraft:chicken
+- minecraft:mutton
+- minecraft:porkchop
+- minecraft:rabbit
+- minecraft:rabbit_stew
+- minecraft:rotten_flesh
+- minecraft:spider_eye
+- #forge:foods/any_meats
+- vanillafoodpantry:bat_burger
+- vanillafoodpantry:bat_cheeseburger
+- vanillafoodpantry:broth_jar
+- vanillafoodpantry:calf_stomach
+- vanillafoodpantry:creamed_spam_eggs_toast
+- vanillafoodpantry:decker_cheesesteak
+- vanillafoodpantry:decker_chicken
+- vanillafoodpantry:decker_cuban
+- vanillafoodpantry:decker_lumberjack
+- vanillafoodpantry:decker_mutton
+- vanillafoodpantry:decker_steak
+- vanillafoodpantry:guardian_fins
+- vanillafoodpantry:nugget_beef_jerky
+- vanillafoodpantry:nuggets_beef_fried
+- vanillafoodpantry:nuggets_beef_jerky
+- vanillafoodpantry:nuggets_chicken_fried
+- vanillafoodpantry:nuggets_cooked_pork_fried
+- vanillafoodpantry:nuggets_mutton_fried
+- vanillafoodpantry:nuggets_newyorker
+- vanillafoodpantry:nuggets_pork_fried
+- vanillafoodpantry:portion_beef
+- vanillafoodpantry:portion_chicken
+- vanillafoodpantry:portion_ham
+- vanillafoodpantry:portion_horse
+- vanillafoodpantry:portion_llama
+- vanillafoodpantry:portion_mutton
+- vanillafoodpantry:portion_pork
+- vanillafoodpantry:portion_rabbit
+- vanillafoodpantry:portion_spam
+
+#carrots:snocones
+- vanillafoodpantry:snocone
+- vanillafoodpantry:snocone_apple
+- vanillafoodpantry:snocone_berry
+- vanillafoodpantry:snocone_berry_plain
+- vanillafoodpantry:snocone_chocolate
+- vanillafoodpantry:snocone_chocolate_plain
+- vanillafoodpantry:snocone_chorusfruit
+- vanillafoodpantry:snocone_chorusfruit_plain
+- vanillafoodpantry:snocone_citrus
+- vanillafoodpantry:snocone_coconut
+- vanillafoodpantry:snocone_coconut_plain
+- vanillafoodpantry:snocone_mango
+- vanillafoodpantry:snocone_mango_plain
+- vanillafoodpantry:snocone_melon
+- vanillafoodpantry:snocone_mocha
+- vanillafoodpantry:snocone_mocha_plain
+- vanillafoodpantry:snocone_pineapple
+
+#forge:glass_panes/black
+- minecraft:black_stained_glass_pane
+
+#farmersdelight:wild_crops
+- farmersdelight:wild_carrots
+- farmersdelight:wild_potatoes
+- farmersdelight:wild_beetroots
+- farmersdelight:wild_cabbages
+- farmersdelight:wild_tomatoes
+- farmersdelight:wild_onions
+- farmersdelight:wild_rice
+
+#carrots:potion_bottles
+- minecraft:lingering_potion
+- minecraft:splash_potion
+- #carrots:drinkable_potion_bottles
+- minecraft:lingering_potion
+- minecraft:splash_potion
+- #carrots:drinkable_potion_bottles
+
+#forge:dyes/pink
+- minecraft:pink_dye
+
+#forge:ores/azurite
+- tropicraft:azurite_ore
+
+#forge:foods/fries
+- #forge:foods/french_fries
+
+#forge:ingredients/kebabs/adventure_largecut
+- vanillafoodpantry:bear_raw_prepped
+- vanillafoodpantry:guardian_meat_raw
+- vanillafoodpantry:horse_raw
+- vanillafoodpantry:ravager_meat_prepped
+- alexsmobs:kangaroo_meat?
+- alexsmobs:moose_ribs?
+- aquaculture:arrau_turtle?
+- aquaculture:box_turtle?
+- aquaculture:frog?
+- aquaculture:starshell_turtle?
+- simplefarming:raw_horse_meat?
+- wellfedmod:stick_of_raw_meat?
+
+#forge:ores/zircon
+- tropicraft:zircon_ore
+
+#forge:glass_panes/blue
+- minecraft:blue_stained_glass_pane
+
+#upgrade_aquatic:bubble_fans_corals
+- minecraft:bubble_coral
+- minecraft:bubble_coral_fan
+
+#forge:crops/wheat
+- minecraft:wheat
+
+#tea_kettle:simplytea_cup_tea_black
+- simplytea:cup_tea_black?
+
+#forge:dough
+- vanillafoodpantry:dough_ball
+
+#carrots:food_cutters
+- vanillafoodpantry:flint_butcher_axe
+- vanillafoodpantry:flint_cutter
+- pamhc2foodcore:cuttingboarditem?
+- veggie_way:knife?
+
+#forge:stone
+- minecraft:andesite
+- minecraft:diorite
+- minecraft:granite
+- minecraft:infested_stone
+- minecraft:stone
+- minecraft:polished_andesite
+- minecraft:polished_diorite
+- minecraft:polished_granite
+
+#forge:foods/sausages
+- vanillafoodpantry:fish_sausage
+- vanillafoodpantry:fish_sausage_grilled
+- pamhc2foodextended:sausageitem?
+
+#forge:powders/lemon
+- vanillafoodpantry:foodpowder_ugli
+
+#forge:glass_panes/yellow
+- minecraft:yellow_stained_glass_pane
+
+#forge:weapons/ranged
+- #forge:weapons/bows
+- #forge:weapons/crossbows
+- #forge:weapons/slingshots
+- #forge:weapons/tridents
+
+#forge:gems/lapis
+- minecraft:lapis_lazuli
+
+#carrots:drinkable_potion_bottles
+- minecraft:potion
+- minecraft:potion
+- vanillafoodpantry:tonicdrink
+
+#forge:gunpowder
+- minecraft:gunpowder
+
+#forge:bowls/iron
+- xlfoodmod:bowl?
+
+#forge:ingredients/salt
+- vanillafoodpantry:salt
+- #forge:dusts/salt
+- croptopia:salt?
+
+#carrots:nutrition/notes/hi_sugar
+- minecraft:honey_bottle
+- minecraft:sugar
+- vanillafoodpantry:bowl_honey
+- vanillafoodpantry:bowl_honeymilk
+- vanillafoodpantry:crystalized_honey
+- vanillafoodpantry:bottle_syrup_base
+- #forge:honey_bottle
+- #forge:ingredients/syrup
+- vanillafoodpantry:fizzing_agent
+- #forge:ingredients/sweeteners_concentrate
+- vanillafoodpantry:golden_beetroots
+- vanillafoodpantry:golden_sugar
+- vanillafoodpantry:bucket_sweetened_milk
+- vanillafoodpantry:bucket_condensed_milk
+
+#forge:foods/doughs
+- vanillafoodpantry:dough_ball
+- atum:emmer_dough?
+- croptopia:dough?
+- farmersdelight:wheat_dough?
+- foodexpansion:dough?
+- pamhc2foodcore:doughitem?
+- veggie_way:dough?
+- xlfoodmod:dough?
+
+#tropicraft:meats
+- minecraft:beef
+- minecraft:porkchop
+- minecraft:chicken
+- minecraft:rabbit
+- minecraft:mutton
+
+#forge:crops
+- #forge:crops/hemp
+- #forge:crops/blueberries
+- #forge:crops/asparagus
+- #forge:crops/corn
+- #forge:crops/eggplant
+- #forge:crops/onion
+- #forge:crops/pepper
+- #forge:crops/tomato
+- #forge:crops/beetroot
+- #forge:crops/carrot
+- #forge:crops/nether_wart
+- #forge:crops/potato
+- #forge:crops/wheat
+- #forge:crops/cabbage
+- #forge:crops/onion
+- #forge:crops/rice
+- #forge:crops/tomato
+
+#forge:armor
+- #forge:armor/boots
+- #forge:armor/chestplates
+- #forge:armor/helmets
+- #forge:armor/leggings
+- #forge:armor/gloves
+
+#minecraft:sheep_wool
+- minecraft:white_wool
+- minecraft:orange_wool
+- minecraft:magenta_wool
+- minecraft:light_blue_wool
+- minecraft:yellow_wool
+- minecraft:lime_wool
+- minecraft:pink_wool
+- minecraft:gray_wool
+- minecraft:light_gray_wool
+- minecraft:cyan_wool
+- minecraft:purple_wool
+- minecraft:blue_wool
+- minecraft:brown_wool
+- minecraft:green_wool
+- minecraft:red_wool
+- minecraft:black_wool
+- minecraft:white_wool
+- minecraft:orange_wool
+- minecraft:magenta_wool
+- minecraft:light_blue_wool
+- minecraft:yellow_wool
+- minecraft:lime_wool
+- minecraft:pink_wool
+- minecraft:gray_wool
+- minecraft:light_gray_wool
+- minecraft:cyan_wool
+- minecraft:purple_wool
+- minecraft:blue_wool
+- minecraft:brown_wool
+- minecraft:green_wool
+- minecraft:red_wool
+- minecraft:black_wool
+
+#carrots:portions_mayo
+- vanillafoodpantry:muscle_mayonnaise
+- vanillafoodpantry:portion_mayonnaise
+- vanillafoodpantry:tangy_mayonnaise
+- pamhc2foodcore:mayonaiseitem?
+
+#diet:fruits
+- vanillafoodpantry:all_eyes_trailmix
+- vanillafoodpantry:decker_generic
+- vanillafoodpantry:decker_kinged
+- vanillafoodpantry:juice_chorusfruit
+- vanillafoodpantry:juice_grape
+- vanillafoodpantry:juice_kiwi
+- vanillafoodpantry:juice_mango
+- vanillafoodpantry:kelp_shake
+- vanillafoodpantry:milkdrink_blueberry
+- vanillafoodpantry:milkdrink_strawberry
+- vanillafoodpantry:salty_eyes_chew
+- vanillafoodpantry:sweet_eyes_chew
+
+#vanillafoodpantry:drops/llama_fleece
+- vanillafoodpantry:fleece_block_brown
+- vanillafoodpantry:fleece_block_creamy
+- vanillafoodpantry:fleece_block_gray
+- vanillafoodpantry:fleece_block_white
+
+#carrots:glazed_terracotta
+- minecraft:white_glazed_terracotta
+- minecraft:black_glazed_terracotta
+- minecraft:orange_glazed_terracotta
+- minecraft:magenta_glazed_terracotta
+- minecraft:light_blue_glazed_terracotta
+- minecraft:yellow_glazed_terracotta
+- minecraft:lime_glazed_terracotta
+- minecraft:pink_glazed_terracotta
+- minecraft:gray_glazed_terracotta
+- minecraft:light_gray_glazed_terracotta
+- minecraft:cyan_glazed_terracotta
+- minecraft:purple_glazed_terracotta
+- minecraft:blue_glazed_terracotta
+- minecraft:brown_glazed_terracotta
+- minecraft:green_glazed_terracotta
+- minecraft:red_glazed_terracotta
+
+#forge:foods/any_cooked_meats
+- #forge:foods/cooked_meats
+- aquaculture:frog_legs_cooked?
+- exoticbirds:cooked_birdmeat?
+- foodexpansion:compressed_flesh?
+- xlfoodmod:flesh?
+
+#farmersdelight:straw_harvesters
+- #farmersdelight:tools/knives
+
+#forge:fish
+- minecraft:cod
+- minecraft:salmon
+- minecraft:pufferfish
+- minecraft:tropical_fish
+- minecraft:cod
+- minecraft:salmon
+- minecraft:pufferfish
+- minecraft:tropical_fish
+
+#upgrade_aquatic:dead_chrome_fans_corals
+- upgrade_aquatic:dead_chrome_coral
+- upgrade_aquatic:dead_chrome_coral_fan
+
+#upgrade_aquatic:dead_bubble_fans_corals
+- minecraft:dead_bubble_coral
+- minecraft:dead_bubble_coral_fan
+
+#forge:foods/cooked_roast_pork
+- minecraft:cooked_porkchop
+
+#curios:charm
+- vanillafoodpantry:iron_stomach
+
+#quark:boatable_chests
+- upgrade_aquatic:driftwood_chest
+- upgrade_aquatic:river_chest
+- endergetic:poise_chest
+
+#forge:barter_tokens/good
+- #forge:ingots/iron
+
+#itemfilters:check_nbt
+- minecraft:potion
+- minecraft:splash_potion
+- minecraft:lingering_potion
+- minecraft:enchanted_book
+- minecraft:tipped_arrow
+
+#minecraft:birch_logs
+- minecraft:birch_log
+- minecraft:birch_wood
+- minecraft:stripped_birch_log
+- minecraft:stripped_birch_wood
+
+#forge:sponges
+- minecraft:sponge
+- minecraft:wet_sponge
+
+#forge:nuts
+- vanillafoodpantry:acorn_nuts
+- vanillafoodpantry:honey_roasted_acorn_nuts
+
+#forge:foods/flowers/marigolds
+- terraqueous:marigold?
+
+#forge:vegetables/pumpkin
+- minecraft:pumpkin
+
+#forge:juices
+- #forge:foods/juices
+
+#carrots:pack_wheat_seeds
+- vanillafoodpantry:compacted_seeds
+
+#forge:cactus
+- minecraft:cactus
+- minecraft:cactus
+
+#forge:seeds
+- #forge:seeds/hemp
+- #forge:seeds/asparagus
+- #forge:seeds/corn
+- #forge:seeds/eggplant
+- #forge:seeds/onion
+- #forge:seeds/pepper
+- #forge:seeds/tomato
+- #forge:seeds/beetroot
+- #forge:seeds/melon
+- #forge:seeds/pumpkin
+- #forge:seeds/wheat
+- #forge:seeds/cabbage
+- #forge:seeds/rice
+- #forge:seeds/tomato
+- minecraft:melon_seeds
+- minecraft:pumpkin_seeds
+- minecraft:wheat_seeds
+
+#druidcraft:rockroot_ores
+- druidcraft:rockroot_ore
+
+#forge:gems/zircon
+- tropicraft:zircon_gem
+
+#forge:foods/sandwiches
+- vanillafoodpantry:bat_burger
+- vanillafoodpantry:bat_cheeseburger
+- vanillafoodpantry:bread_pocket_egg_ham
+- vanillafoodpantry:bread_pocket_egg_mushroom
+- vanillafoodpantry:bread_pocket_egg_spam
+- vanillafoodpantry:bread_pocket_egg_spinach
+- vanillafoodpantry:bread_pocket_egg_steak
+- vanillafoodpantry:bread_pocket_fish_salad
+- vanillafoodpantry:bread_pocket_roast_veg
+- vanillafoodpantry:carrot_burger
+- vanillafoodpantry:cheese_jellyjam_sandwich
+- vanillafoodpantry:cheese_sandwich
+- vanillafoodpantry:chocolate_sunbutter_sandwich
+- vanillafoodpantry:crafty_preserves_sunbutter_sandwich
+- vanillafoodpantry:creamed_spam_eggs_toast
+- vanillafoodpantry:cyclops_sandwich
+- vanillafoodpantry:decker_cheesesteak
+- vanillafoodpantry:decker_chicken
+- vanillafoodpantry:decker_cuban
+- vanillafoodpantry:decker_fish
+- vanillafoodpantry:decker_generic
+- vanillafoodpantry:decker_lumberjack
+- vanillafoodpantry:decker_mutton
+- vanillafoodpantry:decker_steak
+- vanillafoodpantry:decker_veggie
+- vanillafoodpantry:double_fried_egg_sandwich
+- vanillafoodpantry:egg_minibread
+- vanillafoodpantry:fish_sausage_mashwrap
+- vanillafoodpantry:fried_egg_sandwich
+- vanillafoodpantry:ham_egg_sandwich
+- vanillafoodpantry:honey_sunbutter_sandwich
+- vanillafoodpantry:jellyjam_sandwich
+- vanillafoodpantry:meat_minibread
+- vanillafoodpantry:spam_egg_sandwich
+- vanillafoodpantry:sunbutter_appleslices_sandwich
+- alexsmobs:kangaroo_burger?
+- burgermod:beef_burger?
+- burgermod:beef_champignon_burger?
+- burgermod:beef_cheese_burger?
+- burgermod:chicken_burger?
+- burgermod:chicken_champignon_burger?
+- burgermod:chicken_cheese_burger?
+- burgermod:cod_burger?
+- burgermod:cod_champignon_burger?
+- burgermod:cod_cheese_burger?
+- burgermod:mutton_burger?
+- burgermod:mutton_champignon_burger?
+- burgermod:mutton_cheese_burger?
+- burgermod:pork_burger?
+- burgermod:pork_champignon_burger?
+- burgermod:pork_cheese_burger?
+- burgermod:salmon_burger?
+- burgermod:salmon_champignon_burger?
+- burgermod:salmon_cheese_burger?
+- crockpot:bacon_eggs?
+- crockpot:fish_tacos?
+- crockpot:froggle_bunwich?
+- croptopia:cheeseburger?
+- croptopia:chimichanga?
+- croptopia:egg_roll?
+- croptopia:enchilada?
+- croptopia:fajitas?
+- croptopia:grilled_cheese?
+- croptopia:hamburger?
+- croptopia:ham_sandwich?
+- croptopia:blt?
+- croptopia:peanut_butter_and_jam?
+- croptopia:taco?
+- croptopia:tamales?
+- croptopia:tofuburger?
+- croptopia:tuna_sandwich?
+- culinaryconstruct:sandwich?
+- farmersdelight:bacon_sandwich?
+- farmersdelight:chicken_sandwich?
+- farmersdelight:egg_sandwich?
+- farmersdelight:hamburger?
+- farmersdelight:mutton_wrap?
+- pamhc2foodcore:baconcheeseburgeritem?
+- pamhc2foodcore:basiccheeseburgeritem?
+- pamhc2foodcore:basicchickensandwichitem?
+- pamhc2foodcore:basicfishsandwichitem?
+- pamhc2foodcore:basichamburgeritem?
+- pamhc2foodcore:grilledcheeseitem?
+- pamhc2foodcore:hotdogitem?
+- pamhc2foodcore:applejellytoastitem?
+- pamhc2foodcore:melonjellytoastitem?
+- pamhc2foodcore:sweetberryjellytoastitem?
+- pamhc2foodextended:applejellysandwichitem?
+- pamhc2foodextended:apricotjellysandwichitem?
+- pamhc2foodextended:blackberryjellysandwichitem?
+- pamhc2foodextended:blueberryjellysandwichitem?
+- pamhc2foodextended:cherryjellysandwichitem?
+- pamhc2foodextended:chimichangaitem?
+- pamhc2foodextended:elderberryjellysandwichitem?
+- pamhc2foodextended:enchiladaitem?
+- pamhc2foodextended:fishtacoitem?
+- pamhc2foodextended:greengrapejellysandwichitem?
+- pamhc2foodextended:grapejellysandwichitem?
+- pamhc2foodextended:guavajellysandwichitem?
+- pamhc2foodextended:mangojellysandwichitem?
+- pamhc2foodextended:passionfruitjellysandwichitem?
+- pamhc2foodextended:peachjellysandwichitem?
+- pamhc2foodextended:pineapplejellysandwichitem?
+- pamhc2foodextended:plumjellysandwichitem?
+- pamhc2foodextended:quesadillaitem?
+- pamhc2foodextended:raspberryjellysandwichitem?
+- pamhc2foodextended:strawberryjellysandwichitem?
+- pamhc2foodextended:tacoitem?
+- simplefarming:blt?
+- simplefarming:cheeseburger?
+- simplefarming:egg_sandwich?
+- simplefarming:fish_sandwich?
+- simplefarming:hamburger?
+- simplefarming:hotdog?
+- simplefarming:italian_beef?
+- simplefarming:pbj?
+- simplefarming:pulled_pork_sandwich?
+- simplefarming:sandwich?
+- simplefarming:veggie_burger?
+- upgrade_aquatic:mulberry_bread?
+- wellfedmod:steves_mining_meal?
+- xlfoodmod:blt_sandwich?
+- xlfoodmod:breakfast_sandwich?
+- xlfoodmod:burrito?
+- xlfoodmod:chickenburger?
+- xlfoodmod:chicken_sandwich?
+- xlfoodmod:cheeseburger?
+- xlfoodmod:enchilada?
+- xlfoodmod:grilled_cheese_sandwich?
+- xlfoodmod:hot_dog?
+- xlfoodmod:hamburger?
+- xlfoodmod:jabon_beurre?
+- xlfoodmod:kebab?
+- xlfoodmod:sausage_roll?
+- xlfoodmod:taco?
+
+#carrots:curatives/sedation
+- vanillafoodpantry:golden_sugar
+
+#minecraft:oak_logs
+- minecraft:oak_log
+- minecraft:oak_wood
+- minecraft:stripped_oak_log
+- minecraft:stripped_oak_wood
+
+#forge:ingredients/mushroom
+- #forge:foods/raw_mushrooms
+- vanillafoodpantry:foodpowder_mushroom
+- vanillafoodpantry:fungi_purged
+
+#forge:seeds/hemp
+- druidcraft:hemp_seeds
+
+#forge:ores/lapis
+- minecraft:lapis_ore
+
+#vanillafoodpantry:muscle_edibles
+- vanillafoodpantry:muscle_egg
+- vanillafoodpantry:muscle_bread
+- vanillafoodpantry:stuffed_potato_muscle_egg
+- vanillafoodpantry:milkdrink_muscle_mix
+
+#forge:bread
+- #forge:bread/wheat
+- minecraft:bread
+- #forge:foods/breads
+
+#forge:storage_blocks/cheese
+- vanillafoodpantry:cheese_pantry_block
+
+#forge:slimeballs
+- minecraft:slime_ball
+
+#forge:foods/raw_chickens
+- minecraft:chicken
+- atum:quail?
+- autumnity:turkey?
+- betteranimalsplus:pheasantraw?
+- betterdefaultbiomes:duck?
+- eanimod:rawchicken_darkbig?
+
+#carrots:barter_tokens/verypoor
+- carrots:barter_token_verypoor
+
+#forge:ingredients/fish_sausage_main
+- minecraft:cod
+- vanillafoodpantry:pufferfish_raw
+- vanillafoodpantry:guardian_meat_raw
+- upgrade_aquatic:pike?
+
+#carrots:portions_small_sweetener
+- #carrots:portions_small_honey
+- #carrots:portions_small_sugar
+
+#minecraft:jungle_logs
+- minecraft:jungle_log
+- minecraft:jungle_wood
+- minecraft:stripped_jungle_log
+- minecraft:stripped_jungle_wood
+
+#forge:foods/scrambled_eggs
+- burgermod:fried_scrambled_egg?
+- croptopia:scrambled_eggs?
+- pamhc2foodcore:scrambledeggitem?
+
+#minecraft:lectern_books
+- minecraft:written_book
+- minecraft:writable_book
+- patchouli:guide_book
+
+#forge:foods/jerky
+- vanillafoodpantry:jerky
+- vanillafoodpantry:nuggets_beef_jerky
+- vanillafoodpantry:nuggets_fish_jerky
+
+#minecraft:spruce_logs
+- minecraft:spruce_log
+- minecraft:spruce_wood
+- minecraft:stripped_spruce_log
+- minecraft:stripped_spruce_wood
+
+#forge:ingredients/syrup/coconut
+- vanillafoodpantry:drink_syrup_coconut
+
+#carrots:bit_measure
+- vanillafoodpantry:bit_pipette
+
+#forge:fence_gates/wooden
+- druidcraft:darkwood_fence_gate
+- druidcraft:elder_fence_gate
+- minecraft:oak_fence_gate
+- minecraft:spruce_fence_gate
+- minecraft:birch_fence_gate
+- minecraft:jungle_fence_gate
+- minecraft:acacia_fence_gate
+- minecraft:dark_oak_fence_gate
+- minecraft:crimson_fence_gate
+- minecraft:warped_fence_gate
+- upgrade_aquatic:driftwood_fence_gate
+- upgrade_aquatic:river_fence_gate
+- endergetic:poise_fence_gate
+- simplytea:tea_fence_gate
+
+#vanillafoodpantry:ravager_cuts
+- vanillafoodpantry:ravager_meat
+- vanillafoodpantry:ravager_meat_raw
+- vanillafoodpantry:ravager_meat_charred
+- vanillafoodpantry:ravager_meat_prepped
+
+#carrots:portions_vegan_stock
+- vanillafoodpantry:broth_jar_vegan
+
+#forge:glass_panes/lime
+- minecraft:lime_stained_glass_pane
+
+#forge:dusts/natron
+- vanillafoodpantry:baking_soda
+
+#sereneseasons:spring_crops
+- farmersdelight:onion
+
+#forge:bowls
+- #forge:bowls/wooden
+- #forge:bowls/iron
+- #forge:bowls/wooden
+
+#carrots:portions_honey
+- #forge:honey_bottle
+- vanillafoodpantry:crystalized_honey
+- vanillafoodpantry:bowl_honey
+- crockpot:syrup?
+
+#forge:ingredients/starch
+- vanillafoodpantry:foodpowder_potato_starch
+
+#forge:grain
+- #forge:grain/wheat
+- #forge:grain/rice
+
+#upgrade_aquatic:dead_moss_fans_corals
+- upgrade_aquatic:dead_moss_coral
+- upgrade_aquatic:dead_moss_coral_fan
+
+#forge:barter_tokens/poor
+- #minecraft:stone_bricks
+
+#minecraft:flowers
+- #minecraft:small_flowers
+- #minecraft:tall_flowers
+- tropicraft:acai_vine
+- tropicraft:anemone
+- tropicraft:bromeliad
+- tropicraft:canna
+- tropicraft:commelina_diffusa
+- tropicraft:crocosmia
+- tropicraft:croton
+- tropicraft:dracaena
+- tropicraft:tropical_fern
+- tropicraft:foliage
+- tropicraft:magic_mushroom
+- tropicraft:orange_anthurium
+- tropicraft:orchid
+- tropicraft:pathos
+- tropicraft:red_anthurium
+
+#forge:vegetables/potato
+- minecraft:potato
+- minecraft:potato
+
+#forge:cookingoil
+- #carrots:portions_oil
+
+#forge:seeds/corn
+- crockpot:corn_seeds
+
+#carrots:large_empty_jars
+- vanillafoodpantry:empty_jar
+
+#forge:dyes/brown
+- minecraft:brown_dye
+- vanillafoodpantry:foodpowder_cocoa
+
+#forge:raw_fishes/cod
+- minecraft:cod
+- farmersdelight:cod_slice
+
+#forge:gems/natron
+- vanillafoodpantry:natron_crystals
+
+#forge:ores
+- #forge:ores/azurite
+- #forge:ores/eudialyte
+- #forge:ores/zircon
+- #forge:ores/manganese
+- #forge:ores/shaka
+- #forge:ores/amber
+- #forge:ores/moonstone
+- #forge:ores/coal
+- #forge:ores/diamond
+- #forge:ores/emerald
+- #forge:ores/gold
+- #forge:ores/iron
+- #forge:ores/lapis
+- #forge:ores/redstone
+- #forge:ores/quartz
+- #forge:ores/netherite_scrap
+
+#carrots:portions_salt
+- vanillafoodpantry:salt
+- croptopia:salt?
+- saltmod:salt?
+
+#forge:rods/wooden
+- tropicraft:bamboo_stick
+- minecraft:stick
+- simplytea:tea_stick
+
+#forge:ingredients/kebabs/adventure
+- minecraft:rabbit
+- minecraft:porkchop
+- vanillafoodpantry:bat_raw
+- vanillafoodpantry:phantom_meat_raw
+- vanillafoodpantry:pigtail_raw
+- vanillafoodpantry:sanitized_flesh
+- vanillafoodpantry:sanitized_flesh_steamed
+- vanillafoodpantry:squidd_raw
+- vanillafoodpantry:wolf_raw
+- aquaculture:frog_legs_raw?
+- betterdefaultbiomes:frog_leg?
+- crockpot:frog_legs?
+- quark:frog_leg?
+- undergarden:raw_dweller_meat?
+
+#carrots:powders/barterable
+- vanillafoodpantry:foodpowder_apple
+- vanillafoodpantry:foodpowder_batter_mix
+- vanillafoodpantry:foodpowder_beet
+- vanillafoodpantry:foodpowder_berry_mix
+- vanillafoodpantry:foodpowder_blueberry
+- vanillafoodpantry:foodpowder_bouillon
+- vanillafoodpantry:foodpowder_bushtea
+- vanillafoodpantry:foodpowder_cactus
+- vanillafoodpantry:foodpowder_carrot
+- vanillafoodpantry:foodpowder_celery
+- vanillafoodpantry:foodpowder_cheese
+- vanillafoodpantry:foodpowder_chorusfruit
+- vanillafoodpantry:foodpowder_citrus_mix
+- vanillafoodpantry:foodpowder_cocoa
+- vanillafoodpantry:foodpowder_coconut
+- vanillafoodpantry:foodpowder_coffee
+- vanillafoodpantry:foodpowder_cream
+- vanillafoodpantry:foodpowder_dandelion
+- vanillafoodpantry:foodpowder_dandtea
+- vanillafoodpantry:foodpowder_egg
+- vanillafoodpantry:foodpowder_feather
+- vanillafoodpantry:foodpowder_garlic
+- vanillafoodpantry:foodpowder_gelatin
+- vanillafoodpantry:foodpowder_honey
+- vanillafoodpantry:foodpowder_ink
+- vanillafoodpantry:foodpowder_jerky_mix
+- vanillafoodpantry:foodpowder_kelp
+- vanillafoodpantry:foodpowder_leek
+- vanillafoodpantry:foodpowder_mango
+- vanillafoodpantry:foodpowder_melon
+- vanillafoodpantry:foodpowder_milk
+- vanillafoodpantry:foodpowder_mocha_mix
+- vanillafoodpantry:foodpowder_muscle_mix
+- vanillafoodpantry:foodpowder_mushroom
+- vanillafoodpantry:foodpowder_onion
+- vanillafoodpantry:foodpowder_peanuts
+- vanillafoodpantry:foodpowder_peppercorn
+- vanillafoodpantry:foodpowder_pickling_mix
+- vanillafoodpantry:foodpowder_pineapple
+- vanillafoodpantry:foodpowder_pinkflowers
+- vanillafoodpantry:foodpowder_poppy
+- vanillafoodpantry:foodpowder_potato
+- vanillafoodpantry:foodpowder_potato_starch
+- vanillafoodpantry:foodpowder_pumpkin
+- vanillafoodpantry:foodpowder_rose
+- vanillafoodpantry:foodpowder_stew_mix
+- vanillafoodpantry:foodpowder_strawberry
+- vanillafoodpantry:foodpowder_sunbutter_mix
+- vanillafoodpantry:foodpowder_sunflower_seeds
+- vanillafoodpantry:foodpowder_tomato
+- vanillafoodpantry:foodpowder_ugli
+- vanillafoodpantry:foodpowder_vinegar
+- vanillafoodpantry:foodpowder_xylitol
+
+#forge:seeds/onion
+- crockpot:onion_seeds
+
+#forge:storage_blocks/diamond
+- minecraft:diamond_block
+
+#carrots:nutrition/notes/dairy
+- carrots:cowmilk_bucket
+- minecraft:milk_bucket
+
+#carrots:barter_tokens/epic
+- carrots:barter_token_epic
+
+#forge:cream
+- vanillafoodpantry:milkdrink_heavy
+
+#forge:seeds/oak_acorn
+- vanillafoodpantry:oak_acorn
+
+#forge:ingredients/caffeine
+- vanillafoodpantry:raw_caffeine
+- veggie_way:caffeine?
+
+#upgrade_aquatic:bedrolls
+- upgrade_aquatic:bedroll
+- upgrade_aquatic:white_bedroll
+- upgrade_aquatic:black_bedroll
+- upgrade_aquatic:red_bedroll
+- upgrade_aquatic:light_blue_bedroll
+- upgrade_aquatic:blue_bedroll
+- upgrade_aquatic:pink_bedroll
+- upgrade_aquatic:purple_bedroll
+- upgrade_aquatic:magenta_bedroll
+- upgrade_aquatic:green_bedroll
+- upgrade_aquatic:lime_bedroll
+- upgrade_aquatic:gray_bedroll
+- upgrade_aquatic:light_gray_bedroll
+- upgrade_aquatic:orange_bedroll
+- upgrade_aquatic:yellow_bedroll
+- upgrade_aquatic:cyan_bedroll
+- upgrade_aquatic:brown_bedroll
+
+#forge:storage_blocks/gelatin
+- vanillafoodpantry:gelatin_pantry_block
+
+#carrots:nutrition/notes/vegan
+- carrots:oatmilk_bucket
+
+#vanillafoodpantry:polarbear_feed
+- #forge:foods/raw_fish
+
+#carrots:nutrition/notes/soy
+
+#forge:glass_panes/magenta
+- minecraft:magenta_stained_glass_pane
+
+#forge:ores/rocksalt
+- vanillafoodpantry:rock_salt_ore
+- vanillafoodpantry:rock_salt_ore_nether
+
+#forge:nuggets
+- #forge:nuggets/iron
+- #forge:nuggets/gold
+- #forge:nuggets/neptunium
+
+#carrots:barter_tokens/poor
+- carrots:barter_token_poor
+
+#forge:flour
+- vanillafoodpantry:portion_flour
+
+#carrots:dead_coral_blocks
+- minecraft:dead_tube_coral_block
+- minecraft:dead_brain_coral_block
+- minecraft:dead_bubble_coral_block
+- minecraft:dead_fire_coral_block
+- minecraft:dead_horn_coral_block
+
+#forge:rods/blaze
+- minecraft:blaze_rod
+
+#forge:weapons/smashing
+- #forge:weapons/axes
+- #forge:weapons/hammers
+
+#diet:sugars
+- carrots:honey_bucket
+- vanillafoodpantry:all_eyes_trailmix
+- vanillafoodpantry:bowl_honey
+- vanillafoodpantry:bowl_honeymilk
+- vanillafoodpantry:bucket_sweetened_milk
+- vanillafoodpantry:fizzydrink_blueberry
+- vanillafoodpantry:fizzydrink_citrus_mix
+- vanillafoodpantry:fizzydrink_mango
+- vanillafoodpantry:fizzydrink_pineapple
+- vanillafoodpantry:fizzydrink_strawberry
+- vanillafoodpantry:gelo_blueberry
+- vanillafoodpantry:gelo_citrus_mix
+- vanillafoodpantry:gelo_mango
+- vanillafoodpantry:gelo_pineapple
+- vanillafoodpantry:gelo_strawberry
+- vanillafoodpantry:milkdrink_blueberry
+- vanillafoodpantry:milkdrink_mocha_mix
+- vanillafoodpantry:milkdrink_peanuts
+- vanillafoodpantry:milkdrink_strawberry
+- vanillafoodpantry:snocone_citrus
+- vanillafoodpantry:snocone_coconut
+- vanillafoodpantry:snocone_coconut_plain
+- vanillafoodpantry:snocone_mango
+- vanillafoodpantry:snocone_mango_plain
+- vanillafoodpantry:snocone_mocha
+- vanillafoodpantry:snocone_mocha_plain
+- vanillafoodpantry:snocone_pineapple
+- vanillafoodpantry:sweet_eyes_chew
+
+#forge:raw_fishes/pike
+- upgrade_aquatic:pike
+- abnormals_delight:pike_slice
+
+#forge:foods/carrots
+- #forge:crops/carrot
+
+#carrots:glass
+- #carrots:colorless_glass
+- #carrots:stained_glass
+
+#upgrade_aquatic:dead_tube_fans_corals
+- minecraft:dead_tube_coral
+- minecraft:dead_tube_coral_fan
+
+#create:upright_on_belt
+- farmersdelight:milk_bottle
+- farmersdelight:hot_cocoa
+- farmersdelight:pie_crust
+- farmersdelight:apple_pie
+- farmersdelight:sweet_berry_cheesecake
+- farmersdelight:chocolate_pie
+
+#forge:vegetables/carrot
+- minecraft:carrot
+- minecraft:carrot
+
+#forge:foods/whole_celery
+- croptopia:celery?
+- pamhc2crops:celeryitem?
+
+#minecraft:barter_tokens/legendary
+- minecraft:netherite_ingot
+- minecraft:netherite_ingot
+
+#minecraft:ladders
+- minecraft:ladder
+- minecraft:ladder
+
+#carrots:portions_condensed_milk
+- vanillafoodpantry:condensed_milk_jar
+
+#minecraft:barter_tokens/epic
+- minecraft:nether_star
+- minecraft:nether_star
+
+#forge:buckets/seedoil
+- carrots:seedoil_bucket
+
+#carrots:portions_butter
+- vanillafoodpantry:homemade_butter
+
+#forge:ingredients/bottle_cream
+- vanillafoodpantry:foodpowder_cream
+- vanillafoodpantry:milkdrink_heavy
+- pamhc2foodcore:creamitem?
+
+#forge:glass/red
+- minecraft:red_stained_glass
+
+#forge:storage_blocks/hardened_sugar
+- vanillafoodpantry:hardened_sugar_pantry_block
+
+#forge:ender_pearls
+- minecraft:ender_pearl
+
+#forge:foods/flours/acorn
+- vanillafoodpantry:portion_acornmeal
+
+#forge:sugar
+- vanillafoodpantry:foodpowder_honey
+- vanillafoodpantry:foodpowder_xylitol
+
+#forge:glass_panes/green
+- minecraft:green_stained_glass_pane
+
+#carrots:small_boned_critters
+- minecraft:chicken
+- minecraft:rabbit
+
+#forge:ingredients/condiments
+- vanillafoodpantry:caramelized_alliums
+- vanillafoodpantry:muscle_mayonnaise
+- vanillafoodpantry:portion_butter
+- vanillafoodpantry:portion_mayonnaise
+- vanillafoodpantry:portion_salt
+- vanillafoodpantry:roasted_seeds_sunflower
+- vanillafoodpantry:sauteed_alliums_mushrooms
+- vanillafoodpantry:tangy_mayonnaise
+- crockpot:pepper?
+- croptopia:artichoke_dip?
+- croptopia:salsa?
+- croptopia:soy_sauce?
+- fluffy_farmer:hot_pepper?
+- fluffy_farmer:hot_sauce_bottle?
+- fluffy_farmer:pickle?
+- pamhc2foodcore:mayonaiseitem?
+- pamhc2foodcore:pickledbeetsitem?
+- pamhc2foodcore:roastedsunflowerseedsitem?
+- pamhc2foodcore:sunflowerseedsitem?
+- pamhc2crops:seasameseedsitem?
+- pamhc2foodextended:bbqsauceitem?
+- pamhc2foodextended:blackpepperitem?
+- pamhc2foodextended:hotsauceitem?
+- pamhc2foodextended:ketchupitem?
+- pamhc2foodextended:mushroomoilitem?
+- pamhc2foodextended:mustarditem?
+- pamhc2foodextended:relishitem?
+- pamhc2foodextended:salsaitem?
+- pamhc2foodextended:saltandpepperitem?
+- pamhc2foodextended:seasameoilitem?
+- pamhc2foodextended:soysauceitem?
+- simplefarming:habanero?
+- simplefarming:golden_habanero?
+- simplefarming:pepper?
+- simplefarming:pickle?
+- simplefarming:pickled_beetroot?
+- wellfedmod:forest_spices?
+- wellfedmod:nether_spices?
+- wellfedmod:ocean_spices?
+- xlfoodmod:hot_sauce?
+- xlfoodmod:pepper?
+
+#carrots:powders/food_coloring
+- vanillafoodpantry:foodpowder_beet
+- vanillafoodpantry:foodpowder_berry_mix
+- vanillafoodpantry:foodpowder_bushtea
+- vanillafoodpantry:foodpowder_cactus
+- vanillafoodpantry:foodpowder_carrot
+- vanillafoodpantry:foodpowder_chorusfruit
+- vanillafoodpantry:foodpowder_cocoa
+- vanillafoodpantry:foodpowder_dandelion
+- vanillafoodpantry:foodpowder_ink
+- vanillafoodpantry:foodpowder_pinkflowers
+- vanillafoodpantry:foodpowder_poppy
+- vanillafoodpantry:foodpowder_rose
+
+#forge:jellies
+- #forge:ingredients/crafty_preserves
+
+#carrots:barter_tokens/excellent
+- carrots:barter_token_excellent
+
+#upgrade_aquatic:horn_fans_corals
+- minecraft:horn_coral
+- minecraft:horn_coral_fan
+
+#forge:chests/trapped
+- minecraft:trapped_chest
+- upgrade_aquatic:driftwood_trapped_chest
+- upgrade_aquatic:river_trapped_chest
+- endergetic:poise_trapped_chest
+
+#ftbchunks:right_click_whitelist
+- minecraft:shield
+- minecraft:firework_rocket
+- minecraft:map
+
+#forge:sandstone
+- minecraft:sandstone
+- minecraft:cut_sandstone
+- minecraft:chiseled_sandstone
+- minecraft:smooth_sandstone
+- minecraft:red_sandstone
+- minecraft:cut_red_sandstone
+- minecraft:chiseled_red_sandstone
+- minecraft:smooth_red_sandstone
+
+#forge:glass_panes/colorless
+- minecraft:glass_pane
+
+#forge:ingredients/butter
+- #forge:foods/butter
+
+#minecraft:piglin_food
+- nethers_delight:hoglin_loin
+- nethers_delight:hoglin_sirloin
+
+#forge:ingredients/salad
+- minecraft:dried_kelp
+- vanillafoodpantry:bamboo_shoots
+- vanillafoodpantry:cactus_heart
+- vanillafoodpantry:washed_kelp_niblet
+- vanillafoodpantry:kelp_prepped
+- vanillafoodpantry:molasses_glazed_carrots
+- vanillafoodpantry:portion_roasted_veg
+- crockpot:asparagus?
+- crockpot:tomato?
+- croptopia:asparagus?
+- croptopia:avocado?
+- croptopia:bellpepper?
+- croptopia:cabbage?
+- croptopia:cucumber?
+- croptopia:cucumber_salad?
+- croptopia:greenbean?
+- croptopia:greenonion?
+- croptopia:kale?
+- croptopia:leafy_salad?
+- croptopia:lettuce?
+- croptopia:olive?
+- croptopia:radish?
+- croptopia:spinach?
+- croptopia:tomato?
+- croptopia:tomatillo?
+- croptopia:veggie_salad?
+- farmersdelight:cabbage?
+- farmersdelight:mixed_salad?
+- farmersdelight:tomato?
+- fluffy_farmer:cucumber?
+- fluffy_farmer:hot_pepper?
+- fluffy_farmer:orange_tomato?
+- fluffy_farmer:pickled_tomato?
+- fluffy_farmer:red_tomato?
+- fluffy_farmer:yellow_tomato?
+- pamhc2crops:asparagusitem?
+- pamhc2crops:cucumberitem?
+- pamhc2crops:lettuceitem?
+- pamhc2crops:bellpepperitem?
+- pamhc2crops:kaleitem?
+- pamhc2crops:radishitem?
+- pamhc2crops:spinachitem?
+- pamhc2crops:tomatilloitem?
+- pamhc2crops:tomatoitem?
+- pamhc2crops:waterchestnutitem?
+- pamhc2trees:avocadoitem?
+- simplefarming:corn_salad?
+- simplefarming:cucumber?
+- simplefarming:lettuce?
+- simplefarming:olive_tomato_salad?
+- simplefarming:pea_pod?
+- simplefarming:pepper?
+- simplefarming:radish?
+- simplefarming:spinach?
+- simplefarming:tomato?
+- upgrade_aquatic:boiled_purple_pickerelweed?
+- veggie_way:cactus_chunk?
+- veggie_way:cooked_carrot?
+- veggie_way:cooked_beetroot?
+- veggie_way:super_petals?
+- xlfoodmod:cucumber?
+- xlfoodmod:lettuce?
+- xlfoodmod:onion_salad?
+- xlfoodmod:pepper?
+- xlfoodmod:tomato?
+
+#forge:foods/whole_coconuts
+- croptopia:coconut?
+- pamhc2trees:coconutitem?
+- terraqueous:coconut?
+
+#forge:raw_fishes
+- #forge:raw_fishes/pike
+- #forge:raw_fishes/lionfish
+- #forge:raw_fishes/perch
+- #forge:raw_fishes/cod
+- #forge:raw_fishes/salmon
+- #forge:raw_fishes/tropical_fish
+- #forge:raw_fishes/perch
+- #forge:raw_fishes/pike
+- aquaculture:atlantic_cod
+- aquaculture:blackfish
+- aquaculture:pacific_halibut
+- aquaculture:atlantic_halibut
+- aquaculture:atlantic_herring
+- aquaculture:pink_salmon
+- aquaculture:pollock
+- aquaculture:rainbow_trout
+- aquaculture:bayad
+- aquaculture:boulti
+- aquaculture:capitaine
+- aquaculture:synodontis
+- aquaculture:smallmouth_bass
+- aquaculture:bluegill
+- aquaculture:brown_trout
+- aquaculture:carp
+- aquaculture:catfish
+- aquaculture:gar
+- aquaculture:minnow
+- aquaculture:muskellunge
+- aquaculture:perch
+- aquaculture:arapaima
+- aquaculture:piranha
+- aquaculture:tambaqui
+- aquaculture:brown_shrooma
+- aquaculture:red_shrooma
+- aquaculture:red_grouper
+- aquaculture:tuna
+
+#tea_kettle:simplytea_cup_tea_green
+- simplytea:cup_tea_green?
+
+#carrots:additives/rebirth_essence
+- vanillafoodpantry:phoenix_feather
+
+#carrots:portions_broth
+- vanillafoodpantry:broth_jar
+- vanillafoodpantry:broth_jar_vegan
+
+#forge:ingredients/vinegar
+- vanillafoodpantry:foodpowder_vinegar
+- charcoal_pit:vinegar_bottle?
+- pamhc2foodcore:vinegaritem?
+- simplefarming:vinegar?
+
+#forge:ores/natron
+- vanillafoodpantry:natron_ore
+
+#forge:buckets/potable_water
+- carrots:potable_water_bucket
+- minecraft:purified_water_bucket?
+- vanillafoodpantry:bucket_potable_water
+
+#forge:armor/gloves
+
+#forge:dusts/lava
+- minecraft:blaze_powder
+- minecraft:blaze_powder
+- vanillafoodpantry:lava_sand
+
+#carrots:portions_1smelt
+- minecraft:torch
+- minecraft:soul_torch
+- vanillafoodpantry:portion_heat
+
+#forge:foods/mangoes
+- croptopia:mango?
+- pamhc2trees:mangoitem?
+- simplefarming:mango?
+- terraqueous:mango?
+
+#minecraft:beds
+- minecraft:red_bed
+- minecraft:black_bed
+- minecraft:blue_bed
+- minecraft:brown_bed
+- minecraft:cyan_bed
+- minecraft:gray_bed
+- minecraft:green_bed
+- minecraft:light_blue_bed
+- minecraft:light_gray_bed
+- minecraft:lime_bed
+- minecraft:magenta_bed
+- minecraft:orange_bed
+- minecraft:pink_bed
+- minecraft:purple_bed
+- minecraft:white_bed
+- minecraft:yellow_bed
+
+#forge:ores/diamond
+- minecraft:diamond_ore
+
+#minecraft:doors
+- #minecraft:wooden_doors
+- minecraft:iron_door
+- druidcraft:darkwood_door
+- druidcraft:elder_door
+- upgrade_aquatic:tooth_door
+- upgrade_aquatic:glass_door
+
+#forge:foods/mashed_potatoes
+- vanillafoodpantry:green_mashed_tatoes
+- vanillafoodpantry:mashed_tatoes
+- vanillafoodpantry:pink_mashed_tatoes
+- vanillafoodpantry:wild_mashed_tatoes
+- pamhc2foodcore:mashedpotatoesitem?
+- pamhc2foodextended:garlicmashedpotatoesitem?
+
+#forge:storage_blocks/fizzing_agent
+- vanillafoodpantry:fizzing_agent_pantry_block
+
+#forge:storage_blocks/dough
+- vanillafoodpantry:dough_pantry_block
+
+#forge:seeds/coffee_bean
+- croptopia:coffee_beans?
+- pamhc2crops:coffeebeanitem?
+
+#vanillafoodpantry:drops/guardian_other
+- vanillafoodpantry:guardian_air_sac
+- vanillafoodpantry:guardian_fins
+
+#carrots:nutrition/notes/shellfish
+- #forge:foods/cooked_shellfish
+- #forge:foods/raw_shellfish
+
+#tropicraft:music_discs
+- tropicraft:music_disc_buried_treasure
+- tropicraft:music_disc_eastern_isles
+- tropicraft:music_disc_the_tribe
+- tropicraft:music_disc_low_tide
+- tropicraft:music_disc_trade_winds
+- tropicraft:music_disc_summering
+
+#carrots:nutrition/brewables
+- minecraft:rabbit_foot
+- vanillafoodpantry:bat_sonar_sac
+- vanillafoodpantry:feline_life
+- #vanillafoodpantry:drops/horse_other
+- vanillafoodpantry:ink_pearl_shard
+- vanillafoodpantry:phoenix_feather
+- vanillafoodpantry:polar_crystal
+- vanillafoodpantry:polar_raw_crystal
+- vanillafoodpantry:ravager_left_horn
+- vanillafoodpantry:ravager_right_horn
+- vanillafoodpantry:wolf_spirit
+- #vanillafoodpantry:drops/wolf_spirit_essence
+
+#minecraft:signs
+- minecraft:oak_sign
+- minecraft:spruce_sign
+- minecraft:birch_sign
+- minecraft:acacia_sign
+- minecraft:jungle_sign
+- minecraft:dark_oak_sign
+- minecraft:crimson_sign
+- minecraft:warped_sign
+- upgrade_aquatic:driftwood_sign
+- upgrade_aquatic:river_sign
+- endergetic:poise_sign
+
+#forge:cooked_beef
+- minecraft:cooked_beef
+- farmersdelight:beef_patty
+
+#tropicraft:walls
+- tropicraft:chunk_wall
+
+#tea_kettle:hot_kettles
+- #tea_kettle:boiling_kettles
+- #tea_kettle:frothing_kettles
+
+#forge:tools/knives
+- farmersdelight:flint_knife
+- farmersdelight:iron_knife
+- farmersdelight:diamond_knife
+- farmersdelight:golden_knife
+- farmersdelight:netherite_knife
+- abnormals_delight:silver_knife
+- abnormals_delight:necromium_knife
+
+#carrots:portions_sandwich_spread
+- vanillafoodpantry:portion_butter
+- #carrots:portions_mayo
+- #carrots:portions_small_salt
+- fluffy_farmer:hot_sauce_bottle?
+- neapolitan:mint_leaves?
+- pamhc2crops:spiceleafitem?
+- pamhc2foodextended:blackpepperitem?
+- pamhc2foodextended:hotsauceitem?
+- pamhc2foodextended:mustarditem?
+- pamhc2foodextended:relishitem?
+- pamhc2foodextended:salsaitem?
+- xlfoodmod:hot_sauce?
+
+#tropicraft:leather
+- tropicraft:iguana_leather
+
+#forge:ice_blocks
+- minecraft:ice
+- minecraft:packed_ice
+- minecraft:blue_ice
+
+#forge:foods/cassava
+- pamhc2crops:cassavaitem?
+- simplefarming:cassava?
+
+#forge:ingredients/syrup/mango
+- vanillafoodpantry:drink_syrup_mango
+
+#forge:foods/fried_breads
+- vanillafoodpantry:cooked_dough
+- vanillafoodpantry:cooked_sweet_dough
+
+#carrots:additives/fermenting
+- minecraft:brown_mushroom
+- minecraft:red_mushroom
+- vanillafoodpantry:starter_yeast
+
+#forge:storage_blocks/clay_balls
+- minecraft:clay
+
+#forge:ingots/leavening_agent
+- vanillafoodpantry:leavening_agent_ball
+
+#upgrade_aquatic:finger_fans_corals
+- upgrade_aquatic:finger_coral
+- upgrade_aquatic:finger_coral_fan
+
+#forge:ingredients/garlic
+- vanillafoodpantry:foodpowder_garlic
+
+#forge:foods/fruit
+- minecraft:apple
+- minecraft:chorus_fruit
+- minecraft:melon_slice
+- minecraft:sweet_berries
+
+#forge:tinydusts/sugar
+- vanillafoodpantry:portion_sugar
+
+#carrots:portions_small_heat
+- vanillafoodpantry:portion_heat
+
+#tropicraft:sand
+- tropicraft:purified_sand
+- tropicraft:coral_sand
+- tropicraft:foamy_sand
+- tropicraft:mineral_sand
+- tropicraft:volcanic_sand
+
+#upgrade_aquatic:elder_prismarine_fans_corals
+- upgrade_aquatic:elder_prismarine_coral
+- upgrade_aquatic:elder_prismarine_coral_fan
+- upgrade_aquatic:elder_prismarine_coral_shower
+
+#carrots:cheese_cloth
+- vanillafoodpantry:cloth_bag
+
+#forge:foods/cooked_hamsteak
+- vanillafoodpantry:cooked_salt_pork
+- farmersdelight:smoked_ham?
+
+#forge:crops/cabbage
+- farmersdelight:cabbage
+- farmersdelight:cabbage_leaf
+
+#forge:cooked_fishes/pike
+- upgrade_aquatic:cooked_pike
+- abnormals_delight:cooked_pike_slice
+
+#forge:flint
+- minecraft:flint
+- minecraft:flint
+- vanillafoodpantry:red_flint
+- vanillafoodpantry:knapped_red_flint
+
+#forge:fleece
+- vanillafoodpantry:fleece_block_brown
+- vanillafoodpantry:fleece_block_creamy
+- vanillafoodpantry:fleece_block_gray
+- vanillafoodpantry:fleece_block_white
+
+#forge:ice_like
+- minecraft:snow
+- minecraft:snow_block
+- #forge:ice_blocks
+
+#forge:weapons/crossbows
+- minecraft:crossbow
+
+#forge:swords
+- minecraft:wooden_sword
+- minecraft:stone_sword
+- minecraft:iron_sword
+- minecraft:golden_sword
+- minecraft:diamond_sword
+- minecraft:netherite_sword
+- tropicraft:eudialyte_sword
+- tropicraft:zircon_sword
+- tropicraft:zirconium_sword
+
+#forge:dusts/lighting
+- minecraft:glowstone_dust
+
+#carrots:nutrition/disabled_foodgroup
+- minecraft:honey_bottle
+- minecraft:poisonous_potato
+- minecraft:spider_eye
+- minecraft:sugar
+- minecraft:sugar_cane
+- #forge:honey_bottle
+- #carrots:nutrition/additives
+- #carrots:nutrition/brewables
+- #forge:ingredients/sweeteners_concentrate
+
+#aquaculture:tackle_box
+- minecraft:string
+
+#forge:foods/lentils
+- veggie_way:lentil?
+- veggie_way:lentil_seeds?
+
+#tropicraft:wooden_doors
+- tropicraft:palm_door
+- tropicraft:mahogany_door
+- tropicraft:mangrove_door
+
+#tea_kettle:simplytea_cup_cocoa
+- simplytea:cup_cocoa?
+
+#vanillafoodpantry:jelly_jams
+- #forge:ingredients/crafty_preserves
+
+#forge:glass/green
+- minecraft:green_stained_glass
+
+#itemfilters:filters
+- itemfilters:always_true
+- itemfilters:always_false
+- itemfilters:or
+- itemfilters:and
+- itemfilters:not
+- itemfilters:xor
+- itemfilters:tag
+- itemfilters:mod
+- itemfilters:item_group
+- itemfilters:id_regex
+- itemfilters:damage
+- itemfilters:block
+- itemfilters:max_count
+- itemfilters:strong_nbt
+- itemfilters:weak_nbt
+- itemfilters:custom
+
+#forge:storage_blocks/baking_soda
+- vanillafoodpantry:baking_soda_pantry_block
+
+#forge:dusts/baking_soda
+- vanillafoodpantry:baking_soda
+
+#forge:cooked_fishes/perch
+- upgrade_aquatic:cooked_perch
+- abnormals_delight:cooked_perch_slice
+
+#forge:green_vines
+- minecraft:vine
+
+#abnormals_delight:slabdish_ingredients
+- minecraft:lily_pad
+- minecraft:seagrass
+- farmersdelight:rice_panicle
+- environmental:duckweed?
+
+#forge:end_stones
+- minecraft:end_stone
+
+#carrots:portions_hide
+- minecraft:rabbit_hide
+- vanillafoodpantry:portion_leather
+- veggie_way:bamboo_sheet?
+
+#forge:foods/sweet_potatoes
+- croptopia:sweetpotato?
+- pamhc2crops:sweetpotatoitem?
+- simplefarming:sweet_potato?
+
+#forge:foods/blueberries
+- croptopia:blueberry?
+- druidcraft:blueberries?
+- pamhc2crops:blueberryitem?
+- simplefarming:blueberries?
+
+#forge:foods/cooked_nuggets
+- vanillafoodpantry:nuggets_beef_fried
+- vanillafoodpantry:nuggets_beef_jerky
+- vanillafoodpantry:nuggets_carrots_fried
+- vanillafoodpantry:nuggets_chicken_fried
+- vanillafoodpantry:nuggets_cooked_pork_fried
+- vanillafoodpantry:nuggets_fish_fried
+- vanillafoodpantry:nuggets_fish_jerky
+- vanillafoodpantry:nuggets_mushrooms_fried
+- vanillafoodpantry:nuggets_mutton_fried
+- vanillafoodpantry:nuggets_newyorker
+- vanillafoodpantry:nuggets_pork_fried
+- vanillafoodpantry:nuggets_squid_fried
+- vanillafoodpantry:nuggets_veggies_fried
+- vanillafoodpantry:jerky
+
+#vanillafoodpantry:livestock_feed
+- vanillafoodpantry:oak_acorn
+- vanillafoodpantry:spruce_tips
+
+#forge:fences/wooden
+- druidcraft:darkwood_fence
+- druidcraft:elder_fence
+- minecraft:oak_fence
+- minecraft:spruce_fence
+- minecraft:birch_fence
+- minecraft:jungle_fence
+- minecraft:acacia_fence
+- minecraft:dark_oak_fence
+- minecraft:crimson_fence
+- minecraft:warped_fence
+- upgrade_aquatic:driftwood_fence
+- upgrade_aquatic:river_fence
+- endergetic:poise_fence
+- simplytea:tea_fence
+
+#sereneseasons:summer_crops
+- farmersdelight:tomato_seeds
+- farmersdelight:rice
+
+#forge:barter_tokens/verypoor
+- #minecraft:logs
+
+#forge:storage_blocks
+- #forge:storage_blocks/amber
+- #forge:storage_blocks/moonstone
+- #forge:storage_blocks/coal
+- #forge:storage_blocks/diamond
+- #forge:storage_blocks/emerald
+- #forge:storage_blocks/gold
+- #forge:storage_blocks/iron
+- #forge:storage_blocks/lapis
+- #forge:storage_blocks/quartz
+- #forge:storage_blocks/redstone
+- #forge:storage_blocks/netherite
+- #forge:storage_blocks/bonemeals
+- #forge:storage_blocks/clay_balls
+- #forge:storage_blocks/ice_blocks
+- #forge:storage_blocks/hay
+- #forge:storage_blocks/packed_ice_blocks
+- #forge:storage_blocks/slime_balls
+- #forge:storage_blocks/snow_balls
+- #forge:storage_blocks/dough
+- #forge:storage_blocks/drying_agent
+- #forge:storage_blocks/flour
+- #forge:storage_blocks/gelatin
+- #forge:storage_blocks/leavening_agent
+- #forge:storage_blocks/neptunium
+
+#forge:ingredients/sweeteners_concentrate
+- vanillafoodpantry:hardened_sugar
+- vanillafoodpantry:hardened_xylitol_clump
+
+#carrots:curatives/foods
+- vanillafoodpantry:bottle_birch_sap
+- vanillafoodpantry:bottle_tulip_tonic
+- vanillafoodpantry:bottle_water
+- vanillafoodpantry:bowl_milk
+- vanillafoodpantry:bowl_honeymilk
+- vanillafoodpantry:bucket_potable_water
+- vanillafoodpantry:creamsoup_beet
+- vanillafoodpantry:creamsoup_cactus
+- vanillafoodpantry:creamsoup_carrot
+- vanillafoodpantry:creamsoup_cheese
+- vanillafoodpantry:creamsoup_leek
+- vanillafoodpantry:creamsoup_mushroom
+- vanillafoodpantry:creamsoup_potato
+- vanillafoodpantry:creamsoup_pumpkin
+- vanillafoodpantry:creamsoup_tomato
+- vanillafoodpantry:gelo_honey
+- vanillafoodpantry:golden_sugar
+- vanillafoodpantry:milkdrink_apple
+- vanillafoodpantry:milkdrink_heavy
+- vanillafoodpantry:milkdrink_muscle_mix
+- vanillafoodpantry:milkdrink_plain
+- vanillafoodpantry:portion_honey
+- vanillafoodpantry:portion_milk
+- vanillafoodpantry:teadrink_milky_bushtea
+- vanillafoodpantry:teadrink_milky_dandtea
+- vanillafoodpantry:teadrink_sprucetips_tea
+
+#forge:glass_panes/orange
+- minecraft:orange_stained_glass_pane
+
+#carrots:spawn_egg_casings
+- minecraft:egg
+- minecraft:turtle_egg
+- minecraft:egg
+- minecraft:turtle_egg
+
+#vanillafoodpantry:stuffable_seafood
+- #forge:foods/cooked_seafood
+
+#minecraft:beacon_payment_items
+- minecraft:netherite_ingot
+- minecraft:emerald
+- minecraft:diamond
+- minecraft:gold_ingot
+- minecraft:iron_ingot
+
+#forge:ores/quartz
+- minecraft:nether_quartz_ore
+
+#forge:ingots/brick
+- minecraft:brick
+
+#forge:raw_beef
+- minecraft:beef
+- farmersdelight:minced_beef
+
+#forge:ingredients/bush_tea
+- vanillafoodpantry:foodpowder_bushtea
+- vanillafoodpantry:foodpowder_dandtea
+
+#carrots:portions_poultry
+- vanillafoodpantry:portion_chicken
+- autumnity:turkey_piece?
+- exoticbirds:raw_birdmeat?
+- farmersdelight:chicken_cuts?
+- simplefarming:raw_chicken_wings?
+
+#tea_kettle:simplytea_cup
+- simplytea:cup?
+
+#minecraft:torches
+- minecraft:torch
+- minecraft:soul_torch
+- minecraft:torch
+- minecraft:soul_torch
+
+#forge:storage_blocks/redstone
+- minecraft:redstone_block
+
+#upgrade_aquatic:pillow_fans_corals
+- upgrade_aquatic:pillow_coral
+- upgrade_aquatic:pillow_coral_fan
+
+#armorunder:pak_fillers
+- vanillafoodpantry:drying_agent_unprocessed
+
+#forge:ingots/trona
+- vanillafoodpantry:trona_crystals
+
+#forge:cooked_mutton
+- minecraft:cooked_mutton
+- farmersdelight:cooked_mutton_chops
+
+#minecraft:stairs
+- #minecraft:wooden_stairs
+- minecraft:cobblestone_stairs
+- minecraft:sandstone_stairs
+- minecraft:nether_brick_stairs
+- minecraft:stone_brick_stairs
+- minecraft:brick_stairs
+- minecraft:purpur_stairs
+- minecraft:quartz_stairs
+- minecraft:red_sandstone_stairs
+- minecraft:prismarine_brick_stairs
+- minecraft:prismarine_stairs
+- minecraft:dark_prismarine_stairs
+- minecraft:polished_granite_stairs
+- minecraft:smooth_red_sandstone_stairs
+- minecraft:mossy_stone_brick_stairs
+- minecraft:polished_diorite_stairs
+- minecraft:mossy_cobblestone_stairs
+- minecraft:end_stone_brick_stairs
+- minecraft:stone_stairs
+- minecraft:smooth_sandstone_stairs
+- minecraft:smooth_quartz_stairs
+- minecraft:granite_stairs
+- minecraft:andesite_stairs
+- minecraft:red_nether_brick_stairs
+- minecraft:polished_andesite_stairs
+- minecraft:diorite_stairs
+- minecraft:blackstone_stairs
+- minecraft:polished_blackstone_brick_stairs
+- minecraft:polished_blackstone_stairs
+- druidcraft:darkwood_stairs
+- druidcraft:elder_stairs
+- upgrade_aquatic:kelpy_cobblestone_stairs
+- upgrade_aquatic:polar_kelpy_cobblestone_stairs
+- upgrade_aquatic:thorny_kelpy_cobblestone_stairs
+- upgrade_aquatic:ochre_kelpy_cobblestone_stairs
+- upgrade_aquatic:tongue_kelpy_cobblestone_stairs
+- upgrade_aquatic:kelpy_stone_brick_stairs
+- upgrade_aquatic:polar_kelpy_stone_brick_stairs
+- upgrade_aquatic:thorny_kelpy_stone_brick_stairs
+- upgrade_aquatic:ochre_kelpy_stone_brick_stairs
+- upgrade_aquatic:tongue_kelpy_stone_brick_stairs
+- upgrade_aquatic:tooth_stairs
+- upgrade_aquatic:tooth_brick_stairs
+- upgrade_aquatic:scute_shingle_stairs
+- upgrade_aquatic:scute_pavement_stairs
+- upgrade_aquatic:coralstone_stairs
+- upgrade_aquatic:bubble_coralstone_stairs
+- upgrade_aquatic:brain_coralstone_stairs
+- upgrade_aquatic:tube_coralstone_stairs
+- upgrade_aquatic:horn_coralstone_stairs
+- upgrade_aquatic:fire_coralstone_stairs
+- upgrade_aquatic:acan_coralstone_stairs
+- upgrade_aquatic:finger_coralstone_stairs
+- upgrade_aquatic:star_coralstone_stairs
+- upgrade_aquatic:moss_coralstone_stairs
+- upgrade_aquatic:petal_coralstone_stairs
+- upgrade_aquatic:branch_coralstone_stairs
+- upgrade_aquatic:rock_coralstone_stairs
+- upgrade_aquatic:pillow_coralstone_stairs
+- upgrade_aquatic:silk_coralstone_stairs
+- upgrade_aquatic:chrome_coralstone_stairs
+- upgrade_aquatic:elder_prismarine_coralstone_stairs
+- upgrade_aquatic:prismarine_coralstone_stairs
+- upgrade_aquatic:dead_coralstone_stairs
+- upgrade_aquatic:beachgrass_thatch_stairs
+- endergetic:eumus_brick_stairs
+
+#forge:vegetables/tomato
+- crockpot:tomato
+- farmersdelight:tomato
+
+#minecraft:logs
+- #minecraft:logs_that_burn
+- #minecraft:crimson_stems
+- #minecraft:warped_stems
+- druidcraft:darkwood_log
+- druidcraft:elder_log
+- druidcraft:darkwood_wood
+- druidcraft:elder_wood
+- druidcraft:stripped_darkwood_log
+- druidcraft:stripped_elder_log
+- druidcraft:stripped_darkwood_wood
+- druidcraft:stripped_elder_wood
+
+#forge:foods/cucumbers
+- croptopia:cucumber?
+- fluffy_farmer:cucumber?
+- pamhc2crops:cucumberitem?
+- simplefarming:cucumber?
+- xlfoodmod:cucumber?
+
+#minecraft:wool/pink
+- minecraft:pink_wool
+- minecraft:pink_wool
+
+#forge:gems/moonstone
+- druidcraft:moonstone
+
+#forge:ingredients/sun_butter
+- vanillafoodpantry:sunbutter_jar
+
+#forge:seeds/rice
+- farmersdelight:rice
+
+#forge:jolly_boxes/large_present_single_stack
+- aquaculture:neptunium_ingot
+
+#forge:gems/salt
+- vanillafoodpantry:rock_salt_crystals
+
+#forge:powders/mushroom
+- vanillafoodpantry:foodpowder_mushroom
+
+#tea_kettle:lavender
+- abundance:lavender?
+- biomesoplenty:lavender?
+
+#forge:butter
+- #carrots:portions_butter
+
+#forge:foods/whole_garlic
+- croptopia:garlic?
+- pamhc2crops:garlicitem?
+
+#forge:foods/cooked_proteins
+- #forge:foods/cooked_eggs
+- #forge:foods/cooked_seafood
+- #forge:foods/cooked_meats
+- #forge:foods/cooked_nuggets
+- #forge:foods/cooked_meat_kebabs
+- #forge:foods/cooked_tofus
+- vanillafoodpantry:sanitized_flesh
+- crockpot:fish_sticks?
+- crockpot:honey_nuggets?
+- croptopia:beef_jerky?
+- croptopia:pork_jerky?
+- fluffy_farmer:cold_cuts?
+- pamhc2foodcore:baconandeggsitem?
+- pamhc2foodcore:chocolatebaconitem?
+- pamhc2foodcore:epicbaconitem?
+- pamhc2foodcore:fishsticksitem?
+- pamhc2foodcore:meatloafitem?
+- pamhc2foodcore:beefjerkyitem?
+- pamhc2foodcore:chickenjerkyitem?
+- pamhc2foodcore:fishjerkyitem?
+- pamhc2foodcore:muttonjerkyitem?
+- pamhc2foodcore:porkjerkyitem?
+- pamhc2foodcore:rabbitjerkyitem?
+- xlfoodmod:beef_jerky?
+
+#sereneseasons:autumn_crops
+- farmersdelight:cabbage_seeds
+- farmersdelight:onion
+- farmersdelight:rice
+
+#forge:tools/shovels
+- minecraft:wooden_shovel
+- minecraft:stone_shovel
+- minecraft:iron_shovel
+- minecraft:diamond_shovel
+- minecraft:golden_shovel
+- minecraft:netherite_shovel
+- minecraft:wooden_shovel
+- minecraft:stone_shovel
+- minecraft:golden_shovel
+- minecraft:iron_shovel
+- minecraft:diamond_shovel
+- minecraft:netherite_shovel
+
+#forge:weapons/staffs
+
+#forge:cooked_venison
+- abnormals_delight:cooked_venison_shanks
+
+#forge:buckets/empty
+- #forge:buckets/empty/iron
+
+#vanillafoodpantry:reheatable_foods
+- #forge:foods/soups
+- #forge:foods/stews
+- #forge:foods/teas
+- vanillafoodpantry:basic_gruel_combo
+- vanillafoodpantry:basic_sop_combo
+- vanillafoodpantry:beetroot_soup_combo
+- vanillafoodpantry:eggplant_saltfish_stew_combo
+- vanillafoodpantry:friedegg_sop_combo
+- vanillafoodpantry:mushroom_stew_combo
+- vanillafoodpantry:pumpkin_pigtail_stew_combo
+- vanillafoodpantry:veggie_stew_combo
+
+#carrots:stained_glass
+- minecraft:white_stained_glass
+- minecraft:black_stained_glass
+- minecraft:orange_stained_glass
+- minecraft:magenta_stained_glass
+- minecraft:light_blue_stained_glass
+- minecraft:yellow_stained_glass
+- minecraft:lime_stained_glass
+- minecraft:pink_stained_glass
+- minecraft:gray_stained_glass
+- minecraft:light_gray_stained_glass
+- minecraft:cyan_stained_glass
+- minecraft:purple_stained_glass
+- minecraft:blue_stained_glass
+- minecraft:brown_stained_glass
+- minecraft:green_stained_glass
+- minecraft:red_stained_glass
+
+#tea_kettle:simplytea_cup_tea_chai
+- simplytea:cup_tea_chai?
+
+#carrots:dark_glass
+- minecraft:black_stained_glass
+- minecraft:brown_stained_glass
+- minecraft:blue_stained_glass
+- minecraft:green_stained_glass
+
+#forge:ingots/shaka
+- tropicraft:shaka_ingot
+
+#forge:weapons/axes
+- minecraft:iron_axe
+- minecraft:diamond_axe
+- minecraft:netherite_axe
+
+#forge:raw_fishes/salmon
+- minecraft:salmon
+- farmersdelight:salmon_slice
+
+#upgrade_aquatic:dead_acan_fans_corals
+- upgrade_aquatic:dead_acan_coral
+- upgrade_aquatic:dead_acan_coral_fan
+
+#carrots:portions_raw_egg
+- minecraft:egg
+- minecraft:turtle_egg
+- minecraft:egg
+- minecraft:turtle_egg
+- #vanillafoodpantry:drops/optional_raw_eggs
+
+#vanillafoodpantry:steamable_eggs
+- #carrots:portions_raw_egg
+- minecraft:turtle_egg
+
+#forge:seeds/wheat
+- minecraft:wheat_seeds
+
+#forge:salt
+- #carrots:portions_salt
+
+#forge:ingots/iron
+- minecraft:iron_ingot
+
+#upgrade_aquatic:prismarine_fans_corals
+- upgrade_aquatic:prismarine_coral
+- upgrade_aquatic:prismarine_coral_fan
+- upgrade_aquatic:prismarine_coral_shower
+
+#curios:ring
+- wilescollection:peculiar_ring
+
+#tea_kettle:terraincognita_fireweed_tea_cup
+- terraincognita:fireweed_tea_cup?
+
+#tea_kettle:simplytea_cup_tea_iced
+- simplytea:cup_tea_iced?
+
+#minecraft:anvil
+- minecraft:anvil
+- minecraft:chipped_anvil
+- minecraft:damaged_anvil
+
+#ftbchunks:right_click_blacklist
+- minecraft:bucket
+- minecraft:water_bucket
+- minecraft:lava_bucket
+- minecraft:lead
+- minecraft:name_tag
+- minecraft:splash_potion
+- minecraft:lingering_potion
+
+#vanillafoodpantry:decker_deny_list
+- vanillafoodpantry:decker_generic
+- vanillafoodpantry:decker_kinged
+- vanillafoodpantry:decker_lumberjack
+- vanillafoodpantry:golden_beetroots
+- vanillafoodpantry:golden_carrots
+- vanillafoodpantry:golden_fruit_pie
+- vanillafoodpantry:golden_mixed_berries
+- vanillafoodpantry:golden_sugar
+- vanillafoodpantry:nomads_meal_bar
+- #forge:foods/soups
+- #forge:foods/stews
+- #forge:foods/sandwiches
+- culinaryconstruct:sandwich?
+- culinaryconstruct:food_bowl?
+
+#forge:sand
+- #forge:sand/colorless
+- #forge:sand/red
+
+#forge:cheese
+- #carrots:portions_cheese
+
+#forge:stock_ingredients
+- vanillafoodpantry:bear_raw_prepped
+- vanillafoodpantry:horse_raw
+- vanillafoodpantry:llama_raw
+- vanillafoodpantry:phantom_meat_raw
+- vanillafoodpantry:pufferfish_raw
+- vanillafoodpantry:squidd_raw
+- vanillafoodpantry:ravager_meat_prepped
+- vanillafoodpantry:sanitized_flesh
+
+#carrots:nutrition/notes/sweets
+- minecraft:cake
+- minecraft:cookie
+- minecraft:honey_bottle
+- minecraft:pumpkin_pie
+- #forge:foods/cookies
+- #forge:honey_bottle
+- #carrots:fizzy_drinks
+- #carrots:gelos
+- #carrots:snocones
+- vanillafoodpantry:cake_slice
+- vanillafoodpantry:crystalized_honey
+- vanillafoodpantry:fudge
+- vanillafoodpantry:happy_muffin
+- vanillafoodpantry:honeycomb_bowl
+- vanillafoodpantry:taffy_blob
+
+#forge:dyes/yellow
+- minecraft:yellow_dye
+- vanillafoodpantry:foodpowder_dandelion
+
+#carrots:powders/drink_flavor
+- vanillafoodpantry:foodpowder_apple
+- vanillafoodpantry:foodpowder_berry_mix
+- vanillafoodpantry:foodpowder_blueberry
+- vanillafoodpantry:foodpowder_cactus
+- vanillafoodpantry:foodpowder_carrot
+- vanillafoodpantry:foodpowder_chorusfruit
+- vanillafoodpantry:foodpowder_citrus_mix
+- vanillafoodpantry:foodpowder_cocoa
+- vanillafoodpantry:foodpowder_dandelion
+- vanillafoodpantry:foodpowder_ink
+- vanillafoodpantry:foodpowder_mango
+- vanillafoodpantry:foodpowder_melon
+- vanillafoodpantry:foodpowder_milk
+- vanillafoodpantry:foodpowder_pineapple
+- vanillafoodpantry:foodpowder_poppy
+- vanillafoodpantry:foodpowder_strawberry
+- vanillafoodpantry:foodpowder_syrup
+
+#tea_kettle:weak_sweeteners
+- minecraft:sugar
+
+#minecraft:stone_crafting_materials
+- minecraft:cobblestone
+- minecraft:blackstone
+
+#carrots:portions_small_chill
+- minecraft:snowball
+- vanillafoodpantry:small_ice_cubes
+- neapolitan:ice_cubes?
+
+#carrots:portions_heat
+- vanillafoodpantry:lava_sand
+
+#minecraft:piglin_repellents
+- minecraft:soul_torch
+- minecraft:soul_lantern
+- minecraft:soul_campfire
+
+#forge:glass/black
+- minecraft:black_stained_glass
+
+#forge:foods/leeks
+- charcoal_pit:leek?
+- croptopia:leek?
+- pamhc2crops:leekitem?
+
+#carrots:portions_bread
+- vanillafoodpantry:buttered_bread
+- vanillafoodpantry:flat_bread_pocket
+- vanillafoodpantry:portion_bread
+- croptopia:tortilla?
+- pamhc2foodextended:tortillaitem?
+- xlfoodmod:bottom_bun?
+- xlfoodmod:tortilla?
+- xlfoodmod:top_bun?
+
+#forge:foods/lemons
+- croptopia:lemon?
+- fruittrees:lemon?
+- pamhc2trees:lemonitem?
+- terraqueous:lemon?
+- xlfoodmod:lemon?
+
+#forge:fences/nether_brick
+- minecraft:nether_brick_fence
+
+#forge:rods
+- #forge:rods/blaze
+- #forge:rods/wooden
+- #forge:rods/prismarine
+- #forge:rods/bamboo
+
+#forge:ores/iron
+- minecraft:iron_ore
+
+#forge:ingredients/syrup/apple
+- vanillafoodpantry:drink_syrup_apple
+
+#forge:foods/stews
+- minecraft:rabbit_stew
+- vanillafoodpantry:acorn_meat_stew
+- vanillafoodpantry:cave_stew
+- vanillafoodpantry:earthy_stew
+- vanillafoodpantry:eggplant_saltfish_stew
+- vanillafoodpantry:ham_hocks_stew
+- vanillafoodpantry:polar_bear_stew
+- vanillafoodpantry:pumpkin_pigtail_stew
+- vanillafoodpantry:veggie_stew
+
+#tropicraft:slabs
+- #tropicraft:wooden_slabs
+- tropicraft:bamboo_slab
+- tropicraft:chunk_slab
+- tropicraft:thatch_slab
+
+#minecraft:wooden_stairs
+- minecraft:oak_stairs
+- minecraft:spruce_stairs
+- minecraft:birch_stairs
+- minecraft:jungle_stairs
+- minecraft:acacia_stairs
+- minecraft:dark_oak_stairs
+- minecraft:crimson_stairs
+- minecraft:warped_stairs
+- druidcraft:darkwood_stairs
+- druidcraft:elder_stairs
+- upgrade_aquatic:driftwood_stairs
+- upgrade_aquatic:river_stairs
+- endergetic:poise_stairs
+
+#carrots:portions_large_potable_water
+- carrots:potable_water_bucket
+- survive:purified_water_bucket?
+- vanillafoodpantry:bucket_potable_water
+
+#minecraft:wooden_buttons
+- minecraft:oak_button
+- minecraft:spruce_button
+- minecraft:birch_button
+- minecraft:jungle_button
+- minecraft:acacia_button
+- minecraft:dark_oak_button
+- minecraft:crimson_button
+- minecraft:warped_button
+- druidcraft:darkwood_button
+- druidcraft:elder_button
+- upgrade_aquatic:driftwood_button
+- upgrade_aquatic:river_button
+- endergetic:poise_button
+
+#forge:storage_blocks/quartz
+- minecraft:quartz_block
+
+#forge:mud_bricks
+- druidcraft:dry_mud_bricks
+
+#forge:pak_fillers
+- vanillafoodpantry:drying_agent_unprocessed
+
+#forge:fertilizer
+- #carrots:fertilizers/safe
+
+#forge:dyes/green
+- minecraft:green_dye
+- vanillafoodpantry:foodpowder_bushtea
+
+#forge:crops/onion
+- crockpot:onion
+- farmersdelight:onion
+
+#forge:ores/moonstone
+- druidcraft:moonstone_ore
+
+#forge:ingredients/kebabs/seafood
+- vanillafoodpantry:squidd_cooked
+- quark:cooked_crab_leg?
+
+#vanillafoodpantry:fruit_pie_filling_binders
+- #forge:foods/flours/wheat
+- vanillafoodpantry:foodpowder_potato_starch
+
+#forge:ingredients/onion
+- vanillafoodpantry:foodpowder_onion
+
+#forge:ores/emerald
+- minecraft:emerald_ore
+
+#forge:foods/roasted_seeds
+- vanillafoodpantry:roasted_seeds_sunflower
+- vanillafoodpantry:roasted_seeds_melon
+- vanillafoodpantry:roasted_seeds_pumpkin
+- pamhc2foodcore:roastedsunflowerseedsitem?
+- simplefarming:sunflower_seeds?
+
+#carrots:barter_tokens/good
+- carrots:barter_token_good
+
+#forge:weapons/slashing
+- #forge:weapons/swords
+
+#forge:foods/broccoli
+- croptopia:broccoli?
+- pamhc2crops:broccoliitem?
+- simplefarming:broccoli?
+
+#carrots:additives/scaffold_item
+- minecraft:beetroot_seeds
+- minecraft:melon_seeds
+- minecraft:pumpkin_seeds
+- minecraft:wheat_seeds
+- vanillafoodpantry:dried_seeds
+- atum:flax_seeds?
+- crockpot:corn_seeds?
+- croptopia:barley_seed?
+- croptopia:bellpepper_seed?
+- croptopia:blackbean_seed?
+- croptopia:cantaloupe_seed?
+- croptopia:chili_pepper_seed?
+- croptopia:corn_seed?
+- croptopia:honeydew_seed?
+- croptopia:oat_seed?
+- croptopia:tomato_seed?
+- croptopia:tomatillo_seed?
+- croptopia:squash_seed?
+- fluffy_farmer:corn_seeds?
+- simplefarming:barley_seeds?
+- simplefarming:cantaloupe_seeds?
+- simplefarming:corn_seeds?
+- simplefarming:honeydew_seeds?
+- simplefarming:pepper_seeds?
+- simplefarming:sunflower_seeds?
+- simplefarming:soybean_seeds?
+- simplefarming:tomato_seeds?
+- xlfoodmod:corn_seeds?
+- xlfoodmod:pepper_seeds?
+- xlfoodmod:tomato_seeds?
+
+#forge:dyes/lime
+- minecraft:lime_dye
+- vanillafoodpantry:foodpowder_cactus
+
+#carrots:heads/bosses
+- minecraft:dragon_head
+
+#forge:foods/potatoes
+- minecraft:baked_potato
+
+#tropicraft:wooden_trapdoors
+- tropicraft:palm_trapdoor
+- tropicraft:mahogany_trapdoor
+- tropicraft:mangrove_trapdoor
+
+#forge:weapons/melee
+- #forge:tools/weapon_like
+- #forge:weapons/axes
+- #forge:weapons/hammers
+- #forge:weapons/swords
+
+#forge:ingredients/syrup/berry
+- vanillafoodpantry:drink_syrup_berry
+
+#upgrade_aquatic:driftwood_logs
+- upgrade_aquatic:driftwood_log
+- upgrade_aquatic:driftwood
+- upgrade_aquatic:stripped_driftwood_log
+- upgrade_aquatic:stripped_driftwood
+
+#druidcraft:rockroots
+- druidcraft:rockroot
+
+#forge:seeds/cabbage
+- farmersdelight:cabbage_seeds
+
+#carrots:smuggets/iron
+- vanillafoodpantry:iron_smugget
+
+#minecraft:tall_flowers
+- minecraft:sunflower
+- minecraft:lilac
+- minecraft:peony
+- minecraft:rose_bush
+- upgrade_aquatic:flowering_rush
+
+#forge:storage_blocks/leavening_agent
+- vanillafoodpantry:leavening_agent_pantry_block
+
+#forge:ingredients/flowers
+- minecraft:orange_tulip
+- minecraft:pink_tulip
+- minecraft:red_tulip
+- minecraft:white_tulip
+
+#forge:foods/flour
+- #forge:foods/flours
+
+#forge:barter_tokens/great
+- #forge:gems/emerald
+
+#druidcraft:fiery_glass_ores
+- druidcraft:fiery_glass_ore
+
+#forge:bookshelves
+- minecraft:bookshelf
+
+#carrots:additives/milk_curdling
+- vanillafoodpantry:rennet
+
+#carrots:portions_fish
+- vanillafoodpantry:portion_cod
+- vanillafoodpantry:portion_salmon
+- vanillafoodpantry:portion_pufferfish
+- abnormals_delight:pike_slice?
+- aquaculture:fish_fillet_raw?
+- farmersdelight:cod_slice?
+- farmersdelight:salmon_slice?
+
+#aquaculture:bobber
+- aquaculture:bobber
+
+#forge:dyes
+- #forge:dyes/white
+- #forge:dyes/orange
+- #forge:dyes/magenta
+- #forge:dyes/light_blue
+- #forge:dyes/yellow
+- #forge:dyes/lime
+- #forge:dyes/pink
+- #forge:dyes/gray
+- #forge:dyes/light_gray
+- #forge:dyes/cyan
+- #forge:dyes/purple
+- #forge:dyes/blue
+- #forge:dyes/brown
+- #forge:dyes/green
+- #forge:dyes/red
+- #forge:dyes/black
+- vanillafoodpantry:foodpowder_beet
+- vanillafoodpantry:foodpowder_bushtea
+- vanillafoodpantry:foodpowder_cactus
+- vanillafoodpantry:foodpowder_carrot
+- vanillafoodpantry:foodpowder_chorusfruit
+- vanillafoodpantry:foodpowder_cocoa
+- vanillafoodpantry:foodpowder_dandelion
+- vanillafoodpantry:foodpowder_ink
+- vanillafoodpantry:foodpowder_pinkflowers
+- vanillafoodpantry:foodpowder_poppy
+- vanillafoodpantry:foodpowder_rose
+
+#forge:weapons/swords
+- minecraft:wooden_sword
+- minecraft:stone_sword
+- minecraft:golden_sword
+- minecraft:iron_sword
+- minecraft:diamond_sword
+- minecraft:netherite_sword
+
+#forge:buckets/water
+- minecraft:water_bucket
+- minecraft:water_bucket
+- #forge:buckets/potable_water
+
+#forge:glass_panes/pink
+- minecraft:pink_stained_glass_pane
+
+#forge:netherrack
+- minecraft:netherrack
+
+#upgrade_aquatic:dead_finger_fans_corals
+- upgrade_aquatic:dead_finger_coral
+- upgrade_aquatic:dead_finger_coral_fan
+
+#forge:weapons/ammo
+- #forge:weapons/projectiles
+
+#minecraft:soul_fire_base_blocks
+- minecraft:soul_sand
+- minecraft:soul_soil
+
+#carrots:nutrition/notes/seafood
+- minecraft:cooked_cod
+- minecraft:cooked_salmon
+- minecraft:cod
+- minecraft:pufferfish
+- minecraft:salmon
+- minecraft:tropical_fish
+- #carrots:nutrition/notes/fish
+- #carrots:nutrition/notes/shellfish
+
+#carrots:rolling_pins
+- vanillafoodpantry:rolling_pin
+- pamhc2foodcore:rolleritem?
+
+#vanillafoodpantry:decker_toppings
+- vanillafoodpantry:caramelized_alliums
+- vanillafoodpantry:sauteed_alliums_mushrooms
+- vanillafoodpantry:roasted_seeds_sunflower
+
+#forge:eggs
+- minecraft:egg
+- minecraft:egg
+
+#forge:ingredients/cheese
+- #forge:foods/cheeses
+- vanillafoodpantry:foodpowder_cheese
+
+#upgrade_aquatic:dead_brain_fans_corals
+- minecraft:dead_brain_coral
+- minecraft:dead_brain_coral_fan
+
+#croptopia:milks
+- vanillafoodpantry:bowl_milk
+- vanillafoodpantry:milkdrink_plain
+- carrots:oatmilk_bucket
+
+#carrots:fermenting_bucket
+- vanillafoodpantry:fermenting_bucket
+
+#forge:ores/shaka
+- tropicraft:shaka_ore
+
+#forge:dyes/red
+- minecraft:red_dye
+- vanillafoodpantry:foodpowder_beet
+- vanillafoodpantry:foodpowder_poppy
+- vanillafoodpantry:foodpowder_rose
+
+#carrots:juices
+- vanillafoodpantry:juice_apple
+- vanillafoodpantry:juice_berries
+- vanillafoodpantry:juice_cactus
+- vanillafoodpantry:juice_cane
+- vanillafoodpantry:juice_carrot
+- vanillafoodpantry:juice_chorusfruit
+- vanillafoodpantry:juice_grape
+- vanillafoodpantry:juice_kelp
+- vanillafoodpantry:juice_kiwi
+- vanillafoodpantry:juice_mango
+- vanillafoodpantry:juice_melon
+- vanillafoodpantry:juice_potato
+- vanillafoodpantry:juice_raftugli
+- vanillafoodpantry:juice_tomato
+- vanillafoodpantry:juice_veggies
+
+#forge:glass_panes/cyan
+- minecraft:cyan_stained_glass_pane
+
+#forge:weapons
+- #forge:tools/weapon_like
+- #forge:weapons/magic
+- #forge:weapons/melee
+- #forge:weapons/ranged
+
+#forge:raw_fishes/tropical_fish
+- minecraft:tropical_fish
+
+#forge:ores/trona
+- vanillafoodpantry:trona_ore
+
+#forge:dusts/glowstone
+- minecraft:glowstone_dust
+
+#minecraft:wool
+- minecraft:white_wool
+- minecraft:orange_wool
+- minecraft:magenta_wool
+- minecraft:light_blue_wool
+- minecraft:yellow_wool
+- minecraft:lime_wool
+- minecraft:pink_wool
+- minecraft:gray_wool
+- minecraft:light_gray_wool
+- minecraft:cyan_wool
+- minecraft:purple_wool
+- minecraft:blue_wool
+- minecraft:brown_wool
+- minecraft:green_wool
+- minecraft:red_wool
+- minecraft:black_wool
+- #minecraft:sheep_wool
+- vanillafoodpantry:fleece_block_brown
+- vanillafoodpantry:fleece_block_creamy
+- vanillafoodpantry:fleece_block_gray
+- vanillafoodpantry:fleece_block_white
+
+#carrots:bunch_carrots
+- vanillafoodpantry:pile_carrots
+
+#forge:glass/colorless
+- minecraft:glass
+
+#forge:foods/cooked_seafood
+- #forge:foods/cooked_fish
+- #forge:foods/cooked_shellfish
+- vanillafoodpantry:guardian_meat
+- betteranimalsplus:eel_meat_cooked?
+
+#vanillafoodpantry:nature_bar_mixed_berries
+- vanillafoodpantry:dried_mixed_berries
+- atum:date?
+- simplefarming:raisins?
+
+#minecraft:barter_tokens/great
+- minecraft:emerald
+- minecraft:emerald
+
+#forge:vegetables/beetroot
+- minecraft:beetroot
+- minecraft:beetroot
+
+#forge:crops/hemp
+- druidcraft:hemp
+
+#forge:raw_venison
+- abnormals_delight:venison_shanks
+
+#forge:foods/kiwis
+- croptopia:kiwi?
+- pamhc2crops:kiwiitem?
+
+#carrots:dead_coral_plants
+- minecraft:dead_tube_coral
+- minecraft:dead_brain_coral
+- minecraft:dead_bubble_coral
+- minecraft:dead_fire_coral
+- minecraft:dead_horn_coral
+- minecraft:dead_tube_coral_fan
+- minecraft:dead_brain_coral_fan
+- minecraft:dead_bubble_coral_fan
+- minecraft:dead_fire_coral_fan
+- minecraft:dead_horn_coral_fan
+
+#forge:honeycomb_block
+- minecraft:honeycomb_block
+
+#forge:stained_glass
+- minecraft:white_stained_glass
+- minecraft:orange_stained_glass
+- minecraft:magenta_stained_glass
+- minecraft:light_blue_stained_glass
+- minecraft:yellow_stained_glass
+- minecraft:lime_stained_glass
+- minecraft:pink_stained_glass
+- minecraft:gray_stained_glass
+- minecraft:light_gray_stained_glass
+- minecraft:cyan_stained_glass
+- minecraft:purple_stained_glass
+- minecraft:blue_stained_glass
+- minecraft:brown_stained_glass
+- minecraft:green_stained_glass
+- minecraft:red_stained_glass
+- minecraft:black_stained_glass
+
+#forge:poisonous_potatoes
+- minecraft:poisonous_potato
+- minecraft:poisonous_potato
+
+#forge:salad_ingredients/cabbage
+- farmersdelight:cabbage
+- farmersdelight:cabbage_leaf
+
+#forge:nuggets/neptunium
+- aquaculture:neptunium_nugget
+
+#forge:nuggets/gold
+- minecraft:gold_nugget
+
+#tropicraft:leaves
+- tropicraft:mahogany_leaves
+- tropicraft:palm_leaves
+- tropicraft:kapok_leaves
+- tropicraft:fruit_leaves
+- tropicraft:grapefruit_leaves
+- tropicraft:lemon_leaves
+- tropicraft:lime_leaves
+- tropicraft:orange_leaves
+- tropicraft:red_mangrove_leaves
+- tropicraft:tall_mangrove_leaves
+- tropicraft:tea_mangrove_leaves
+- tropicraft:black_mangrove_leaves
+- tropicraft:papaya_leaves
+
+#forge:storage_blocks/amber
+- druidcraft:amber_block
+
+#forge:nether_stars
+- minecraft:nether_star
+
+#forge:foods/flowers/tulips
+- minecraft:orange_tulip
+- minecraft:pink_tulip
+- minecraft:red_tulip
+- minecraft:white_tulip
+- terraqueous:tulip?
+
+#forge:storage_blocks/packed_ice_blocks
+- minecraft:blue_ice
+
+#carrots:portions_large_heat
+- minecraft:lava_bucket
+- minecraft:lava_bucket
+
+#forge:seeds/pepper
+- crockpot:pepper_seeds
+
+#carrots:nutrition/notes/dense
+- minecraft:enchanted_golden_apple
+- minecraft:golden_apple
+- carrots:honey_bucket
+- vanillafoodpantry:apple_pie
+- vanillafoodpantry:carrot_burger
+- vanillafoodpantry:kelp_shake
+- vanillafoodpantry:nomads_meal_bar
+- vanillafoodpantry:nomads_snack_bar
+- vanillafoodpantry:dense_dough
+- vanillafoodpantry:golden_mixed_berries
+- vanillafoodpantry:mysterious_fruit_salad
+- vanillafoodpantry:nuggets_newyorker
+- #vanillafoodpantry:ravager_cuts
+
+#forge:ingredients/celery
+- vanillafoodpantry:foodpowder_celery
+
+#carrots:ties/weak
+- #carrots:ties/normal
+- vanillafoodpantry:animal_hide_tie
+
+#forge:ingredients/tvp
+- #forge:foods/tofus
+
+#forge:foods/onions
+- crockpot:onion?
+- croptopia:onion?
+- farmersdelight:onion?
+- fluffy_farmer:onion?
+- pamhc2crops:onionitem?
+- simplefarming:onion?
+- xlfoodmod:onion?
+
+#forge:rotten_flesh
+- minecraft:rotten_flesh
+- minecraft:rotten_flesh
+
+#forge:seeds/peppercorn
+- pamhc2trees:peppercornitem?
+
+#forge:ingredients/peppercorn
+- vanillafoodpantry:foodpowder_peppercorn
+- croptopia:pepper?
+
+#forge:bones
+- minecraft:bone
+- minecraft:bone
+
+#quark:ladders
+- upgrade_aquatic:driftwood_ladder
+- upgrade_aquatic:river_ladder
+- endergetic:poise_ladder
+
+#forge:foods/spinach
+- croptopia:kale?
+- croptopia:spinach?
+- pamhc2crops:kaleitem?
+- pamhc2crops:spinachitem?
+- simplefarming:spinach?
+
+#forge:crops/corn
+- crockpot:corn
+
+#forge:glass_panes
+- #forge:glass_panes/colorless
+- #forge:stained_glass_panes
+
+#minecraft:non_flammable_wood
+- minecraft:warped_stem
+- minecraft:stripped_warped_stem
+- minecraft:warped_hyphae
+- minecraft:stripped_warped_hyphae
+- minecraft:crimson_stem
+- minecraft:stripped_crimson_stem
+- minecraft:crimson_hyphae
+- minecraft:stripped_crimson_hyphae
+- minecraft:crimson_planks
+- minecraft:warped_planks
+- minecraft:crimson_slab
+- minecraft:warped_slab
+- minecraft:crimson_pressure_plate
+- minecraft:warped_pressure_plate
+- minecraft:crimson_fence
+- minecraft:warped_fence
+- minecraft:crimson_trapdoor
+- minecraft:warped_trapdoor
+- minecraft:crimson_fence_gate
+- minecraft:warped_fence_gate
+- minecraft:crimson_stairs
+- minecraft:warped_stairs
+- minecraft:crimson_button
+- minecraft:warped_button
+- minecraft:crimson_door
+- minecraft:warped_door
+- minecraft:crimson_sign
+- minecraft:warped_sign
+
+#carrots:nutrition/notes/unsafe
+- minecraft:chicken
+- minecraft:crimson_fungus
+- minecraft:poisonous_potato
+- minecraft:porkchop
+- minecraft:red_mushroom
+- minecraft:rotten_flesh
+- minecraft:spider_eye
+- minecraft:suspicious_stew
+- vanillafoodpantry:bamboo_shoots_raw
+- vanillafoodpantry:raw_caffeine
+
+#forge:raw_fishes/lionfish
+- upgrade_aquatic:lionfish
+
+#forge:ingredients/rose_flowers
+- minecraft:rose_bush
+- vanillafoodpantry:foodpowder_rose
+
+#forge:vegetables/onion
+- crockpot:onion
+- farmersdelight:onion
+
+#forge:ingredients/citrus_mix_filler
+- vanillafoodpantry:foodpowder_ugli
+- vanillafoodpantry:raftugli_fruit
+
+#tea_kettle:green_tea_leaves
+- tea_kettle:tea_leaf
+- simplytea:teabag_green?
+
+#vanillafoodpantry:drops/horse_other
+- vanillafoodpantry:horse_hoof
+- vanillafoodpantry:horse_sweat
+- vanillafoodpantry:horse_tear
+
+#carrots:portions_cheese
+- vanillafoodpantry:cheese_ball
+- croptopia:cheese?
+- pamhc2foodcore:cheeseitem?
+- simplefarming:cheese_slice?
+- xlfoodmod:cheese?
+
+#caverns_and_chasms:silver_gear
+- abnormals_delight:silver_knife
+
+#forge:honey_bottle
+- minecraft:honey_bottle
+
+#carrots:portions_red_meat
+- vanillafoodpantry:portion_beef
+- vanillafoodpantry:portion_horse
+- vanillafoodpantry:portion_llama
+- vanillafoodpantry:portion_mutton
+
+#carrots:nutrition/notes/nuts
+- vanillafoodpantry:acorn_nuts
+- vanillafoodpantry:desert_salad
+- vanillafoodpantry:honey_roasted_acorn_nuts
+- vanillafoodpantry:nomads_meal_bar
+- vanillafoodpantry:nomads_snack_bar
+
+#forge:ingots/neptunium
+- aquaculture:neptunium_ingot
+
+#forge:foods/breads
+- minecraft:bread
+- vanillafoodpantry:allium_bread
+- vanillafoodpantry:apple_bread
+- vanillafoodpantry:beets_bread
+- vanillafoodpantry:egg_bread
+- vanillafoodpantry:enriched_bread
+- vanillafoodpantry:flat_bread
+- vanillafoodpantry:french_bread
+- vanillafoodpantry:honey_bread
+- vanillafoodpantry:klingon_bread
+- vanillafoodpantry:molasses_bread
+- vanillafoodpantry:muscle_bread
+- vanillafoodpantry:potato_bread
+- vanillafoodpantry:pumpkin_bread
+
+#forge:foods/raw_red_meats
+- minecraft:beef
+- minecraft:mutton
+- vanillafoodpantry:bear_raw_prepped
+- vanillafoodpantry:horse_raw
+- vanillafoodpantry:llama_raw
+- vanillafoodpantry:phantom_meat_raw
+- vanillafoodpantry:ravager_meat_prepped
+- alexsmobs:kangaroo_meat?
+- alexsmobs:moose_ribs?
+- simplefarming:raw_horse_meat?
+- iceandfire:fire_dragon_flesh?
+- iceandfire:ice_dragon_flesh?
+- iceandfire:lightning_dragon_flesh?
+- #forge:raw_venison?
+
+#forge:ingots/netherite
+- minecraft:netherite_ingot
+
+#forge:ingredients/cereal
+- minecraft:wheat
+- vanillafoodpantry:portion_acornmeal
+- croptopia:oat?
+- croptopia:oat_seed?
+- croptopia:rice?
+- croptopia:rice_seed?
+- pamhc2crops:oatsitem?
+- pamhc2crops:quinoaitem?
+- pamhc2crops:riceitem?
+- simplefarming:oat?
+- simplefarming:oat_seeds?
+- simplefarming:quinoa_seeds?
+- simplefarming:rice?
+- veggie_way:quinoa?
+
+#forge:fruits/apple
+- minecraft:apple
+
+#nether_extension:netherite_gear
+- farmersdelight:netherite_knife
+
+#forge:foods/apples
+- minecraft:apple
+- byg:green_apple?
+
+#forge:foods/iceees
+- vanillafoodpantry:snocone
+- vanillafoodpantry:snocone_apple
+- vanillafoodpantry:snocone_berry_plain
+- vanillafoodpantry:snocone_chocolate_plain
+- vanillafoodpantry:snocone_chorusfruit_plain
+- vanillafoodpantry:snocone_citrus
+- vanillafoodpantry:snocone_coconut_plain
+- vanillafoodpantry:snocone_mango_plain
+- vanillafoodpantry:snocone_melon
+- vanillafoodpantry:snocone_mocha_plain
+- vanillafoodpantry:snocone_pineapple
+
+#vanillafoodpantry:stuffable_redmeat_nuggets
+- vanillafoodpantry:nuggets_beef_fried
+- vanillafoodpantry:nuggets_mutton_fried
+
+#forge:seeds/beetroot
+- minecraft:beetroot_seeds
+
+#forge:ice_cubes
+- simplytea:ice_cube
+
+#carrots:additives/leavening
+- vanillafoodpantry:leavening_agent
+
+#forge:fruits/blueberries
+- druidcraft:blueberries
+
+#forge:cooked_fishes
+- #forge:cooked_fishes/pike
+- #forge:cooked_fishes/lionfish
+- #forge:cooked_fishes/perch
+- #forge:cooked_fishes/cod
+- #forge:cooked_fishes/salmon
+- #forge:cooked_fishes/perch
+- #forge:cooked_fishes/pike
+
+#carrots:stained_terracotta
+- minecraft:white_terracotta
+- minecraft:black_terracotta
+- minecraft:orange_terracotta
+- minecraft:magenta_terracotta
+- minecraft:light_blue_terracotta
+- minecraft:yellow_terracotta
+- minecraft:lime_terracotta
+- minecraft:pink_terracotta
+- minecraft:gray_terracotta
+- minecraft:light_gray_terracotta
+- minecraft:cyan_terracotta
+- minecraft:purple_terracotta
+- minecraft:blue_terracotta
+- minecraft:brown_terracotta
+- minecraft:green_terracotta
+- minecraft:red_terracotta
+
+#forge:armor/wings
+- minecraft:elytra
+
+#forge:foods/flours/corn
+- vanillafoodpantry:portion_cornmeal
+- pamhc2foodextended:cornmealitem?
+
+#forge:foods/raw_mushrooms
+- minecraft:brown_mushroom
+- minecraft:red_mushroom
+- minecraft:crimson_fungus
+- minecraft:warped_fungus
+- vanillafoodpantry:fungi_purged
+- betterdefaultbiomes:gray_mushroom?
+- betterdefaultbiomes:white_mushroom?
+- betterdefaultbiomes:yellow_mushroom?
+- botania:pink_mushroom?
+- botania:purple_mushroom?
+- botania:red_mushroom?
+- byg:black_puff?
+- byg:green_mushroom?
+- byg:weeping_milkcap?
+- pamhc2crops:whitemushroomitem?
+- quark:glowshroom?
+
+#carrots:portions_large_animal_milk
+- minecraft:milk_bucket
+- carrots:cowmilk_bucket
+
+#minecraft:wool/white
+- minecraft:white_wool
+- minecraft:white_wool
+
+#forge:storage_blocks/drying_agent
+- vanillafoodpantry:drying_agent_pantry_block
+
+#forge:tools/snips
+- vanillafoodpantry:flint_cutter
+
+#forge:cooked_chicken
+- minecraft:cooked_chicken
+- farmersdelight:cooked_chicken_cuts
+
+#carrots:nutrition/notes/fish
+- minecraft:cooked_cod
+- minecraft:cooked_salmon
+- minecraft:cod
+- minecraft:pufferfish
+- minecraft:salmon
+- minecraft:tropical_fish
+- #forge:foods/raw_fish
+- vanillafoodpantry:fish_sausage_raw
+- vanillafoodpantry:kebab_fish_raw
+- vanillafoodpantry:nuggets_fish_jerky_prep
+- vanillafoodpantry:nuggets_fish_fried_prep
+- vanillafoodpantry:nuggets_squid_fried_prep
+- vanillafoodpantry:guardian_fins
+- vanillafoodpantry:guardian_meat_raw
+- #forge:foods/cooked_fish
+- vanillafoodpantry:bread_pocket_fish_salad
+- vanillafoodpantry:cyclops_sandwich
+- vanillafoodpantry:decker_fish
+- vanillafoodpantry:fish_chowder
+- vanillafoodpantry:fish_pie_salmon
+- vanillafoodpantry:fish_sausage
+- vanillafoodpantry:fish_sausage_grilled
+- vanillafoodpantry:fish_sausage_mashwrap
+- vanillafoodpantry:fish_sop
+- vanillafoodpantry:guardian_meat
+- vanillafoodpantry:kebab_fish
+- vanillafoodpantry:nugget_fish_jerky
+- vanillafoodpantry:nuggets_fish_fried
+- vanillafoodpantry:nuggets_fish_jerky
+- vanillafoodpantry:nuggets_newyorker
+- vanillafoodpantry:nuggets_squid_fried
+- vanillafoodpantry:squidd_on_a_stick
+- vanillafoodpantry:portion_cod
+- vanillafoodpantry:portion_pufferfish
+- vanillafoodpantry:portion_salmon
+- vanillafoodpantry:portion_squid
+
+#vanillafoodpantry:egg_pies
+- vanillafoodpantry:egg_pie
+- vanillafoodpantry:egg_pie_allium
+- vanillafoodpantry:egg_pie_chicken
+- vanillafoodpantry:egg_pie_ham
+- vanillafoodpantry:egg_pie_mushroom
+
+#carrots:ties/strong
+- minecraft:string
+- vanillafoodpantry:animal_hide_tie
+
+#forge:ingredients/crafty_preserves
+- vanillafoodpantry:apple_jelly
+- vanillafoodpantry:carrot_jam
+- vanillafoodpantry:chorusfruit_jelly
+- vanillafoodpantry:mixed_berry_jam
+- vanillafoodpantry:ugli_smash_jam
+- vanillafoodpantry:spruce_tips_jelly
+
+#forge:feathers
+- minecraft:feather
+- minecraft:feather
+- minecraft:feather
+
+#carrots:nutrition/notes/veggies
+- minecraft:beetroot
+- minecraft:beetroot_soup
+- minecraft:brown_mushroom
+- minecraft:cactus
+- minecraft:carrot
+- minecraft:crimson_fungus
+- minecraft:dried_kelp
+- minecraft:golden_carrot
+- minecraft:kelp
+- minecraft:mushroom_stew
+- minecraft:pumpkin
+- minecraft:rabbit_stew
+- minecraft:red_mushroom
+- minecraft:suspicious_stew
+- minecraft:warped_fungus
+- vanillafoodpantry:bamboo_shoots
+- vanillafoodpantry:bread_pocket_roast_veg
+- vanillafoodpantry:cactus_heart
+- vanillafoodpantry:cactus_pad_raw
+- vanillafoodpantry:cactus_pad_roasted
+- vanillafoodpantry:carrot_burger
+- vanillafoodpantry:carrot_sunbutter_snack
+- vanillafoodpantry:decker_veggie
+- vanillafoodpantry:desert_salad
+- vanillafoodpantry:foodpowder_kelp
+- vanillafoodpantry:fungi_purged
+- vanillafoodpantry:golden_beetroots
+- vanillafoodpantry:juice_cactus
+- vanillafoodpantry:juice_carrot
+- vanillafoodpantry:juice_kelp
+- vanillafoodpantry:juice_tomato
+- vanillafoodpantry:juice_veggies
+- vanillafoodpantry:kebab_veggie
+- vanillafoodpantry:kebab_veggie_raw
+- vanillafoodpantry:kelp_prepped
+- vanillafoodpantry:molasses_glazed_carrots
+- vanillafoodpantry:nuggets_carrots_fried
+- vanillafoodpantry:nuggets_carrots_fried_prep
+- vanillafoodpantry:nuggets_mushrooms_fried
+- vanillafoodpantry:nuggets_mushrooms_fried_prep
+- vanillafoodpantry:nuggets_veggies_fried
+- vanillafoodpantry:nuggets_veggies_fried_prep
+- vanillafoodpantry:pile_beetroots
+- vanillafoodpantry:pile_carrots
+- vanillafoodpantry:pile_mushrooms
+- vanillafoodpantry:portion_roasted_pumpkin
+- vanillafoodpantry:portion_roasted_veg
+- vanillafoodpantry:portion_pumpkin
+- vanillafoodpantry:raw_vegetables
+- vanillafoodpantry:roasted_eggplant
+- vanillafoodpantry:roasted_vegetables
+- vanillafoodpantry:veggie_stew
+- vanillafoodpantry:washed_kelp_niblet
+
+#forge:ingredients/syrup/citrus
+- vanillafoodpantry:drink_syrup_citrus
+
+#forge:foods/raw_seafood
+- #forge:foods/raw_fish
+- #forge:foods/raw_shellfish
+
+#quark:vertical_slabs
+- upgrade_aquatic:kelpy_cobblestone_vertical_slab
+- upgrade_aquatic:polar_kelpy_cobblestone_vertical_slab
+- upgrade_aquatic:thorny_kelpy_cobblestone_vertical_slab
+- upgrade_aquatic:ochre_kelpy_cobblestone_vertical_slab
+- upgrade_aquatic:tongue_kelpy_cobblestone_vertical_slab
+- upgrade_aquatic:kelpy_stone_brick_vertical_slab
+- upgrade_aquatic:polar_kelpy_stone_brick_vertical_slab
+- upgrade_aquatic:thorny_kelpy_stone_brick_vertical_slab
+- upgrade_aquatic:ochre_kelpy_stone_brick_vertical_slab
+- upgrade_aquatic:tongue_kelpy_stone_brick_vertical_slab
+- upgrade_aquatic:tooth_vertical_slab
+- upgrade_aquatic:tooth_brick_vertical_slab
+- upgrade_aquatic:scute_shingle_vertical_slab
+- upgrade_aquatic:scute_pavement_vertical_slab
+- upgrade_aquatic:coralstone_vertical_slab
+- upgrade_aquatic:bubble_coralstone_vertical_slab
+- upgrade_aquatic:brain_coralstone_vertical_slab
+- upgrade_aquatic:tube_coralstone_vertical_slab
+- upgrade_aquatic:horn_coralstone_vertical_slab
+- upgrade_aquatic:fire_coralstone_vertical_slab
+- upgrade_aquatic:acan_coralstone_vertical_slab
+- upgrade_aquatic:finger_coralstone_vertical_slab
+- upgrade_aquatic:star_coralstone_vertical_slab
+- upgrade_aquatic:moss_coralstone_vertical_slab
+- upgrade_aquatic:petal_coralstone_vertical_slab
+- upgrade_aquatic:branch_coralstone_vertical_slab
+- upgrade_aquatic:rock_coralstone_vertical_slab
+- upgrade_aquatic:pillow_coralstone_vertical_slab
+- upgrade_aquatic:silk_coralstone_vertical_slab
+- upgrade_aquatic:chrome_coralstone_vertical_slab
+- upgrade_aquatic:elder_prismarine_coralstone_vertical_slab
+- upgrade_aquatic:prismarine_coralstone_vertical_slab
+- upgrade_aquatic:dead_coralstone_vertical_slab
+- upgrade_aquatic:beachgrass_thatch_vertical_slab
+
+#carrots:portions_seasoned_salt
+- vanillafoodpantry:portion_salt
+
+#upgrade_aquatic:tube_fans_corals
+- minecraft:tube_coral
+- minecraft:tube_coral_fan
+
+#carrots:portions_stock
+- vanillafoodpantry:broth_jar
+- vanillafoodpantry:broth_jar_vegan
+
+#carrots:portions_large_hide
+- minecraft:leather
+- atum:wolf_pelt?
+- veggie_way:large_bamboo_sheet?
+
+#forge:string
+- minecraft:string
+
+#carrots:portions_small_salt
+- vanillafoodpantry:portion_salt
+- saltmod:salt_pinch?
+
+#forge:grain/rice
+- farmersdelight:rice
+
+#upgrade_aquatic:branch_fans_corals
+- upgrade_aquatic:branch_coral
+- upgrade_aquatic:branch_coral_fan
+
+#forge:cooked_fishes/salmon
+- minecraft:cooked_salmon
+- farmersdelight:cooked_salmon_slice
+
+#forge:ingredients/kebabs/red_meat
+- minecraft:beef
+- minecraft:mutton
+- vanillafoodpantry:llama_raw
+- vanillafoodpantry:horse_raw
+- simplefarming:raw_horse_meat?
+
+#forge:foods/citrus_fruits
+- vanillafoodpantry:raftugli_fruit
+- #forge:foods/grapefruits
+- #forge:foods/lemons
+- #forge:foods/oranges
+- fruittrees:citron?
+- fruittrees:mandarin?
+
+#vanillafoodpantry:drops/bat_other
+- vanillafoodpantry:bat_poop
+- vanillafoodpantry:bat_sonar_sac
+
+#forge:jolly_boxes/large_present_one_to_eight
+- aquaculture:treasure_chest
+
+#vanillafoodpantry:drops/optional_raw_eggs
+- atum:quail_egg?
+- autumnity:turkey_egg?
+- betterdefaultbiomes:duck_egg?
+- betteranimalsplus:goose_egg?
+- betteranimalsplus:pheasant_egg?
+- betteranimalsplus:turkey_egg?
+- exoticbirds:crane_egg?
+- exoticbirds:duck_egg?
+- exoticbirds:flamingo_egg?
+- exoticbirds:gull_egg?
+- exoticbirds:heron_egg?
+- exoticbirds:kingfisher_egg?
+- exoticbirds:owl_egg?
+- exoticbirds:peafowl_egg?
+- exoticbirds:pelican_egg?
+- exoticbirds:swan_egg?
+- exoticbirds:toucan_egg?
+- eanimod:egg_white?
+- eanimod:egg_creamlight?
+- eanimod:egg_cream?
+- eanimod:egg_creamdark?
+- eanimod:egg_creamdarkest?
+- eanimod:egg_carmeldark?
+- eanimod:egg_garnet?
+- eanimod:egg_pinklight?
+- eanimod:egg_pink?
+- eanimod:egg_pinkdark?
+- eanimod:egg_pinkdarkest?
+- eanimod:egg_cherrydark?
+- eanimod:egg_plum?
+- eanimod:egg_brownlight?
+- eanimod:egg_brown?
+- eanimod:egg_browndark?
+- eanimod:egg_chocolate?
+- eanimod:egg_chocolatedark?
+- eanimod:egg_chocolatecosmos?
+- eanimod:egg_blue?
+- eanimod:egg_greenlight?
+- eanimod:egg_greenyellow?
+- eanimod:egg_olivelight?
+- eanimod:egg_olive?
+- eanimod:egg_olivedark?
+- eanimod:egg_army?
+- eanimod:egg_bluegrey?
+- eanimod:egg_grey?
+- eanimod:egg_greygreen?
+- eanimod:egg_avocado?
+- eanimod:egg_avocadodark?
+- eanimod:egg_feldgrau?
+- eanimod:egg_mint?
+- eanimod:egg_green?
+- eanimod:egg_greendark?
+- eanimod:egg_pine?
+- eanimod:egg_pinedark?
+- eanimod:egg_pineblack?
+- eanimod:egg_powderblue?
+- eanimod:egg_tea?
+- eanimod:egg_matcha?
+- eanimod:egg_matchadark?
+- eanimod:egg_moss?
+- eanimod:egg_mossdark?
+- eanimod:egg_greenumber?
+- eanimod:egg_greyblue?
+- eanimod:egg_greyneutral?
+- eanimod:egg_laurel?
+- eanimod:egg_reseda?
+- eanimod:egg_greenpewter?
+- eanimod:egg_greydark?
+- eanimod:egg_celadon?
+- eanimod:egg_fern?
+- eanimod:egg_asparagus?
+- eanimod:egg_hunter?
+- eanimod:egg_hunterdark?
+- eanimod:egg_treedark?
+- eanimod:egg_paleblue?
+- eanimod:egg_honeydew?
+- eanimod:egg_earth?
+- eanimod:egg_khaki?
+- eanimod:egg_grullo?
+- eanimod:egg_khakidark?
+- eanimod:egg_carob?
+- eanimod:egg_coolgrey?
+- eanimod:egg_pinkgrey?
+- eanimod:egg_warmgrey?
+- eanimod:egg_artichoke?
+- eanimod:egg_myrtlegrey?
+- eanimod:egg_rifle?
+- eanimod:egg_jade?
+- eanimod:egg_pistachio?
+- eanimod:egg_sage?
+- eanimod:egg_rosemary?
+- eanimod:egg_greenbrown?
+- eanimod:egg_umber?
+- eanimod:egg_cream_spot?
+- eanimod:egg_creamdark_spot?
+- eanimod:egg_carmel_spot?
+- eanimod:egg_carmeldark_spot?
+- eanimod:egg_garnet_spot?
+- eanimod:egg_pink_spot?
+- eanimod:egg_pinkdark_spot?
+- eanimod:egg_cherry_spot?
+- eanimod:egg_cherrydark_spot?
+- eanimod:egg_plum_spot?
+- eanimod:egg_brownlight_spot?
+- eanimod:egg_brown_spot?
+- eanimod:egg_browndark_spot?
+- eanimod:egg_chocolate_spot?
+- eanimod:egg_chocolatedark_spot?
+- eanimod:egg_greenyellow_spot?
+- eanimod:egg_olivelight_spot?
+- eanimod:egg_olive_spot?
+- eanimod:egg_olivedark_spot?
+- eanimod:egg_army_spot?
+- eanimod:egg_grey_spot?
+- eanimod:egg_greygreen_spot?
+- eanimod:egg_avocado_spot?
+- eanimod:egg_avocadodark_spot?
+- eanimod:egg_feldgrau_spot?
+- eanimod:egg_mint_spot?
+- eanimod:egg_green_spot?
+- eanimod:egg_greendark_spot?
+- eanimod:egg_pine_spot?
+- eanimod:egg_pinedark_spot?
+- eanimod:egg_pineblack_spot?
+- eanimod:egg_matcha_spot?
+- eanimod:egg_matchadark_spot?
+- eanimod:egg_moss_spot?
+- eanimod:egg_mossdark_spot?
+- eanimod:egg_greenumber_spot?
+- eanimod:egg_greyneutral_spot?
+- eanimod:egg_laurel_spot?
+- eanimod:egg_reseda_spot?
+- eanimod:egg_greenpewter_spot?
+- eanimod:egg_greydark_spot?
+- eanimod:egg_celadon_spot?
+- eanimod:egg_fern_spot?
+- eanimod:egg_asparagus_spot?
+- eanimod:egg_hunter_spot?
+- eanimod:egg_hunterdark_spot?
+- eanimod:egg_treedark_spot?
+- eanimod:egg_earth_spot?
+- eanimod:egg_khaki_spot?
+- eanimod:egg_grullo_spot?
+- eanimod:egg_khakidark_spot?
+- eanimod:egg_carob_spot?
+- eanimod:egg_pinkgrey_spot?
+- eanimod:egg_warmgrey_spot?
+- eanimod:egg_artichoke_spot?
+- eanimod:egg_myrtlegrey_spot?
+- eanimod:egg_rifle_spot?
+- eanimod:egg_jade_spot?
+- eanimod:egg_pistachio_spot?
+- eanimod:egg_sage_spot?
+- eanimod:egg_rosemary_spot?
+- eanimod:egg_greenbrown_spot?
+- eanimod:egg_umber_spot?
+- eanimod:egg_cream_speckle?
+- eanimod:egg_creamdark_speckle?
+- eanimod:egg_carmel_speckle?
+- eanimod:egg_carmeldark_speckle?
+- eanimod:egg_garnet_speckle?
+- eanimod:egg_pink_speckle?
+- eanimod:egg_pinkdark_speckle?
+- eanimod:egg_cherry_speckle?
+- eanimod:egg_cherrydark_speckle?
+- eanimod:egg_plum_speckle?
+- eanimod:egg_brownlight_speckle?
+- eanimod:egg_brown_speckle?
+- eanimod:egg_browndark_speckle?
+- eanimod:egg_chocolate_speckle?
+- eanimod:egg_chocolatedark_speckle?
+- eanimod:egg_greenyellow_speckle?
+- eanimod:egg_olivelight_speckle?
+- eanimod:egg_olive_speckle?
+- eanimod:egg_olivedark_speckle?
+- eanimod:egg_army_speckle?
+- eanimod:egg_grey_speckle?
+- eanimod:egg_greygreen_speckle?
+- eanimod:egg_avocado_speckle?
+- eanimod:egg_avocadodark_speckle?
+- eanimod:egg_feldgrau_speckle?
+- eanimod:egg_mint_speckle?
+- eanimod:egg_green_speckle?
+- eanimod:egg_greendark_speckle?
+- eanimod:egg_pine_speckle?
+- eanimod:egg_pinedark_speckle?
+- eanimod:egg_pineblack_speckle?
+- eanimod:egg_matcha_speckle?
+- eanimod:egg_matchadark_speckle?
+- eanimod:egg_moss_speckle?
+- eanimod:egg_mossdark_speckle?
+- eanimod:egg_greenumber_speckle?
+- eanimod:egg_greyneutral_speckle?
+- eanimod:egg_laurel_speckle?
+- eanimod:egg_reseda_speckle?
+- eanimod:egg_greenpewter_speckle?
+- eanimod:egg_greydark_speckle?
+- eanimod:egg_celadon_speckle?
+- eanimod:egg_fern_speckle?
+- eanimod:egg_asparagus_speckle?
+- eanimod:egg_hunter_speckle?
+- eanimod:egg_hunterdark_speckle?
+- eanimod:egg_treedark_speckle?
+- eanimod:egg_earth_speckle?
+- eanimod:egg_khaki_speckle?
+- eanimod:egg_grullo_speckle?
+- eanimod:egg_khakidark_speckle?
+- eanimod:egg_carob_speckle?
+- eanimod:egg_pinkgrey_speckle?
+- eanimod:egg_warmgrey_speckle?
+- eanimod:egg_artichoke_speckle?
+- eanimod:egg_myrtlegrey_speckle?
+- eanimod:egg_rifle_speckle?
+- eanimod:egg_jade_speckle?
+- eanimod:egg_pistachio_speckle?
+- eanimod:egg_sage_speckle?
+- eanimod:egg_rosemary_speckle?
+- eanimod:egg_greenbrown_speckle?
+- eanimod:egg_umber_speckle?
+- eanimod:egg_cream_spatter?
+- eanimod:egg_creamdark_spatter?
+- eanimod:egg_carmel_spatter?
+- eanimod:egg_carmeldark_spatter?
+- eanimod:egg_garnet_spatter?
+- eanimod:egg_pink_spatter?
+- eanimod:egg_pinkdark_spatter?
+- eanimod:egg_cherry_spatter?
+- eanimod:egg_cherrydark_spatter?
+- eanimod:egg_plum_spatter?
+- eanimod:egg_brownlight_spatter?
+- eanimod:egg_brown_spatter?
+- eanimod:egg_browndark_spatter?
+- eanimod:egg_chocolate_spatter?
+- eanimod:egg_chocolatedark_spatter?
+- eanimod:egg_greenyellow_spatter?
+- eanimod:egg_olivelight_spatter?
+- eanimod:egg_olive_spatter?
+- eanimod:egg_olivedark_spatter?
+- eanimod:egg_army_spatter?
+- eanimod:egg_grey_spatter?
+- eanimod:egg_greygreen_spatter?
+- eanimod:egg_avocado_spatter?
+- eanimod:egg_avocadodark_spatter?
+- eanimod:egg_feldgrau_spatter?
+- eanimod:egg_mint_spatter?
+- eanimod:egg_green_spatter?
+- eanimod:egg_greendark_spatter?
+- eanimod:egg_pine_spatter?
+- eanimod:egg_pinedark_spatter?
+- eanimod:egg_pineblack_spatter?
+- eanimod:egg_matcha_spatter?
+- eanimod:egg_matchadark_spatter?
+- eanimod:egg_moss_spatter?
+- eanimod:egg_mossdark_spatter?
+- eanimod:egg_greenumber_spatter?
+- eanimod:egg_greyneutral_spatter?
+- eanimod:egg_laurel_spatter?
+- eanimod:egg_reseda_spatter?
+- eanimod:egg_greenpewter_spatter?
+- eanimod:egg_greydark_spatter?
+- eanimod:egg_celadon_spatter?
+- eanimod:egg_fern_spatter?
+- eanimod:egg_asparagus_spatter?
+- eanimod:egg_hunter_spatter?
+- eanimod:egg_hunterdark_spatter?
+- eanimod:egg_treedark_spatter?
+- eanimod:egg_earth_spatter?
+- eanimod:egg_khaki_spatter?
+- eanimod:egg_grullo_spatter?
+- eanimod:egg_khakidark_spatter?
+- eanimod:egg_carob_spatter?
+- eanimod:egg_pinkgrey_spatter?
+- eanimod:egg_warmgrey_spatter?
+- eanimod:egg_artichoke_spatter?
+- eanimod:egg_myrtlegrey_spatter?
+- eanimod:egg_rifle_spatter?
+- eanimod:egg_jade_spatter?
+- eanimod:egg_pistachio_spatter?
+- eanimod:egg_sage_spatter?
+- eanimod:egg_rosemary_spatter?
+- eanimod:egg_greenbrown_spatter?
+- eanimod:egg_umber_spatter?
+
+#forge:foods/raw_shellfish
+- #forge:foods/raw_calamari
+- alexsmobs:lobster_tail?
+- betteranimalsplus:crab_meat_raw?
+- fins:red_bull_crab_claw?
+- fins:spindly_gem_crab?
+- fins:white_bull_crab_claw?
+- quark:crab_leg?
+
+#carrots:fizzy_drinks
+- vanillafoodpantry:fizzydrink_apple
+- vanillafoodpantry:fizzydrink_berry_mix
+- vanillafoodpantry:fizzydrink_blueberry
+- vanillafoodpantry:fizzydrink_chorusfruit
+- vanillafoodpantry:fizzydrink_citrus_mix
+- vanillafoodpantry:fizzydrink_cocoa
+- vanillafoodpantry:fizzydrink_dandy
+- vanillafoodpantry:fizzydrink_ink
+- vanillafoodpantry:fizzydrink_klingon
+- vanillafoodpantry:fizzydrink_mango
+- vanillafoodpantry:fizzydrink_melon
+- vanillafoodpantry:fizzydrink_milk
+- vanillafoodpantry:fizzydrink_orange
+- vanillafoodpantry:fizzydrink_pineapple
+- vanillafoodpantry:fizzydrink_poppy
+- vanillafoodpantry:fizzydrink_strawberry
+- vanillafoodpantry:fizzydrink_syrup
+- vanillafoodpantry:italian_soda
+
+#forge:barter_tokens/epic
+- minecraft:nether_star
+
+#forge:weapons/projectiles
+- minecraft:egg
+- #minecraft:arrows
+- #forge:snow_balls
+- minecraft:lingering_potion
+- minecraft:splash_potion
+
+#minecraft:leaves
+- minecraft:jungle_leaves
+- minecraft:oak_leaves
+- minecraft:spruce_leaves
+- minecraft:dark_oak_leaves
+- minecraft:acacia_leaves
+- minecraft:birch_leaves
+- druidcraft:darkwood_leaves
+- druidcraft:elder_leaves
+- upgrade_aquatic:river_leaves
+
+#forge:foods/cooked_tofus
+- pamhc2foodextended:cookedtofabbititem?
+- pamhc2foodextended:cookedtofaconitem?
+- pamhc2foodextended:cookedtofickenitem?
+- pamhc2foodextended:cookedtofeakitem?
+- pamhc2foodextended:cookedtofishitem?
+- pamhc2foodextended:cookedtofuttonitem?
+- simplefarming:tofu?
+- veggie_way:cooked_tofu?
+
+#carrots:portions_small_water
+- vanillafoodpantry:portion_water
+
+#carrots:additives/opposite
+- minecraft:fermented_spider_eye
+- vanillafoodpantry:fermented_feather
+
+#forge:glass_panes/gray
+- minecraft:gray_stained_glass_pane
+
+#minecraft:acacia_logs
+- minecraft:acacia_log
+- minecraft:acacia_wood
+- minecraft:stripped_acacia_log
+- minecraft:stripped_acacia_wood
+
+#minecraft:piglin_loved
+- #minecraft:gold_ores
+- minecraft:gold_block
+- minecraft:gilded_blackstone
+- minecraft:light_weighted_pressure_plate
+- minecraft:gold_ingot
+- minecraft:bell
+- minecraft:clock
+- minecraft:golden_carrot
+- minecraft:glistering_melon_slice
+- minecraft:golden_apple
+- minecraft:enchanted_golden_apple
+- minecraft:golden_helmet
+- minecraft:golden_chestplate
+- minecraft:golden_leggings
+- minecraft:golden_boots
+- minecraft:golden_horse_armor
+- minecraft:golden_sword
+- minecraft:golden_pickaxe
+- minecraft:golden_shovel
+- minecraft:golden_axe
+- minecraft:golden_hoe
+- farmersdelight:golden_knife
+- vanillafoodpantry:golden_beetroots
+- vanillafoodpantry:golden_carrots
+- vanillafoodpantry:golden_sugar
+- vanillafoodpantry:golden_mixed_berries
+- vanillafoodpantry:golden_fruit_pie
+- vanillafoodpantry:ink_pearl_mirror
+- nethers_delight:raw_stuffed_hoglin
+- aquaculture:gold_fishing_rod
+- aquaculture:gold_fillet_knife
+- aquaculture:gold_hook
+
+#carrots:nutrition/notes/gluten
+- minecraft:bread
+- minecraft:wheat
+- minecraft:wheat_seeds
+
+#environmental:slabfish_food
+- abnormals_delight:slabdish
+
+#upgrade_aquatic:silk_fans_corals
+- upgrade_aquatic:silk_coral
+- upgrade_aquatic:silk_coral_fan
+
+#forge:foods/cooked_red_meats
+- minecraft:cooked_beef
+- minecraft:cooked_mutton
+- vanillafoodpantry:bear_cooked
+- vanillafoodpantry:horse_cooked
+- vanillafoodpantry:llama_cooked
+- vanillafoodpantry:phantom_meat
+- vanillafoodpantry:ravager_meat
+- alexsmobs:cooked_kangaroo_meat?
+- alexsmobs:cooked_moose_ribs?
+- atum:camel_cooked?
+- foodexpansion:cooked_horse_meat?
+- foodexpansion:cooked_llama_meat?
+- foodexpansion:cooked_polar_bear_meat?
+- simplefarming:cooked_horse_meat?
+- #forge:cooked_venison?
+
+#forge:ingots/rocksalt
+- vanillafoodpantry:rock_salt_crystals
+
+#vanillafoodpantry:veggie_mix_foodpowders
+- vanillafoodpantry:foodpowder_cactus
+- vanillafoodpantry:foodpowder_kelp
+
+#forge:sand/red
+- minecraft:red_sand
+
+#carrots:portions_small_sugar
+- vanillafoodpantry:portion_sugar
+
+#forge:glass/brown
+- minecraft:brown_stained_glass
+
+#forge:vegetables
+- #forge:vegetables/asparagus
+- #forge:vegetables/beetroot
+- #forge:vegetables/carrot
+- #forge:vegetables/corn
+- #forge:vegetables/eggplant
+- #forge:vegetables/onion
+- #forge:vegetables/pepper
+- #forge:vegetables/potato
+- #forge:vegetables/pumpkin
+- #forge:vegetables/tomato
+- #forge:vegetables/beetroot
+- #forge:vegetables/carrot
+- #forge:vegetables/onion
+- #forge:vegetables/potato
+- #forge:vegetables/tomato
+- vanillafoodpantry:portion_pumpkin
+- vanillafoodpantry:pile_beetroots
+- vanillafoodpantry:pile_carrots
+- vanillafoodpantry:pile_mushrooms
+- vanillafoodpantry:kelp_prepped
+- vanillafoodpantry:raw_vegetables
+- vanillafoodpantry:cactus_pad_raw
+
+#forge:foods/sushi
+- aquaculture:sushi?
+- charcoal_pit:fugu?
+- charcoal_pit:cooked_sushi?
+- charcoal_pit:sushi?
+- crockpot:california_roll?
+- croptopia:sushi?
+- fluffy_farmer:sushi_with_cod?
+- fluffy_farmer:sushi_with_pufferfish?
+- fluffy_farmer:sushi_with_salmon?
+- fluffy_farmer:sushi_with_tropical_fish?
+- simplefarming:sushi?
+- xlfoodmod:futomaki?
+- xlfoodmod:oshizushi?
+- xlfoodmod:uramaki?
+
+#minecraft:logs_that_burn
+- #minecraft:dark_oak_logs
+- #minecraft:oak_logs
+- #minecraft:acacia_logs
+- #minecraft:birch_logs
+- #minecraft:jungle_logs
+- #minecraft:spruce_logs
+- #upgrade_aquatic:driftwood_logs
+- #upgrade_aquatic:river_logs
+- #endergetic:poise_stems
+
+#forge:armor/leggings
+- minecraft:golden_leggings
+- minecraft:leather_leggings
+- minecraft:chainmail_leggings
+- minecraft:iron_leggings
+- minecraft:diamond_leggings
+- minecraft:netherite_leggings
+
+#carrots:rottable_meats
+- #forge:foods/raw_red_meats
+- minecraft:porkchop
+- vanillafoodpantry:guardian_meat_raw
+
+#minecraft:barter_tokens/good
+- minecraft:iron_ingot
+- minecraft:iron_ingot
+
+#vanillafoodpantry:eggwiches
+- vanillafoodpantry:bread_pocket_egg_ham
+- vanillafoodpantry:bread_pocket_egg_mushroom
+- vanillafoodpantry:bread_pocket_egg_spam
+- vanillafoodpantry:bread_pocket_egg_spinach
+- vanillafoodpantry:bread_pocket_egg_steak
+- vanillafoodpantry:double_fried_egg_sandwich
+- vanillafoodpantry:egg_minibread
+- vanillafoodpantry:fried_egg_sandwich
+- vanillafoodpantry:ham_egg_sandwich
+- vanillafoodpantry:spam_egg_sandwich
+
+#forge:jolly_boxes/small_present_common
+- aquaculture:tin_can
+- aquaculture:driftwood
+- aquaculture:message_in_a_bottle
+
+#forge:ingredients/molasses
+- vanillafoodpantry:molasses_ball
+- croptopia:molasses?
+
+#forge:foods/sandwich_breads
+- minecraft:bread
+- vanillafoodpantry:allium_bread
+- vanillafoodpantry:beets_bread
+- vanillafoodpantry:egg_bread
+- vanillafoodpantry:enriched_bread
+- vanillafoodpantry:french_bread
+- vanillafoodpantry:honey_bread
+- vanillafoodpantry:klingon_bread
+- vanillafoodpantry:potato_bread
+- croptopia:buttered_toast?
+- croptopia:toast?
+- pamhc2foodcore:toastitem?
+- saltmod:salt_bread?
+- simplefarming:barley_bread?
+- simplefarming:oat_bread?
+- simplefarming:rice_bread?
+- simplefarming:rye_bread?
+- simplefarming:sorghum_bread?
+- xlfoodmod:baguette?
+- xlfoodmod:cheesy_bread?
+- xlfoodmod:potato_bread?
+- xlfoodmod:rice_bread?
+
+#forge:buckets/milk
+- minecraft:milk_bucket
+- #forge:buckets/animal_milk
+- #forge:buckets/plant_milk
+
+#forge:glass/light_gray
+- minecraft:light_gray_stained_glass
+
+#minecraft:wooden_slabs
+- minecraft:oak_slab
+- minecraft:spruce_slab
+- minecraft:birch_slab
+- minecraft:jungle_slab
+- minecraft:acacia_slab
+- minecraft:dark_oak_slab
+- minecraft:crimson_slab
+- minecraft:warped_slab
+- druidcraft:darkwood_slab
+- druidcraft:elder_slab
+- upgrade_aquatic:driftwood_slab
+- upgrade_aquatic:river_slab
+- endergetic:poise_slab
+
+#carrots:nutrition/food_related
+- minecraft:cake
+- minecraft:kelp
+- minecraft:melon
+- minecraft:pumpkin
+- #carrots:nutrition/additives
+- #carrots:nutrition/brewables
+- #carrots:powders/barterable
+- vanillafoodpantry:compacted_seeds
+- vanillafoodpantry:raw_caffeine
+- vanillafoodpantry:seedmush
+- vanillafoodpantry:seedmush_cocoa
+- vanillafoodpantry:portion_butter
+- vanillafoodpantry:portion_flour
+- vanillafoodpantry:flour_pantry_block
+- vanillafoodpantry:dough_pantry_block
+- vanillafoodpantry:butter_brick
+- #carrots:portions_mayo
+- vanillafoodpantry:honeycomb_bowl
+- vanillafoodpantry:bowl_milk
+- vanillafoodpantry:bowl_honeymilk
+- vanillafoodpantry:gelatin_ball
+- vanillafoodpantry:molasses_ball
+- #vanillafoodpantry:jelly_jams
+- vanillafoodpantry:apple_jelly_mush
+- vanillafoodpantry:carrot_jam_mush
+- vanillafoodpantry:chorusfruit_jelly_mush
+- vanillafoodpantry:mixed_berry_jam_mush
+- vanillafoodpantry:ugli_smash_mush
+- vanillafoodpantry:bucket_steeped_spruce_tips
+- vanillafoodpantry:bucket_sweetened_milk
+- vanillafoodpantry:bucket_condensed_milk
+- vanillafoodpantry:condensed_milk_jar
+- vanillafoodpantry:dough_ball
+- vanillafoodpantry:sweet_dough_ball
+- vanillafoodpantry:dense_dough
+- vanillafoodpantry:uncooked_allium_bread
+- vanillafoodpantry:uncooked_apple_bread
+- vanillafoodpantry:uncooked_apple_muffin
+- vanillafoodpantry:uncooked_apple_pie
+- vanillafoodpantry:uncooked_beets_bread
+- vanillafoodpantry:uncooked_carrot_muffin
+- vanillafoodpantry:uncooked_cheese_minibread
+- vanillafoodpantry:uncooked_cocoa_muffin
+- vanillafoodpantry:uncooked_egg_bread
+- vanillafoodpantry:uncooked_egg_minibread
+- vanillafoodpantry:uncooked_egg_pie
+- vanillafoodpantry:uncooked_egg_pie_allium
+- vanillafoodpantry:uncooked_egg_pie_chicken
+- vanillafoodpantry:uncooked_egg_pie_ham
+- vanillafoodpantry:uncooked_egg_pie_mushroom
+- vanillafoodpantry:uncooked_enriched_bread
+- vanillafoodpantry:uncooked_enriched_pumpkin_pie
+- vanillafoodpantry:uncooked_fish_pie_salmon
+- vanillafoodpantry:uncooked_flat_bread
+- vanillafoodpantry:uncooked_french_bread
+- vanillafoodpantry:uncooked_golden_fruit_pie
+- vanillafoodpantry:uncooked_honey_bread
+- vanillafoodpantry:uncooked_honey_muffin
+- vanillafoodpantry:uncooked_klingon_bread
+- vanillafoodpantry:uncooked_meat_minibread
+- vanillafoodpantry:uncooked_mixed_berry_pie
+- vanillafoodpantry:uncooked_molasses_bread
+- vanillafoodpantry:uncooked_muscle_bread
+- vanillafoodpantry:uncooked_potato_bread
+- vanillafoodpantry:uncooked_pumpkin_bread
+- vanillafoodpantry:uncooked_pumpkin_muffin
+- vanillafoodpantry:uncooked_uglifruit_muffin
+- vanillafoodpantry:undead_wotsit
+
+#forge:foods/cooked_bat
+- vanillafoodpantry:bat_cooked
+- wellfedmod:crispy_bat_wing?
+
+#forge:dyes/white
+- minecraft:white_dye
+
+#forge:fruits/mulberry
+- upgrade_aquatic:mulberry
+
+#minecraft:small_flowers
+- minecraft:dandelion
+- minecraft:poppy
+- minecraft:blue_orchid
+- minecraft:allium
+- minecraft:azure_bluet
+- minecraft:red_tulip
+- minecraft:orange_tulip
+- minecraft:white_tulip
+- minecraft:pink_tulip
+- minecraft:oxeye_daisy
+- minecraft:cornflower
+- minecraft:lily_of_the_valley
+- minecraft:wither_rose
+- druidcraft:lavender
+- upgrade_aquatic:white_searocket
+- upgrade_aquatic:pink_searocket
+- #farmersdelight:wild_crops
+
+#minecraft:dirt_like
+- minecraft:dirt
+- minecraft:grass_block
+- minecraft:podzol
+- minecraft:coarse_dirt
+- minecraft:mycelium
+- minecraft:dirt
+- minecraft:grass_block
+- minecraft:podzol
+- minecraft:coarse_dirt
+- minecraft:mycelium
+
+#forge:powders/sugar
+- vanillafoodpantry:foodpowder_honey
+- vanillafoodpantry:foodpowder_xylitol
+- veggie_way:fructose?
+
+#simplytea:teas
+- simplytea:cup_tea_floral
+- #simplytea:teas/exclusive
+
+#forge:seeds/pumpkin
+- minecraft:pumpkin_seeds
+
+#forge:dusts/redstone
+- minecraft:redstone
+
+#vanillafoodpantry:nature_bar_nuts
+- vanillafoodpantry:acorn_nuts
+- vanillafoodpantry:honey_roasted_acorn_nuts
+
+#vanillafoodpantry:fruit_salad_main
+- #forge:foods/apples
+- #forge:foods/grapes
+- minecraft:chorus_fruit
+- croptopia:apricot?
+- croptopia:grape?
+- croptopia:grapefruit?
+- croptopia:nectarine?
+- croptopia:orange?
+- croptopia:peach?
+- croptopia:pear?
+- croptopia:persimmon?
+- croptopia:plum?
+- croptopia:mango?
+- croptopia:starfruit?
+- pamhc2crops:greengrapeitem?
+- pamhc2crops:grapeitem?
+- pamhc2trees:grapefruititem?
+- pamhc2trees:guavaitem?
+- pamhc2trees:mangoitem?
+- pamhc2trees:orangeitem?
+- pamhc2trees:pawpawitem?
+- pamhc2trees:peachitem?
+- pamhc2trees:pearitem?
+- pamhc2trees:plumitem?
+- pamhc2trees:starfruititem?
+- simplefarming:apricot?
+- simplefarming:grapes?
+- simplefarming:mango?
+- simplefarming:orange?
+- simplefarming:pear?
+- simplefarming:plum?
+- terraqueous:peach?
+- terraqueous:pear?
+- terraqueous:plum?
+
+#upgrade_aquatic:petal_fans_corals
+- upgrade_aquatic:petal_coral
+- upgrade_aquatic:petal_coral_fan
+
+#forge:foods/strawberries
+- croptopia:strawberry?
+- neapolitan:strawberries?
+- neapolitan:white_strawberries?
+- pamhc2crops:strawberryitem?
+- simplefarming:strawberries?
+- xlfoodmod:strawberry?
+
+#forge:gems/quartz
+- minecraft:quartz
+
+#sereneseasons:winter_crops
+- farmersdelight:cabbage_seeds
+
+#forge:crops/beetroot
+- minecraft:beetroot
+
+#forge:seeds/melon
+- minecraft:melon_seeds
+
+#forge:foods/cooked_eggs
+- #forge:foods/fried_eggs
+- #forge:foods/scrambled_eggs
+- #forge:foods/steamed_eggs
+- vanillafoodpantry:muscle_egg
+- vanillafoodpantry:pickled_egg
+
+#forge:crops/tea
+- simplytea:tea_leaf
+
+#minecraft:creeper_drop_music_discs
+- minecraft:music_disc_13
+- minecraft:music_disc_cat
+- minecraft:music_disc_blocks
+- minecraft:music_disc_chirp
+- minecraft:music_disc_far
+- minecraft:music_disc_mall
+- minecraft:music_disc_mellohi
+- minecraft:music_disc_stal
+- minecraft:music_disc_strad
+- minecraft:music_disc_ward
+- minecraft:music_disc_11
+- minecraft:music_disc_wait
+
+#carrots:portions_large_plant_milk
+- carrots:oatmilk_bucket
+
+#carrots:nutrition/notes/animal_strict
+- #carrots:nutrition/notes/animal
+- #carrots:nutrition/notes/bee
+- #carrots:nutrition/notes/dairy
+- #carrots:nutrition/notes/ovo
+- minecraft:bone_meal
+- minecraft:feather
+- minecraft:scute
+- minecraft:slime_ball
+- minecraft:slime_block
+- minecraft:turtle_egg
+- carrots:squidink_bucket
+- #carrots:dead_coral
+- vanillafoodpantry:bottle_swamp_water
+- vanillafoodpantry:enzyme_extractor_agent
+- vanillafoodpantry:foodpowder_feather
+- vanillafoodpantry:jungle_juice_jar
+
+#forge:ores/amber
+- druidcraft:amber_ore
+
+#forge:foods/flowers/roses
+- minecraft:rose_bush
+- terraqueous:rose?
+
+#carrots:nutrition/notes/animal
+- #carrots:nutrition/notes/fish
+- #carrots:nutrition/notes/meat
+- #carrots:nutrition/notes/shellfish
+- minecraft:bone
+- minecraft:ink_sac
+- minecraft:leather
+- minecraft:rabbit_foot
+- minecraft:rabbit_hide
+- minecraft:shulker_shell
+- minecraft:spider_eye
+- #vanillafoodpantry:animal_other_drops
+
+#forge:dusts/gunpowder
+- minecraft:gunpowder
+
+#forge:foods/steamed_eggs
+- vanillafoodpantry:steamed_egg
+- alexsmobs:boiled_emu_egg?
+- pamhc2foodcore:boiledeggitem?
+
+#carrots:concrete_powders
+- minecraft:white_concrete_powder
+- minecraft:black_concrete_powder
+- minecraft:orange_concrete_powder
+- minecraft:magenta_concrete_powder
+- minecraft:light_blue_concrete_powder
+- minecraft:yellow_concrete_powder
+- minecraft:lime_concrete_powder
+- minecraft:pink_concrete_powder
+- minecraft:gray_concrete_powder
+- minecraft:light_gray_concrete_powder
+- minecraft:cyan_concrete_powder
+- minecraft:purple_concrete_powder
+- minecraft:blue_concrete_powder
+- minecraft:brown_concrete_powder
+- minecraft:green_concrete_powder
+- minecraft:red_concrete_powder
+
+#forge:storage_blocks/slime_balls
+- minecraft:slime_block
+
+#forge:tools/hoes
+- minecraft:wooden_hoe
+- minecraft:stone_hoe
+- minecraft:golden_hoe
+- minecraft:iron_hoe
+- minecraft:diamond_hoe
+- minecraft:netherite_hoe
+
+#forge:foods/soups
+- minecraft:beetroot_soup
+- minecraft:mushroom_stew
+- vanillafoodpantry:basic_gruel
+- vanillafoodpantry:basic_sop
+- vanillafoodpantry:creamsoup_beet
+- vanillafoodpantry:creamsoup_cactus
+- vanillafoodpantry:creamsoup_carrot
+- vanillafoodpantry:creamsoup_cheese
+- vanillafoodpantry:creamsoup_leek
+- vanillafoodpantry:creamsoup_mushroom
+- vanillafoodpantry:creamsoup_potato
+- vanillafoodpantry:creamsoup_pumpkin
+- vanillafoodpantry:creamsoup_tomato
+- vanillafoodpantry:fish_chowder
+- vanillafoodpantry:fish_sop
+- vanillafoodpantry:friedegg_sop
+- vanillafoodpantry:potato_chowder
+
+#forge:foods/teas
+- vanillafoodpantry:teadrink_bushtea
+- vanillafoodpantry:teadrink_dandtea
+- vanillafoodpantry:teadrink_milky_bushtea
+- vanillafoodpantry:teadrink_milky_dandtea
+- vanillafoodpantry:teadrink_sprucetips_tea
+
+#druidcraft:fiery_glass_blocks
+- druidcraft:fiery_glass_block
+
+#forge:foods/limes
+- croptopia:lime?
+- fruittrees:lime?
+- pamhc2trees:limeitem?
+
+#tropicraft:small_flowers
+- tropicraft:acai_vine
+- tropicraft:anemone
+- tropicraft:bromeliad
+- tropicraft:canna
+- tropicraft:commelina_diffusa
+- tropicraft:crocosmia
+- tropicraft:croton
+- tropicraft:dracaena
+- tropicraft:tropical_fern
+- tropicraft:foliage
+- tropicraft:magic_mushroom
+- tropicraft:orange_anthurium
+- tropicraft:orchid
+- tropicraft:pathos
+- tropicraft:red_anthurium
+
+#forge:foods/tomatoes
+- crockpot:tomato?
+- croptopia:tomato?
+- croptopia:tomatillo?
+- farmersdelight:tomato?
+- fluffy_farmer:orange_tomato?
+- fluffy_farmer:red_tomato?
+- fluffy_farmer:yellow_tomato?
+- pamhc2crops:tomatilloitem?
+- pamhc2crops:tomatoitem?
+- simplefarming:tomato?
+- xlfoodmod:tomato?
+
+#forge:crops/tomato
+- crockpot:tomato
+- farmersdelight:tomato
+
+#forge:foods/raw_potatoes
+- minecraft:potato
+
+#forge:weapons/tridents
+- minecraft:trident
+
+#forge:foods/flowers
+- #forge:foods/flowers/marigolds
+- #forge:foods/flowers/roses
+- #forge:foods/flowers/tulips
+
+#forge:foods/stuffed_potatoes
+- vanillafoodpantry:stuffed_potato
+- vanillafoodpantry:stuffed_potato_cheese
+- vanillafoodpantry:stuffed_potato_egg
+- vanillafoodpantry:stuffed_potato_fish
+- vanillafoodpantry:stuffed_potato_muscle_egg
+- vanillafoodpantry:stuffed_potato_pork
+- vanillafoodpantry:stuffed_potato_poultry
+- vanillafoodpantry:stuffed_potato_redmeat
+- vanillafoodpantry:stuffed_potato_shroom
+- vanillafoodpantry:stuffed_potato_spam
+- vanillafoodpantry:stuffed_potato_veggie
+
+#forge:clay
+- minecraft:clay
+
+#forge:barter_tokens/verygood
+- #forge:ingots/gold
+
+#forge:raw_strider
+- nethers_delight:strider_slice
+- nethers_delight:ground_strider
+
+#vanillafoodpantry:ny_nuggets_pork
+- vanillafoodpantry:nuggets_cooked_pork_fried
+- vanillafoodpantry:nuggets_pork_fried
+
+#forge:foods/golden_apples
+- minecraft:golden_apple
+- minecraft:enchanted_golden_apple
+
+#carrots:nutrition/notes/bee
+- minecraft:honey_bottle
+- minecraft:honeycomb
+- minecraft:honey_block
+- minecraft:honeycomb_block
+- carrots:honey_bucket
+- #forge:honey_bottle
+- vanillafoodpantry:bowl_honey
+- vanillafoodpantry:bowl_honeymilk
+- vanillafoodpantry:crystalized_honey
+- vanillafoodpantry:foodpowder_honey
+- vanillafoodpantry:portion_honey
+
+#forge:gems/amber
+- druidcraft:amber
+
+#forge:ingredients/beet
+- vanillafoodpantry:foodpowder_beet
+
+#forge:glass_panes/purple
+- minecraft:purple_stained_glass_pane
+
+#forge:foods/beets
+- #forge:crops/beetroot
+
+#forge:dusts
+- #forge:dusts/glowstone
+- #forge:dusts/prismarine
+- #forge:dusts/redstone
+- #forge:dusts/blaze
+- #forge:dusts/gunpowder
+- #forge:dusts/lava
+- #forge:dusts/lava
+
+#forge:glass/yellow
+- minecraft:yellow_stained_glass
+
+#autumnity:snail_breeding_items
+- farmersdelight:nether_salad
+
+#carrots:portions_meat
+- vanillafoodpantry:portion_beef
+- vanillafoodpantry:portion_chicken
+- vanillafoodpantry:portion_cod
+- vanillafoodpantry:portion_ham
+- vanillafoodpantry:portion_horse
+- vanillafoodpantry:portion_llama
+- vanillafoodpantry:portion_mutton
+- vanillafoodpantry:portion_pork
+- vanillafoodpantry:portion_pufferfish
+- vanillafoodpantry:portion_rabbit
+- vanillafoodpantry:portion_salmon
+- vanillafoodpantry:portion_spam
+- vanillafoodpantry:portion_squid
+- abnormals_delight:pike_slice?
+- autumnity:turkey_piece?
+- farmersdelight:bacon?
+- farmersdelight:chicken_cuts?
+- farmersdelight:cod_slice?
+- farmersdelight:minced_beef?
+- farmersdelight:mutton_chops?
+- farmersdelight:salmon_slice?
+- simplefarming:raw_chicken_wings?
+- simplefarming:raw_bacon?
+
+#carrots:portions_large_water
+- minecraft:water_bucket
+- carrots:potable_water_bucket
+- survive:purified_water_bucket?
+- minecraft:water_bucket
+- vanillafoodpantry:bucket_potable_water
+
+#carrots:heads
+- #carrots:heads/mobs
+- #carrots:heads/bosses
+- #carrots:heads/players
+
+#forge:storage_blocks/neptunium
+- aquaculture:neptunium_block
+
+#vanillafoodpantry:spam_cuts
+- vanillafoodpantry:sanitized_flesh_roasted
+- vanillafoodpantry:sanitized_flesh_steamed
+- vanillafoodpantry:phantom_meat
+
+#forge:ingredients/butterstick_oil
+- #forge:ingredients/butter
+- vanillafoodpantry:seedoil_jar
+
+#forge:foods/cookies
+- minecraft:cookie
+- vanillafoodpantry:cookie_apple
+- vanillafoodpantry:cookie_cocoa
+- vanillafoodpantry:cookie_klingon
+- vanillafoodpantry:cookie_molasses
+- vanillafoodpantry:cookie_sugar
+- croptopia:nutty_cookie?
+- croptopia:raisin_oatmeal_cookie?
+- farmersdelight:honey_cookie?
+- farmersdelight:sweet_berry_cookie?
+- fluffy_farmer:berry_cookie?
+- fluffy_farmer:chocolate_cookie?
+- fluffy_farmer:cinnamon_cookie?
+- simplefarming:peanut_butter_cookie?
+
+#aquaculture:turtle
+- aquaculture:box_turtle
+- aquaculture:arrau_turtle
+- aquaculture:starshell_turtle
+
+#forge:cooked_rabbit
+- minecraft:cooked_rabbit
+
+#vanillafoodpantry:stuffable_eggs
+- #forge:foods/steamed_eggs
+- vanillafoodpantry:pickled_egg
+- #forge:foods/fried_eggs
+- #forge:foods/scrambled_eggs
+
+#tropicraft:planks
+- tropicraft:palm_planks
+- tropicraft:mahogany_planks
+
+#carrots:fertilizers/fleshmeal
+- vanillafoodpantry:flesh_meal
+
+#forge:ingredients/fried_scrambled_egg
+- #forge:foods/fried_eggs
+- #forge:foods/scrambled_eggs
+
+#upgrade_aquatic:dead_silk_fans_corals
+- upgrade_aquatic:dead_silk_coral
+- upgrade_aquatic:dead_silk_coral_fan
+
+#carrots:portions_large_milk
+- minecraft:milk_bucket
+- carrots:cowmilk_bucket
+- carrots:oatmilk_bucket
+- minecraft:milk_bucket
+
+#druidcraft:beams
+- druidcraft:oak_beam
+- druidcraft:birch_beam
+- druidcraft:spruce_beam
+- druidcraft:jungle_beam
+- druidcraft:acacia_beam
+- druidcraft:dark_oak_beam
+- druidcraft:darkwood_beam
+- druidcraft:elder_beam
+- druidcraft:oak_small_beam
+- druidcraft:birch_small_beam
+- druidcraft:spruce_small_beam
+- druidcraft:jungle_small_beam
+- druidcraft:acacia_small_beam
+- druidcraft:dark_oak_small_beam
+- druidcraft:darkwood_small_beam
+- druidcraft:elder_small_beam
+
+#carrots:nutrition/additives
+- vanillafoodpantry:leavening_agent
+- vanillafoodpantry:rennet
+- vanillafoodpantry:starter_yeast
+
+#forge:chests/ender
+- minecraft:ender_chest
+
+#forge:raw_rabbit
+- minecraft:rabbit
+
+#forge:foods/drinks
+- vanillafoodpantry:bottle_birch_sap
+- vanillafoodpantry:bottle_fizzy_water
+- vanillafoodpantry:bottle_rose_water
+- vanillafoodpantry:bottle_tulip_tonic
+- vanillafoodpantry:bottle_water
+- #forge:foods/juices
+- #forge:foods/milkdrinks
+- #forge:foods/sodas
+- #forge:foods/teas
+
+#carrots:portions_milk
+- vanillafoodpantry:bowl_milk
+- vanillafoodpantry:milkdrink_plain
+- crockpot:milk_bottle?
+- croptopia:soy_milk?
+- eanimod:milk_bottle?
+- farmersdelight:milk_bottle?
+- fluffy_farmer:bottle_of_milk?
+- neapolitan:milk_bottle?
+- productivebees:milk_bottle?
+
+#forge:tinydusts
+- #forge:tinydusts/salt
+- #forge:tinydusts/sugar
+
+#forge:ingredients/syrup/chocolate
+- vanillafoodpantry:drink_syrup_chocolate
+
+#forge:barter_tokens
+- #forge:barter_tokens/verypoor
+- #forge:barter_tokens/poor
+- #forge:barter_tokens/base
+- #forge:barter_tokens/good
+- #forge:barter_tokens/verygood
+- #forge:barter_tokens/excellent
+- #forge:barter_tokens/great
+- #forge:barter_tokens/epic
+
+#forge:shears
+- minecraft:shears
+
+#forge:seeds/dryable
+- minecraft:beetroot_seeds
+- minecraft:melon_seeds
+- minecraft:pumpkin_seeds
+- minecraft:wheat_seeds
+- charcoal_pit:corn_kernels?
+- croptopia:barley_seed?
+- croptopia:bellpepper_seed?
+- croptopia:blackbean_seed?
+- croptopia:cantaloupe_seed?
+- croptopia:chili_pepper_seed?
+- croptopia:corn_seed?
+- croptopia:honeydew_seed?
+- croptopia:oat_seed?
+- croptopia:tomato_seed?
+- croptopia:tomatillo_seed?
+- croptopia:rice_seed?
+- croptopia:squash_seed?
+- farmersdelight:tomato_seeds?
+- fluffy_farmer:corn_seeds?
+- simplecorn:kernels?
+- simplefarming:cantaloupe_seeds?
+- simplefarming:honeydew_seeds?
+- simplefarming:rice_seeds?
+- simplefarming:squash_seeds?
+- simplefarming:tomato_seeds?
+- veggie_way:corn_seeds?
+- veggie_way:quinoa_seeds?
+- veggie_way:soybean_seeds?
+
+#carrots:water_treatments
+- survive:charcoal_filter?
+- vanillafoodpantry:portion_heat
+
+#forge:foods/cooked_chickens
+- minecraft:cooked_chicken
+- atum:quail_cooked?
+- autumnity:cooked_turkey?
+- betteranimalsplus:pheasantcooked?
+- betterdefaultbiomes:cooked_duck?
+- croptopia:fried_chicken?
+- croptopia:lemon_chicken?
+- eanimod:cookedchicken_darkbig?
+- farmersdelight:roast_chicken?
+- pamhc2foodcore:friedchickenitem?
+- pamhc2foodextended:garlicchickenitem?
+
+#druidcraft:fiery_glass
+- druidcraft:fiery_glass
+
+#simplytea:teas/exclusive
+- simplytea:cup_tea_green
+- simplytea:cup_tea_black
+- simplytea:cup_tea_iced
+- simplytea:cup_tea_chai
+- simplytea:cup_tea_chorus
+
+#forge:feathers/special
+- vanillafoodpantry:colorful_feather
+- alexsmobs:emu_feather?
+- alexsmobs:roadrunner_feather?
+- iceandfire:amphithere_feather?
+- iceandfire:stymphalian_bird_feather?
+
+#forge:armor/boots
+- minecraft:golden_boots
+- minecraft:leather_boots
+- minecraft:chainmail_boots
+- minecraft:iron_boots
+- minecraft:diamond_boots
+- minecraft:netherite_boots
+
+#forge:foods/butter
+- vanillafoodpantry:homemade_butter
+- croptopia:butter?
+- pamhc2foodcore:butteritem?
+- xlfoodmod:butter?
+
+#farmersdelight:tools/knives
+- farmersdelight:flint_knife
+- farmersdelight:iron_knife
+- farmersdelight:diamond_knife
+- farmersdelight:golden_knife
+- farmersdelight:netherite_knife
+- abnormals_delight:silver_knife
+- abnormals_delight:necromium_knife
+
+#minecraft:planks
+- minecraft:oak_planks
+- minecraft:spruce_planks
+- minecraft:birch_planks
+- minecraft:jungle_planks
+- minecraft:acacia_planks
+- minecraft:dark_oak_planks
+- minecraft:crimson_planks
+- minecraft:warped_planks
+- druidcraft:darkwood_planks
+- druidcraft:elder_planks
+- upgrade_aquatic:driftwood_planks
+- upgrade_aquatic:river_planks
+- endergetic:poise_planks
+
+#carrots:barter_tokens/base
+- carrots:barter_token_base
+
+#forge:strings
+- #forge:string
+
+#forge:cobblestone
+- minecraft:cobblestone
+- minecraft:infested_cobblestone
+- minecraft:mossy_cobblestone
+
+#carrots:portions_small_butter
+- vanillafoodpantry:portion_butter
+
+#forge:gems/trona
+- vanillafoodpantry:trona_crystals
+
+#forge:fruits/elderberries
+- druidcraft:elderberries
+
+#forge:seeds/tomato
+- crockpot:tomato_seeds
+- farmersdelight:tomato_seeds
+
+#forge:storage_blocks/gold
+- minecraft:gold_block
+
+#carrots:campfires
+- minecraft:campfire
+
+#forge:storage_blocks/salt
+- vanillafoodpantry:salt_pantry_block
+
+#tropicraft:mud
+- tropicraft:mud
+- tropicraft:mud_with_pianguas
+
+#tea_kettle:abundance_lavender_tea
+- tea_kettle:abundance_lavender_tea?
+
+#forge:ingredients/basic_bread
+- minecraft:bread
+- simplefarming:barley_bread?
+- simplefarming:oat_bread?
+- simplefarming:rice_bread?
+- simplefarming:rye_bread?
+- xlfoodmod:baguette?
+- xlfoodmod:potato_bread?
+- xlfoodmod:rice_bread?
+
+#farmersdelight:wolf_prey
+- #forge:raw_chicken
+- #forge:raw_mutton
+- minecraft:rabbit
+- #forge:raw_duck
+- #forge:raw_venison
+
+#forge:weapons/hammers
+
+#forge:dusts/prismarine
+- minecraft:prismarine_shard
+
+#forge:fences
+- #forge:fences/wooden
+- #forge:fences/nether_brick
+- #forge:fences/wooden
+
+#vanillafoodpantry:drops/optional_large_raw_eggs
+- alexsmobs:emu_egg?
+- exoticbirds:cassowary_egg?
+- exoticbirds:ostrich_egg?
+- exoticbirds:penguin_egg?
+
+#forge:gems/zirconium
+- tropicraft:zirconium_gem
+
+#forge:ingredients/kebabs/veggie_filler
+- minecraft:beetroot
+- minecraft:brown_mushroom
+- minecraft:carrot
+- minecraft:red_mushroom
+- vanillafoodpantry:fungi_purged
+- vanillafoodpantry:washed_kelp_niblet
+- vanillafoodpantry:portion_pumpkin
+- vanillafoodpantry:pile_beetroots
+- croptopia:artichoke?
+- croptopia:asparagus?
+- croptopia:bellpepper?
+- croptopia:chili_pepper?
+- croptopia:corn?
+- croptopia:radish?
+- croptopia:rhubarb?
+- croptopia:turnip?
+- farmersdelight:pumpkin_slice?
+- fluffy_farmer:corn?
+- fluffy_farmer:pumpkin_slice?
+- pamhc2crops:artichokeitem?
+- pamhc2crops:asparagusitem?
+- pamhc2crops:bellpepperitem?
+- pamhc2crops:brusselsproutitem?
+- pamhc2crops:chilipepperitem?
+- pamhc2crops:cornitem?
+- pamhc2crops:okraitem?
+- pamhc2crops:parsnipitem?
+- pamhc2crops:radishitem?
+- pamhc2crops:rhubarbitem?
+- pamhc2crops:turnipitem?
+- simplecorn:corncob?
+- simplefarming:corn?
+- simplefarming:pea_pod?
+- simplefarming:radish?
+- simplefarming:turnip?
+- veggie_way:corn?
+- veggie_way:cactus_chunk?
+- veggie_way:pumpkin_chunk?
+
+#carrots:light_glass
+- minecraft:glass
+- minecraft:white_stained_glass
+- minecraft:light_gray_stained_glass

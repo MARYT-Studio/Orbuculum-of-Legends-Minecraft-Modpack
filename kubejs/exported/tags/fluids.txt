@@ -1,0 +1,119 @@
+To refresh this file, delete it and run /reload command again! Last updated: May 27, 2022 11:53:10 AM
+
+#forge:any_milk
+- #forge:milk
+- #forge:animal_milk
+- #forge:plant_milk
+
+#forge:any_water
+- #minecraft:water
+- #forge:potable_water
+- #forge:untreated_water
+
+#minecraft:water
+- minecraft:water
+- minecraft:flowing_water
+
+#forge:milk
+- minecraft:milk?
+- minecraft:flowing_milk?
+- carrots:milk
+- carrots:flowing_milk
+
+#forge:alcohol
+- charcoal_pit:alcohol_still?
+- charcoal_pit:alcohol_flowing?
+
+#forge:water
+- minecraft:water
+- minecraft:flowing_water
+
+#forge:animal_milk
+- carrots:milk
+- carrots:flowing_milk
+- minecraft:milk?
+- minecraft:flowing_milk?
+
+#forge:lava
+- minecraft:lava
+- minecraft:flowing_lava
+
+#forge:potable_water
+- carrots:potable_water
+- carrots:flowing_potable_water
+- survive:purified_water?
+- survive:flowing_purified_water?
+
+#forge:untreated_water
+- minecraft:water
+- minecraft:flowing_water
+
+#forge:cow_milk
+- carrots:milk
+- carrots:flowing_milk
+- minecraft:milk?
+- minecraft:flowing_milk?
+
+#forge:plantoil
+- carrots:seedoil
+
+#minecraft:lava
+- minecraft:lava
+- minecraft:flowing_lava
+
+#forge:plant_milk
+- carrots:oatmilk
+- carrots:flowing_oatmilk
+
+#tea_kettle:teable
+- minecraft:water
+
+#forge:potion
+
+#forge:seedoil
+- carrots:seedoil
+- carrots:flowing_seedoil
+
+#forge:experience
+- carrots:experience
+- carrots:flowing_experience
+
+#forge:slime
+
+#forge:swimmable_in
+- #forge:water
+
+#forge:slurry
+
+#forge:cream
+
+#forge:healing
+- carrots:honey
+- carrots:oatmilk
+
+#forge:honey
+- carrots:honey
+- carrots:flowing_honey
+
+#forge:common
+- #forge:experience
+- #forge:honey
+- #forge:ink
+- #forge:lava
+- #forge:any_milk
+- #forge:seedoil
+- #forge:any_water
+
+#forge:drinkable
+- carrots:potable_water
+- carrots:milk
+- carrots:oatmilk
+- carrots:honey
+- carrots:experience
+- survive:purified_water?
+- minecraft:milk?
+- #forge:alcohol
+
+#forge:ink
+- carrots:squidink
+- carrots:flowing_squidink

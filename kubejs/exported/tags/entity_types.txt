@@ -1,0 +1,153 @@
+To refresh this file, delete it and run /reload command again! Last updated: May 27, 2022 11:53:10 AM
+
+#endergetic:not_balloon_attachable
+- upgrade_aquatic:flare
+- endergetic:boof_block
+- endergetic:poise_cluster
+- endergetic:puff_bug
+- endergetic:booflo
+- endergetic:booflo_adolescent
+- endergetic:booflo_baby
+- minecraft:shulker
+- minecraft:horse
+- minecraft:armor_stand
+- minecraft:phantom
+- minecraft:ghast
+- minecraft:wither
+- minecraft:ender_dragon
+
+#vanillafoodpantry:horse_like
+- minecraft:horse
+- minecraft:donkey
+- minecraft:mule
+- eanimod:enhanced_horse?
+
+#vanillafoodpantry:llamas
+- minecraft:llama
+- minecraft:trader_llama
+- eanimod:enhanced_llama?
+
+#carrots:food/seafood
+- #carrots:food/small_fish
+- minecraft:tropical_fish
+- minecraft:squid
+- minecraft:dolphin
+- minecraft:turtle
+- minecraft:guardian
+- minecraft:elder_guardian
+
+#forge:boats
+- minecraft:boat
+
+#seeker_compass:summonables
+- endergetic:booflo
+
+#farmersdelight:horse_feed_users
+- minecraft:horse
+- minecraft:skeleton_horse
+- minecraft:zombie_horse
+- minecraft:donkey
+- minecraft:mule
+- minecraft:llama
+
+#vanillafoodpantry:birdies
+- minecraft:chicken
+- minecraft:parrot
+
+#forge:traveling_merchants
+- minecraft:wandering_trader
+
+#minecraft:raiders
+- minecraft:evoker
+- minecraft:pillager
+- minecraft:ravager
+- minecraft:vindicator
+- minecraft:illusioner
+- minecraft:witch
+
+#forge:milkable_sheep
+- minecraft:sheep
+
+#farmersdelight:dog_food_users
+- minecraft:wolf
+
+#vanillafoodpantry:feedable
+- minecraft:pig
+- minecraft:cow
+- minecraft:mooshroom
+- minecraft:donkey
+- minecraft:mule
+- minecraft:horse
+- minecraft:llama
+- minecraft:trader_llama
+
+#forge:birds
+- minecraft:parrot
+
+#endergetic:boof_block_resistant
+- endergetic:boof_block
+- endergetic:poise_cluster
+- endergetic:bolloom_fruit
+- endergetic:bolloom_balloon
+- minecraft:shulker
+- minecraft:painting
+- minecraft:vex
+- minecraft:item_frame
+- quark:glass_frame?
+- quark:colored_frame?
+
+#minecraft:impact_projectiles
+- #minecraft:arrows
+- minecraft:snowball
+- minecraft:fireball
+- minecraft:small_fireball
+- minecraft:egg
+- minecraft:trident
+- minecraft:dragon_fireball
+- minecraft:wither_skull
+
+#minecraft:beehive_inhabitors
+- minecraft:bee
+- tropicraft:tropibee
+
+#vanillafoodpantry:bears
+- minecraft:polar_bear
+
+#minecraft:skeletons
+- minecraft:skeleton
+- minecraft:stray
+- minecraft:wither_skeleton
+
+#vanillafoodpantry:horses
+- minecraft:horse
+- eanimod:enhanced_horse?
+
+#vanillafoodpantry:cows
+- minecraft:cow
+- minecraft:mooshroom
+- eanimod:enhanced_cow?
+- eanimod:enhanced_mooshroom?
+- eanimod:enhanced_moobloom?
+
+#vanillafoodpantry:squid
+- minecraft:squid
+
+#vanillafoodpantry:pigs
+- minecraft:pig
+- minecraft:hoglin
+- eanimod:enhanced_pig?
+
+#minecraft:arrows
+- minecraft:arrow
+- minecraft:spectral_arrow
+
+#forge:milkable_shroom_cows
+- minecraft:mooshroom
+
+#carrots:food/small_fish
+- minecraft:cod
+- minecraft:salmon
+- minecraft:pufferfish
+
+#forge:milkable_dairy_cows
+- minecraft:cow

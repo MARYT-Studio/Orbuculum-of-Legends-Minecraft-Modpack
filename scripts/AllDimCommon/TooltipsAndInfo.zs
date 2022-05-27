@@ -44,6 +44,27 @@ for finder in finders {
     index = index + 1;
 }
 
+// Original text: "在召唤精灵的仪式中，", "用你的副手握持信物，", "主手捧起这样东西，", "然后点击右键，", "精灵就会将魔力注入它。", "用任意树苗作为信物", "可以将它变为寻找群系的工具"。
+JEI.addInfo(<item:minecraft:compass>, [
+    "\u5728\u53ec\u5524\u7cbe\u7075\u7684\u4eea\u5f0f\u4e2d\uff0c",
+    "\u7528\u4f60\u7684\u526f\u624b\u63e1\u6301\u4fe1\u7269\uff0c",
+    "\u4e3b\u624b\u6367\u8d77\u8fd9\u6837\u4e1c\u897f\uff0c",
+    "\u7136\u540e\u70b9\u51fb\u53f3\u952e\uff0c",
+    "\u7cbe\u7075\u5c31\u4f1a\u5c06\u9b54\u529b\u6ce8\u5165\u5b83\u3002",
+    "\u7528\u4efb\u610f\u6811\u82d7\u4f5c\u4e3a\u4fe1\u7269\uff0c",
+    "\u53ef\u4ee5\u5c06\u5b83\u53d8\u4e3a\u5bfb\u627e\u7fa4\u7cfb\u7684\u5de5\u5177\u3002"
+]);
+// Original text: "在召唤精灵的仪式中，", "用你的副手握持信物，", "主手捧起这样东西，", "然后点击右键，", "精灵就会将魔力注入它。", "琥珀作为信物会使它变为金属探测器，", "而岩化根则会使它变为非金属的矿物探测器。"。
+JEI.addInfo(<item:minecraft:clock>, [
+    "\u5728\u53ec\u5524\u7cbe\u7075\u7684\u4eea\u5f0f\u4e2d\uff0c",
+    "\u7528\u4f60\u7684\u526f\u624b\u63e1\u6301\u4fe1\u7269\uff0c",
+    "\u4e3b\u624b\u6367\u8d77\u8fd9\u6837\u4e1c\u897f\uff0c",
+    "\u7136\u540e\u70b9\u51fb\u53f3\u952e\uff0c",
+    "\u7cbe\u7075\u5c31\u4f1a\u5c06\u9b54\u529b\u6ce8\u5165\u5b83\u3002",
+    "\u7425\u73c0\u4f5c\u4e3a\u4fe1\u7269\u4f1a\u4f7f\u5b83\u53d8\u4e3a\u91d1\u5c5e\u63a2\u6d4b\u5668\uff0c",
+    "\u800c\u5ca9\u5316\u6839\u5219\u4f1a\u4f7f\u5b83\u53d8\u4e3a\u975e\u91d1\u5c5e\u7684\u77ff\u7269\u63a2\u6d4b\u5668\u3002"
+]);
+
 // Fabric part
 <item:contenttweaker:hemp_fabric>.addTooltip("a lightweight, experimental clothes-making materials for Minecraft.");
 // Original text for first param: 原句出处自寻。

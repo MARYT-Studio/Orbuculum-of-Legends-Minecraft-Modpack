@@ -64,11 +64,11 @@
   ],
   "419699": [
     {
-      "fileName": "architectury-1.25.36-forge.jar",
+      "fileName": "architectury-1.32.63.jar",
       "staged": false,
       "deleted": false,
-      "md5": "di7IgIGeP1lTbhZOwlUuIg==",
-      "fileId": 3537113
+      "md5": "ynA99xe9VFBHF+IuFWe2xg==",
+      "fileId": 3801558
     }
   ],
   "280510": [
@@ -377,6 +377,15 @@
       "fileId": 3593195
     }
   ],
+  "238086": [
+    {
+      "fileName": "kubejs-forge-1605.3.19-build.299.jar",
+      "staged": false,
+      "deleted": false,
+      "md5": "aZaRj4GzEsMefWukfCzU8w==",
+      "fileId": 3647098
+    }
+  ],
   "354562": [
     {
       "fileName": "musketmod-1.16.5-forge-1.4.1.jar",
@@ -429,6 +438,15 @@
       "deleted": false,
       "md5": "hp/7m9NK4LNrlchAdAv/BQ==",
       "fileId": 3665841
+    }
+  ],
+  "416294": [
+    {
+      "fileName": "rhino-forge-1605.1.5-build.75.jar",
+      "staged": false,
+      "deleted": false,
+      "md5": "dV3k6Lb7NS2XnHkAiU3inA==",
+      "fileId": 3525704
     }
   ],
   "407174": [
