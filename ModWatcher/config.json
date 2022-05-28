@@ -7,16 +7,16 @@
       "version": "1.16.5",
       "modLoaders": [
         {
-          "id": "forge-1.16.5-36.2.31",
+          "id": "forge-1.16.5-36.2.35",
           "primary": true
         }
       ]
     },
     "manifestType": "minecraftModpack",
     "manifestVersion": 1,
-    "name": "G",
-    "version": "1.0",
-    "author": "NULL",
+    "name": "Orbuculum-of-Legends",
+    "version": "0.0.1-beta",
+    "author": "RisingInIris2017",
     "files": [],
     "overrides": "overrides"
   },
@@ -50,6 +50,7 @@
     "PlanAndProgress.md",
     "README.md",
     "usercache.json",
-    "usernamecache.json"
+    "usernamecache.json",
+    "icon.png"
   ]
 }

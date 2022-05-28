@@ -3,16 +3,16 @@
     "version": "1.16.5",
     "modLoaders": [
       {
-        "id": "forge-1.16.5-36.2.31",
+        "id": "forge-1.16.5-36.2.35",
         "primary": true
       }
     ]
   },
   "manifestType": "minecraftModpack",
   "manifestVersion": 1,
-  "name": "G",
-  "version": "1.0",
-  "author": "NULL",
+  "name": "Orbuculum-of-Legends",
+  "version": "0.0.1-beta",
+  "author": "RisingInIris2017",
   "files": [
     {
       "projectID": 382216,
@@ -40,13 +40,18 @@
       "required": true
     },
     {
+      "projectID": 248787,
+      "fileID": 3686480,
+      "required": true
+    },
+    {
       "projectID": 60028,
       "fileID": 3454318,
       "required": true
     },
     {
       "projectID": 419699,
-      "fileID": 3537113,
+      "fileID": 3801558,
       "required": true
     },
     {
@@ -71,7 +76,7 @@
     },
     {
       "projectID": 239197,
-      "fileID": 3773919,
+      "fileID": 3680605,
       "required": true
     },
     {
@@ -126,7 +131,7 @@
     },
     {
       "projectID": 408955,
-      "fileID": 3181178,
+      "fileID": 3350872,
       "required": true
     },
     {
@@ -220,6 +225,11 @@
       "required": true
     },
     {
+      "projectID": 238086,
+      "fileID": 3647098,
+      "required": true
+    },
+    {
       "projectID": 354562,
       "fileID": 3449231,
       "required": true
@@ -250,6 +260,11 @@
       "required": true
     },
     {
+      "projectID": 416294,
+      "fileID": 3525704,
+      "required": true
+    },
+    {
       "projectID": 407174,
       "fileID": 3188120,
       "required": true
@@ -257,6 +272,11 @@
     {
       "projectID": 268373,
       "fileID": 3310150,
+      "required": true
+    },
+    {
+      "projectID": 589460,
+      "fileID": 3677439,
       "required": true
     },
     {
