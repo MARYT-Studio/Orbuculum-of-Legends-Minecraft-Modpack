@@ -90,7 +90,7 @@
 			blacklistOrWhitelist = "BLACKLIST"
 			#List of item registry names (mod:item), tags (#mod:tag), and namespaces (@mod) for items that should not chop when used to break a log
 			#- Items in this list that have special support for TreeChop will not be blacklisted; see https://github.com/hammertater/treechop/blob/main/docs/compatibility.md#blacklist
-			items = ["botania:terra_axe", "mekanism:atomic_disassembler", "@lumberjack", "practicaltools:iron_greataxe", "practicaltools:golden_greataxe", "practicaltools:diamond_greataxe", "practicaltools:netherite_greataxe"]
+			items = []
 
 		[compatibility.general.overrides]
 			#List of item registry names (mod:item), tags (#mod:tag), and namespaces (@mod) for items that should not perform their default behavior when chopping
@@ -99,16 +99,16 @@
 			#- Add "?override=never" to never disable default behavior
 			#- Items in this list that have special support for TreeChop will not be overridden; see https://github.com/hammertater/treechop/blob/main/docs/compatibility.md#overrides
 			#- This might not work as expected for some items; see https://github.com/hammertater/treechop/blob/main/docs/compatibility.md#caveats
-			items = ["#tconstruct:modifiable/harvest", "silentgear:saw?chops=3,override=always"]
+			items = []
 
 	[compatibility.specific]
 		#Whether to prevent conflicts with Carry On when it is configured to allow picking up logs
 		#See https://www.curseforge.com/minecraft/mc-mods/carry-on
-		carryOn = true
+		carryOn = false
 		#Whether to enable compatibility with ProjectMMO; for example, award XP for chopping
 		#See https://www.curseforge.com/minecraft/mc-mods/project-mmo
-		projectMMO = true
+		projectMMO = false
 		#Whether to prevent conflicts with DynamicTrees
 		#See https://www.curseforge.com/minecraft/mc-mods/dynamictrees
-		dynamicTrees = true
+		dynamicTrees = false
 
