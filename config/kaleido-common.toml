@@ -1,0 +1,28 @@
+ignoredNamespaces = []
+#Disable generating advancements to accelerate loading and save memories.
+disableAdvancements = false
+#Forge will load data pack twice, which the first time is unnecessary for Kaleido.
+skipFirstTimeDataLoading = true
+
+[modules]
+	brush = true
+	preview = true
+	hub = true
+	scope = true
+	carpentry = true
+	mallet = true
+	chisel = true
+
+[carpentry]
+	#Only available if disableAdvancements is false
+	autoUnlock = true
+
+[debugWorld]
+	patch = true
+	#Range: 1 ~ 10
+	spacing = 3
+
+[scope]
+	#Range: > 1
+	stackLimit = 8
+

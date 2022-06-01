@@ -1,0 +1,8 @@
+showInJEI = true
+
+[preview]
+	enabled = true
+	previewAllBlocks = false
+	#Range: 0.0 ~ 1.0
+	alpha = 0.5
+
