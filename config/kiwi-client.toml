@@ -8,8 +8,8 @@ tooltipWrapWidth1 = 200
 [debug]
 	#Show item tags in advanced tooltips
 	tagsTooltip = true
-	#Show item nbt in advanced tooltips while holding shift
-	nbtTooltip = true
 	#Allowed values: vanilla, kiwi
 	tooltipNBTFormatter = "vanilla"
+	#Show item nbt in advanced tooltips while holding shift
+	nbtTooltip = true
 

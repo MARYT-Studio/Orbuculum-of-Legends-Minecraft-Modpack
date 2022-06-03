@@ -1,7 +1,7 @@
 {
   "spells": [
       {
-        "item": "minecraft:apple",
+        "item": "minecraft:golden_carrot",
         "distance": "25.0",
         "entity": "minecraft:phantom",
         "nbt_to_check": "BossMob",
@@ -13,24 +13,8 @@
             "amplifier": "0"
           },
           {
-            "action_type": "exec_command",
-            "command": "title @a title {\"text\": \"MARYT Studio\"}"
-          },
-          {
-            "action_type": "nbt",
-            "nbt_string": "{Saddle: 1b}"
-          },
-          {
-            "action_type": "attribute",
-            "namespace": "minecraft",
-            "attribute_id": "generic.max_health",
-            "operation": "multiply",
-            "amount": "20.0",
-            "stackable": "false"
-          },
-          {
-            "action_type": "exec_command",
-            "command": "tp #target ~ ~8 ~"
+            "action_type": "set_on_fire",
+            "seconds": "15"
           }
         ]
       }
