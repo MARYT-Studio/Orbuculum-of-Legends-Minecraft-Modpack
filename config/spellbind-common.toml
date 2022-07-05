@@ -1,6 +1,8 @@
 
-#Debug Mode
+#Debug Configurations
 [debug]
 	#Print all active rules after all they are all loaded
-	printAllActiveRules = false
+	printAllActiveRules = true
+	#Print NBT-Checker's all debug info
+	nbtCheckerInfo = true
 

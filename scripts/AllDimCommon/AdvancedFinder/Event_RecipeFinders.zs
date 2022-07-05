@@ -7,7 +7,6 @@ CTEventManager.register<MCRightClickItemEvent>(event => {
     var itemDefaultInstance = item.definition.defaultInstance;
     var player = event.player;
     var world = event.player.world;
-    var hand = event.hand;
     if(!world.remote && <item:minecraft:clock>.matches(itemDefaultInstance)) {
             var offhandItem = player.getHeldItem(MCHand.OFF_HAND);
             if((<item:druidcraft:amber>|<item:druidcraft:rockroot>).contains(offhandItem)) {

@@ -9,12 +9,8 @@
           {
             "action_type": "potion",
             "potion_id": "24",
-            "duration": "60",
+            "duration": "200",
             "amplifier": "0"
-          },
-          {
-            "action_type": "set_on_fire",
-            "seconds": "15"
           }
         ]
       }
