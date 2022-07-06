@@ -131,3 +131,10 @@ for index1 in 0 .. 2 {
 
 <item:contenttweaker:fire_spear>.anyDamage().addTooltip("\u6734\u5b9e\u5374\u795e\u79d8\u7684\u706b\u5668\uff0c");
 <item:contenttweaker:fire_spear>.anyDamage().addTooltip("\u6709\u65f6\u80fd\u70b9\u71c3\u654c\u4eba\u3002");
+
+// Kaleido
+// Original text:
+// 左键点击方块，使其改变形状。
+<item:kaleido:chisel>.anyDamage().addTooltip("\u5de6\u952e\u70b9\u51fb\u65b9\u5757\uff0c\u4f7f\u5176\u6539\u53d8\u5f62\u72b6\u3002");
+// 右键点击方块，使其旋转方向。
+<item:kaleido:mallet>.anyDamage().addTooltip("\u53f3\u952e\u70b9\u51fb\u65b9\u5757\uff0c\u4f7f\u5176\u65cb\u8f6c\u65b9\u5411\u3002");

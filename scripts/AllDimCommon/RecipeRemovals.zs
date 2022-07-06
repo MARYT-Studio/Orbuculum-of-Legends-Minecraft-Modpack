@@ -72,3 +72,10 @@ for item in unused_dryers {
     craftingTable.removeRecipe(item);
     mods.jei.JEI.hideItem(item);
 }
+
+for item in loadedMods.getMod("kaleido").items {
+    if (!((<item:kaleido:chisel>|<item:kaleido:mallet>).contains(item))) {
+        craftingTable.removeRecipe(item);
+        mods.jei.JEI.hideItem(item);
+    }
+}
