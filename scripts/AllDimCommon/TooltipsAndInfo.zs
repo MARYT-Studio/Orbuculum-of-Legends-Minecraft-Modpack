@@ -131,6 +131,7 @@ for index1 in 0 .. 2 {
 
 <item:contenttweaker:fire_spear>.anyDamage().addTooltip("\u6734\u5b9e\u5374\u795e\u79d8\u7684\u706b\u5668\uff0c");
 <item:contenttweaker:fire_spear>.anyDamage().addTooltip("\u6709\u65f6\u80fd\u70b9\u71c3\u654c\u4eba\u3002");
+<item:contenttweaker:fire_spear>.anyDamage().addTooltip("\u00A76\u00A7l\u201c\u9b45\u201d\u548c\u5b83\u7684\u5206\u8eab\u5bf9\u5176\u4e2d\u8574\u542b\u7684\u4e09\u6627\u771f\u706b\u683c\u5916\u6050\u60e7\u3002");
 
 // Kaleido
 // Original text:

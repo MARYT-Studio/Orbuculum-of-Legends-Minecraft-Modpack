@@ -5,7 +5,7 @@ import crafttweaker.api.player.MCPlayerEntity;
 import crafttweaker.api.util.MCHand;
 import crafttweaker.api.data.MapData;
 
-val enable = false;
+val enable = true;
 
 if (enable) {
 CTEventManager.register<crafttweaker.api.event.entity.living.MCLivingHurtEvent>((event) => {
@@ -18,6 +18,11 @@ CTEventManager.register<crafttweaker.api.event.entity.living.MCLivingHurtEvent>(
             if(<item:minecraft:stick>.matches(mainhandItem)) {
                 var entity = event.entityLiving;
                 entity.updatePersistentData({BossMob: true as bool});
+                var dataText = entity.data.asFormattedText(" ", 1);
+                player.sendMessage(dataText);
+            } else if (<item:minecraft:bamboo>.matches(mainhandItem)) {
+                var entity = event.entityLiving;
+                entity.updatePersistentData({BossFollower: true as bool});
                 var dataText = entity.data.asFormattedText(" ", 1);
                 player.sendMessage(dataText);
             }
