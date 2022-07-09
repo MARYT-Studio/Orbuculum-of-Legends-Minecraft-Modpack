@@ -7,6 +7,9 @@ import crafttweaker.api.potion.MCPotion;
 import crafttweaker.api.potion.MCPotionEffect;
 import crafttweaker.api.potion.MCPotionEffectInstance;
 
+import crafttweaker.api.data.IData;
+import crafttweaker.api.data.MapData;
+
 val specialFoods as IItemStack[] = [
     <item:crockpot:bone_stew>,
     <item:farmersdelight:mixed_salad>,
@@ -22,7 +25,8 @@ CTEventManager.register<MCLivingEntityUseItemFinishEvent>(event => {
     var entity = event.entityLiving;
     if (!entity.world.remote && entity is MCPlayerEntity) {
         var player = entity as MCPlayerEntity;
-        if (true) { // TODO: BossStage NBT here
+        var bossStage as IData? = player.data.getData<MapData>("ForgeData").getData<MapData>("PlayerPersisted").getAt("BeingInBossStage");
+        if (bossStage != null && bossStage.asBoolean()) {
             if (specialFoods[0].matches(event.item)) {
                 player.heal(5 * hearts);
                 player.world.asServerWorld().server.executeCommand("execute at " + player.name as string + " run playsound minecraft:entity.player.levelup player " + player.name as string, true);

@@ -3,13 +3,13 @@
       {
         "item": "minecraft:golden_carrot",
         "distance": "25.0",
-        "entity": "minecraft:phantom",
+        "entity": "minecraft:wither_skeleton",
         "nbt_to_check": "BossMob",
         "actions": [
           {
             "action_type": "potion",
             "potion_id": "24",
-            "duration": "300",
+            "duration": "500",
             "amplifier": "0"
           }
         ]
