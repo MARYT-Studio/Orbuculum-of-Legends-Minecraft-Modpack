@@ -1,0 +1,30 @@
+type = hud
+
+customization-meta {
+  randomgroup = 1
+  keepaspectratio = false
+  backgroundimage = openloader/resources/orbuculum_of_legends/assets/orbuculum_of_legends/textures/loading_screen_compressed.png
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  visible = false
+  action = editlogo
+}
+
+customization {
+  orientation = top-left
+  loop = true
+  channel = master
+  x = 461
+  width = 10
+  action = custom_layout_element:fancymenu_extension:audio_item
+  actionid = aacae7de-821a-4219-a4b4-e17d743331d21657433275118
+  y = 251
+  audio_source:0ff9a1a7-d22f-4878-a3ee-42b0e4a5a5831657433285951 = openloader/resources/orbuculum_of_legends/assets/orbuculum_of_legends/sounds/Orchestral_Suite_no_ 2_in_B minor_BWV_1067_Badinerie.ogg;EXTERNAL_LOCAL;100;0
+  once_per_session = true
+  height = 10
+}
+
