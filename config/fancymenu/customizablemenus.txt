@@ -12,3 +12,12 @@ net.minecraft.client.gui.screen.MultiplayerScreen {
 net.minecraft.client.gui.screen.CreateWorldScreen {
 }
 
+net.minecraftforge.fml.client.gui.screen.ModListScreen {
+}
+
+net.minecraft.client.gui.screen.OptionsScreen {
+}
+
+net.minecraft.client.gui.screen.LanguageScreen {
+}
+

@@ -1,5 +1,6 @@
 import mods.jei.JEI;
 import crafttweaker.api.item.IItemStack;
+import crafttweaker.api.util.text.MCTextComponent;
 
 // Finders part
 val finders as IItemStack[] = [
@@ -139,3 +140,45 @@ for index1 in 0 .. 2 {
 <item:kaleido:chisel>.anyDamage().addTooltip("\u5de6\u952e\u70b9\u51fb\u65b9\u5757\uff0c\u4f7f\u5176\u6539\u53d8\u5f62\u72b6\u3002");
 // 右键点击方块，使其旋转方向。
 <item:kaleido:mallet>.anyDamage().addTooltip("\u53f3\u952e\u70b9\u51fb\u65b9\u5757\uff0c\u4f7f\u5176\u65cb\u8f6c\u65b9\u5411\u3002");
+
+// BossStage Special Foods
+// TITLE
+// Original text: §8§l[§6§lBOSS战特殊食物§8§l]
+val title as string = "\u00A77\u00A7l[\u00A76\u00A7lBOSS\u6218\u7279\u6b8a\u98df\u7269\u00A77\u00A7l]";
+// Original text: §8§l[§6§lBOSS战特殊食物,按住SHIFT查看详情§8§l]
+val showTitle as string = "\u00A77\u00A7l[\u00A76\u00A7lBOSS\u6218\u7279\u6b8a\u98df\u7269,\u6309\u4f4f\u0053\u0048\u0049\u0046\u0054\u67e5\u770b\u8be6\u60c5\u00A77\u00A7l]";
+// Original text: §8§l[§e适用世界§8§l]: §r
+val effectiveWorld as string = "\u00A77\u00A7l[\u00A7e\u9002\u7528\u4e16\u754c\u00A77\u00A7l]: \u00A7f";
+// Original text: 第一层 - 第七层
+val worldNames as string[] = [
+    "\u7b2c\u4e00\u5c42",
+    "\u7b2c\u4e8c\u5c42",
+    "\u7b2c\u4e09\u5c42",
+    "\u7b2c\u56db\u5c42",
+    "\u7b2c\u4e94\u5c42",
+    "\u7b2c\u516d\u5c42",
+    "\u7b2c\u4e03\u5c42"
+];
+// Original text: §8§l[§e效果§8§l]: §r
+val effect as string = "\u00A77\u00A7l[\u00A7e\u6548\u679c\u00A77\u00A7l]: \u00A7r";
+// Stage One
+val stageOneFoods as string[IItemStack] = {
+    // Original text:
+    // 立即回复9颗心
+    // 增加75秒饥饿V，立即回复4颗心，缓慢回复生命20秒钟
+    // 增加45秒饥饿VI，45秒跳跃提升III，45秒速度I
+    // 急迫6分钟效果，10秒力量I，45秒跳跃提升VI，1分钟速度I，1分钟夜视
+    // 注视BOSS吃下它，可以使BOSS发光25秒钟，法术范围25格
+    <item:crockpot:bone_stew>: "\u7acb\u5373\u56de\u590d9\u9897\u5fc3",
+    <item:farmersdelight:mixed_salad>: "\u589e\u52a075\u79d2\u9965\u997fV\uff0c\u7acb\u5373\u56de\u590d4\u9897\u5fc3\uff0c\u7f13\u6162\u56de\u590d\u751f\u547d20\u79d2\u949f",
+    <item:farmersdelight:cabbage_rolls>: "\u589e\u52a045\u79d2\u9965\u997fVI\uff0c45\u79d2\u8df3\u8dc3\u63d0\u5347III\uff0c45\u79d2\u901f\u5ea6I",
+    <item:crockpot:salsa>: "\u6025\u8feb6\u5206\u949f\u6548\u679c\uff0c10\u79d2\u529b\u91cfI\uff0c45\u79d2\u8df3\u8dc3\u63d0\u5347VI\uff0c1\u5206\u949f\u901f\u5ea6I\uff0c1\u5206\u949f\u591c\u89c6",
+    <item:minecraft:golden_carrot>: "\u6ce8\u89c6BOSS\u5403\u4e0b\u5b83\uff0c\u53ef\u4ee5\u4f7fBOSS\u53d1\u514925\u79d2\u949f\uff0c\u6cd5\u672f\u8303\u56f425\u683c"
+};
+
+for key, value in stageOneFoods {
+    (key as IItemStack).addShiftTooltip(
+        MCTextComponent.createStringTextComponent(title + "\n" + effectiveWorld + worldNames[0] + "\n" + effect + value),
+        MCTextComponent.createStringTextComponent(showTitle)
+    );
+}

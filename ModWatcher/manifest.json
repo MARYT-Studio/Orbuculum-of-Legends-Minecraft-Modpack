@@ -11,7 +11,7 @@
   "manifestType": "minecraftModpack",
   "manifestVersion": 1,
   "name": "Orbuculum-of-Legends",
-  "version": "0.0.1-beta",
+  "version": "alpha-0.0.0",
   "author": "RisingInIris2017",
   "files": [
     {
@@ -51,7 +51,7 @@
     },
     {
       "projectID": 419699,
-      "fileID": 3801558,
+      "fileID": 3537113,
       "required": true
     },
     {
@@ -76,7 +76,7 @@
     },
     {
       "projectID": 239197,
-      "fileID": 3680605,
+      "fileID": 3833806,
       "required": true
     },
     {
@@ -220,13 +220,18 @@
       "required": true
     },
     {
-      "projectID": 410295,
-      "fileID": 3593195,
+      "projectID": 396036,
+      "fileID": 3820075,
       "required": true
     },
     {
-      "projectID": 238086,
-      "fileID": 3647098,
+      "projectID": 303657,
+      "fileID": 3536245,
+      "required": true
+    },
+    {
+      "projectID": 410295,
+      "fileID": 3593195,
       "required": true
     },
     {
@@ -255,13 +260,13 @@
       "required": true
     },
     {
-      "projectID": 582295,
-      "fileID": 3665841,
+      "projectID": 319596,
+      "fileID": 3849564,
       "required": true
     },
     {
-      "projectID": 416294,
-      "fileID": 3525704,
+      "projectID": 582295,
+      "fileID": 3665841,
       "required": true
     },
     {
@@ -276,7 +281,7 @@
     },
     {
       "projectID": 589460,
-      "fileID": 3677439,
+      "fileID": 3860161,
       "required": true
     },
     {
@@ -322,11 +327,6 @@
     {
       "projectID": 425918,
       "fileID": 3341828,
-      "required": true
-    },
-    {
-      "projectID": 256087,
-      "fileID": 3191743,
       "required": true
     },
     {

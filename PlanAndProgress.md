@@ -216,7 +216,7 @@ Dannys Expansion 的敌对生物
 - [x] 低饱和小回血（主要血药）：混合沙拉 - 农夫乐事 原效果：立即回复 1 颗心，改为：增加 75 秒饥饿 V，立即回复 4 颗心，缓慢回复生命 20 秒钟
 - [x] 低饱和小 Buff（主要 Buff 药）：卷心菜卷 - 农夫乐事 原本没有效果，改为：增加 45 秒饥饿 VI，45 秒跳跃提升 III，45 秒速度 I
 - [x] 高饱和大 Buff（CD长）：莎莎酱 - 烹饪锅 保留急迫 6 分钟效果，10 秒力量 I，45 秒跳跃提升 VI，1 分钟速度 I，1 分钟夜视
-- [x] 技能食物（Spellbind）：金胡萝卜 - 原版，使被金胡萝卜命中的 Boss 及其分身发光 15 秒钟
+- [x] 技能食物（Spellbind）：金胡萝卜 - 原版，使 Boss 发光 25 秒钟
 
 ### 第二阶段
 
@@ -261,6 +261,7 @@ Dannys Expansion 的敌对生物
 - [x] 分身的体积为原来的 1.3 倍。
 - [x] 分身空手，不拿武器。
 - [x] 一旦召唤者死亡，本体和分身也都会一起消失。
+- [ ] 将上一条技能用 [MCServerWorld#getEntities](https://docs.blamejared.com/1.16/en/vanilla/api/world/MCServerWorld#getEntities) 重构。
 
 参考命令：
 

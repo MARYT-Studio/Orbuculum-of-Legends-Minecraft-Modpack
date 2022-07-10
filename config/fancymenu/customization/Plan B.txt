@@ -9,6 +9,11 @@ customization-meta {
 }
 
 customization {
+  path = openloader/resources/orbuculum_of_legends/assets/orbuculum_of_legends/textures/main_menu_bg.png
+  action = texturizebackground
+}
+
+customization {
   path = openloader/resources/orbuculum_of_legends/assets/orbuculum_of_legends/sounds/Etude_Op_25_no_5_Eminor_Wrong_Note.wav
   loop = true
   action = addaudio

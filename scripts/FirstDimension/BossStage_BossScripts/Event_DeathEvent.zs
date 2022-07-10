@@ -19,29 +19,30 @@ CTEventManager.register<MCLivingDeathEvent>(event => {
     var entity = event.entityLiving;
     if (entity is MCPlayerEntity) {
         var player as MCPlayerEntity = entity as MCPlayerEntity;
-        var uuidListData as IData? = player.getPersistentData().getData<MapData>("BossStageOne").getAt("BossEntitiesUUID");
-        if (uuidListData != null) {
-            var nonnullUUIDList as IData = uuidListData as IData;
-            var uuidList as ListData = nonnullUUIDList as ListData;
-            var uuidListToIter as List<IData> = uuidList as List<IData>;
-            for uuid in uuidListToIter {
-                player.world.asServerWorld().server.executeCommand("kill " + uuid.getString(), true);
-            }
-
-            // Change summoner out of Boss-combat mode
-            player.updatePersistentData({"BeingInBossStage": false});
-            
-            // clear boss mobs uuid
-            var emptyListData as ListData = new ListData();
-            player.updatePersistentData(
-                {
-                    "BossStageOne": {
-                        "BossEntitiesUUID": emptyListData
-                    }
+        var playerPersist as MapData = player.getPersistentData();
+        if (playerPersist.contains("BossStageOne")) {
+            var uuidListData as IData? = playerPersist.getData<MapData>("BossStageOne").getAt("BossEntitiesUUID");
+            if (uuidListData != null) {
+                var uuidList as List<IData> = ((uuidListData as IData) as ListData) as List<IData>;
+                for uuid in uuidList {
+                    player.world.asServerWorld().server.executeCommand("kill " + uuid.getString(), true);
                 }
-            );
-            // Original text: §l[§6§l魅§f§l]§r: 重新召唤我吧，我会再给你机会。
-            player.sendMessage("\u00A7l[\u00A76\u00A7l\u9b45\u00A7f\u00A7l]\u00A7r: \u91cd\u65b0\u53ec\u5524\u6211\u5427\uff0c\u6211\u4f1a\u518d\u7ed9\u4f60\u673a\u4f1a\u3002");
+
+                // Change summoner out of Boss-combat mode
+                player.updatePersistentData({"BeingInBossStage": false});
+                
+                // clear boss mobs uuid
+                var emptyListData as ListData = new ListData();
+                player.updatePersistentData(
+                    {
+                        "BossStageOne": {
+                            "BossEntitiesUUID": emptyListData
+                        }
+                    }
+                );
+                // Original text: §l[§6§l魅§f§l]§r: 重新召唤我吧，我会再给你机会。
+                player.sendMessage("\u00A7l[\u00A76\u00A7l\u9b45\u00A7f\u00A7l]\u00A7r: \u91cd\u65b0\u53ec\u5524\u6211\u5427\uff0c\u6211\u4f1a\u518d\u7ed9\u4f60\u673a\u4f1a\u3002");
+            }
         }
     }
 });
