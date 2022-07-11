@@ -1,0 +1,23 @@
+[
+    {
+        "mod": "aquaculture",
+        "mincount": 60,
+        "result": "deny"
+    },
+    {
+        "mob": "minecraft:cod",
+        "mincount": {
+            "amount": 50,
+            "mod": "aquaculture"
+        },
+        "result": "deny"
+    },
+    {
+        "mob": "minecraft:salmon",
+        "mincount": {
+            "amount": 50,
+            "mod": "aquaculture"
+        },
+        "result": "deny"
+    }
+]
