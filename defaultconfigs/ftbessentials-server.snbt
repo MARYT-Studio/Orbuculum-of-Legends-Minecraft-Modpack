@@ -1,13 +1,76 @@
-# Default config file that will be copied to world's serverconfig/ftbessentials.snbt location
-# Copy values you wish to override in here
-# Example:
-# 
-# {
-# 	misc: {
-# 		enderchest: {
-# 			enabled: false
-# 		}
-# 	}
-# }
-
-{ }
+{
+	admin: {
+		fly: {
+			enabled: false
+		},
+		god: {
+			enabled: false
+		},
+		heal: {
+			enabled: false
+		},
+		invsee: {
+			enabled: true
+		},
+		mute: {
+			enabled: true
+		}
+	},
+	misc: {
+		enderchest: {
+			enabled: false
+		},
+		hat: {
+			enabled: false
+		},
+		kickme: {
+			enabled: false
+		},
+		nick: {
+			enabled: false.
+		},
+		rec: {
+			enabled: false.
+		},
+		trashcan: {
+			enabled: true
+		}
+	},
+	teleportation: {
+		back: {
+			cooldown: 30,
+			enabled: true,
+			max: 10
+		},
+		home: {
+			cooldown: 10,
+			enabled: true,
+			max: 1
+		},
+		rtp: {
+			cooldown: 600,
+			enabled: true,
+			max_distance: 5000,
+			max_tries: 20,
+			min_distance: 1250
+		}
+		spawn: {
+			cooldown: 10,
+			enabled: false
+		},
+		tpa: {
+			cooldown: 10,
+			enabled: true
+		},
+		tpl: {
+			enabled: true
+		},
+		tpx: {
+			enabled: true
+		},
+		warp: {
+			cooldown: 10,
+			enabled: true
+		}
+	}
+}

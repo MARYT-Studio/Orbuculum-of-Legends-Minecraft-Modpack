@@ -17,10 +17,12 @@ import crafttweaker.api.entity.AttributeInstance;
 import crafttweaker.api.entity.AttributeModifier;
 import crafttweaker.api.entity.AttributeOperation;
 
+import crafttweaker.api.util.MCEquipmentSlotType;
+
 import stdlib.List;
 import math.Functions;
 
-val maxAllowedFollowersAmount = 3;
+val maxAllowedFollowersAmount = 4;
 val summonProb as float = 0.5f;
 val attackedInvisiblilityProb as float = 0.3f;
 val seconds as int = 20;
@@ -86,19 +88,19 @@ CTEventManager.register<MCLivingHurtEvent>(event => {
                                     "CustomName": "\"\u00A78\u00A7l\u9634\u5f71\u5b88\u536b\u7684\u5206\u8eab\"",
                                     "pehkui:scale_data_types": {
                                         "pehkui:width": {
-                                            "initial":1.3,
-                                            "scale":1.3,
-                                            "target":1.3
+                                            "initial":0.9,
+                                            "scale":0.9,
+                                            "target":0.9
                                         },
                                         "pehkui:height": {
-                                            "initial":1.3,
-                                            "scale":1.3,
-                                            "target":1.3
+                                            "initial":0.9,
+                                            "scale":0.9,
+                                            "target":0.9
                                         },
                                         "pehkui:motion": {
-                                            "initial":3.0,
-                                            "scale":3.0,
-                                            "target":3.0
+                                            "initial":3.2,
+                                            "scale":3.2,
+                                            "target":3.2
                                         }
                                     },
                                     "ForgeData": {
@@ -108,6 +110,7 @@ CTEventManager.register<MCLivingHurtEvent>(event => {
                                     }                                      
                                 }
                             );
+                            bossFollower.setItemStackToSlot(MCEquipmentSlotType.HEAD, <item:druidcraft:bone_helmet>);
                             bossFollower.setRevengeTarget(player);
                             
                             // Attribute

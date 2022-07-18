@@ -5,7 +5,7 @@ import crafttweaker.api.player.MCPlayerEntity;
 import crafttweaker.api.util.MCHand;
 import crafttweaker.api.data.MapData;
 
-val enable = true;
+val enable = false;
 
 if (enable) {
 CTEventManager.register<crafttweaker.api.event.entity.living.MCLivingHurtEvent>((event) => {

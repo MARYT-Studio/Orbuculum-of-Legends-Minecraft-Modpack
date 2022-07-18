@@ -52,15 +52,15 @@
 	#Makes angered neutral mobs attack any nearby player, not just the player that angered them. Works best if forgiveDeadPlayers is disabled.
 	universal_anger = false
 	#Whether the day-night cycle and moon phases progress
-	do_daylight_cycle = true
+	do_daylight_cycle = false
 	#Whether players should be able to craft only those recipes that they've unlocked first
 	do_limited_crafting = false
 	#Whether mobs should naturally spawn. Does not affect monster spawners.
-	do_mob_spawning = true
+	do_mob_spawning = false
 	#Whether fire should spread and naturally extinguish
 	do_fire_tick = true
 	#Whether the weather can change
-	do_weather_cycle = true
+	do_weather_cycle = false
 	#Whether the player should take fire damage
 	fire_damage = true
 	#Whether the server should skip checking player speed when the player is wearing elytra. Often helps with jittering due to lag in multiplayer, but may also be used to travel unfairly long distances in survival mode (cheating).
