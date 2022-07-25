@@ -1,24 +1,49 @@
 import crafttweaker.api.events.CTEventManager;
 import crafttweaker.api.event.entity.player.MCPlayerLoggedInEvent;
 
-import crafttweaker.api.event.entity.player.interact.MCRightClickItemEvent;
 import crafttweaker.api.event.entity.living.MCLivingEntityUseItemStartEvent;
 
+import crafttweaker.api.item.IItemStack;
 import crafttweaker.api.player.MCPlayerEntity;
 import crafttweaker.api.data.IData;
 
-val avaliable = false;
+val avaliable = true;
+
+val milkRelatedItems as IItemStack[] = [
+    <item:vanillafoodpantry:bowl_milk>,
+    <item:vanillafoodpantry:bowl_honeymilk>,
+    <item:vanillafoodpantry:milkdrink_plain>,
+    <item:vanillafoodpantry:milkdrink_cocoa>,
+    <item:vanillafoodpantry:milkdrink_sweet>,
+    <item:vanillafoodpantry:milkdrink_pumpkin>,
+    <item:vanillafoodpantry:milkdrink_klingon>,
+    <item:vanillafoodpantry:milkdrink_apple>,
+    <item:vanillafoodpantry:milkdrink_muscle_mix>,
+    <item:vanillafoodpantry:milkdrink_blueberry>,
+    <item:vanillafoodpantry:milkdrink_berry_mix>,
+    <item:vanillafoodpantry:creamsoup_cactus>,
+    <item:vanillafoodpantry:creamsoup_pumpkin>,
+    <item:vanillafoodpantry:creamsoup_beet>,
+    <item:vanillafoodpantry:creamsoup_mushroom>,
+    <item:vanillafoodpantry:creamsoup_cheese>,
+    <item:vanillafoodpantry:creamsoup_potato>,
+    <item:vanillafoodpantry:creamsoup_carrot>,
+    <item:vanillafoodpantry:creamsoup_tomato>,
+    <item:vanillafoodpantry:portion_milk>
+];
 
 if (avaliable) {
-    CTEventManager.register<MCRightClickItemEvent>(event => {
-        var nullablePlayer as MCPlayerEntity? = event.player;
-        if (nullablePlayer != null && !nullablePlayer.world.remote) {
-            if (<item:vanillafoodpantry:portion_milk>.matches(event.itemStack.definition.defaultInstance)) {
-                var player as MCPlayerEntity = nullablePlayer as MCPlayerEntity;
-                if (player.getPersistentData().getAt("SucceedInStageFour") == null || player.getPersistentData().getAt("SucceedInStageFour").asBoolean()) {
-                    // Original text: §c§l你尚未掌握游牧人的知识，无法使用这个物品
-                    player.sendMessage("\u00A7c\u00A7l\u4f60\u5c1a\u672a\u638c\u63e1\u6e38\u7267\u4eba\u7684\u77e5\u8bc6\uff0c\u65e0\u6cd5\u4f7f\u7528\u8fd9\u4e2a\u7269\u54c1");
-                    event.cancel();
+    CTEventManager.register<MCLivingEntityUseItemStartEvent>(event => {
+        var entity = event.entityLiving;
+        if (entity is MCPlayerEntity) {
+            var player as MCPlayerEntity = entity as MCPlayerEntity;
+            if (!player.world.remote) { // Take the server thread
+                if (event.item.definition.defaultInstance in milkRelatedItems) {
+                    // Succeeded in Four means Player is currently in Five or higher
+                    var hasSucceededStageFour as IData? = player.getPersistentData().getAt("SucceedInStageFour");
+                    if (hasSucceededStageFour == null || hasSucceededStageFour.asBoolean() == false) {
+                        event.cancel();
+                    }
                 }
             }
         }

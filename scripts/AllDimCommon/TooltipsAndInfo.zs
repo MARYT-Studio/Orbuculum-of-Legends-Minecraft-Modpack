@@ -182,3 +182,31 @@ for key, value in stageOneFoods {
         MCTextComponent.createStringTextComponent(showTitle)
     );
 }
+
+val milkRelatedItems as IItemStack[] = [
+    <item:vanillafoodpantry:bowl_milk>,
+    <item:vanillafoodpantry:bowl_honeymilk>,
+    <item:vanillafoodpantry:milkdrink_plain>,
+    <item:vanillafoodpantry:milkdrink_cocoa>,
+    <item:vanillafoodpantry:milkdrink_sweet>,
+    <item:vanillafoodpantry:milkdrink_pumpkin>,
+    <item:vanillafoodpantry:milkdrink_klingon>,
+    <item:vanillafoodpantry:milkdrink_apple>,
+    <item:vanillafoodpantry:milkdrink_muscle_mix>,
+    <item:vanillafoodpantry:milkdrink_blueberry>,
+    <item:vanillafoodpantry:milkdrink_berry_mix>,
+    <item:vanillafoodpantry:creamsoup_cactus>,
+    <item:vanillafoodpantry:creamsoup_pumpkin>,
+    <item:vanillafoodpantry:creamsoup_beet>,
+    <item:vanillafoodpantry:creamsoup_mushroom>,
+    <item:vanillafoodpantry:creamsoup_cheese>,
+    <item:vanillafoodpantry:creamsoup_potato>,
+    <item:vanillafoodpantry:creamsoup_carrot>,
+    <item:vanillafoodpantry:creamsoup_tomato>,
+    <item:vanillafoodpantry:portion_milk>
+];
+
+for milk in milkRelatedItems {
+    // Original text: 你需要掌握游牧人的知识，才能使用这个物品。
+    milk.addTooltip("\u4f60\u9700\u8981\u638c\u63e1\u6e38\u7267\u4eba\u7684\u77e5\u8bc6\uff0c\u624d\u80fd\u4f7f\u7528\u8fd9\u4e2a\u7269\u54c1\u3002");
+}
