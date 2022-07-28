@@ -14,8 +14,7 @@ CTEventManager.register<MCRightClickItemEvent>(event => {
             var hasSucceededStageFour as IData? = player.getPersistentData().getAt("SucceedInStageFour");
             if (hasSucceededStageFour == null || hasSucceededStageFour.asBoolean() == false) {
                 if (<item:druidcraft:travel_pack>.matches(event.itemStack.definition.defaultInstance)) {
-                    // Original text: §c§l你尚未掌握游牧人的知识，无法使用这个物品
-                    player.sendMessage("\u00A7c\u00A7l\u4f60\u5c1a\u672a\u638c\u63e1\u6e38\u7267\u4eba\u7684\u77e5\u8bc6\uff0c\u65e0\u6cd5\u4f7f\u7528\u8fd9\u4e2a\u7269\u54c1");
+                    player.sendMessage("\u00A7c\u00A7l\u4F60\u5C1A\u672A\u638C\u63E1\u6E38\u7267\u4EBA\u7684\u77E5\u8BC6\uFF0C\u65E0\u6CD5\u4F7F\u7528\u8FD9\u4E2A\u7269\u54C1");
                     event.cancel();
                 }
             }
