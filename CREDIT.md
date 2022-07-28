@@ -1,5 +1,9 @@
 # Credit
 
+## Datapack
+
+[@maketosix](https://www.mcbbs.net/?242823) (MCBBS.net, Chinese Website) grant the rights of using and distributing his `fishingreal` datapack to this project. 
+
 ## ART
 
 [@九十月](https://center.mcmod.cn/192509/) (MCMOD.CN, Chinese Website) designed the main menu background picture.
@@ -15,9 +19,17 @@ All music assets used in this project is listed below:
   
   Provided by [musopen.org](https://musopen.org/music/611-etudes-op-25/#recordings), Licensed under [Public Domain Mark 1.0](https://creativecommons.org/publicdomain/mark/1.0/)
 
-**Thank you to all the above artists for their irreplaceable contributions to this project.**
+**Thank you to all the above creators for their irreplaceable contributions to this project.**
 ______________________
 # 鸣谢
+
+## 数据包
+
+[@maketosix](https://www.mcbbs.net/?242823) (MCBBS.net, Chinese Website) 将自己制作的 `fishingreal` 数据包授权本项目使用。
+
+### 授权记录
+
+![授权截图](https://i.imgur.com/pYU2HjV.png)
 
 ## 美术资源
 
@@ -34,4 +46,4 @@ ______________________
   
   由 [musopen.org](https://musopen.org/music/611-etudes-op-25/#recordings) 提供，[Public Domain Mark 1.0](https://creativecommons.org/publicdomain/mark/1.0/) 协议开源。
 
-**感谢以上所有艺术家为本项目做出的无可替代的贡献。**
+**感谢以上所有创作者为本项目做出的无可替代的贡献。**

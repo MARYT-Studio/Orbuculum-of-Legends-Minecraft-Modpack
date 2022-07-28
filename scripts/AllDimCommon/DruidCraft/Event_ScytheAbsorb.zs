@@ -73,20 +73,20 @@ CTEventManager.register<MCItemPickupEvent>(event => {
                 pos1,
                 pos2
             );
-            // Original text: 它们分别是：
-            var message = "\u5b83\u4eec\u5206\u522b\u662f\uff1a";
-            message += ("" + event.stack.amount + "\u4e2a" + event.stack.displayName + ", ");
+            // Original text: \u5B83\u4EEC\u5206\u522B\u662F\uFF1A
+            var message = "\u5B83\u4EEC\u5206\u522B\u662F\uFF1A";
+            message += ("" + event.stack.amount + "\u4E2A" + event.stack.displayName + ", ");
             for target in targetList {
                 var item = target.item;
                 var amount = "" + item.amount;
                 var dispName = item.displayName;
-                // Original text: amount 个 dispName, 
-                message += (amount + "\u4e2a" + dispName + ", ");
+                // Original text: amount \u4E2A dispName, 
+                message += (amount + "\u4E2A" + dispName + ", ");
                 target.remove();
                 player.give(item);
             }
-            // Original text: 你挥舞镰刀，收获了3步之内的作物。
-            player.sendMessage("\u4f60\u6325\u821e\u9570\u5200\uff0c\u6536\u83b7\u4e863\u6b65\u4e4b\u5185\u7684\u4f5c\u7269\u3002");
+            // Original text: \u4F60\u6325\u821E\u9570\u5200\uFF0C\u6536\u83B7\u4E863\u6B65\u4E4B\u5185\u7684\u4F5C\u7269\u3002
+            player.sendMessage("\u4F60\u6325\u821E\u9570\u5200\uFF0C\u6536\u83B7\u4E863\u6B65\u4E4B\u5185\u7684\u4F5C\u7269\u3002");
             player.sendMessage(message[0 .. (message.length - 2)]);
         }
         else if(mainhandItem in scythes[1]) {
@@ -100,20 +100,20 @@ CTEventManager.register<MCItemPickupEvent>(event => {
                 pos1,
                 pos2
             );
-            // Original text: 它们分别是：
-            var message = "\u5b83\u4eec\u5206\u522b\u662f\uff1a";
-            message += ("" + event.stack.amount + "\u4e2a" + event.stack.displayName + ", ");
+            // Original text: \u5B83\u4EEC\u5206\u522B\u662F\uFF1A
+            var message = "\u5B83\u4EEC\u5206\u522B\u662F\uFF1A";
+            message += ("" + event.stack.amount + "\u4E2A" + event.stack.displayName + ", ");
             for target in targetList {
                 var item = target.item;
                 var amount = "" + item.amount;
                 var dispName = item.displayName;
-                // Original text: amount 个 dispName, 
-                message += (amount + "\u4e2a" + dispName + ", ");
+                // Original text: amount \u4E2A dispName, 
+                message += (amount + "\u4E2A" + dispName + ", ");
                 target.remove();
                 player.give(item);
             }
-            // Original text: 你挥舞镰刀，收获了7步之内的作物。
-            event.player.sendMessage("\u4f60\u6325\u821e\u9570\u5200\uff0c\u6536\u83b7\u4e867\u6b65\u4e4b\u5185\u7684\u4f5c\u7269\u3002");
+            // Original text: \u4F60\u6325\u821E\u9570\u5200\uFF0C\u6536\u83B7\u4E867\u6B65\u4E4B\u5185\u7684\u4F5C\u7269\u3002
+            event.player.sendMessage("\u4F60\u6325\u821E\u9570\u5200\uFF0C\u6536\u83B7\u4E867\u6B65\u4E4B\u5185\u7684\u4F5C\u7269\u3002");
             player.sendMessage(message[0 .. (message.length - 2)]);
         }
     }

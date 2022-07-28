@@ -3,7 +3,6 @@ import crafttweaker.api.events.CTEventManager;
 import crafttweaker.api.event.entity.player.interact.MCRightClickBlockEvent;
 import crafttweaker.api.event.block.MCBlockPlaceEvent;
 import crafttweaker.api.event.block.MCBlockBreakEvent;
-import crafttweaker.api.event.block.MCBlockNeighborNotifyEvent;
 
 // Datatypes
 import crafttweaker.api.player.MCPlayerEntity;
@@ -80,21 +79,6 @@ if (!debug) {
                         player.sendMessage("\u00A7c\u00A7l\u4F60\u5C1A\u672A\u638C\u63E1\u6253\u9C7C\u4EBA\u7684\u77E5\u8BC6\uFF0C\u65E0\u6CD5\u4F7F\u7528\u8FD9\u4E2A\u7269\u54C1");
                         event.cancel();
                     }
-                }
-        }
-    });
-
-    // TODO: Block Interact (Hoppers for example) Restrict
-} else {
-    // Block Interact (Hoppers for example) Debug
-    CTEventManager.register<MCBlockNeighborNotifyEvent>((event) => {
-        var world = event.world;
-        if (!world.remote) {
-            var block = event.state.block;
-            if (<block:fishtraps:wooden_fish_trap>.matchesBlock(block) ||
-                <block:fishtraps:iron_fish_trap>.matchesBlock(block) ||
-                <block:fishtraps:diamond_fish_trap>.matchesBlock(block)) {
-                    world.asServerWorld().server.executeCommand("say Fishtrap is interacted", true);
                 }
         }
     });

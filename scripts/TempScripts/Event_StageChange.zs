@@ -3,7 +3,7 @@ import crafttweaker.api.event.entity.MCEntityTravelToDimensionEvent;
 
 import crafttweaker.api.player.MCPlayerEntity;
 
-val enable = true;
+val enable = false;
 
 if (enable) {
     CTEventManager.register<MCEntityTravelToDimensionEvent>(event => {
