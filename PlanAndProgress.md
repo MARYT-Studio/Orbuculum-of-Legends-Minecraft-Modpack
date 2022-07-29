@@ -278,7 +278,8 @@ Dannys Expansion 的敌对生物
 - [x] 分身的体积为原来的 ~~1.3~~ 0.9 倍，速度为 3.2 倍。
 - [x] 分身空手，不拿武器。
 - [x] 一旦召唤者死亡，本体和分身也都会一起消失。
-- [ ] 将上一条技能用 [MCServerWorld#getEntities](https://docs.blamejared.com/1.16/en/vanilla/api/world/MCServerWorld#getEntities) 重构。
+
+有可能可以将最后一条技能用 [MCServerWorld#getEntities](https://docs.blamejared.com/1.16/en/vanilla/api/world/MCServerWorld#getEntities) 重构。
 
 参考命令：
 
