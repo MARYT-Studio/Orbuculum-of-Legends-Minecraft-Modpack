@@ -79,3 +79,8 @@ for item in loadedMods.getMod("kaleido").items {
         mods.jei.JEI.hideItem(item);
     }
 }
+
+// This item consume hungers for healing, which breaks the game balance.
+// So we remove it here.
+craftingTable.removeRecipe(<item:vanillafoodpantry:undead_wotsit>);
+mods.jei.JEI.hideItem(<item:vanillafoodpantry:undead_wotsit>);
