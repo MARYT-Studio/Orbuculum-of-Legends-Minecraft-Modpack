@@ -52,13 +52,13 @@
 	#Makes angered neutral mobs attack any nearby player, not just the player that angered them. Works best if forgiveDeadPlayers is disabled.
 	universal_anger = false
 	#Whether the day-night cycle and moon phases progress
-	do_daylight_cycle = false
+	do_daylight_cycle = true
 	#Whether players should be able to craft only those recipes that they've unlocked first
 	do_limited_crafting = false
 	#Whether mobs should naturally spawn. Does not affect monster spawners.
-	do_mob_spawning = false
+	do_mob_spawning = true
 	#Whether fire should spread and naturally extinguish
-	do_fire_tick = true
+	do_fire_tick = false
 	#Whether the weather can change
 	do_weather_cycle = false
 	#Whether the player should take fire damage
