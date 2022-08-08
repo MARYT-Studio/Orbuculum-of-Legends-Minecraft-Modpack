@@ -35,7 +35,6 @@
       "tropicraft:normal_palm_tree",
       "tropicraft:curved_palm_tree",
       "tropicraft:large_palm_tree",
-      "tropicraft:eih",
       "tropicraft:papaya",
       "tropicraft:tropics_flowers",
       "tropicraft:iris_flowers",
@@ -44,6 +43,9 @@
       "tropicraft:tropics_grass",
       "minecraft:patch_large_fern",
       "minecraft:patch_tall_grass"
+    ],
+    [
+      "orbuculum_of_legends:dark_tree"
     ]
   ],
   "starts": [],
