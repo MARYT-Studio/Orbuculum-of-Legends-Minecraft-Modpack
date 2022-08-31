@@ -42,12 +42,9 @@
       "tropicraft:seagrass",
       "tropicraft:tropics_grass",
       "minecraft:patch_large_fern",
-      "minecraft:patch_tall_grass",
-      "tropicraft:dark_tree"
+      "minecraft:patch_tall_grass"
     ],
-    [
-      "orbuculum_of_legends:dark_tree"
-    ]
+    []
   ],
   "starts": [],
   "spawners": {
