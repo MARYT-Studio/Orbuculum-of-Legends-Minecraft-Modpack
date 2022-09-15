@@ -31,5 +31,6 @@ config/topography/examples/
 !/ModWatcher
 /MinecraftModWatcher.exe
 /ModWatcher/export.zip
+/ModWatcher/config.json
 ModWatcher/stage/
 ModWatcher/Orbuculum-of-Legends*.zip
