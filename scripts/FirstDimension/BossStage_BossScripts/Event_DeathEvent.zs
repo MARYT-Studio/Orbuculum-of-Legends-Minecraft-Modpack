@@ -40,8 +40,7 @@ CTEventManager.register<MCLivingDeathEvent>(event => {
                         }
                     }
                 );
-                // Original text: §l[§6§l魅§f§l]§r: 重新召唤我吧，我会再给你机会。
-                player.sendMessage("\u00A7l[\u00A76\u00A7l\u9b45\u00A7f\u00A7l]\u00A7r: \u91cd\u65b0\u53ec\u5524\u6211\u5427\uff0c\u6211\u4f1a\u518d\u7ed9\u4f60\u673a\u4f1a\u3002");
+                player.sendMessage("\u00A7l[\u00A76\u00A7l\u9B45\u00A7f\u00A7l]\u00A7r: \u91CD\u65B0\u53EC\u5524\u6211\u5427\uFF0C\u6211\u4F1A\u518D\u7ED9\u4F60\u673A\u4F1A\u3002");
             }
         }
     }
@@ -77,8 +76,7 @@ CTEventManager.register<MCLivingDeathEvent>(event => {
                         // Success Flag
                         player.updatePersistentData({"SucceedInStageOne": true});
 
-                        // Original text: §l[§6§l魅§f§l]§r: 你终于还是突破了第一道封印。不要太得意了，前面还有更强大的封印守卫者在等待你呢。
-                        player.sendMessage("\u00A7l[\u00A76\u00A7l\u9b45\u00A7f\u00A7l]\u00A7r: \u4f60\u7ec8\u4e8e\u8fd8\u662f\u7a81\u7834\u4e86\u7b2c\u4e00\u9053\u5c01\u5370\u3002\u4e0d\u8981\u592a\u5f97\u610f\u4e86\uff0c\u524d\u9762\u8fd8\u6709\u66f4\u5f3a\u5927\u7684\u5c01\u5370\u5b88\u536b\u8005\u5728\u7b49\u5f85\u4f60\u5462\u3002");
+                        player.sendMessage("\u00A7l[\u00A76\u00A7l\u9B45\u00A7f\u00A7l]\u00A7r: \u4F60\u7EC8\u4E8E\u8FD8\u662F\u7A81\u7834\u4E86\u7B2C\u4E00\u9053\u5C01\u5370\u3002\u4E0D\u8981\u592A\u5F97\u610F\u4E86\uFF0C\u524D\u9762\u8FD8\u6709\u66F4\u5F3A\u5927\u7684\u5C01\u5370\u5B88\u536B\u8005\u5728\u7B49\u5F85\u4F60\u5462\u3002");
 
                         // TODO: Teleport to Stage 2
                     }
