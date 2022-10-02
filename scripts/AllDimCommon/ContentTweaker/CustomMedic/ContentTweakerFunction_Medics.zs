@@ -40,8 +40,6 @@ for medic in medics{
             playerEntity.sendMessage("\u8FD9\u4E2A\u4E1C\u897F\u53EF\u4EE5\u7528\u4E8E\u7597\u4F24\u3002");
         }
         return ActionResultType.SUCCESS;
-    }).setUsingTick((stack, player, count) => {
-        if(count == 3 * second) {return;}
     }).setOnItemUseFinish((stack, worldIn, entityLiving) => {
         if(!(entityLiving is MCPlayerEntity)) {
             return stack;
