@@ -1,0 +1,73 @@
+{
+	id: "13CFC6BC6BE2B445"
+	group: ""
+	order_index: 1
+	filename: "13CFC6BC6BE2B445"
+	title: "二层世界：鳕鱼"
+	icon: "tropicraft:coconut"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "哈！好不容易到了第二层了！"
+			x: -7.0d
+			y: -0.5d
+			description: [
+				"祝贺你啊。"
+				"这一层世界是我被封印的地方... 哦，忘了自我介绍。我叫鳕鱼，一名椰术师。"
+				"幸会。"
+			]
+			id: "12B6BD41AF454809"
+			tasks: [{
+				id: "7001B59021112225"
+				type: "checkmark"
+				title: "和鳕鱼对话"
+			}]
+		}
+		{
+			title: "“椰术师”？这是什么新奇的魔法师职业吗？"
+			x: -5.0d
+			y: -0.5d
+			description: [
+				"抱歉，我不想说。"
+				"反正...反正只是一些无关紧要的东西而已。"
+				"不过...你也能看出来，我需要你的帮助。"
+				"这个小东西请你收好，如不慎丢失，可以再找我拿取。"
+				"不过向你传送物品同样消耗我的法力，"
+				"还请你多加爱惜才是。"
+			]
+			dependencies: ["12B6BD41AF454809"]
+			id: "2E4DACC9A5D5DEDC"
+			tasks: [{
+				id: "63F2FD0034456F4F"
+				type: "checkmark"
+				title: "和鳕鱼对话"
+				disable_toast: true
+			}]
+			rewards: [
+				{
+					id: "14F9923FE693D4B3"
+					type: "item"
+					auto: "enabled"
+					item: "contenttweaker:feadog"
+				}
+				{
+					id: "5B13E8F9F2BAB2ED"
+					type: "command"
+					title: "本任务可反复完成，如丢失哨笛，重新完成此任务即可"
+					icon: "contenttweaker:feadog"
+					auto: "enabled"
+					command: "/ftbquests change_progress @p reset 2E4DACC9A5D5DEDC"
+					player_command: false
+				}
+			]
+		}
+		{
+			title: "你不想说就算了...那我有没有什么事情可以帮你的？"
+			x: -3.0d
+			y: -0.5d
+			dependencies: ["2E4DACC9A5D5DEDC"]
+			id: "771FC58BDC3413D4"
+		}
+	]
+}

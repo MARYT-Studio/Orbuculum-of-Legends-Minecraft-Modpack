@@ -12,61 +12,61 @@ val finders as IItemStack[] = [
 ];
 
 val tooltip_parts as string[][] = [
-    ["\u6811\u82D7", "\u6307\u5357\u9488"],
-    ["\u5CA9\u5316\u6839", "\u65F6\u949F"],
-    ["\u7425\u73C0", "\u65F6\u949F"]
+    ["树苗", "指南针"],
+    ["岩化根", "时钟"],
+    ["琥珀", "时钟"]
 ];
 
 var index as int = 0;
 for finder in finders {
-    finder.addTooltip("\u00A7e\u7CBE\u7075\u7684\u793C\u7269\u3002");
+    finder.addTooltip("§e精灵的礼物。");
     finder.addShiftTooltip(
-        "\u4EE5\u00A76" + tooltip_parts[index][0] + "\u00A7r\u4E3A\u4FE1\u7269\u53EC\u5524\u7CBE\u7075\uFF0C" +
-        "\u7B49\u5F85\u5B83\u5C06\u9B54\u529B\u6CE8\u5165\u4F60\u624B\u4E2D\u7684\u00A76"+ tooltip_parts[index][1] +"\u00A7r\u5427\u3002",
-        "\u00A77\u6309 [SHIFT] \u67E5\u770B\u66F4\u591A"
+        "以§6" + tooltip_parts[index][0] + "§r为信物召唤精灵，" +
+        "等待它将魔力注入你手中的§6"+ tooltip_parts[index][1] +"§r吧。",
+        "§7按 [SHIFT] 查看更多"
     );
     JEI.addInfo(finder, 
         [
-            "\u7CBE\u7075\u7684\u793C\u7269\u3002",
-            "\u7528\u4F60\u7684\u526F\u624B\u63E1\u6301\u4FE1\u7269\uFF0C",
-            "\u4E3B\u624B\u6367\u8D77\u8981\u795D\u798F\u7684\u7269\u54C1\uFF0C",
-            "\u7136\u540E\u70B9\u51FB\u53F3\u952E\u3002",
-            "\u5927\u58F0\u547C\u558A\u6211\u6559\u7ED9\u4F60\u7684\u5492\u8BED\uFF0C",
-            "\u7B49\u5F85\u7CBE\u7075\u5C06\u9B54\u529B\u6CE8\u5165\u5B83\u5427\u3002"
+            "精灵的礼物。",
+            "用你的副手握持信物，",
+            "主手捧起要祝福的物品，",
+            "然后点击右键。",
+            "大声呼喊我教给你的咒语，",
+            "等待精灵将魔力注入它吧。"
         ]);
     index = index + 1;
 }
 JEI.addInfo(<item:minecraft:compass>, [
-    "\u5728\u53EC\u5524\u7CBE\u7075\u7684\u4EEA\u5F0F\u4E2D\uFF0C",
-    "\u7528\u4F60\u7684\u526F\u624B\u63E1\u6301\u4FE1\u7269\uFF0C",
-    "\u4E3B\u624B\u6367\u8D77\u8FD9\u6837\u4E1C\u897F\uFF0C",
-    "\u7136\u540E\u70B9\u51FB\u53F3\u952E\uFF0C",
-    "\u7CBE\u7075\u5C31\u4F1A\u5C06\u9B54\u529B\u6CE8\u5165\u5B83\u3002",
-    "\u7528\u4EFB\u610F\u6811\u82D7\u4F5C\u4E3A\u4FE1\u7269\uFF0C",
-    "\u53EF\u4EE5\u5C06\u5B83\u53D8\u4E3A\u5BFB\u627E\u7FA4\u7CFB\u7684\u5DE5\u5177\u3002"
+    "在召唤精灵的仪式中，",
+    "用你的副手握持信物，",
+    "主手捧起这样东西，",
+    "然后点击右键，",
+    "精灵就会将魔力注入它。",
+    "用任意树苗作为信物，",
+    "可以将它变为寻找群系的工具。"
 ]);
 JEI.addInfo(<item:minecraft:clock>, [
-    "\u5728\u53EC\u5524\u7CBE\u7075\u7684\u4EEA\u5F0F\u4E2D\uFF0C",
-    "\u7528\u4F60\u7684\u526F\u624B\u63E1\u6301\u4FE1\u7269\uFF0C",
-    "\u4E3B\u624B\u6367\u8D77\u8FD9\u6837\u4E1C\u897F\uFF0C",
-    "\u7136\u540E\u70B9\u51FB\u53F3\u952E\uFF0C",
-    "\u7CBE\u7075\u5C31\u4F1A\u5C06\u9B54\u529B\u6CE8\u5165\u5B83\u3002",
-    "\u7425\u73C0\u4F5C\u4E3A\u4FE1\u7269\u4F1A\u4F7F\u5B83\u53D8\u4E3A\u91D1\u5C5E\u63A2\u6D4B\u5668\uFF0C",
-    "\u800C\u5CA9\u5316\u6839\u5219\u4F1A\u4F7F\u5B83\u53D8\u4E3A\u975E\u91D1\u5C5E\u7684\u77FF\u7269\u63A2\u6D4B\u5668\u3002"
+    "在召唤精灵的仪式中，",
+    "用你的副手握持信物，",
+    "主手捧起这样东西，",
+    "然后点击右键，",
+    "精灵就会将魔力注入它。",
+    "琥珀作为信物会使它变为金属探测器，",
+    "而岩化根则会使它变为非金属的矿物探测器。"
 ]);
 
 // Fabric part
 <item:contenttweaker:hemp_fabric>.addTooltip("a lightweight, experimental clothes-making materials for Minecraft.");
 <item:contenttweaker:hemp_fabric>.addShiftTooltip(
-    "\u539F\u53E5\u51FA\u5904\u81EA\u5BFB\u3002",
-    "\u00A77\u6309 [SHIFT] \u67E5\u770B\u66F4\u591A"
+    "原句出处自寻。",
+    "§7按 [SHIFT] 查看更多"
 );
 
 // Moss clump part
-<item:contenttweaker:moss_clump>.addTooltip("\u53EF\u4EE5\u6577\u5728\u4F24\u53E3\u4E0A\u7597\u4F24\uFF0C\u4F46\u6548\u679C\u4E0D\u7A33\u5B9A\u3002");
+<item:contenttweaker:moss_clump>.addTooltip("可以敷在伤口上疗伤，但效果不稳定。");
 
 // Crude Plaster part
-<item:contenttweaker:crude_plaster>.addTooltip("\u6BD4\u76F4\u63A5\u7528\u82D4\u85D3\u8981\u597D\u3002");
+<item:contenttweaker:crude_plaster>.addTooltip("比直接用苔藓要好。");
 
 val scythes as IItemStack[][] = [
     // Tier 1 scythes
@@ -87,50 +87,50 @@ val scythes as IItemStack[][] = [
 for index1 in 0 .. 2 {
     var radius as int = ((index1 == 0) ? 3 : 7);
     for scythe in scythes[index1] {
-        scythe.addTooltip("\u63E1\u6301\u5728\u4E3B\u624B\u65F6\uFF0C\u81EA\u52A8\u62FE\u53D6\u534A\u5F84" + radius + "\u683C\u5185\u6240\u6709\u7684\u519C\u4F5C\u7269\u548C\u91CE\u751F\u690D\u7269\u6389\u843D\u7269\u3002");
-        scythe.addTooltip("\u6309\u4F4F[SHIFT]\u53EF\u4EE5\u6682\u65F6\u5173\u95ED\u81EA\u52A8\u62FE\u53D6\u529F\u80FD\u3002");
+        scythe.addTooltip("握持在主手时，自动拾取半径" + radius + "格内所有的农作物和野生植物掉落物。");
+        scythe.addTooltip("按住[SHIFT]可以暂时关闭自动拾取功能。");
         JEI.addInfo(scythe, 
         [
-            "\u5177\u6709\u7075\u6027\u7684\u519C\u5177\u3002",
-            "\u5F53\u4F60\u7684\u4E3B\u624B\u63E1\u7740\u5B83\u65F6\uFF0C",
-            "\u5B83\u80FD\u81EA\u52A8\u62FE\u53D6\u9644\u8FD1\u7684\u519C\u4F5C\u7269\u4E0E\u91CE\u751F\u690D\u7269\u7684\u6389\u843D\u7269\uFF0C\u653E\u5165\u4F60\u7684\u80CC\u5305\u3002",
-            "\u666E\u901A\u7684\u9570\u5200\u62FE\u53D6\u7684\u8303\u56F4\u7A0D\u5C0F\u4E9B\uFF0C",
-            "\u82E5\u662F\u94BB\u77F3\u6216\u6708\u957F\u77F3\u6253\u9020\u7684\u9570\u5200\uFF0C",
-            "\u5219\u53EF\u4EE5\u62FE\u53D6\u76F8\u5F53\u5927\u8303\u56F4\u5185\u7684\u7269\u54C1\u3002"
+            "具有灵性的农具。",
+            "当你的主手握着它时，",
+            "它能自动拾取附近的农作物与野生植物的掉落物，放入你的背包。",
+            "普通的镰刀拾取的范围稍小些，",
+            "若是钻石或月长石打造的镰刀，",
+            "则可以拾取相当大范围内的物品。"
         ]);
     }
 }
 
-<item:contenttweaker:fire_spear>.anyDamage().addTooltip("\u6734\u5B9E\u5374\u795E\u79D8\u7684\u706B\u5668\uFF0C");
-<item:contenttweaker:fire_spear>.anyDamage().addTooltip("\u6709\u65F6\u80FD\u70B9\u71C3\u654C\u4EBA\u3002");
-<item:contenttweaker:fire_spear>.anyDamage().addTooltip("\u00A76\u00A7l\u201C\u9B45\u201D\u548C\u5B83\u7684\u5206\u8EAB\u5BF9\u5176\u4E2D\u8574\u542B\u7684\u4E09\u6627\u771F\u706B\u683C\u5916\u6050\u60E7\u3002");
+<item:contenttweaker:fire_spear>.anyDamage().addTooltip("朴实却神秘的火器，");
+<item:contenttweaker:fire_spear>.anyDamage().addTooltip("有时能点燃敌人。");
+<item:contenttweaker:fire_spear>.anyDamage().addTooltip("§6§l“魅”和它的分身对其中蕴含的三昧真火格外恐惧。");
 
 // Kaleido
-<item:kaleido:chisel>.anyDamage().addTooltip("\u5DE6\u952E\u70B9\u51FB\u65B9\u5757\uFF0C\u4F7F\u5176\u6539\u53D8\u5F62\u72B6\u3002");
-<item:kaleido:mallet>.anyDamage().addTooltip("\u53F3\u952E\u70B9\u51FB\u65B9\u5757\uFF0C\u4F7F\u5176\u65CB\u8F6C\u65B9\u5411\u3002");
+<item:kaleido:chisel>.anyDamage().addTooltip("左键点击方块，使其改变形状。");
+<item:kaleido:mallet>.anyDamage().addTooltip("右键点击方块，使其旋转方向。");
 
 // BossStage Special Foods
 // TITLE
-val title as string = "\u00A77\u00A7l[\u00A76\u00A7lBOSS\u6218\u7279\u6B8A\u98DF\u7269\u00A77\u00A7l]";
-val showTitle as string = "\u00A77\u00A7l[\u00A76\u00A7lBOSS\u6218\u7279\u6B8A\u98DF\u7269,\u6309\u4F4FSHIFT\u67E5\u770B\u8BE6\u60C5\u00A77\u00A7l]";
-val effectiveWorld as string = "\u00A77\u00A7l[\u00A7e\u9002\u7528\u4E16\u754C\u00A77\u00A7l]: \u00A7f";
+val title as string = "§7§l[§6§lBOSS战特殊食物§7§l]";
+val showTitle as string = "§7§l[§6§lBOSS战特殊食物,按住SHIFT查看详情§7§l]";
+val effectiveWorld as string = "§7§l[§e适用世界§7§l]: §f";
 val worldNames as string[] = [
-    "\u7B2C\u4E00\u5C42",
-    "\u7B2C\u4E8C\u5C42",
-    "\u7B2C\u4E09\u5C42",
-    "\u7B2C\u56DB\u5C42",
-    "\u7B2C\u4E94\u5C42",
-    "\u7B2C\u516D\u5C42",
-    "\u7B2C\u4E03\u5C42"
+    "第一层",
+    "第二层",
+    "第三层",
+    "第四层",
+    "第五层",
+    "第六层",
+    "第七层"
 ];
-val effect as string = "\u00A77\u00A7l[\u00A7e\u6548\u679C\u00A77\u00A7l]: \u00A7r";
+val effect as string = "§7§l[§e效果§7§l]: §r";
 // Stage One
 val stageOneFoods as string[IItemStack] = {
-    <item:crockpot:bone_stew>: "\u7ACB\u5373\u56DE\u590D9\u9897\u5FC3",
-    <item:farmersdelight:mixed_salad>: "\u589E\u52A075\u79D2\u9965\u997FV\uFF0C\u7ACB\u5373\u56DE\u590D4\u9897\u5FC3\uFF0C\u7F13\u6162\u56DE\u590D\u751F\u547D20\u79D2\u949F",
-    <item:farmersdelight:cabbage_rolls>: "\u589E\u52A045\u79D2\u9965\u997FVI\uFF0C45\u79D2\u8DF3\u8DC3\u63D0\u5347III\uFF0C45\u79D2\u901F\u5EA6I",
-    <item:crockpot:salsa>: "\u6025\u8FEB6\u5206\u949F\u6548\u679C\uFF0C10\u79D2\u529B\u91CFI\uFF0C45\u79D2\u8DF3\u8DC3\u63D0\u5347VI\uFF0C1\u5206\u949F\u901F\u5EA6I\uFF0C1\u5206\u949F\u591C\u89C6",
-    <item:minecraft:golden_carrot>: "\u6CE8\u89C6BOSS\u5403\u4E0B\u5B83\uFF0C\u53EF\u4EE5\u4F7FBOSS\u53D1\u514925\u79D2\u949F\uFF0C\u6CD5\u672F\u8303\u56F425\u683C"
+    <item:crockpot:bone_stew>: "立即回复9颗心",
+    <item:farmersdelight:mixed_salad>: "增加75秒饥饿V，立即回复4颗心，缓慢回复生命20秒钟",
+    <item:farmersdelight:cabbage_rolls>: "增加45秒饥饿VI，45秒跳跃提升III，45秒速度I",
+    <item:crockpot:salsa>: "急迫6分钟效果，10秒力量I，45秒跳跃提升VI，1分钟速度I，1分钟夜视",
+    <item:minecraft:golden_carrot>: "注视BOSS吃下它，可以使BOSS发光25秒钟，法术范围25格"
 };
 
 for key, value in stageOneFoods {
@@ -164,20 +164,20 @@ val milkRelatedItems as IItemStack[] = [
 ];
 
 for milk in milkRelatedItems {
-    milk.addTooltip("\u4F60\u9700\u8981\u638C\u63E1\u6E38\u7267\u4EBA\u7684\u77E5\u8BC6\uFF0C\u624D\u80FD\u4F7F\u7528\u8FD9\u4E2A\u7269\u54C1\u3002");
+    milk.addTooltip("你需要掌握游牧人的知识，才能使用这个物品。");
 }
 
 // Functional Items Part
 JEI.addInfo(<item:contenttweaker:feadog>,[
-    "\u201C\u00A7o\u54E8\u7B1B\u88AB\u8D4B\u4E88\u4E86\u4E00\u9879\u672F\u5F0F\uFF1A",
-    "\u00A7o\u5B83\u662F\u6307\u5411\u6211\u8EAB\u8FB9\u4E00\u5C0F\u5757\u7A7A\u95F4\u7684\u6307\u9488\uFF0C",
-    "\u00A7o\u53EA\u8981\u5439\u54CD\u5B83\uFF0C",
-    "\u00A7o\u5B83\u4FBF\u4F20\u9001\u4F60\u4E22\u5728\u9644\u8FD1\u7684\u7269\u54C1\u5230\u6211\u8FD9\u91CC\u3002",
-    "\u00A7o\u5982\u82E5\u4E0D\u614E\u4E22\u5931\uFF0C\u53EF\u4EE5\u518D\u627E\u6211\u62FF\u53D6\uFF0C",
-    "\u00A7o\u4E0D\u8FC7\u5411\u4F60\u4F20\u9001\u7269\u54C1\u540C\u6837\u6D88\u8017\u6211\u7684\u6CD5\u529B\uFF0C",
-    "\u00A7o\u8FD8\u8BF7\u4F60\u591A\u52A0\u7231\u60DC\u624D\u662F\u3002\u201C",
-    "\u2014\u2014 \u9CD5\u9C7C"
+    "“§o哨笛被赋予了一项术式：",
+    "§o它是指向我身边一小块空间的指针，",
+    "§o只要吹响它，",
+    "§o它便传送你丢在附近的物品到我这里。",
+    "§o如若不慎丢失，可以再找我拿取，",
+    "§o不过向你传送物品同样消耗我的法力，",
+    "§o还请你多加爱惜才是。“",
+    "—— 鳕鱼"
 ]);
-<item:contenttweaker:feadog>.addTooltip("\u4E0A\u9762\u7CBE\u81F4\u5730\u523B\u7740\u4E24\u884C\u6930\u672F\u5492\u6587\u7684\u5C0F\u5B57");
+<item:contenttweaker:feadog>.addTooltip("上面精致地刻着两行椰术咒文的小字");
 <item:contenttweaker:feadog>.addTooltip("Item* feadog;");
 <item:contenttweaker:feadog>.addTooltip("feadog = (Item*)malloc(sizeof(Item));");
