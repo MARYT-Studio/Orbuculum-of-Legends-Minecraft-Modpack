@@ -1,4 +1,4 @@
-# Credit
+# CREDITS
 
 ## DATAPACK
 
