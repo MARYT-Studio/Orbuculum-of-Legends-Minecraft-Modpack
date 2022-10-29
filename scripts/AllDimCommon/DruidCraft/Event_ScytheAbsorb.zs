@@ -73,19 +73,16 @@ CTEventManager.register<MCItemPickupEvent>(event => {
                 pos1,
                 pos2
             );
-            // Original text: \u5B83\u4EEC\u5206\u522B\u662F\uFF1A
             var message = "\u5B83\u4EEC\u5206\u522B\u662F\uFF1A";
             message += ("" + event.stack.amount + "\u4E2A" + event.stack.displayName + ", ");
             for target in targetList {
                 var item = target.item;
                 var amount = "" + item.amount;
                 var dispName = item.displayName;
-                // Original text: amount \u4E2A dispName, 
                 message += (amount + "\u4E2A" + dispName + ", ");
                 target.remove();
                 player.give(item);
             }
-            // Original text: \u4F60\u6325\u821E\u9570\u5200\uFF0C\u6536\u83B7\u4E863\u6B65\u4E4B\u5185\u7684\u4F5C\u7269\u3002
             player.sendMessage("\u4F60\u6325\u821E\u9570\u5200\uFF0C\u6536\u83B7\u4E863\u6B65\u4E4B\u5185\u7684\u4F5C\u7269\u3002");
             player.sendMessage(message[0 .. (message.length - 2)]);
         }
@@ -100,19 +97,16 @@ CTEventManager.register<MCItemPickupEvent>(event => {
                 pos1,
                 pos2
             );
-            // Original text: \u5B83\u4EEC\u5206\u522B\u662F\uFF1A
             var message = "\u5B83\u4EEC\u5206\u522B\u662F\uFF1A";
             message += ("" + event.stack.amount + "\u4E2A" + event.stack.displayName + ", ");
             for target in targetList {
                 var item = target.item;
                 var amount = "" + item.amount;
                 var dispName = item.displayName;
-                // Original text: amount \u4E2A dispName, 
                 message += (amount + "\u4E2A" + dispName + ", ");
                 target.remove();
                 player.give(item);
             }
-            // Original text: \u4F60\u6325\u821E\u9570\u5200\uFF0C\u6536\u83B7\u4E867\u6B65\u4E4B\u5185\u7684\u4F5C\u7269\u3002
             event.player.sendMessage("\u4F60\u6325\u821E\u9570\u5200\uFF0C\u6536\u83B7\u4E867\u6B65\u4E4B\u5185\u7684\u4F5C\u7269\u3002");
             player.sendMessage(message[0 .. (message.length - 2)]);
         }

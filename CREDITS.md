@@ -1,25 +1,25 @@
 # Credit
 
-## Datapack
+## DATAPACK
 
-[@maketosix](https://www.mcbbs.net/?242823) (MCBBS.net, Chinese Website) grant the rights of using and distributing his `fishingreal` datapack to this project. 
+[@maketosix](https://www.mcbbs.net/?242823) (MCBBS.net, Chinese Website) granted the rights of using and distributing his `fishingreal` datapack to the project. 
 
 ## ART
 
-[@九十月](https://center.mcmod.cn/192509/) (MCMOD.CN, Chinese Website) designed the main menu background picture.
+[@九十月](https://center.mcmod.cn/192509/) (MCMOD.CN, Chinese Website) designed the main menu background image.
 
 ## MUSIC
 
-All music assets used in this project is listed below:
+All music assets used in the project are listed below:
 
 - Orchestral Suite no. 2 in B minor, BWV 1067 - 7. Badinerie, composted by Johann Sebastian Bach, played by Markus Staab.
 
-  Provided by [musopen.org](https://musopen.org/music/3774-orchestral-suite-no-2-in-b-minor-bwv-1067/), Licensed under [Attribution 3.0 Unported (CC BY 3.0)](https://creativecommons.org/licenses/by/3.0/).
+  Provided by [musopen.org](https://musopen.org/music/3774-orchestral-suite-no-2-in-b-minor-bwv-1067/), licensed under [Attribution 3.0 Unported (CC BY 3.0)](https://creativecommons.org/licenses/by/3.0/).
 - Etude Op. 25 no. 5 in E minor - 'Wrong Note', composted by Frédéric Chopin, played by Edward Neeman.
   
-  Provided by [musopen.org](https://musopen.org/music/611-etudes-op-25/#recordings), Licensed under [Public Domain Mark 1.0](https://creativecommons.org/publicdomain/mark/1.0/)
+  Provided by [musopen.org](https://musopen.org/music/611-etudes-op-25/#recordings), licensed under [Public Domain Mark 1.0](https://creativecommons.org/publicdomain/mark/1.0/).
 
-**Thank you to all the above creators for their irreplaceable contributions to this project.**
+**Thank you to all the above creators for their irreplaceable contributions to the project.**
 ______________________
 # 鸣谢
 
@@ -33,7 +33,7 @@ ______________________
 
 ## 美术资源
 
-[@九十月](https://center.mcmod.cn/192509/) 设计了主菜单背景图。
+[@九十月](https://github.com/Fractur9dLuna) 设计了主菜单背景图。
 
 ## 音乐资源
 

@@ -28,18 +28,12 @@ val attackedInvisiblilityProb as float = 0.3f;
 val seconds as int = 20;
 val levels as int = -1;
 val skillOneSpeaking as string[] = [
-    // Original text:
-    // §l[§6§l魅§f§l]§r: 不要在没有光的地方寻找影子。
-    // §l[§6§l魅§f§l]§r: 我是光的反面，与光相伴而生。
-    "\u00A7l[\u00A76\u00A7l\u9b45\u00A7f\u00A7l]\u00A7r: \u4e0d\u8981\u5728\u6ca1\u6709\u5149\u7684\u5730\u65b9\u5bfb\u627e\u5f71\u5b50\u3002",
-    "\u00A7l[\u00A76\u00A7l\u9b45\u00A7f\u00A7l]\u00A7r: \u6211\u662f\u5149\u7684\u53cd\u9762\uff0c\u4e0e\u5149\u76f8\u4f34\u800c\u751f\u3002"
+    "\u00A7l[\u00A76\u00A7l\u9B45\u00A7f\u00A7l]\u00A7r: \u4E0D\u8981\u5728\u6CA1\u6709\u5149\u7684\u5730\u65B9\u5BFB\u627E\u5F71\u5B50\u3002",
+    "\u00A7l[\u00A76\u00A7l\u9B45\u00A7f\u00A7l]\u00A7r: \u6211\u662F\u5149\u7684\u53CD\u9762\uFF0C\u4E0E\u5149\u76F8\u4F34\u800C\u751F\u3002"
 ];
 val skillTwoSpeaking as string[] = [
-    // Original text:
-    // §l[§6§l魅§f§l]§r: 不要试图追逐我的踪迹。
-    // §l[§6§l魅§f§l]§r: 你抓不住我的，但我可以抓住你。
-    "\u00A7l[\u00A76\u00A7l\u9b45\u00A7f\u00A7l]\u00A7r: \u4e0d\u8981\u8bd5\u56fe\u8ffd\u9010\u6211\u7684\u8e2a\u8ff9\u3002",
-    "\u00A7l[\u00A76\u00A7l\u9b45\u00A7f\u00A7l]\u00A7r: \u4f60\u6293\u4e0d\u4f4f\u6211\u7684\uff0c\u4f46\u6211\u53ef\u4ee5\u6293\u4f4f\u4f60\u3002"
+    "\u00A7l[\u00A76\u00A7l\u9B45\u00A7f\u00A7l]\u00A7r: \u4E0D\u8981\u8BD5\u56FE\u8FFD\u9010\u6211\u7684\u8E2A\u8FF9\u3002",
+    "\u00A7l[\u00A76\u00A7l\u9B45\u00A7f\u00A7l]\u00A7r: \u4F60\u6293\u4E0D\u4F4F\u6211\u7684\uFF0C\u4F46\u6211\u53EF\u4EE5\u6293\u4F4F\u4F60\u3002"
 ];
 
 // Boss Attack Player Skill, or Skill 1 in PlanAndProgress.md
@@ -84,8 +78,7 @@ CTEventManager.register<MCLivingHurtEvent>(event => {
                             var bossFollower as MCLivingEntity = <entitytype:minecraft:wither_skeleton>.create(world) as MCLivingEntity;
                             bossFollower.updateData(
                                 {
-                                    // Original Text: §8§l阴影守卫的分身
-                                    "CustomName": "\"\u00A78\u00A7l\u9634\u5f71\u5b88\u536b\u7684\u5206\u8eab\"",
+                                    "CustomName": "\"\u00A78\u00A7l\u9634\u5F71\u5B88\u536B\u7684\u5206\u8EAB\"",
                                     "pehkui:scale_data_types": {
                                         "pehkui:width": {
                                             "initial":0.9,
@@ -258,11 +251,8 @@ CTEventManager.register<MCLivingHurtEvent>(event => {
                     var nonnullSource as MCEntity = source as MCEntity;
                     if (hintSended == null && nonnullSource is MCPlayerEntity) {
                         var player as MCPlayerEntity = nonnullSource as MCPlayerEntity;
-                        // Original text:
-                        // §l[§6§l魅§f§l]§r: 我感到我的力量正在被驱散...
-                        // §l[§6§l阿波罗§f§l]§r: 它的分身法术变弱了，快乘胜追击！
-                        player.sendMessage("\u00A7l[\u00A76\u00A7l\u9b45\u00A7f\u00A7l]\u00A7r: \u6211\u611f\u5230\u6211\u7684\u529b\u91cf\u6b63\u5728\u88ab\u9a71\u6563...");
-                        player.sendMessage("\u00A7l[\u00A76\u00A7l\u963f\u6ce2\u7f57\u00A7f\u00A7l]\u00A7r: \u5b83\u7684\u5206\u8eab\u6cd5\u672f\u53d8\u5f31\u4e86\uff0c\u5feb\u4e58\u80dc\u8ffd\u51fb\uff01");
+                        player.sendMessage("\u00A7l[\u00A76\u00A7l\u9B45\u00A7f\u00A7l]\u00A7r: \u6211\u611F\u5230\u6211\u7684\u529B\u91CF\u6B63\u5728\u88AB\u9A71\u6563...");
+                        player.sendMessage("\u00A7l[\u00A76\u00A7l\u963F\u6CE2\u7F57\u00A7f\u00A7l]\u00A7r: \u5B83\u7684\u5206\u8EAB\u6CD5\u672F\u53D8\u5F31\u4E86\uFF0C\u5FEB\u4E58\u80DC\u8FFD\u51FB\uFF01");
                         entity.updatePersistentData({"HintSended": true});
                     }
                 }

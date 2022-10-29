@@ -1,5 +1,0 @@
-takeRevenge = false
-blacklistMobs = ["minecraft:pig"]
-blacklistDifficulties = ["peaceful"]
-playerList = []
-isPlayerListBlacklist = true

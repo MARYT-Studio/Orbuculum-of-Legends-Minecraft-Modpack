@@ -18,7 +18,7 @@
 	},
 	misc: {
 		enderchest: {
-			enabled: false
+			enabled: true
 		},
 		hat: {
 			enabled: false
@@ -27,10 +27,10 @@
 			enabled: false
 		},
 		nick: {
-			enabled: false.
+			enabled: false
 		},
 		rec: {
-			enabled: false.
+			enabled: false
 		},
 		trashcan: {
 			enabled: true

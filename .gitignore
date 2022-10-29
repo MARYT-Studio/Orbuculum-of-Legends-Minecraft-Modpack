@@ -18,6 +18,7 @@ $ cat .gitignore
 #Files
 !/.gitignore
 !/README.md
+!/CREDITS.md
 !/PlanAndProgress.md
 scripts/.VSCodeCounter/
 scripts/.vscode/
