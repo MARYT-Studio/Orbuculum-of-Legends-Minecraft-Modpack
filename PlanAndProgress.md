@@ -269,20 +269,49 @@ Dannys Expansion 的敌对生物
     - 锆 -> 锆石（工具、潜水服、吹筒）、锆晶体（只能做工具）
   
 - [x] 附魔台在此阶段加入游戏，不用钻石和黑曜石合成，钻石用青金石代替，黑曜石 ~~需要另找方块~~ 用沙响石块代替
-- [ ] 面具与饮料配方挂钩的机制：8 种饮料饮料分三组，其中酒有三种，每组分一个；13 种面具分成 4 4 5 三组，必须佩戴面具询问饮料机饮料配方，饮料机才能合成相应的饮料
+- [x] 面具与饮料配方挂钩的机制：8 种饮料饮料分三组，其中酒有三种，每组分一个；13 种面具分成 4 4 5 三组，必须佩戴面具询问饮料机饮料配方，饮料机才能合成相应的饮料
   - 所有饮料的配方（加粗的是酒）：
+    
     LIMEADE, lime, sugar, waterBucket
+    
     **CAIPIRINHA**, lime, sugarcane, waterBucket
+    
     ORANGEADE, orange, sugar, waterBucket
+    
     LEMONADE, lemon, sugar, waterBucket
+    
     BLACK_COFFEE, roastedCoffeeBean, waterBucket
+    
     **PINA_COLADA**, pineappleCubes, coconutChunk
+    
     **PINA_COLADA**, pineappleCubes, coconut
+    
     **PINA_COLADA**, pineapple, coconutChunk
+    
     **PINA_COLADA**, pineapple, coconut
+    
     COCONUT_WATER, coconut, waterBucket
+    
     **MAI_TAI**, orange, lime, waterBucket
-    材料一共有 lime（3 次）+waterBucket（7 次）+orange（2 次）+sugar（3 次）+roastedCoffeeBean+pineappleCube（2 次）+coconutChunk（2 次）+coconut（3 次）+pineapple（2 次）+lemon（1 次）+sugarcane（1 次）共 11 种。
+    
+    材料一共有 lime（3 次）+waterBucket（7 次）+orange（2 次）+sugar（3 次）+roastedCoffeeBean（1 次）+pineappleCubes（2 次）+coconutChunk（2 次）+coconut（3 次）+pineapple（2 次）+lemon（1 次）+sugarcane（1 次）共 11 种。
+
+    饮料分组：
+
+    组 1：**CAIPIRINHA**, ORANGEADE, LEMONADE，标志食材：sugarcane（1 次）、lemon（1 次）
+    
+    组 2：**PINA_COLADA**, LIMEADE, BLACK_COFFEE，标志食材：pineapple（2 次）、coconutChunk（2 次）、roastedCoffeeBean（1 次）
+    
+    组 3：**MAI_TAI**, COCONUT_WATER
+
+    面具分组：
+    
+    猛兽氏族（Bestia，面具组 1）：喜爱酸甜可口的果汁（饮料组 1），方号角、尖角进攻、疣猪、号角猴、蝙蝠仔
+
+    奥秘氏族（Enigma，组 2）：喜爱提神醒脑的咖啡（饮料组 2），智囊、心脏、同调者、奥秘
+
+    策士氏族（Philosophus，组 3）：喜爱清爽解渴的椰子水（饮料组 3），波纹阵、侵略者、魔道、圣徒
+
 - [x] 删除所有热带世界饮料的工作台配方
 - [x] 删除热带世界原有的所有矿脉
 - [x] 删除热带世界的矿井、村庄
