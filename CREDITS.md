@@ -1,4 +1,4 @@
-# Credit
+# CREDITS
 
 ## DATAPACK
 
@@ -6,7 +6,7 @@
 
 ## ART
 
-[@九十月](https://center.mcmod.cn/192509/) (MCMOD.CN, Chinese Website) designed the main menu background image.
+[@Fractur9dLuna](https://github.com/Fractur9dLuna) designed the main menu background image.
 
 ## MUSIC
 
@@ -33,7 +33,7 @@ ______________________
 
 ## 美术资源
 
-[@九十月](https://github.com/Fractur9dLuna) 设计了主菜单背景图。
+[@Fractur9dLuna](https://github.com/Fractur9dLuna) 设计了主菜单背景图。
 
 ## 音乐资源
 
