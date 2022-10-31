@@ -156,6 +156,12 @@ CTEventManager.register<MCRightClickBlockEvent>((event) => {
                                 player.sendMessage("\u8FD9\u4E9B\u9178\u751C\u53EF\u53E3\u7684\u679C\u6C41\uFF0C\u8DB3\u4EE5\u629A\u6170\u6211\u4EEC\u90E8\u65CF\u7684\u5404\u4F4D\u6218\u58EB\uFF01");
                             }
                             player.addGameStage("mixer_recipe_group_1");
+                            world.asServerWorld().server.executeCommand(
+                                "title " + player.name as string + " title {\"text\":\"\u4F60\u5DF2\u7ECF\u638C\u63E1\u4E86\"}", true
+                            );
+                            world.asServerWorld().server.executeCommand(
+                                "title " + player.name as string + " subtitle {\"text\":\"\u731B\u517D\u6C0F\u65CF\u7684\u996E\u6599\u79D8\u65B9\"}", true
+                            );
                             break;
                         case 1:
                             if (player.hasGameStage("mixer_recipe_group_2")) {
@@ -166,6 +172,12 @@ CTEventManager.register<MCRightClickBlockEvent>((event) => {
                                 player.sendMessage("\u8FD9\u4E9B\u63D0\u795E\u9192\u8111\u7684\u5496\u5561\uFF0C\u8DB3\u4EE5\u632F\u594B\u6211\u4EEC\u90E8\u65CF\u7684\u5404\u4F4D\u54F2\u4EBA\uFF01");
                             }
                             player.addGameStage("mixer_recipe_group_2");
+                            world.asServerWorld().server.executeCommand(
+                                "title " + player.name as string + " title {\"text\":\"\u4F60\u5DF2\u7ECF\u638C\u63E1\u4E86\"}", true
+                            );
+                            world.asServerWorld().server.executeCommand(
+                                "title " + player.name as string + " subtitle {\"text\":\"\u5965\u79D8\u6C0F\u65CF\u7684\u996E\u6599\u79D8\u65B9\"}", true
+                            );
                             break;
                         case 2:
                             if (player.hasGameStage("mixer_recipe_group_3")) {
@@ -176,17 +188,29 @@ CTEventManager.register<MCRightClickBlockEvent>((event) => {
                                 player.sendMessage("\u8FD9\u6E05\u723D\u89E3\u6E34\u7684\u6930\u5B50\u6C34\uFF0C\u8DB3\u4EE5\u6170\u52B3\u6211\u4EEC\u90E8\u65CF\u7684\u5404\u4F4D\u8C0B\u58EB\uFF01");
                             }
                             player.addGameStage("mixer_recipe_group_3");
+                            world.asServerWorld().server.executeCommand(
+                                "title " + player.name as string + " title {\"text\":\"\u4F60\u5DF2\u7ECF\u638C\u63E1\u4E86\"}", true
+                            );
+                            world.asServerWorld().server.executeCommand(
+                                "title " + player.name as string + " subtitle {\"text\":\"\u7B56\u58EB\u6C0F\u65CF\u7684\u996E\u6599\u79D8\u65B9\"}", true
+                            );
                             break;
                         default:
-                            player.sendMessage("\u4F60\u4E0D\u5C5E\u4E8E\u6211\u4EEC\u90E8\u65CF\u7684\u4EFB\u4F55\u4E00\u4E2A\u6C0F\u65CF\uFF0C\u6211\u4E0D\u4F1A\u628A\u996E\u6599\u79D8\u65B9\u544A\u77E5\u5916\u4EBA\uFF01\u8BF7\u56DE\u5427\uFF01");
-                            player.sendMessage("\u00A77[\u4E0D\u77E5\u540D\u7684\u795E\u660E]: \u00A7o\u5148\u5C06\u996E\u6599\u673A\u4E0A\u7684\u4E1C\u897F\u53D6\u4E0B\uFF0C\u6234\u4E0A\u6C0F\u65CF\u9762\u5177\uFF0C\u518D\u95EE\u95EE\u996E\u6599\u673A\u914D\u65B9\u7684\u4E8B\uFF0C\u8BD5\u8BD5\u770B\uFF01");
+                            if (player.hasGameStage("mixer_recipe_group_1") || player.hasGameStage("mixer_recipe_group_2") || player.hasGameStage("mixer_recipe_group_3")) {
+                                player.sendMessage("\u54C8\u54C8\uFF0C\u4F60\u597D\uFF0C\u5C0F\u9B3C\uFF01\u4E0D\u59A8\u5728\u6211\u8FD9\u559D\u4E0A\u4E00\u676F\uFF0C\u542C\u6211\u8BB2\u8BB2\u90E8\u65CF\u7684\u6545\u4E8B\u5427\u3002");
+
+                                // TODO: Randomly talking
+                            } else {
+                                player.sendMessage("\u4F60\u4E0D\u5C5E\u4E8E\u6211\u4EEC\u90E8\u65CF\u7684\u4EFB\u4F55\u4E00\u4E2A\u6C0F\u65CF\uFF0C\u6211\u4E0D\u4F1A\u628A\u996E\u6599\u79D8\u65B9\u544A\u77E5\u5916\u4EBA\uFF01\u8BF7\u56DE\u5427\uFF01");
+                                player.sendMessage("\u00A77[\u4E0D\u77E5\u540D\u7684\u795E\u660E]: \u00A7o\u5148\u5C06\u996E\u6599\u673A\u4E0A\u7684\u4E1C\u897F\u53D6\u4E0B\uFF0C\u6234\u4E0A\u6C0F\u65CF\u9762\u5177\uFF0C\u518D\u8BD5\u8BD5\u8BE2\u95EE\u996E\u6599\u673A\u5173\u4E8E\u996E\u6599\u914D\u65B9\u7684\u4E8B\u3002");
+                            }
                     }
                     break;
                 case "mixer_recipe_group_1":
                     if (<item:tropicraft:bamboo_mug>.matches(event.itemStack)) {
                         if (!(player.hasGameStage("mixer_recipe_group_1"))) {
                             player.sendMessage("\u4F60\u5E76\u975E\u731B\u517D\u6C0F\u65CF\u7684\u4E00\u5458\uFF0C\u6211\u53EA\u628A\u731B\u517D\u6C0F\u65CF\u7684\u996E\u6599\u79D8\u65B9\u4F20\u6388\u7ED9\u81EA\u5DF1\u4EBA\uFF01\u8BF7\u56DE\u5427\uFF01");
-                            player.sendMessage("\u00A77[\u4E0D\u77E5\u540D\u7684\u795E\u660E]: \u00A7o\u5148\u5C06\u996E\u6599\u673A\u4E0A\u7684\u4E1C\u897F\u53D6\u4E0B\uFF0C\u6234\u4E0A\u6C0F\u65CF\u9762\u5177\uFF0C\u518D\u95EE\u95EE\u996E\u6599\u673A\u914D\u65B9\u7684\u4E8B\uFF0C\u8BD5\u8BD5\u770B\uFF01");
+                            player.sendMessage("\u00A77[\u4E0D\u77E5\u540D\u7684\u795E\u660E]: \u00A7o\u5148\u5C06\u996E\u6599\u673A\u4E0A\u7684\u4E1C\u897F\u53D6\u4E0B\uFF0C\u6234\u4E0A\u6C0F\u65CF\u9762\u5177\uFF0C\u518D\u8BD5\u8BD5\u8BE2\u95EE\u996E\u6599\u673A\u5173\u4E8E\u996E\u6599\u914D\u65B9\u7684\u4E8B\u3002");
                             event.cancel();
                         }
                     }
@@ -195,7 +219,7 @@ CTEventManager.register<MCRightClickBlockEvent>((event) => {
                     if (<item:tropicraft:bamboo_mug>.matches(event.itemStack)) {
                         if (!(player.hasGameStage("mixer_recipe_group_2"))) {
                             player.sendMessage("\u4F60\u5E76\u975E\u5965\u79D8\u6C0F\u65CF\u7684\u4E00\u5458\uFF0C\u6211\u53EA\u628A\u5965\u79D8\u6C0F\u65CF\u7684\u996E\u6599\u79D8\u65B9\u4F20\u6388\u7ED9\u81EA\u5DF1\u4EBA\uFF01\u8BF7\u56DE\u5427\uFF01");
-                            player.sendMessage("\u00A77[\u4E0D\u77E5\u540D\u7684\u795E\u660E]: \u00A7o\u5148\u5C06\u996E\u6599\u673A\u4E0A\u7684\u4E1C\u897F\u53D6\u4E0B\uFF0C\u6234\u4E0A\u6C0F\u65CF\u9762\u5177\uFF0C\u518D\u95EE\u95EE\u996E\u6599\u673A\u914D\u65B9\u7684\u4E8B\uFF0C\u8BD5\u8BD5\u770B\uFF01");
+                            player.sendMessage("\u00A77[\u4E0D\u77E5\u540D\u7684\u795E\u660E]: \u00A7o\u5148\u5C06\u996E\u6599\u673A\u4E0A\u7684\u4E1C\u897F\u53D6\u4E0B\uFF0C\u6234\u4E0A\u6C0F\u65CF\u9762\u5177\uFF0C\u518D\u8BD5\u8BD5\u8BE2\u95EE\u996E\u6599\u673A\u5173\u4E8E\u996E\u6599\u914D\u65B9\u7684\u4E8B\u3002");
                             event.cancel();
                         }
                     }
@@ -204,7 +228,7 @@ CTEventManager.register<MCRightClickBlockEvent>((event) => {
                 if (<item:tropicraft:bamboo_mug>.matches(event.itemStack)) {
                         if (!(player.hasGameStage("mixer_recipe_group_3"))) {
                             player.sendMessage("\u4F60\u5E76\u975E\u7B56\u58EB\u6C0F\u65CF\u7684\u4E00\u5458\uFF0C\u6211\u53EA\u628A\u7B56\u58EB\u6C0F\u65CF\u7684\u996E\u6599\u79D8\u65B9\u4F20\u6388\u7ED9\u81EA\u5DF1\u4EBA\uFF01\u8BF7\u56DE\u5427\uFF01");
-                            player.sendMessage("\u00A77[\u4E0D\u77E5\u540D\u7684\u795E\u660E]: \u00A7o\u5148\u5C06\u996E\u6599\u673A\u4E0A\u7684\u4E1C\u897F\u53D6\u4E0B\uFF0C\u6234\u4E0A\u6C0F\u65CF\u9762\u5177\uFF0C\u518D\u95EE\u95EE\u996E\u6599\u673A\u914D\u65B9\u7684\u4E8B\uFF0C\u8BD5\u8BD5\u770B\uFF01");
+                            player.sendMessage("\u00A77[\u4E0D\u77E5\u540D\u7684\u795E\u660E]: \u00A7o\u5148\u5C06\u996E\u6599\u673A\u4E0A\u7684\u4E1C\u897F\u53D6\u4E0B\uFF0C\u6234\u4E0A\u6C0F\u65CF\u9762\u5177\uFF0C\u518D\u8BD5\u8BD5\u8BE2\u95EE\u996E\u6599\u673A\u5173\u4E8E\u996E\u6599\u914D\u65B9\u7684\u4E8B\u3002");
                             event.cancel();
                         }
                     }

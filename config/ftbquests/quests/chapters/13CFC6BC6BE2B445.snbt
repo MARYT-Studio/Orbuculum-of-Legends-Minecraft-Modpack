@@ -64,10 +64,41 @@
 		}
 		{
 			title: "你不想说就算了...那我有没有什么事情可以帮你的？"
+			icon: "tropicraft:coconut"
 			x: -3.0d
 			y: -0.5d
+			description: [
+				"有...吧。椰术需要一些椰作为触媒，哪怕是使用哨笛这样的椰术道具，也是如此。你帮我收集一些椰，丢在地上，吹响哨笛...它们就会传送到我手边。16个就好。"
+				"嗯...我是不是告诉你太多事情了..."
+				"算了，你愿意帮忙就帮忙吧..."
+			]
 			dependencies: ["2E4DACC9A5D5DEDC"]
 			id: "771FC58BDC3413D4"
+			tasks: [{
+				id: "591CF0534352D6BC"
+				type: "gamestage"
+				title: "把椰子丢在地上，吹响哨笛传递给鳕鱼"
+				icon: "tropicraft:coconut"
+				stage: "give_me_coco"
+			}]
+			rewards: [{
+				id: "11D03E014C28AFCF"
+				type: "item"
+				item: {
+					id: "minecraft:paper"
+					Count: 1b
+					tag: {
+						display: {
+							Lore: [
+								"[{\"text\":\"“他其实对你没有敌意，只是太紧张、太害怕了，\",\"color\":\"white\"}]"
+								"[{\"text\":\"因为他曾被朋友伤害过。\",\"color\":\"white\"}]"
+								"[{\"text\":\"想办法让他放松下来就好。”\",\"color\":\"white\"}]"
+							]
+							Name: "[{\"text\":\"[不知名的神明] 的神谕\",\"italic\":false}]"
+						}
+					}
+				}
+			}]
 		}
 	]
 }

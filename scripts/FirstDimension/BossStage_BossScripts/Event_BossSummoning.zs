@@ -67,8 +67,7 @@ CTEventManager.register<MCRightClickItemEvent>(event => {
                     var firstStageBossMob as MCLivingEntity = <entitytype:minecraft:wither_skeleton>.create(world) as MCLivingEntity;
                     firstStageBossMob.updateData(
                         {
-                            // Original Text: §8§l阴影中的封印守卫者 - §6§l魅
-                            "CustomName": "\"\u00a7\u0038\u00a7\u006c\u9634\u5f71\u4e2d\u7684\u5c01\u5370\u5b88\u536b\u8005\u0020\u002d\u0020\u00a7\u0036\u00a7\u006c\u9b45\"",
+                            "CustomName": "\"\u00A78\u00A7l\u9634\u5F71\u4E2D\u7684\u5C01\u5370\u5B88\u536B\u8005 - \u00A76\u00A7l\u9B45\"",
                             "pehkui:scale_data_types": {
                                 "pehkui:width": {
                                     "initial":0.7,
@@ -121,13 +120,12 @@ CTEventManager.register<MCRightClickItemEvent>(event => {
 
                         player.teleportKeepLoaded(player.position.x, 160, player.position.z);
                         player.addPotionEffect(<effect:minecraft:slow_falling>.newInstance(20 * seconds, 1 + levels));
-                        player.sendMessage("§c§l*-----------------*");
-                        player.sendMessage("§c§l|-(守关凶兽已释放)-|");
-                        player.sendMessage("§c§l*-----------------*");
+                        player.sendMessage("\u00A7c\u00A7l*-----------------*");
+                        player.sendMessage("\u00A7c\u00A7l|-(\u5B88\u5173\u51F6\u517D\u5DF2\u91CA\u653E)-|");
+                        player.sendMessage("\u00A7c\u00A7l*-----------------*");
                         world.asServerWorld().server.executeCommand("execute at " + player.name as string + " run playsound minecraft:item.totem.use player " + player.name as string, true);
                         
-                        // Original text: §l[§6§l魅§f§l]§r: 我是魅，阴影中的封印守卫者，守卫第一道封印。请在无尽的幻影之中找出我并击败我吧。
-                        player.sendMessage("\u00A7l[\u00A76\u00A7l\u9b45\u00A7f\u00A7l]\u00A7r: \u6211\u662f\u9b45\uff0c\u9634\u5f71\u4e2d\u7684\u5c01\u5370\u5b88\u536b\u8005\uff0c\u5b88\u536b\u7b2c\u4e00\u9053\u5c01\u5370\u3002\u8bf7\u5728\u65e0\u5c3d\u7684\u5e7b\u5f71\u4e4b\u4e2d\u627e\u51fa\u6211\u5e76\u51fb\u8d25\u6211\u5427\u3002");
+                        player.sendMessage("\u00A7l[\u00A76\u00A7l\u9B45\u00A7f\u00A7l]\u00A7r: \u6211\u662F\u9B45\uFF0C\u9634\u5F71\u4E2D\u7684\u5C01\u5370\u5B88\u536B\u8005\uFF0C\u5B88\u536B\u7B2C\u4E00\u9053\u5C01\u5370\u3002\u8BF7\u5728\u65E0\u5C3D\u7684\u5E7B\u5F71\u4E4B\u4E2D\u627E\u51FA\u6211\u5E76\u51FB\u8D25\u6211\u5427\u3002");
 
                         // Change summoner into Boss-combat mode
                         player.updatePersistentData({"BeingInBossStage": true});
@@ -147,12 +145,10 @@ CTEventManager.register<MCRightClickItemEvent>(event => {
                     }
                 }
             } else {
-                // Original text: §c§l你尚未结束与守关凶兽的战斗，此时无法进行召唤仪式
-                player.sendMessage("\u00A7c\u00A7l\u4f60\u5c1a\u672a\u7ed3\u675f\u4e0e\u5b88\u5173\u51f6\u517d\u7684\u6218\u6597\uff0c\u6b64\u65f6\u65e0\u6cd5\u8fdb\u884c\u53ec\u5524\u4eea\u5f0f");
+                player.sendMessage("\u00A7c\u00A7l\u4F60\u5C1A\u672A\u7ED3\u675F\u4E0E\u5B88\u5173\u51F6\u517D\u7684\u6218\u6597\uFF0C\u6B64\u65F6\u65E0\u6CD5\u8FDB\u884C\u53EC\u5524\u4EEA\u5F0F");
             }
         } else {
-            // Original text: §c§l你处在和平难度，此时无法进行召唤仪式
-                player.sendMessage("\u00A7c\u00A7l\u4f60\u5904\u5728\u548c\u5e73\u96be\u5ea6\uff0c\u6b64\u65f6\u65e0\u6cd5\u8fdb\u884c\u53ec\u5524\u4eea\u5f0f");
+                player.sendMessage("\u00A7c\u00A7l\u4F60\u5904\u5728\u548C\u5E73\u96BE\u5EA6\uFF0C\u6B64\u65F6\u65E0\u6CD5\u8FDB\u884C\u53EC\u5524\u4EEA\u5F0F");
         }
     }
 });
