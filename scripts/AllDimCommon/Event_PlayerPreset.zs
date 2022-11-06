@@ -3,6 +3,17 @@ import crafttweaker.api.event.entity.player.MCPlayerLoggedInEvent;
 import crafttweaker.api.player.MCPlayerEntity;
 import crafttweaker.api.data.IData;
 
+val newbiePackage as NewbiePackage[] = [
+    NewbiePackage.SWORD,
+    NewbiePackage.PICK,
+    NewbiePackage.AXE,
+    NewbiePackage.SHOVEL,
+    NewbiePackage.HOE,
+    NewbiePackage.FOOD,
+    NewbiePackage.MEDIC1,
+    NewbiePackage.MEDIC2
+];
+
 CTEventManager.register<MCPlayerLoggedInEvent>(event => {
     var nullablePlayer as MCPlayerEntity? = event.player;
     if (nullablePlayer != null) {
@@ -21,6 +32,11 @@ CTEventManager.register<MCPlayerLoggedInEvent>(event => {
             if (player.getPersistentData().getAt("SucceedInStageFive") == null) {player.updatePersistentData({"SucceedInStageFive": false});}
             if (player.getPersistentData().getAt("SucceedInStageSix") == null) {player.updatePersistentData({"SucceedInStageSix": false});}
             if (player.getPersistentData().getAt("SucceedInStageSeven") == null) {player.updatePersistentData({"SucceedInStageSeven": false});}
+
+            // Newbie Package
+            for subpackage in newbiePackage {
+                player.give(subpackage.choice(player));
+            }
 
             // Mark the player has logged in
             player.updatePersistentData({"hasLoggedIn": true});
