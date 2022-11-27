@@ -924,5 +924,16 @@
 				count: 16
 			}]
 		}
+		{
+			x: 0.5d
+			y: 1.5d
+			id: "754D3C20B48534A6"
+			tasks: [{
+				id: "547B37B7D3124D9B"
+				type: "advancement"
+				advancement: "minecraft:story/root"
+				criterion: ""
+			}]
+		}
 	]
 }

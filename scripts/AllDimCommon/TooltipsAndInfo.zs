@@ -192,6 +192,24 @@ val teaTooltips as string[] = [
 <item:tea_kettle:green_tea>.addTooltip(teaTooltips[1]);
 <item:tea_kettle:black_tea>.addTooltip(teaTooltips[1]);
 
+// Shaka
+val shaka as IItemStack[] = [
+    <item:tropicraft:shaka_ore>,
+    <item:tropicraft:shaka_ingot>,
+    <item:tropicraft:shaka_block>
+];
+val shakaTooltip as string[] = [
+    "\u5B83\u7684\u540D\u5B57Shaka\u610F\u5473\u7740\u5E26\u6765\u597D\u8FD0\u7684\u9B54\u529B\uFF0C",
+    "\u90E8\u65CF\u76F8\u4FE1\uFF0C\u501F\u52A9\u8FD9\u79CD\u91D1\u5C5E\u7684\u529B\u91CF\u8FDB\u884C\u9644\u9B54\uFF0C",
+    "\u53EF\u4EE5\u4F7F\u5DE5\u5177\u7684\u4F7F\u7528\u8005\u597D\u8FD0\u968F\u8EAB\u3002"
+];
+
+for item in shaka {
+    for tooltip in shakaTooltip {
+        item.addTooltip(tooltip);
+    }
+}
+
 // Alchohol and Soft Drink marker
 val alchohol as string[] = [
     "\u4E0D\u542B\u9152\u7CBE\u7684\u8F6F\u996E\u6599\uFF0C\u8001\u5C11\u7686\u5B9C\u3002",

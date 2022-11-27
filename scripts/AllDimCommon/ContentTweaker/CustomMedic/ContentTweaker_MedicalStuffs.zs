@@ -14,4 +14,4 @@ new ItemBuilder().withItemGroup(medics_group).build("hemp_fabric");
 // Functional Items
 new ItemBuilder().withItemGroup(medics_group).withType<ItemBuilderAdvanced>().build("moss_clump");
 new ItemBuilder().withItemGroup(medics_group).withType<ItemBuilderAdvanced>().build("crude_plaster");
-
+new ItemBuilder().withItemGroup(medics_group).withType<ItemBuilderAdvanced>().build("shaka_plaster");
