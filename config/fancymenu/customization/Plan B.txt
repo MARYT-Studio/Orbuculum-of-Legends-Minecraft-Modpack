@@ -105,92 +105,92 @@ customization {
 }
 
 customization {
-  orientation = top-left
+  orientation = mid-centered
   loopbackgroundanimations = true
   restartbackgroundanimations = true
   buttonaction = mimicbutton
-  x = 140
+  x = -100
   width = 200
   actionid = ff0c2ed1-b355-467a-a307-1b1b9f1efae91652536236093
   action = addbutton
-  y = 149
+  y = 2
   label = %local:button.orbuculum_of_legends.smp%
   value = net.minecraft.client.gui.screen.MainMenuScreen:400322
   height = 20
 }
 
 customization {
-  orientation = top-left
+  orientation = mid-centered
   restartbackgroundanimations = true
   buttonaction = mimicbutton
   backgroundhovered = openloader\resources\orbuculum_of_legends\assets\orbuculum_of_legends\textures\language_button_activated.png
   label = 
   loopbackgroundanimations = true
-  x = 140
+  x = -98
   width = 20
   actionid = b13c45e8-7e5d-47d2-b3d6-048b25037ed11652536245373
   action = addbutton
-  y = 172
+  y = 25
   backgroundnormal = openloader\resources\orbuculum_of_legends\assets\orbuculum_of_legends\textures\language_button.png
   value = net.minecraft.client.gui.screen.MainMenuScreen:376382
   height = 20
 }
 
 customization {
-  orientation = top-left
+  orientation = mid-centered
   loopbackgroundanimations = true
   restartbackgroundanimations = true
   buttonaction = mimicbutton
-  x = 140
+  x = -100
   width = 200
   actionid = c59fa532-a870-4a02-9e2b-467abb4708da1652536193818
   action = addbutton
-  y = 126
+  y = -21
   label = %local:button.orbuculum_of_legends.ssp%
   value = net.minecraft.client.gui.screen.MainMenuScreen:400298
   height = 20
 }
 
 customization {
-  orientation = top-left
+  orientation = mid-centered
   loopbackgroundanimations = true
   restartbackgroundanimations = true
   buttonaction = mimicbutton
-  x = 163
+  x = -13
   width = 57
   actionid = 8fb4f9ce-1f60-4498-bd0d-a408d7b08ea81652536313289
   action = addbutton
-  y = 172
+  y = 25
   label = %local:button.orbuculum_of_legends.mods%
   value = net.minecraft.client.gui.screen.MainMenuScreen:400346
   height = 20
 }
 
 customization {
-  orientation = top-left
+  orientation = mid-centered
   loopbackgroundanimations = true
   restartbackgroundanimations = true
   buttonaction = mimicbutton
-  x = 223
+  x = -75
   width = 60
   actionid = 4c3fc2ac-22ba-4223-a72e-a4fb203354441652536341234
   action = addbutton
-  y = 172
+  y = 25
   label = %local:button.orbuculum_of_legends.options%
   value = net.minecraft.client.gui.screen.MainMenuScreen:400382
   height = 20
 }
 
 customization {
-  orientation = top-left
+  orientation = mid-centered
   loopbackgroundanimations = true
   restartbackgroundanimations = true
   buttonaction = mimicbutton
-  x = 286
+  x = 46
   width = 54
   actionid = f162ec72-9af9-4e60-a3ff-5ebaa2e1e7411652536363890
   action = addbutton
-  y = 172
+  y = 25
   label = %local:button.orbuculum_of_legends.exit%
   value = net.minecraft.client.gui.screen.MainMenuScreen:502382
   height = 20
